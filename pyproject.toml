@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 torch = "^2.3.0"
 cookiecutter = "^2.6.0"
+marimo = "^0.4.6"
 
 
 [build-system]
