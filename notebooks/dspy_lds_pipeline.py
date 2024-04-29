@@ -81,12 +81,34 @@ def __(load_lds_dataset):
 @app.cell
 def __(dspy):
     #### dspy classes ####
+
+
+    # todo: make this ssignature less chonkers
+    # if you read the signature, you can see that it's made of multiple steps
     class DecisionSummarizationSignature(dspy.Signature):
-        """ "Ziel: Generiere eine Regeste basierend auf einem Schweizer Gerichtsurteils.\nHintergrund: Ein Schweizer Gerichtsurteil setzt sich aus Sachverhalt, Erwägungen und Dispositiv zusammen. Die Regeste dient als Kurzzusammenfassung und beinhaltet Leitsätze des Urteils. Nur Leitentscheide haben eine Regeste.\nAnweisung:\n1. Sachverhalt: Lies und verstehe den gegebenen Sachverhalt.\n2. Erwägungen: Analysiere die Erwägungen, um die Hauptargumente und Gründe zu identifizieren.\n3. Dispositiv: Beachte das Dispositiv, da es das endgültige Urteil enthält.\n4. Erstelle die Regeste: Die Regeste sollte aus drei sehr kurzen Teilen bestehen: a. Zitiere die wichtigsten relevanten Artikelziffern (ohne den Artikeltitel). b. Nenne kurze, relevante, deskriptive Keywords, über die Thematik des Falls. c. Formuliere einen sehr kurzen Fliesstext, der die wichtigsten Erwägungen zitiert und kurz zusammenfasst.\nOutput: Die Regeste sollte eine klare und strukturierte Kurzzusammenfassung des Urteils bieten, die aus zitierten Artikeln, Keywords und einem sehr kurzen Fliesstext besteht."""
+        """Ziel: Generiere eine Regeste basierend auf einem Schweizer Gerichtsurteils.\nHintergrund: Ein Schweizer Gerichtsurteil setzt sich aus Sachverhalt, Erwägungen und Dispositiv zusammen. Die Regeste dient als Kurzzusammenfassung und beinhaltet Leitsätze des Urteils. Nur Leitentscheide haben eine Regeste.\nAnweisung:\n1. Sachverhalt: Lies und verstehe den gegebenen Sachverhalt.\n2. Erwägungen: Analysiere die Erwägungen, um die Hauptargumente und Gründe zu identifizieren.\n3. Dispositiv: Beachte das Dispositiv, da es das endgültige Urteil enthält.\n4. Erstelle die Regeste: Die Regeste sollte aus drei sehr kurzen Teilen bestehen: a. Zitiere die wichtigsten relevanten Artikelziffern (ohne den Artikeltitel). b. Nenne kurze, relevante, deskriptive Keywords, über die Thematik des Falls. c. Formuliere einen sehr kurzen Fliesstext, der die wichtigsten Erwägungen zitiert und kurz zusammenfasst.\nOutput: Die Regeste sollte eine klare und strukturierte Kurzzusammenfassung des Urteils bieten, die aus zitierten Artikeln, Keywords und einem sehr kurzen Fliesstext besteht."""
 
         text = dspy.InputField()
         regeste = dspy.OutputField()
-    return DecisionSummarizationSignature,
+
+
+    class SummarizationCoT(dspy.Module):
+        def __init__(self):
+            super().__init__()
+            self.generate_answer = dspy.ChainOfThought(DecisionSummarizationSignature)
+
+        def forward(self, text: str) -> dspy.Prediction:
+            return self.generate_answer(text=text)
+    return DecisionSummarizationSignature, SummarizationCoT
+
+
+@app.cell
+def __(SummarizationCoT, set_dspy_model, test_dataset):
+    #### test evaluation ####
+    set_dspy_model("gpt-3.5-turbo")
+    summ_test = SummarizationCoT()
+    print(summ_test(*test_dataset["train"][0].inputs()))
+    return summ_test,
 
 
 @app.cell
@@ -157,7 +179,10 @@ def __(
         return enc
 
 
-    def compute_scores(completion_dataset, num_examples=10):
+    def compute_scores(
+        completion_dataset, num_examples=10
+    ) -> tuple[float, dict, float, dict]:
+        """Computes and returns the average (METEOR, ROUGE, BLEU, BERTScore)"""
         scores = {"meteor": [], "rouge": [], "bleu": [], "bert": []}
         rouge = Rouge()
         bertscore = load("bertscore")
@@ -207,24 +232,6 @@ def __(
             )
             scores["bert"].append(bert)
 
-            output_examples = []
-            output_examples.append(
-                {
-                    "language": entry["lang"],
-                    "input": entry["input"],
-                    "target": target_text,
-                    "predicted": predicted_text,
-                    "meteor": meteor,
-                    "bert-f1": bert["f1"][0],
-                    "bleu": bleu,
-                    "rouge-1_f1": rouge_scores["rouge-1"]["f"],
-                    "rouge-2_f1": rouge_scores["rouge-2"]["f"],
-                    "rouge-l_f1": rouge_scores["rouge-l"]["f"],
-                    "bert_full": bert,
-                    "rouge_full": rouge_scores,
-                }
-            )
-
             # Print examples
             if idx < num_examples:
                 print("\n", flush=True)
@@ -242,13 +249,10 @@ def __(
                 print("\n", flush=True)
 
         return (
-            (
-                np.mean(scores["meteor"]),
-                average_rouge_scores(scores["rouge"]),
-                np.mean(scores["bleu"]),
-                average_bert_score(scores["bert"]),
-            ),
-            output_examples,
+            np.mean(scores["meteor"]),
+            average_rouge_scores(scores["rouge"]),
+            np.mean(scores["bleu"]),
+            average_bert_score(scores["bert"]),
         )
     return (
         average_bert_score,
