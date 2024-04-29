@@ -9,6 +9,7 @@ def __():
     # dspy imports
     import dspy
     from dspy.datasets import DataLoader
+    from dspy.evaluate import Evaluate
 
 
     # metric evaluation imports
@@ -24,6 +25,7 @@ def __():
     from typing import Literal, Mapping
     return (
         DataLoader,
+        Evaluate,
         Literal,
         Mapping,
         Rouge,
@@ -79,40 +81,8 @@ def __(load_lds_dataset):
 
 
 @app.cell
-def __(dspy):
-    #### dspy classes ####
-
-
-    # todo: make this ssignature less chonkers
-    # if you read the signature, you can see that it's made of multiple steps
-    class DecisionSummarizationSignature(dspy.Signature):
-        """Ziel: Generiere eine Regeste basierend auf einem Schweizer Gerichtsurteils.\nHintergrund: Ein Schweizer Gerichtsurteil setzt sich aus Sachverhalt, Erwägungen und Dispositiv zusammen. Die Regeste dient als Kurzzusammenfassung und beinhaltet Leitsätze des Urteils. Nur Leitentscheide haben eine Regeste.\nAnweisung:\n1. Sachverhalt: Lies und verstehe den gegebenen Sachverhalt.\n2. Erwägungen: Analysiere die Erwägungen, um die Hauptargumente und Gründe zu identifizieren.\n3. Dispositiv: Beachte das Dispositiv, da es das endgültige Urteil enthält.\n4. Erstelle die Regeste: Die Regeste sollte aus drei sehr kurzen Teilen bestehen: a. Zitiere die wichtigsten relevanten Artikelziffern (ohne den Artikeltitel). b. Nenne kurze, relevante, deskriptive Keywords, über die Thematik des Falls. c. Formuliere einen sehr kurzen Fliesstext, der die wichtigsten Erwägungen zitiert und kurz zusammenfasst.\nOutput: Die Regeste sollte eine klare und strukturierte Kurzzusammenfassung des Urteils bieten, die aus zitierten Artikeln, Keywords und einem sehr kurzen Fliesstext besteht."""
-
-        text = dspy.InputField()
-        regeste = dspy.OutputField()
-
-
-    class SummarizationCoT(dspy.Module):
-        def __init__(self):
-            super().__init__()
-            self.generate_answer = dspy.ChainOfThought(DecisionSummarizationSignature)
-
-        def forward(self, text: str) -> dspy.Prediction:
-            return self.generate_answer(text=text)
-    return DecisionSummarizationSignature, SummarizationCoT
-
-
-@app.cell
-def __(SummarizationCoT, set_dspy_model, test_dataset):
-    #### test evaluation ####
-    set_dspy_model("gpt-3.5-turbo")
-    summ_test = SummarizationCoT()
-    print(summ_test(*test_dataset["train"][0].inputs()))
-    return summ_test,
-
-
-@app.cell
 def __(
+    Literal,
     Rouge,
     load,
     meteor_score,
@@ -254,13 +224,76 @@ def __(
             np.mean(scores["bleu"]),
             average_bert_score(scores["bert"]),
         )
+
+
+    def only_calculate_bert_score(
+        pred: str,
+        ground_truth: str,
+        open_ai_model_name: Literal["gpt-3.5-turbo", "gpt-4", "gpt-4-turbo"],
+    ) -> float:
+        """Computes and returns the average f1 BERTScore"""
+        # todo: this is used because i haven't figured out how to use multiple metrics in dspy yet
+        bertscore = load("bertscore")
+        bert_scores = bertscore.compute(
+            predictions=[pred],
+            references=[ground_truth],
+            model_type="bert-base-multilingual-cased",
+            lang=["de", "fr", "it"],
+        )
+        # bertscore can return multiple values, so we average them
+        return sum(bert_scores["f1"]) / len(bert_scores["f1"])
     return (
         average_bert_score,
         average_rouge_scores,
         compute_scores,
         get_tokenizer,
+        only_calculate_bert_score,
         tokenize,
     )
+
+
+@app.cell
+def __(dspy):
+    #### dspy classes ####
+
+
+    # todo: make this ssignature less chonkers
+    # if you read the signature, you can see that it's made of multiple steps
+    class DecisionSummarizationSignature(dspy.Signature):
+        """Ziel: Generiere eine Regeste basierend auf einem Schweizer Gerichtsurteils.\nHintergrund: Ein Schweizer Gerichtsurteil setzt sich aus Sachverhalt, Erwägungen und Dispositiv zusammen. Die Regeste dient als Kurzzusammenfassung und beinhaltet Leitsätze des Urteils. Nur Leitentscheide haben eine Regeste.\nAnweisung:\n1. Sachverhalt: Lies und verstehe den gegebenen Sachverhalt.\n2. Erwägungen: Analysiere die Erwägungen, um die Hauptargumente und Gründe zu identifizieren.\n3. Dispositiv: Beachte das Dispositiv, da es das endgültige Urteil enthält.\n4. Erstelle die Regeste: Die Regeste sollte aus drei sehr kurzen Teilen bestehen: a. Zitiere die wichtigsten relevanten Artikelziffern (ohne den Artikeltitel). b. Nenne kurze, relevante, deskriptive Keywords, über die Thematik des Falls. c. Formuliere einen sehr kurzen Fliesstext, der die wichtigsten Erwägungen zitiert und kurz zusammenfasst.\nOutput: Die Regeste sollte eine klare und strukturierte Kurzzusammenfassung des Urteils bieten, die aus zitierten Artikeln, Keywords und einem sehr kurzen Fliesstext besteht."""
+
+        text = dspy.InputField()
+        regeste = dspy.OutputField()
+
+
+    class SummarizationCoT(dspy.Module):
+        def __init__(self):
+            super().__init__()
+            self.generate_answer = dspy.ChainOfThought(DecisionSummarizationSignature)
+
+        def forward(self, text: str) -> dspy.Prediction:
+            return self.generate_answer(text=text)
+    return DecisionSummarizationSignature, SummarizationCoT
+
+
+@app.cell
+def __(
+    SummarizationCoT,
+    only_calculate_bert_score,
+    set_dspy_model,
+    test_dataset,
+):
+    #### test evaluation ####
+    model_name = "gpt-4-turbo"
+    set_dspy_model(model_name)
+    summ_test = SummarizationCoT()
+    pred = summ_test(**test_dataset["train"][0].inputs()).regeste
+    ground_truth = test_dataset["train"][0].labels().regeste
+    print("prediction: ", pred)
+    print("ground truth: ", ground_truth)
+
+    only_calculate_bert_score(pred, test_dataset["train"][0].labels().regeste, model_name)
+    return ground_truth, model_name, pred, summ_test
 
 
 if __name__ == "__main__":
