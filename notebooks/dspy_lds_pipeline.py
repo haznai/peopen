@@ -329,8 +329,12 @@ def __(dspy, only_calculate_bert_score):
 
     # inspired from https://github.com/weaviate/recipes/blob/main/integrations/dspy/llms/Llama3.ipynb
     # todo: make this adaptable to other models
-    def MetricWrapper(gold, pred, trace=None):
-        return only_calculate_bert_score(pred.answer, gold.gold_answer, "gpt-4-turbo")
+    def MetricWrapper(example, prediction, trace=None):
+        return only_calculate_bert_score(
+            pred=prediction.regeste,
+            ground_truth=example.regeste,
+            open_ai_model_name="gpt-4-turbo",
+        )
     return DecisionSummarizationSignature, MetricWrapper, SummarizationCoT
 
 
@@ -379,26 +383,35 @@ def __(
 
     optimizer = MIPRO(
         metric=MetricWrapper,
-        prompt_model = model,
-        task_model = model,    
-        init_temperature = 0.1,
-        num_candidates=10
+        prompt_model=model,
+        task_model=model,
+        init_temperature=0.1,
+        num_candidates=10,
     )
 
     # copied over from https://github.com/weaviate/recipes/blob/main/integrations/dspy/llms/Llama3.ipynb
-    kwargs = dict(num_threads=1, 
-                  display_progress=True, 
-                  display_table=0)
+    kwargs = dict(num_threads=1, display_progress=True, display_table=0)
 
-    compiled_optimizer = optimizer.compile(student=SummarizationCoT(), 
-                                           trainset=test_dataset["train"][:20],
-                                           num_trials=3,
-                                           max_bootstrapped_demos=1, 
-                                           max_labeled_demos=10,
-                                           eval_kwargs=kwargs)
-                                           
-
+    compiled_optimizer = optimizer.compile(
+        student=SummarizationCoT(),
+        trainset=test_dataset["train"][:20],
+        num_trials=3,
+        max_bootstrapped_demos=1,
+        max_labeled_demos=10,
+        eval_kwargs=kwargs,
+    )
     return compiled_optimizer, kwargs, model, optimizer
+
+
+@app.cell
+def __(model):
+    model.inspect_history()
+    return
+
+
+@app.cell
+def __():
+    return
 
 
 if __name__ == "__main__":
