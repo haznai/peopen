@@ -1093,6 +1093,17 @@ files = [
 ]
 
 [[package]]
+name = "itsdangerous"
+version = "2.2.0"
+description = "Safely pass data to untrusted environments and back."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "itsdangerous-2.2.0-py3-none-any.whl", hash = "sha256:c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef"},
+    {file = "itsdangerous-2.2.0.tar.gz", hash = "sha256:e0050c0b7da1eea53ffaf149c0cfbb5c6e2e2b69c4bef22c81fa6eb73e5f6173"},
+]
+
+[[package]]
 name = "jedi"
 version = "0.19.1"
 description = "An autocompletion tool for Python that can be used for text editors."
@@ -1273,32 +1284,35 @@ testing = ["pytest"]
 
 [[package]]
 name = "marimo"
-version = "0.4.7"
+version = "0.6.10"
 description = "A library for making reactive notebooks and apps"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "marimo-0.4.7-py3-none-any.whl", hash = "sha256:aec9cf4c7c0c16123de7ea0912c16b71ab4877d6b71a0cb259679e1b1cb38914"},
-    {file = "marimo-0.4.7.tar.gz", hash = "sha256:b2107b4c89655d18dad1134bbbe232bc505056279ee18a63e4a196877025301e"},
+    {file = "marimo-0.6.10-py3-none-any.whl", hash = "sha256:eb5368c2d32381cc84bcc947920be1cb0da02407b70723c58fc98d1e7f8b4d71"},
+    {file = "marimo-0.6.10.tar.gz", hash = "sha256:72f879db2bce2dd498904b32b9c93b6f4e3dbfdc9db50fe910a0e20af15690c1"},
 ]
 
 [package.dependencies]
 black = "*"
 click = ">=8.0,<9"
 docutils = ">=0.17.0"
+itsdangerous = ">=2.0.0"
 jedi = ">=0.18.0"
 markdown = ">=3.4,<4"
+psutil = ">=5.0"
 pygments = ">=2.13,<3"
 pymdown-extensions = ">=9.0,<11"
+pyyaml = ">=6.0"
 starlette = ">=0.26.1,<0.36.0 || >0.36.0"
 tomlkit = ">=0.12.0"
 uvicorn = ">=0.22.0"
 websockets = ">=10.0.0,<13.0.0"
 
 [package.extras]
-dev = ["autoclasstoc (>=1.6.0,<1.7.0)", "black (>=23.3.0,<23.4.0)", "build (>=0.10.0,<0.11.0)", "click (<8.1.4)", "furo (==2023.5.20)", "httpx (>=0.26.0,<0.27.0)", "mypy (>=1.7.0,<1.8.0)", "myst-parser (>=2.0.0,<2.1.0)", "pandas (>=1.3.0)", "pandas-stubs (>=1.3.0)", "pillow (>=10.2.0,<10.3.0)", "polars (==0.19.12)", "pyarrow (>=15.0.2,<16)", "pyarrow-stubs (>=10)", "pypandoc (>=1.11,<2.0)", "pytest (>=7.4.0,<7.5.0)", "pytest-asyncio (>=0.23.4,<0.24.0)", "pytest-codecov (>=0.5.1,<0.6.0)", "ruff (>=0.3.6,<0.4.0)", "sphinx (==7.0.1)", "sphinx-copybutton (>=0.5.2,<0.6.0)", "sphinx-design (>=0.5.0,<0.6.0)", "sphinx-new-tab-link (>=0.1.1,<0.2.0)", "sphinx-sitemap (>=2.5.1,<2.6.0)", "types-Pillow (>=10.2.0.20240311,<10.3.0.0)", "types-Pygments (>=2.17.0.20240310,<2.18.0.0)", "typos (>=1.17.1,<1.18.0)"]
+dev = ["autoclasstoc (>=1.6.0,<1.7.0)", "black (>=23.3.0,<23.4.0)", "build (>=0.10.0,<0.11.0)", "click (<8.1.4)", "furo (==2024.5.6)", "httpx (>=0.26.0,<0.27.0)", "mypy (>=1.7.0,<1.8.0)", "myst-parser (>=3.0.1,<3.1.0)", "pandas (>=1.3.0)", "pandas-stubs (>=1.3.0)", "pillow (>=10.2.0,<10.3.0)", "polars (==0.19.12)", "pyarrow (>=15.0.2,<16)", "pyarrow-stubs (>=10)", "pypandoc (>=1.11,<2.0)", "pytest (>=7.4.0,<7.5.0)", "pytest-asyncio (>=0.23.4,<0.24.0)", "pytest-codecov (>=0.5.1,<0.6.0)", "ruff (>=0.3.6,<0.4.0)", "sphinx (==7.0.1)", "sphinx-copybutton (>=0.5.2,<0.6.0)", "sphinx-design (>=0.5.0,<0.6.0)", "sphinx-new-tab-link (>=0.4.0,<0.5.0)", "sphinx-sitemap (>=2.6.0,<2.7.0)", "types-Markdown (>=3.6.0.20240316,<3.7.0.0)", "types-Pillow (>=10.2.0.20240311,<10.3.0.0)", "types-PyYAML (>=6.0.12.20240311,<6.1.0.0)", "types-Pygments (>=2.17.0.20240310,<2.18.0.0)", "types-psutil (>=5.9.5.20240423,<5.10.0.0)", "typos (>=1.17.1,<1.18.0)"]
 testcore = ["click (<8.1.4)", "httpx (>=0.26.0,<0.27.0)", "pytest (>=7.4.0,<7.5.0)", "pytest-asyncio (>=0.23.4,<0.24.0)", "pytest-codecov (>=0.5.1,<0.6.0)"]
-testoptional = ["altair (>=5.0.0)", "anywidget (>=0.9.3,<0.10.0)", "ipython (>=8.12.3,<8.13.0)", "openai (>=1.12.0,<1.13.0)", "pandas (>=1.3.0)", "pandas-stubs (>=1.3.0)", "pillow (>=10.2.0,<10.3.0)", "polars (==0.19.12)", "pyarrow (>=15.0.2,<16)", "pyarrow-stubs (>=10)", "types-Pillow (>=10.2.0.20240311,<10.3.0.0)"]
+testoptional = ["altair (>=5.0.0)", "anywidget (>=0.9.3,<0.10.0)", "ipython (>=8.12.3,<8.13.0)", "nbformat (>=5.0.0)", "openai (>=1.12.0,<1.13.0)", "pandas (>=1.3.0)", "pandas-stubs (>=1.3.0)", "pillow (>=10.2.0,<10.3.0)", "polars (==0.19.12)", "pyarrow (>=15.0.2,<16)", "pyarrow-stubs (>=10)", "types-Pillow (>=10.2.0.20240311,<10.3.0.0)"]
 
 [[package]]
 name = "markdown"
@@ -2127,6 +2141,34 @@ files = [
 docs = ["furo (>=2023.9.10)", "proselint (>=0.13)", "sphinx (>=7.2.6)", "sphinx-autodoc-typehints (>=1.25.2)"]
 test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4.3)", "pytest-cov (>=4.1)", "pytest-mock (>=3.12)"]
 type = ["mypy (>=1.8)"]
+
+[[package]]
+name = "psutil"
+version = "5.9.8"
+description = "Cross-platform lib for process and system monitoring in Python."
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
+files = [
+    {file = "psutil-5.9.8-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:26bd09967ae00920df88e0352a91cff1a78f8d69b3ecabbfe733610c0af486c8"},
+    {file = "psutil-5.9.8-cp27-cp27m-manylinux2010_i686.whl", hash = "sha256:05806de88103b25903dff19bb6692bd2e714ccf9e668d050d144012055cbca73"},
+    {file = "psutil-5.9.8-cp27-cp27m-manylinux2010_x86_64.whl", hash = "sha256:611052c4bc70432ec770d5d54f64206aa7203a101ec273a0cd82418c86503bb7"},
+    {file = "psutil-5.9.8-cp27-cp27mu-manylinux2010_i686.whl", hash = "sha256:50187900d73c1381ba1454cf40308c2bf6f34268518b3f36a9b663ca87e65e36"},
+    {file = "psutil-5.9.8-cp27-cp27mu-manylinux2010_x86_64.whl", hash = "sha256:02615ed8c5ea222323408ceba16c60e99c3f91639b07da6373fb7e6539abc56d"},
+    {file = "psutil-5.9.8-cp27-none-win32.whl", hash = "sha256:36f435891adb138ed3c9e58c6af3e2e6ca9ac2f365efe1f9cfef2794e6c93b4e"},
+    {file = "psutil-5.9.8-cp27-none-win_amd64.whl", hash = "sha256:bd1184ceb3f87651a67b2708d4c3338e9b10c5df903f2e3776b62303b26cb631"},
+    {file = "psutil-5.9.8-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:aee678c8720623dc456fa20659af736241f575d79429a0e5e9cf88ae0605cc81"},
+    {file = "psutil-5.9.8-cp36-abi3-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:8cb6403ce6d8e047495a701dc7c5bd788add903f8986d523e3e20b98b733e421"},
+    {file = "psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d06016f7f8625a1825ba3732081d77c94589dca78b7a3fc072194851e88461a4"},
+    {file = "psutil-5.9.8-cp36-cp36m-win32.whl", hash = "sha256:7d79560ad97af658a0f6adfef8b834b53f64746d45b403f225b85c5c2c140eee"},
+    {file = "psutil-5.9.8-cp36-cp36m-win_amd64.whl", hash = "sha256:27cc40c3493bb10de1be4b3f07cae4c010ce715290a5be22b98493509c6299e2"},
+    {file = "psutil-5.9.8-cp37-abi3-win32.whl", hash = "sha256:bc56c2a1b0d15aa3eaa5a60c9f3f8e3e565303b465dbf57a1b730e7a2b9844e0"},
+    {file = "psutil-5.9.8-cp37-abi3-win_amd64.whl", hash = "sha256:8db4c1b57507eef143a15a6884ca10f7c73876cdf5d51e713151c1236a0e68cf"},
+    {file = "psutil-5.9.8-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:d16bbddf0693323b8c6123dd804100241da461e41d6e332fb0ba6058f630f8c8"},
+    {file = "psutil-5.9.8.tar.gz", hash = "sha256:6be126e3225486dff286a8fb9a06246a5253f4c7c53b475ea5f5ac934e64194c"},
+]
+
+[package.extras]
+test = ["enum34", "ipaddress", "mock", "pywin32", "wmi"]
 
 [[package]]
 name = "pyarrow"
@@ -3694,4 +3736,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "5b9832c9426897f5e0fa7db8a6397f54bbcff7480c147c9b7f0329938f3cb73e"
+content-hash = "c796354374f37be39b2ca91002a2f662116cb7d9a5e72f763972bde354d14dba"
