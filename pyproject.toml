@@ -6,7 +6,7 @@ authors = ["hazn <aitakprojects@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "~3.12"
 torch = "^2.3.0"
 cookiecutter = "^2.6.0"
 marimo = "*"
@@ -17,6 +17,9 @@ rouge = "^1.0.1"
 evaluate = "^0.4.1"
 tiktoken = "^0.6.0"
 bert-score = "^0.3.13"
+arize-phoenix = "^4.2.4"
+openinference-instrumentation-dspy = "^0.1.9"
+opentelemetry-exporter-otlp = "^1.24.0"
 
 
 [build-system]
