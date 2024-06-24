@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.6.10"
+__generated_with = "0.6.22"
 app = marimo.App(width="full")
 
 
@@ -13,7 +13,7 @@ def __():
     import dspy
     from dspy.datasets import DataLoader
     from dspy.evaluate import Evaluate
-    from dspy.teleprompt import MIPRO
+    from dspy.teleprompt import MIPROv2
 
 
     # metric evaluation imports
@@ -24,24 +24,82 @@ def __():
     from rouge import Rouge
     from evaluate import load
 
+    # metrics observability
+    # @todo: check if every dependency here is really needed
+    import phoenix as px
+    from openinference.instrumentation import using_attributes
+    from openinference.instrumentation.dspy import DSPyInstrumentor
+    from opentelemetry import trace as trace_api
+    from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
+    from opentelemetry.sdk import trace as trace_sdk
+    from opentelemetry.sdk.resources import Resource
+    from opentelemetry.sdk.trace.export import ConsoleSpanExporter, SimpleSpanProcessor
 
     # typing imports
     from typing import Literal, Mapping
     return (
+        ConsoleSpanExporter,
+        DSPyInstrumentor,
         DataLoader,
         Evaluate,
         Literal,
-        MIPRO,
+        MIPROv2,
         Mapping,
+        OTLPSpanExporter,
+        Resource,
         Rouge,
+        SimpleSpanProcessor,
         dspy,
         load,
         meteor_score,
         mo,
         np,
+        px,
         sentence_bleu,
         tiktoken,
+        trace_api,
+        trace_sdk,
+        using_attributes,
     )
+
+
+@app.cell
+def __(mo):
+    mo.md(rf"# metrics setup")
+    return
+
+
+@app.cell
+def __(px):
+    # launch phoenix app in background, by default: http://localhost:6006/
+    # @todo: can also be done in the commandline, make this robust
+    px.launch_app()
+    return
+
+
+@app.cell
+def __(
+    ConsoleSpanExporter,
+    DSPyInstrumentor,
+    OTLPSpanExporter,
+    Resource,
+    SimpleSpanProcessor,
+    trace_api,
+    trace_sdk,
+):
+    endpoint = "http://localhost:6006/v1/traces"
+
+
+    resource = Resource(attributes={})
+    tracer_provider = trace_sdk.TracerProvider(resource=resource)
+    tracer_provider.add_span_processor(SimpleSpanProcessor(OTLPSpanExporter(endpoint)))
+    tracer_provider.add_span_processor(SimpleSpanProcessor(ConsoleSpanExporter()))
+
+    trace_api.set_tracer_provider(tracer_provider=tracer_provider)
+
+
+    DSPyInstrumentor().instrument()
+    return endpoint, resource, tracer_provider
 
 
 @app.cell(hide_code=True)
@@ -315,11 +373,9 @@ def __(mo):
 
 
 @app.cell
-def __(dspy, only_calculate_bert_score):
-    #### dspy classes ####
-
-
+def __(dspy, only_calculate_bert_score, using_attributes):
     # todo: make this ssignature less chonkers
+    # todo: do in-context learning (give examples)
     # if you read the signature, you can see that it's made of multiple steps
     class DecisionSummarizationSignature(dspy.Signature):
         """Ziel: Generiere eine Regeste basierend auf einem Schweizer Gerichtsurteils.\nHintergrund: Ein Schweizer Gerichtsurteil setzt sich aus Sachverhalt, Erwägungen und Dispositiv zusammen. Die Regeste dient als Kurzzusammenfassung und beinhaltet Leitsätze des Urteils. Nur Leitentscheide haben eine Regeste.\nAnweisung:\n1. Sachverhalt: Lies und verstehe den gegebenen Sachverhalt.\n2. Erwägungen: Analysiere die Erwägungen, um die Hauptargumente und Gründe zu identifizieren.\n3. Dispositiv: Beachte das Dispositiv, da es das endgültige Urteil enthält.\n4. Erstelle die Regeste: Die Regeste sollte aus drei sehr kurzen Teilen bestehen: a. Zitiere die wichtigsten relevanten Artikelziffern (ohne den Artikeltitel). b. Nenne kurze, relevante, deskriptive Keywords, über die Thematik des Falls. c. Formuliere einen sehr kurzen Fliesstext, der die wichtigsten Erwägungen zitiert und kurz zusammenfasst.\nOutput: Die Regeste sollte eine klare und strukturierte Kurzzusammenfassung des Urteils bieten, die aus zitierten Artikeln, Keywords und einem sehr kurzen Fliesstext besteht."""
@@ -334,7 +390,27 @@ def __(dspy, only_calculate_bert_score):
             self.generate_answer = dspy.ChainOfThought(DecisionSummarizationSignature)
 
         def forward(self, text: str) -> dspy.Prediction:
-            return self.generate_answer(text=text)
+            # todo: remove using attributes, i'm not really needing it and poenix is works really well without it
+            with using_attributes(
+                session_id="my-test-session",
+                user_id="my-test-user",
+                metadata={
+                    "test-int": 1,
+                    "test-str": "string",
+                    "test-list": [1, 2, 3],
+                    "test-dict": {
+                        "key-1": "val-1",
+                        "key-2": "val-2",
+                    },
+                },
+                tags=["tag-1", "tag-2"],
+                prompt_template_version="v1.0",
+                prompt_template_variables={
+                    "city": "Johannesburg",
+                    "date": "July 11th",
+                },
+            ):
+                return self.generate_answer(text=text)
 
 
     # inspired from https://github.com/weaviate/recipes/blob/main/integrations/dspy/llms/Llama3.ipynb
@@ -380,7 +456,7 @@ def __(mo):
 
 @app.cell
 def __(
-    MIPRO,
+    MIPROv2,
     MetricWrapper,
     SummarizationCoT,
     set_model_local_llamafile,
@@ -388,23 +464,24 @@ def __(
 ):
     model = set_model_local_llamafile()
 
-    optimizer = MIPRO(
-        metric=MetricWrapper,
+    optimizer = MIPROv2(
         prompt_model=model,
         task_model=model,
+        metric=MetricWrapper,
         init_temperature=0.1,
-        num_candidates=10,
+        num_candidates=1,
     )
 
     # copied over from https://github.com/weaviate/recipes/blob/main/integrations/dspy/llms/Llama3.ipynb
+    # todo: try more threads etc.
     kwargs = dict(num_threads=1, display_progress=True, display_table=0)
 
     compiled_optimizer = optimizer.compile(
         student=SummarizationCoT(),
         trainset=test_dataset["train"][:20],
-        num_trials=3,
+        num_batches=3,
         max_bootstrapped_demos=1,
-        max_labeled_demos=10,
+        max_labeled_demos=1,
         eval_kwargs=kwargs,
     )
     return compiled_optimizer, kwargs, model, optimizer
@@ -418,7 +495,7 @@ def __(model):
 
 @app.cell
 def __(compiled_optimizer):
-    compiled_optimizer.save("dspy_lds_pipeline_Meta-Llama-3-8B-Instruct.Q8_0_2024-05-29.json")
+    compiled_optimizer.save("dspy_lds_pipeline_Meta-Llama-3-8B-Instruct.Q8_0_2024_06_24.json")
     return
 
 
