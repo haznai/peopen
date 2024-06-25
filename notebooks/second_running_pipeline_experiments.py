@@ -88,23 +88,6 @@ def __(dataclass, field, os, subprocess):
 
 
 @app.cell
-def __(List, Server, subprocess):
-    processes: List[subprocess.Popen] = []
-    processes.append(Server.start_server(Server.LLamafile("Meta-Llama-3-8B-Instruct.Q8_0")))
-    return processes,
-
-
-@app.cell
-def __(atexit, processes, signal):
-    kill_processes = lambda: [p.kill() for p in processes]
-    atexit.register(kill_processes)
-    # Registering signal handlers for Ctrl+C (SIGINT) and termination (SIGTERM)
-    signal.signal(signal.SIGINT, kill_processes)
-    signal.signal(signal.SIGTERM, kill_processes)
-    return kill_processes,
-
-
-@app.cell
 def __():
     return
 
