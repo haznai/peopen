@@ -3,7 +3,8 @@
   "packages": [
     "python312@latest",
     "poetry@latest",
-    "nodejs_20@latest"
+    "nodejs_20@latest",
+    "overmind@latest"
   ],
   "shell": {
     "init_hook": [

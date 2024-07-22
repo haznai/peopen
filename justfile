@@ -4,3 +4,6 @@ default:
 edit notebook:
   open -a Marimo.app
   sudo marimo edit {{notebook}} --headless --no-token
+
+train:
+  sudo overmind s --can-die=training
