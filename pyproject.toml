@@ -17,7 +17,7 @@ rouge = "^1.0.1"
 evaluate = "^0.4.1"
 tiktoken = "^0.6.0"
 bert-score = "^0.3.13"
-arize-phoenix = {version = "^4.2.4", extras = ["evals"]}
+arize-phoenix = "^4.2.4"
 openinference-instrumentation-dspy = "^0.1.9"
 opentelemetry-exporter-otlp = "^1.24.0"
 
