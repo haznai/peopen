@@ -1,5 +1,8 @@
-### project custom .gitignore
-models/llamafile
+### project custom .gitignore ###
+# llamafile tings
+.llamafile
+.ape*
+
 
 
 ### Created by https://www.gitignore.io
