@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.6.22"
+__generated_with = "0.7.9"
 app = marimo.App(width="full")
 
 
@@ -33,12 +33,11 @@ def __():
     from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
     from opentelemetry.sdk import trace as trace_sdk
     from opentelemetry.sdk.resources import Resource
-    from opentelemetry.sdk.trace.export import ConsoleSpanExporter, SimpleSpanProcessor
+    from opentelemetry.sdk.trace.export import SimpleSpanProcessor
 
     # typing imports
     from typing import Literal, Mapping
     return (
-        ConsoleSpanExporter,
         DSPyInstrumentor,
         DataLoader,
         Evaluate,
@@ -65,21 +64,12 @@ def __():
 
 @app.cell
 def __(mo):
-    mo.md(rf"# metrics setup")
-    return
-
-
-@app.cell
-def __(px):
-    # launch phoenix app in background, by default: http://localhost:6006/
-    # @todo: can also be done in the commandline, make this robust
-    px.launch_app()
+    mo.md(rf"# phoenix setup")
     return
 
 
 @app.cell
 def __(
-    ConsoleSpanExporter,
     DSPyInstrumentor,
     OTLPSpanExporter,
     Resource,
@@ -93,7 +83,7 @@ def __(
     resource = Resource(attributes={})
     tracer_provider = trace_sdk.TracerProvider(resource=resource)
     tracer_provider.add_span_processor(SimpleSpanProcessor(OTLPSpanExporter(endpoint)))
-    tracer_provider.add_span_processor(SimpleSpanProcessor(ConsoleSpanExporter()))
+
 
     trace_api.set_tracer_provider(tracer_provider=tracer_provider)
 
@@ -126,7 +116,7 @@ def __(DataLoader, Literal, Mapping, dspy):
 
 
     def set_model_remote_chatgpt(
-        open_ai_model_name: Literal["gpt-3.5-turbo", "gpt-4", "gpt-4-turbo"]
+        open_ai_model_name: Literal["gpt-3.5-turbo", "gpt-4", "gpt-4-turbo"],
     ) -> dspy.OpenAI:
         # get "OPENAI_API_KEY" from '.env' file in pure python
         # it's saved as "OPENAI_API_KEY=YOUR_API_KEY" in the '.env' file
@@ -469,7 +459,7 @@ def __(
         task_model=model,
         metric=MetricWrapper,
         init_temperature=0.1,
-        num_candidates=1,
+        num_candidates=2,
     )
 
     # copied over from https://github.com/weaviate/recipes/blob/main/integrations/dspy/llms/Llama3.ipynb
@@ -478,10 +468,11 @@ def __(
 
     compiled_optimizer = optimizer.compile(
         student=SummarizationCoT(),
-        trainset=test_dataset["train"][:20],
-        num_batches=3,
-        max_bootstrapped_demos=1,
-        max_labeled_demos=1,
+        trainset=test_dataset["train"][:50],
+        valset=test_dataset["validation"][:50],
+        num_batches=4,
+        max_bootstrapped_demos=5,
+        max_labeled_demos=5,
         eval_kwargs=kwargs,
     )
     return compiled_optimizer, kwargs, model, optimizer
@@ -494,8 +485,18 @@ def __(model):
 
 
 @app.cell
+def __(Evaluate, MetricWrapper, compiled_optimizer, test_dataset):
+    evaluate = Evaluate(devset=test_dataset["test"][:20], metric=MetricWrapper)
+    evaluate(compiled_optimizer)
+    return evaluate,
+
+
+@app.cell
 def __(compiled_optimizer):
-    compiled_optimizer.save("dspy_lds_pipeline_Meta-Llama-3-8B-Instruct.Q8_0_2024_06_24.json")
+    # @todo make the date and name dynamic
+    compiled_optimizer.save(
+        "models/dspy_lds_pipeline_Meta-Llama-3-8B-Instruct.Q8_0_2024_07_23.json"
+    )
     return
 
 
