@@ -13,7 +13,7 @@ def __():
     import dspy
     from dspy.datasets import DataLoader
     from dspy.evaluate import Evaluate
-    from dspy.teleprompt import MIPROv2
+    from dspy.teleprompt import BootstrapFewShotWithRandomSearch
 
 
     # metric evaluation imports
@@ -38,11 +38,11 @@ def __():
     # typing imports
     from typing import Literal, Mapping
     return (
+        BootstrapFewShotWithRandomSearch,
         DSPyInstrumentor,
         DataLoader,
         Evaluate,
         Literal,
-        MIPROv2,
         Mapping,
         OTLPSpanExporter,
         Resource,
@@ -446,7 +446,7 @@ def __(mo):
 
 @app.cell
 def __(
-    MIPROv2,
+    BootstrapFewShotWithRandomSearch,
     MetricWrapper,
     SummarizationCoT,
     set_model_local_llamafile,
@@ -454,28 +454,42 @@ def __(
 ):
     model = set_model_local_llamafile()
 
-    optimizer = MIPROv2(
-        prompt_model=model,
-        task_model=model,
-        metric=MetricWrapper,
-        init_temperature=0.1,
-        num_candidates=2,
-    )
+    # @todo: miprov2 is buggy atm, wait until new release (2024-07-23 comment date)
+
+    # optimizer = MIPROv2(
+    #     prompt_model=model,
+    #     task_model=model,
+    #     metric=MetricWrapper,
+    #     init_temperature=0.1,
+    #     num_candidates=2,
+    # )
+
 
     # copied over from https://github.com/weaviate/recipes/blob/main/integrations/dspy/llms/Llama3.ipynb
     # todo: try more threads etc.
-    kwargs = dict(num_threads=1, display_progress=True, display_table=0)
+    # kwargs = dict(num_threads=1, display_progress=True, display_table=0)
+
+    # compiled_optimizer = optimizer.compile(
+    #     student=SummarizationCoT(),
+    #     trainset=test_dataset["train"][:50],
+    #     valset=test_dataset["validation"][:50],
+    #     num_batches=4,
+    #     max_bootstrapped_demos=5,
+    #     max_labeled_demos=5,
+    #     eval_kwargs=kwargs,
+    # )
+
+
+    optimizer = BootstrapFewShotWithRandomSearch(
+        metric=MetricWrapper,
+    )
 
     compiled_optimizer = optimizer.compile(
         student=SummarizationCoT(),
         trainset=test_dataset["train"][:50],
         valset=test_dataset["validation"][:50],
-        num_batches=4,
-        max_bootstrapped_demos=5,
-        max_labeled_demos=5,
-        eval_kwargs=kwargs,
     )
-    return compiled_optimizer, kwargs, model, optimizer
+    return compiled_optimizer, model, optimizer
 
 
 @app.cell
