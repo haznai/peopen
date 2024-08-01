@@ -30,17 +30,29 @@ def __():
     # metrics
     from evaluate import load
 
-    # misc
+    # phoenix setup
+    from opentelemetry.sdk.resources import Resource
+    from opentelemetry.sdk import trace as trace_sdk
+    from opentelemetry import trace as trace_api
+    from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
+    from opentelemetry.sdk.trace.export import SimpleSpanProcessor
+    from openinference.instrumentation.dspy import DSPyInstrumentor
 
+
+    # misc
     import os
     from datetime import datetime
     return (
         BootstrapFewShotWithRandomSearch,
+        DSPyInstrumentor,
         DataLoader,
         Enum,
         List,
+        OTLPSpanExporter,
         Optional,
         Predict,
+        Resource,
+        SimpleSpanProcessor,
         Teleprompter,
         dataclass,
         datetime,
@@ -49,6 +61,8 @@ def __():
         load,
         mo,
         os,
+        trace_api,
+        trace_sdk,
     )
 
 
@@ -66,12 +80,15 @@ def __(mo):
 
 @app.cell
 def __(
+    DSPyInstrumentor,
     DataLoader,
     Enum,
     Literal,
     Mapping,
+    OTLPSpanExporter,
     Optional,
-    Predictor,
+    Resource,
+    SimpleSpanProcessor,
     Teleprompter,
     dataclass,
     datetime,
@@ -79,6 +96,8 @@ def __(
     field,
     load,
     os,
+    trace_api,
+    trace_sdk,
 ):
     class TrainingLanguage(Enum):
         GERMAN = "de"
@@ -136,6 +155,25 @@ def __(
             )
             dspy.settings.configure(lm=openai_model)
             object.__setattr__(self, "model", openai_model)
+
+
+    @dataclass(frozen=True)
+    class Logger:
+        """
+        Logging setup
+        """
+
+        endpoint: str = field(default="http://localhost:6006/v1/traces")
+
+        def __post_init__(self):
+            # phoenix setup to works seamlessly with dspy
+            resource = Resource(attributes={})
+            tracer_provider = trace_sdk.TracerProvider(resource=resource)
+            tracer_provider.add_span_processor(
+                SimpleSpanProcessor(OTLPSpanExporter(self.endpoint))
+            )
+            trace_api.set_tracer_provider(tracer_provider=tracer_provider)
+            DSPyInstrumentor().instrument()
 
 
     @dataclass(frozen=True)
@@ -220,27 +258,83 @@ def __(
         Defines the model structure and training steps
         """
 
-        prediction_pipeline: Predictor = None
-
         def __init__(self):
             super().__init__()
-            # @todo: change up prediction pipeline after splitting
-            self.prediction_pipeline = dspy.ChainOfThought(
-                self.DecisionSummarizationSignature
-            )
 
         def forward(self, text: str):
-            assert self.prediction_pipeline
             # @todo: implement phoenix attributes/metadata here @see first notebook
-            # @todo: make this universal so `text` isn't hardcoded?
-            # text parameter is equivalent to the lds dataset `text` input
-            return self.prediction_pipeline(text=text)
 
-        # @todo: split up
-        class DecisionSummarizationSignature(dspy.Signature):
-            """Ziel: Generiere eine Regeste basierend auf einem Schweizer Gerichtsurteils.\nHintergrund: Ein Schweizer Gerichtsurteil setzt sich aus Sachverhalt, Erwägungen und Dispositiv zusammen. Die Regeste dient als Kurzzusammenfassung und beinhaltet Leitsätze des Urteils. Nur Leitentscheide haben eine Regeste.\nAnweisung:\n1. Sachverhalt: Lies und verstehe den gegebenen Sachverhalt.\n2. Erwägungen: Analysiere die Erwägungen, um die Hauptargumente und Gründe zu identifizieren.\n3. Dispositiv: Beachte das Dispositiv, da es das endgültige Urteil enthält.\n4. Erstelle die Regeste: Die Regeste sollte aus drei sehr kurzen Teilen bestehen: a. Zitiere die wichtigsten relevanten Artikelziffern (ohne den Artikeltitel). b. Nenne kurze, relevante, deskriptive Keywords, über die Thematik des Falls. c. Formuliere einen sehr kurzen Fliesstext, der die wichtigsten Erwägungen zitiert und kurz zusammenfasst.\nOutput: Die Regeste sollte eine klare und strukturierte Kurzzusammenfassung des Urteils bieten, die aus zitierten Artikeln, Keywords und einem sehr kurzen Fliesstext besteht."""
+            #### definition of modules ####
+            text_splitter = dspy.ChainOfThought(
+                self.TextSplitterSignature,
+            )
+            sachverhalt_summarizer = dspy.ChainOfThought(self.SachverhaltSummarizerSignature)
+            erwaehgungen_summarizer = dspy.ChainOfThought(
+                self.ErwaehgungenSummarizerSignature
+            )
+
+            regeste_generator = dspy.ChainOfThought(
+                self.RegesteGeneratorSignature,
+            )
+
+            #### execution and passing of data ####
+            # text parameter is equivalent to the lds dataset `text` input
+            splitted_results = text_splitter(text=text)
+            gekuerzter_sachverhalt = sachverhalt_summarizer(
+                sachverhalt=splitted_results.sachverhalt
+            ).gekuerzter_sachverhalt
+
+            gekuerzte_erwaehgungen = erwaehgungen_summarizer(
+                erwaehgungen=splitted_results.erwaehgungen
+            ).gekuerzte_erwaehgungen
+
+            return regeste_generator(
+                text=text,
+                gekuerzter_sachverhalt=gekuerzter_sachverhalt,
+                gekuerzte_erwaehgungen=gekuerzte_erwaehgungen,
+                dispositiv=splitted_results.dispositiv,
+            )
+
+        class TextSplitterSignature(dspy.Signature):
+            """
+            Ein Schweizer Gerichtsurteil setzt sich aus Sachverhalt, Erwägungen und Dispositiv zusammen. Teile den Text des Gerichturteils auf in Sachverhalt, Erwägungen und Dispositiv ohne Zensur/Modifikation.
+            """
 
             text = dspy.InputField()
+            sachverhalt = dspy.OutputField()
+            erwaehgungen = dspy.OutputField()
+            dispositiv = dspy.OutputField()
+
+        class SachverhaltSummarizerSignature(dspy.Signature):
+            """
+            Lies und verstehe den gegebenen Sachverhalt und erstelle dann eine Kurzfassung
+            """
+
+            sachverhalt = dspy.InputField()
+            gekuerzter_sachverhalt = dspy.OutputField()
+
+        class ErwaehgungenSummarizerSignature(dspy.Signature):
+            """
+            Analysiere die Erwägungen, um die Hauptargumente und Gründe zu identifizieren und erstelle dann eine Kurzfassung
+            """
+
+            erwaehgungen = dspy.InputField()
+            gekuerzte_erwaehgungen = dspy.OutputField()
+
+        class RegesteGeneratorSignature(dspy.Signature):
+            """
+            Das Gerichtsurteil ist ein grosser Fliesstext. Ein Schweizer Gerichtsurteil setzt sich aus Sachverhalt, Erwägungen und Dispositiv zusammen. Ich gebe dir den grossen Fliesstext, und gekürzte Versionen des Sachverhalts und der Erwägungen.
+
+            Erstelle mir basierend auf den Fliesstext und den gekürzten Versionen eine Regeste. Die Regeste sollte aus drei sehr kurzen Teilen bestehen: 1. Zitiere die wichtigsten relevanten Artikelziffern (ohne den Artikeltitel). 2. Nenne kurze, relevante, deskriptive Keywords, über die Thematik des Falls. 3. sehr kurzen Fliesstext mit einem Urteil.
+
+            Die Regeste sollte eine klare und strukturierte Kurzzusammenfassung des Urteils bieten, die aus zitierten Artikeln, Keywords und einem sehr kurzer Fliesstext besteht. Beachte das Dispositiv, da es das endgültige Urteil enthält.
+            """
+
+            text = dspy.InputField()
+            gekuerzter_sachverhalt = dspy.InputField()
+            gekuerzte_erwaehgungen = dspy.InputField()
+            dispositiv = dspy.InputField()
+
             regeste = dspy.OutputField()
 
 
@@ -284,6 +378,7 @@ def __(
         Dataset,
         HyperParams,
         LanguageModel,
+        Logger,
         Metrics,
         ModelType,
         Network,
@@ -304,31 +399,32 @@ def __(
     Dataset,
     HyperParams,
     LanguageModel,
+    Logger,
     Metrics,
     Network,
     Trainer,
+    TrainingLanguage,
 ):
     # @todo: define everything outside of this notebook, with all parameters load into from outside this file
 
-    params = HyperParams(training_run_name="first_training_run", training_set_limit=10)
+    params = HyperParams(
+        training_run_name="first_training_run", language=TrainingLanguage.GERMAN
+    )
     lm = LanguageModel(name="first_test_run_model_phi_llamafile")
+    logging = Logger()
     data = Dataset(parameters=params)
     metrics = Metrics()
     network = Network()
-    optimizer = BootstrapFewShotWithRandomSearch(metric=metrics.get_score)
+    optimizer = BootstrapFewShotWithRandomSearch(
+        metric=metrics.get_score, max_labeled_demos=8, num_candidate_programs=8
+    )
     trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
-    return data, lm, metrics, network, optimizer, params, trainer
+    return data, lm, logging, metrics, network, optimizer, params, trainer
 
 
 @app.cell
 def __(mo):
     mo.md(r"""# Functional core""")
-    return
-
-
-@app.cell
-def __(mo):
-    mo.md(r"""## Testing the model with a call""")
     return
 
 
