@@ -3,7 +3,7 @@ default:
 
 # launch marimo.app to edit a notebook file
 edit notebook:
-  open -a Marimo.app
+  open -a Marimo.app --background
   sudo marimo edit {{notebook}} --headless --no-token
 
 # start training run
