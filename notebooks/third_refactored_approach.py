@@ -410,7 +410,7 @@ def __(
     params = HyperParams(
         training_run_name="first_training_run", language=TrainingLanguage.GERMAN
     )
-    lm = LanguageModel(name="first_test_run_model_phi_llamafile")
+    lm = LanguageModel(name="second_run_llamafile")
     logging = Logger()
     data = Dataset(parameters=params)
     metrics = Metrics()
