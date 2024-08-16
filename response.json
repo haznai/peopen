@@ -1,0 +1,56 @@
+{
+  "content": "{\"volksiniativen\":[{\"titel\":\"Für ein besseres Leben im Alter (Initiative für eine 13. AHV-Rente)\",\"im_detail\":[],\"argumenteKomitee\":[{\"ueberschrift\":\"Mieten, Krankenkassenprämien, Lebensmittel: Alles ist teurer.\",\"inhalt\":\"Die Rente reicht immer weniger weit. Wer ein Leben lang gearbeitet und in die Altersvorsorge einbezahlt hat, verdient eine anständige Rente. Deshalb braucht es nun eine 13. AHV-Rente. Sie verbessert die Situation der heutigen und zukünftigen Rentnerinnen und Rentner rasch und effizient. Deshalb: Ja zur 13. AHV-Rente.\"},{\"ueberschrift\":\"Darum geht es\",\"inhalt\":\"Das Stimmvolk hat die AHV eingeführt, damit alle in der Schweiz nach einem langen Erwerbsleben anständig leben können. Doch heute haben immer mehr Rentnerinnen und Rentner Mühe, über die Runden zu kommen. Bei Annahme der Initiative wird eine 13. AHV-Rente ausbezahlt, analog zum 13. Monatslohn. Auch Bezügerinnen und Bezüger von Ergänzungsleistungen bekommen die zusätzliche Rente. Das gleicht schnell und effizient die gestiegenen Preise aus.\"},{\"ueberschrift\":\"Die Rente reicht nicht mehr\",\"inhalt\":\"Mieten, Krankenkassenprämien, Strom und Lebensmittel sind teurer. Die höheren Lebenshaltungskosten fressen eine Monatsrente weg. Und die Pensionskassenrenten sinken seit Jahren. Darum braucht es rasch eine Erhöhung der Altersrenten für aktuelle und zukünftige Rentnerinnen und Rentner.\"},{\"ueberschrift\":\"Beste Lösung für anständige Renten\",\"inhalt\":\"Die AHV kommt allen in der Schweiz zugute. Für die meisten Arbeitnehmenden lohnt sie sich: Die Arbeitgeber tragen die Hälfte der Beiträge. Auch Topverdienende zahlen einen Teil der Rente, weil ihre Millionen-Boni AHV-pflichtig sind. Ausserdem hat die AHV stabile und tiefe Kosten. Alle Erträge fliessen direkt in die Renten, ohne dass Banken, Vermittler oder Aktionäre mitverdienen.\"},{\"ueberschrift\":\"AHV ist für Frauen besonders wichtig\",\"inhalt\":\"Die höheren Preise treffen Menschen mit tieferer Rente besonders hart. Darunter sind überdurchschnittlich viele Frauen. Eine 13. AHV-Rente bringt ihnen am meisten: Nur aus der AHV haben alle eine Rente. Nur die AHV anerkennt die unbezahlte Betreuungsarbeit, die hauptsächlich von Frauen geleistet wird: Ein Kind grosszuziehen, erhöht die AHV-Rente.\"}],\"empfehlungKomitee\":\"ja\",\"argumenteBundesrat\":[{\"ueberschrift\":\"Die Initiative für eine 13. AHV-Rente hätte zusätzliche Kosten in Milliardenhöhe\",\"inhalt\":\"Die Initiative würde die AHV finanziell zu stark belasten. Die Ausgaben der AHV würden auf einen Schlag um mehr als 4 Milliarden steigen und danach schnell weiter zunehmen. Die Rechnung der AHV würde rasch aus dem Gleichgewicht geraten. Die Zusatzkosten wären für die AHV ohne substanzielle neue Einnahmen oder kostensenkende Massnahmen wie die Erhöhung des Rentenalters nicht zu verkraften.\"},{\"ueberschrift\":\"Initiative verteuert Arbeit oder Konsum\",\"inhalt\":\"Die Finanzierung der 13. Rente ginge auf Kosten der arbeitenden Bevölkerung und der Unternehmen oder der Konsumentinnen und Konsumenten. Um die hohen Kosten für eine 13. AHV-Altersrente zu decken, müssten beispielsweise die Lohnabzüge oder die Mehrwertsteuer weiter erhöht werden. Damit würde die Arbeit verteuert oder die Preise würden steigen.\"},{\"ueberschrift\":\"Höhere Steuern oder weniger Ausgaben\",\"inhalt\":\"Eine 13. AHV-Altersrente hätte auch negative Auswirkungen auf den Bundeshaushalt, weil der Bund rund einen Fünftel der jährlichen Ausgaben der AHV bezahlen muss. Er hätte auf einen Schlag Mehrkosten von mehr als 800 Millionen Franken, die Jahr für Jahr zunehmen würden. Der Bund müsste seine Steuern erhöhen oder Ausgaben kürzen.\"},{\"ueberschrift\":\"Hohe Kosten, geringer sozialer Nutzen\",\"inhalt\":\"Der soziale Nutzen der 13. AHV-Rente wäre gering. Eine grosse Mehrheit der Pensionierten erhält neben der AHV-Rente Leistungen der Pensionskasse; viele haben zudem noch andere Einkommen oder Vermögen. Mit der Initiative würden viele Pensionierte eine 13. AHV-Rente erhalten, obwohl sie darauf nicht angewiesen sind. Rentnerinnen und Rentner, die ihren Existenzbedarf nicht decken können, haben Anspruch auf Ergänzungsleistungen.\"}]}]}",
+  "refusal": null,
+  "role": "assistant",
+  "function_call": null,
+  "tool_calls": [],
+  "parsed": {
+    "volksiniativen": [
+      {
+        "titel": "Für ein besseres Leben im Alter (Initiative für eine 13. AHV-Rente)",
+        "im_detail": [],
+        "argumenteKomitee": [
+          {
+            "ueberschrift": "Mieten, Krankenkassenprämien, Lebensmittel: Alles ist teurer.",
+            "inhalt": "Die Rente reicht immer weniger weit. Wer ein Leben lang gearbeitet und in die Altersvorsorge einbezahlt hat, verdient eine anständige Rente. Deshalb braucht es nun eine 13. AHV-Rente. Sie verbessert die Situation der heutigen und zukünftigen Rentnerinnen und Rentner rasch und effizient. Deshalb: Ja zur 13. AHV-Rente."
+          },
+          {
+            "ueberschrift": "Darum geht es",
+            "inhalt": "Das Stimmvolk hat die AHV eingeführt, damit alle in der Schweiz nach einem langen Erwerbsleben anständig leben können. Doch heute haben immer mehr Rentnerinnen und Rentner Mühe, über die Runden zu kommen. Bei Annahme der Initiative wird eine 13. AHV-Rente ausbezahlt, analog zum 13. Monatslohn. Auch Bezügerinnen und Bezüger von Ergänzungsleistungen bekommen die zusätzliche Rente. Das gleicht schnell und effizient die gestiegenen Preise aus."
+          },
+          {
+            "ueberschrift": "Die Rente reicht nicht mehr",
+            "inhalt": "Mieten, Krankenkassenprämien, Strom und Lebensmittel sind teurer. Die höheren Lebenshaltungskosten fressen eine Monatsrente weg. Und die Pensionskassenrenten sinken seit Jahren. Darum braucht es rasch eine Erhöhung der Altersrenten für aktuelle und zukünftige Rentnerinnen und Rentner."
+          },
+          {
+            "ueberschrift": "Beste Lösung für anständige Renten",
+            "inhalt": "Die AHV kommt allen in der Schweiz zugute. Für die meisten Arbeitnehmenden lohnt sie sich: Die Arbeitgeber tragen die Hälfte der Beiträge. Auch Topverdienende zahlen einen Teil der Rente, weil ihre Millionen-Boni AHV-pflichtig sind. Ausserdem hat die AHV stabile und tiefe Kosten. Alle Erträge fliessen direkt in die Renten, ohne dass Banken, Vermittler oder Aktionäre mitverdienen."
+          },
+          {
+            "ueberschrift": "AHV ist für Frauen besonders wichtig",
+            "inhalt": "Die höheren Preise treffen Menschen mit tieferer Rente besonders hart. Darunter sind überdurchschnittlich viele Frauen. Eine 13. AHV-Rente bringt ihnen am meisten: Nur aus der AHV haben alle eine Rente. Nur die AHV anerkennt die unbezahlte Betreuungsarbeit, die hauptsächlich von Frauen geleistet wird: Ein Kind grosszuziehen, erhöht die AHV-Rente."
+          }
+        ],
+        "empfehlungKomitee": "ja",
+        "argumenteBundesrat": [
+          {
+            "ueberschrift": "Die Initiative für eine 13. AHV-Rente hätte zusätzliche Kosten in Milliardenhöhe",
+            "inhalt": "Die Initiative würde die AHV finanziell zu stark belasten. Die Ausgaben der AHV würden auf einen Schlag um mehr als 4 Milliarden steigen und danach schnell weiter zunehmen. Die Rechnung der AHV würde rasch aus dem Gleichgewicht geraten. Die Zusatzkosten wären für die AHV ohne substanzielle neue Einnahmen oder kostensenkende Massnahmen wie die Erhöhung des Rentenalters nicht zu verkraften."
+          },
+          {
+            "ueberschrift": "Initiative verteuert Arbeit oder Konsum",
+            "inhalt": "Die Finanzierung der 13. Rente ginge auf Kosten der arbeitenden Bevölkerung und der Unternehmen oder der Konsumentinnen und Konsumenten. Um die hohen Kosten für eine 13. AHV-Altersrente zu decken, müssten beispielsweise die Lohnabzüge oder die Mehrwertsteuer weiter erhöht werden. Damit würde die Arbeit verteuert oder die Preise würden steigen."
+          },
+          {
+            "ueberschrift": "Höhere Steuern oder weniger Ausgaben",
+            "inhalt": "Eine 13. AHV-Altersrente hätte auch negative Auswirkungen auf den Bundeshaushalt, weil der Bund rund einen Fünftel der jährlichen Ausgaben der AHV bezahlen muss. Er hätte auf einen Schlag Mehrkosten von mehr als 800 Millionen Franken, die Jahr für Jahr zunehmen würden. Der Bund müsste seine Steuern erhöhen oder Ausgaben kürzen."
+          },
+          {
+            "ueberschrift": "Hohe Kosten, geringer sozialer Nutzen",
+            "inhalt": "Der soziale Nutzen der 13. AHV-Rente wäre gering. Eine grosse Mehrheit der Pensionierten erhält neben der AHV-Rente Leistungen der Pensionskasse; viele haben zudem noch andere Einkommen oder Vermögen. Mit der Initiative würden viele Pensionierte eine 13. AHV-Rente erhalten, obwohl sie darauf nicht angewiesen sind. Rentnerinnen und Rentner, die ihren Existenzbedarf nicht decken können, haben Anspruch auf Ergänzungsleistungen."
+          }
+        ]
+      }
+    ]
+  }
+}

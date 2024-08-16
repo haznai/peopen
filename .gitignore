@@ -218,4 +218,4 @@ poetry.toml
 pyrightconfig.json
 
 
-data/processed/brochure
+data/processed/brochure_ocr
