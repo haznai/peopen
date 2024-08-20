@@ -10,7 +10,7 @@
 	- Volksinitiative «Zersiedelung stoppen – für eine nachhaltige Siedlungsentwicklung (Zersiedelungsinitiative)»
 - 2019_05_19
 	- Bundesgesetz über die Steuerreform und die AHV-Finanzierung (STAF)
-	- Umsetzung einer Änderung der EU-Waffenrichtlinie (Weiterentwicklung von
+	- Umsetzung einer Änderung der EU-Waffenrichtlinie (Weiterentwicklung von Schengen)
 - 2020_02_09
 	- Volksinitiative «Mehr bezahlbare Wohnungen»
 	- Verbot der Diskriminierung aufgrund der sexuellen Orientierung
@@ -22,7 +22,7 @@
 	- Bundesbeschluss über die Beschaffung neuer Kampfflugzeuge
 - 2020_11_29
 	- Volksinitiative «Für verantwortungsvolle Unternehmen - zum Schutz von Mensch und Umwelt»
-	- Volksinitiative «Für ein Verbot der Finanzierung von Kriegs-
+	- Volksinitiative «Für ein Verbot der Finanzierung von Kriegssmaterialproduzenten»
 - 2021_03_07
 	- Volksinitiative «Ja zum Verhüllungsverbot»
 	- Bundesgesetz über elektronische Identifizierungs-dienste (E-ID-Gesetz)
