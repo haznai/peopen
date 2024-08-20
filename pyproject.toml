@@ -23,7 +23,10 @@ openinference-instrumentation-dspy = "^0.1.9"
 opentelemetry-exporter-otlp = "^1.24.0"
 marker-pdf = "^0.2.16"
 
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
