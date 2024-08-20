@@ -1,9 +1,10 @@
 ### project custom .gitignore ###
+data/processed/brochure_ocr
+data/processed/volksinitiatives
+
 # llamafile tings
 .llamafile
 .ape*
-
-
 
 ### Created by https://www.gitignore.io
 ### direnv ###
@@ -216,6 +217,3 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
-
-
-data/processed/brochure_ocr
