@@ -1,0 +1,68 @@
+- 2018_09_23
+	- Erste Vorlage Bundesbeschluss über die Velowege sowie die Fuss- und Wanderwege
+	- Zweite Vorlage Volksinitiative «Für gesunde sowie umweltfreundlich und fair hergestellte Lebensmittel (Fair-Food-Initiative)»
+	- Dritte Vorlage Volksinitiative «Für Ernährungs souveränität. Die Landwirt schaft betrifft uns alle»
+- 2018_11_25
+	- Erste Vorlage Volksinitiative «Für die Würde der landwirtschaftlichen Nutztiere (Hornkuh-Initiative)»
+	- Zweite Vorlage Volksinitiative «Schweizer Recht statt fremde Richter (Selbstbestimmungsinitiative)»
+	- Dritte Vorlage Gesetzliche Grundlage für die Überwachung von Versicherten
+- 2019_02_10
+	- Volksinitiative «Zersiedelung stoppen – für eine nachhaltige Siedlungsentwicklung (Zersiedelungsinitiative)»
+- 2019_05_19
+	- Bundesgesetz über die Steuerreform und die AHV-Finanzierung (STAF)
+	- Umsetzung einer Änderung der EU-Waffenrichtlinie (Weiterentwicklung von
+- 2020_02_09
+	- Volksinitiative «Mehr bezahlbare Wohnungen»
+	- Verbot der Diskriminierung aufgrund der sexuellen Orientierung
+- 2020_09_27
+	- Volksinitiative «Für eine massvolle Zuwanderung (Begrenzungsinitiative)»
+	- Änderung des Jagdgesetzes
+	- Änderung des Bundesgesetzes über die direkte Bundessteuer
+	- Änderung des Erwerbsersatzgesetzes
+	- Bundesbeschluss über die Beschaffung neuer Kampfflugzeuge
+- 2020_11_29
+	- Volksinitiative «Für verantwortungsvolle Unternehmen - zum Schutz von Mensch und Umwelt»
+	- Volksinitiative «Für ein Verbot der Finanzierung von Kriegs-
+- 2021_03_07
+	- Volksinitiative «Ja zum Verhüllungsverbot»
+	- Bundesgesetz über elektronische Identifizierungs-dienste (E-ID-Gesetz)
+	- Wirtschaftspartnerschafts-abkommen mit Indonesien
+- 2021_06_13
+	- Volksinitiative für sauberes Trinkwasser und gesunde Nahrung
+	- Volksinitiative «Für eine Schweiz ohne synthetische Pestizide»
+	- Covid-19-Gesetz
+	- CO2-Gesetz
+	- Bundesgesetz über polizeiliche Massnahmen zur Bekämpfung von Terrorismus (PMT)
+- 2021_09_26
+	- Volksinitiative «Löhne entlaster Kapital gerecht besteuern»
+	- Ehe für alle
+- 2021_11_28
+	- Pflegeinitiative
+	- Justiz-Initiative
+	- Änderung vom 19. März 2021 des Covid-19-Gesetzes
+- 2022_02_13
+	- Volksinitiative Tier- und Menschenversuchsverbot
+	- Volksinitiative Kinder und Jugendliche ohne Tabakwerbung 
+	- Änderung des Bundesgesetzes über die Stempelabgaben
+	- Bundesgesetz über ein Massnahmenpaket zugunsten der Medien
+- 2022_05_15
+	- Anderung des Filmgesetzes
+	- Anderung des Transplantations-gesetzes
+	- Übernahme der EU-Verordnung über die Europäische Grenz- und Küstenwache (Weiterentwicklung des Schengen-Besitzstands)
+- 2022_09_25
+	- Massentierhaltungsinitiative
+	- Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer
+	- Änderung des Bundesgesetzes über die Alters- und Hinterlassenenversicherung (AHV 21)
+	- Anderung des Bundesgesetzes über die Verrechnungssteuer
+- 2023_06_18
+	- Umsetzung des OECD/G20-Projekts zur Besteuerung grosser Unternehmensgruppen
+	- Bundesgesetz über die Ziele im Klimaschutz, die Innovation und die Stärkung der Energiesicherheit
+	- Änderung vom 16. Dezember 2022 des Covid-19-Gesetzes
+- 2024_03_03
+	- Volksinitiative «Für ein besseres Leben im Alter (Initiative für eine 13. AHV-Rente)»
+	- Volksinitiative «Für eine sichere und nachhaltige Altersvorsorge (Renteninitiative)»
+- 2024_06_09
+	- Prämien-Entlastungs-Initiative
+	- Kostenbremse-Initiative
+	- Volksinitiative «Für Freiheit und körperliche Unversehrtheit»
+	- Bundesgesetz über eine sichere Stromversorgung mit erneuerbaren Energien
