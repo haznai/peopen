@@ -1,0 +1,86 @@
+{
+  "content": "{\"titel\":\"Pflegeinitiative\",\"im_detail\":[{\"ueberschrift\":\"Arbeitsbedingungen\",\"inhalt\":\"Die Initiative verlangt vom Bund, die Arbeitsbedingungen in den Spitälern, Heimen und Spitexorganisationen verbindlich zu regeln. Er müsste zum Beispiel Vorgaben machen zur Höhe der Löhne oder für eine bessere Vereinbarkeit von Familie und Beruf sorgen, etwa durch Vorschriften in Bezug auf die Dienstpläne. Damit würde der Bund in die Zuständigkeiten der Kantone, Betriebe und Sozialpartner (Arbeitgeber- und Arbeitnehmerverbände) eingreifen. Diese regeln heute die Arbeitsbedingungen und die Löhne gemeinsam.\"},{\"ueberschrift\":\"Abgeltung\",\"inhalt\":\"Der Bund müsste auch eine angemessene Abgeltung der Pflegeleistungen sicherstellen. Würden diese mit einem höheren Tarif abgegolten, könnten die Betriebe nach Ansicht der Initiantinnen und Initianten etwa die Arbeit auf mehr Pflegefachkräfte verteilen. Dies würde den Beruf attraktiver machen und die Pflege verbessern.\"},{\"ueberschrift\":\"Berufliche Entwicklung\",\"inhalt\":\"Die Initiative verlangt, dass der Bund weitere Bestimmungen zur beruflichen Entwicklung erlässt, die den Beruf aufwerten und Pflegenden zusätzliche Perspektiven eröffnen. So sollen die in der Pflege tätigen Personen länger im Beruf bleiben.\"},{\"ueberschrift\":\"Direkte Abrechnung von Leistungen\",\"inhalt\":\"Zudem verlangt die Initiative, dass Pflegefachpersonen künftig gewisse Leistungen direkt mit der obligatorischen Krankenpflegeversicherung oder anderen Sozialversicherungen abrechnen können. Heute können sie grundsätzlich nur die Leistungen abrechnen, die von einer Ärztin oder einem Arzt angeordnet worden sind.\"},{\"ueberschrift\":\"Bisherige Massnahmen\",\"inhalt\":\"Der Bund und die Kantone haben in den vergangenen Jahren zahlreiche Massnahmen zur Stärkung des Pflegeberufs ergriffen. Diese setzen bei der Berufsausübung und bei der Ausbildung an.\"},{\"ueberschrift\":\"Grössere Autonomie\",\"inhalt\":\"Seit Anfang 2020 können Pflegefachpersonen autonomer arbeiten. Nach einer ersten ärztlichen Anordnung können sie den Pflegebedarf selber ermitteln und gewisse Leistungen ohne weitere Zustimmung einer Ärztin oder eines Arztes erbringen. Beispiele sind die Grundpflege oder gewisse Beratungen.\"},{\"ueberschrift\":\"Masterplan Bildung Pflegeberufe\",\"inhalt\":\"Mit dem von Bund und Kantonen mitgetragenen Masterplan Bildung Pflegeberufe wurden verschiedene Massnahmen umgesetzt. Diese haben dazu beigetragen, dass in den letzten Jahren die Anzahl der Abschlüsse deutlich erhöht werden konnte: in der beruflichen Grundbildung, auf Diplomstufe und auch bei Nachdiplomstudiengängen wie etwa in der Intensivkrankenpflege.\"},{\"ueberschrift\":\"Stärkung Berufsbild\",\"inhalt\":\"Viele Pflegende steigen im Laufe ihres Berufslebens aus dem Beruf aus. Sie wechseln die Branche oder geben die Erwerbstätigkeit auf. Der Bund hat Massnahmen ergriffen, um das Berufsbild der Pflegenden zu stärken, damit sie länger im Beruf verbleiben oder wieder einsteigen. So wurden ein Wiedereinstiegsprogramm, Programme für die bessere Zusammenarbeit zwischen den Berufsgruppen im Gesundheitswesen und eine Imagekampagne für die Langzeitpflege gestartet. Der Bund hat zudem Massnahmen ergriffen, um die Vereinbarkeit von Beruf und Familie zu verbessern und pflegende Angehörige zu entlasten.\"}],\"argumenteKomitee\":[{\"ueberschrift\":\"Pflegenotstand beseitigen\",\"inhalt\":\"Der Pflegenotstand ist längst Realität. Zu wenig Pflegende werden ausgebildet, zu viele verlassen den Beruf erschöpft nach wenigen Jahren. Nur dank einer zunehmenden Anzahl Pflegender aus dem Ausland kann die Versorgung aufrechterhalten werden. Der indirekte Gegenvorschlag des Parlaments ist ungenügend. Er fokussiert auf die Ausbildung. Es fehlen Massnahmen, damit Pflegende länger im Beruf bleiben. Ein Ja zur Pflegeinitiative stellt sicher, dass auch in Zukunft alle eine gute Pflege erhalten.\"},{\"ueberschrift\":\"Berufsausstiege verhindern\",\"inhalt\":\"Neben einer massiven Ausbildungsoffensive müssen die Arbeitsbedingungen der Pflegenden verbessert und ihre Kompetenzen anerkannt werden, damit sie länger im Beruf bleiben. Wichtig für die Berufszufriedenheit sind die Zahl der Pflegenden pro Schicht, die frühzeitige Bekanntgabe von Einsatzplänen, Weiterentwicklungsmöglichkeiten und der Lohn. Nur dank Pflegenden aus dem Ausland kann die Gesundheitsversorgung in der Schweiz aufrechterhalten werden. Die Rekrutierung ausländischer Fachpersonen schwächt die Gesundheitsversorgung in deren Heimatländern. Die Schweiz muss selber mehr eigenes Pflegepersonal ausbilden.\"},{\"ueberschrift\":\"Pflegequalität sichern\",\"inhalt\":\"Um die Sicherheit der Patientinnen und Patienten und eine gute Pflegequalität zu garantieren, braucht es jederzeit genügend und korrekt eingesetztes Pflegepersonal auf allen Abteilungen. Die Spitäler, Kliniken, Heime und der ambulante Bereich brauchen dafür die nötigen finanziellen Mittel. Die Stärkung der Pflege lohnt sich. Viel Leid kann verhindert werden. Genügend diplomiertes Pflegefachpersonal verringert das Komplikations- und Sterberisiko der Patientinnen und Patienten. Unnötige Kosten durch lange und erneute Spitalaufenthalte werden vermieden; dieser Zusammenhang ist wissenschaftlich bewiesen.\"},{\"ueberschrift\":\"Gegenvorschlag ist ungenügend\",\"inhalt\":\"Der vom Parlament erarbeitete indirekte Gegenvorschlag konzentriert sich auf Investitionen in die Ausbildung. Frühzeitige Berufsausstiege können dadurch nicht verhindert werden. Es fehlen Massnahmen, welche die Pflegequalität sichern und die Arbeitsbedingungen verbessern. Die Investitionen des Parlaments in die Ausbildung verpuffen.\"}],\"empfehlungKomitee\":\"ja\",\"argumenteBundesrat\":[{\"ueberschrift\":\"Keine Regelung der Löhne durch den Bund\",\"inhalt\":\"Gute Arbeitsbedingungen und faire Löhne sind wichtig, damit der Pflegeberuf attraktiv ist und die in der Pflege tätigen Personen möglichst lange im Beruf verbleiben. Dafür sollen weiterhin Spitäler, Heime und Spitexorganisationen sowie die Kantone und die Sozialpartner gemeinsam sorgen. Sie kennen die Verhältnisse vor Ort am besten. Löhne und Arbeitsbedingungen sollen nicht durch den Bund geregelt werden.\"},{\"ueberschrift\":\"Keine Sonderstellung eines Berufs\",\"inhalt\":\"Die Pflege ist ein wichtiger Teil der medizinischen Grundversorgung, die bereits in der Verfassung verankert ist. Bundesrat und Parlament wollen die Pflege nicht noch gesondert erwähnen. Damit würde eine Berufsgruppe eine Sonderstellung in der Verfassung erhalten.\"},{\"ueberschrift\":\"Direkte Abrechnung nur mit Kostenkontrolle\",\"inhalt\":\"Der Gegenvorschlag nimmt mit der direkten Abrechnung ein Anliegen der Initiative auf, sieht aber einen Kontrollmechanismus vor. Der Bundesrat unternimmt seit einigen Jahren grosse Anstrengungen, um den Anstieg der Gesundheitskosten zu bremsen. Die Kosten sollen nur in dem Umfang steigen, wie sie medizinisch begründbar sind. Bei einer direkten Abrechnung ohne Kontrollmechanismus besteht die Gefahr, dass die Gesundheitskosten und damit die Krankenkassenprämien steigen.\"},{\"ueberschrift\":\"Eine Milliarde Franken für Ausbildungsoffensive\",\"inhalt\":\"Die grösste Herausforderung ist der Mangel an Pflegefachkräften. Bundesrat und Parlament haben deshalb in ihrem Gegenvorschlag eine Ausbildungsoffensive beschlossen, für die rasch rund eine Milliarde Franken zur Verfügung steht. Damit könnten die dringend benötigten Ausbildungsplätze für Pflegefachpersonen geschaffen und diese in Aus- und Weiterbildung finanziell unterstützt werden.\"},{\"ueberschrift\":\"Gegenvorschlag stärkt die Pflege rasch\",\"inhalt\":\"Bundesrat und Parlament möchten die Pflege rasch und wirkungsvoll stärken. In ihrem indirekten Gegenvorschlag nehmen sie die Forderungen der Initiative weitgehend auf. Der Gegenvorschlag enthält konkrete Massnahmen, die vom Parlament bereits verabschiedet sind und rasch umgesetzt werden können. Bei Annahme der Initiative fällt dieser Gegenvorschlag dahin. Bundesrat und Parlament müssten ein neues Gesetz ausarbeiten und durch den parlamentarischen Prozess bringen, was zu einer deutlichen Verzögerung führen könnte.\"}],\"empfehlungBundesrat\":\"nein\"}",
+  "refusal": null,
+  "role": "assistant",
+  "function_call": null,
+  "tool_calls": [],
+  "parsed": {
+    "titel": "Pflegeinitiative",
+    "im_detail": [
+      {
+        "ueberschrift": "Arbeitsbedingungen",
+        "inhalt": "Die Initiative verlangt vom Bund, die Arbeitsbedingungen in den Spitälern, Heimen und Spitexorganisationen verbindlich zu regeln. Er müsste zum Beispiel Vorgaben machen zur Höhe der Löhne oder für eine bessere Vereinbarkeit von Familie und Beruf sorgen, etwa durch Vorschriften in Bezug auf die Dienstpläne. Damit würde der Bund in die Zuständigkeiten der Kantone, Betriebe und Sozialpartner (Arbeitgeber- und Arbeitnehmerverbände) eingreifen. Diese regeln heute die Arbeitsbedingungen und die Löhne gemeinsam."
+      },
+      {
+        "ueberschrift": "Abgeltung",
+        "inhalt": "Der Bund müsste auch eine angemessene Abgeltung der Pflegeleistungen sicherstellen. Würden diese mit einem höheren Tarif abgegolten, könnten die Betriebe nach Ansicht der Initiantinnen und Initianten etwa die Arbeit auf mehr Pflegefachkräfte verteilen. Dies würde den Beruf attraktiver machen und die Pflege verbessern."
+      },
+      {
+        "ueberschrift": "Berufliche Entwicklung",
+        "inhalt": "Die Initiative verlangt, dass der Bund weitere Bestimmungen zur beruflichen Entwicklung erlässt, die den Beruf aufwerten und Pflegenden zusätzliche Perspektiven eröffnen. So sollen die in der Pflege tätigen Personen länger im Beruf bleiben."
+      },
+      {
+        "ueberschrift": "Direkte Abrechnung von Leistungen",
+        "inhalt": "Zudem verlangt die Initiative, dass Pflegefachpersonen künftig gewisse Leistungen direkt mit der obligatorischen Krankenpflegeversicherung oder anderen Sozialversicherungen abrechnen können. Heute können sie grundsätzlich nur die Leistungen abrechnen, die von einer Ärztin oder einem Arzt angeordnet worden sind."
+      },
+      {
+        "ueberschrift": "Bisherige Massnahmen",
+        "inhalt": "Der Bund und die Kantone haben in den vergangenen Jahren zahlreiche Massnahmen zur Stärkung des Pflegeberufs ergriffen. Diese setzen bei der Berufsausübung und bei der Ausbildung an."
+      },
+      {
+        "ueberschrift": "Grössere Autonomie",
+        "inhalt": "Seit Anfang 2020 können Pflegefachpersonen autonomer arbeiten. Nach einer ersten ärztlichen Anordnung können sie den Pflegebedarf selber ermitteln und gewisse Leistungen ohne weitere Zustimmung einer Ärztin oder eines Arztes erbringen. Beispiele sind die Grundpflege oder gewisse Beratungen."
+      },
+      {
+        "ueberschrift": "Masterplan Bildung Pflegeberufe",
+        "inhalt": "Mit dem von Bund und Kantonen mitgetragenen Masterplan Bildung Pflegeberufe wurden verschiedene Massnahmen umgesetzt. Diese haben dazu beigetragen, dass in den letzten Jahren die Anzahl der Abschlüsse deutlich erhöht werden konnte: in der beruflichen Grundbildung, auf Diplomstufe und auch bei Nachdiplomstudiengängen wie etwa in der Intensivkrankenpflege."
+      },
+      {
+        "ueberschrift": "Stärkung Berufsbild",
+        "inhalt": "Viele Pflegende steigen im Laufe ihres Berufslebens aus dem Beruf aus. Sie wechseln die Branche oder geben die Erwerbstätigkeit auf. Der Bund hat Massnahmen ergriffen, um das Berufsbild der Pflegenden zu stärken, damit sie länger im Beruf verbleiben oder wieder einsteigen. So wurden ein Wiedereinstiegsprogramm, Programme für die bessere Zusammenarbeit zwischen den Berufsgruppen im Gesundheitswesen und eine Imagekampagne für die Langzeitpflege gestartet. Der Bund hat zudem Massnahmen ergriffen, um die Vereinbarkeit von Beruf und Familie zu verbessern und pflegende Angehörige zu entlasten."
+      }
+    ],
+    "argumenteKomitee": [
+      {
+        "ueberschrift": "Pflegenotstand beseitigen",
+        "inhalt": "Der Pflegenotstand ist längst Realität. Zu wenig Pflegende werden ausgebildet, zu viele verlassen den Beruf erschöpft nach wenigen Jahren. Nur dank einer zunehmenden Anzahl Pflegender aus dem Ausland kann die Versorgung aufrechterhalten werden. Der indirekte Gegenvorschlag des Parlaments ist ungenügend. Er fokussiert auf die Ausbildung. Es fehlen Massnahmen, damit Pflegende länger im Beruf bleiben. Ein Ja zur Pflegeinitiative stellt sicher, dass auch in Zukunft alle eine gute Pflege erhalten."
+      },
+      {
+        "ueberschrift": "Berufsausstiege verhindern",
+        "inhalt": "Neben einer massiven Ausbildungsoffensive müssen die Arbeitsbedingungen der Pflegenden verbessert und ihre Kompetenzen anerkannt werden, damit sie länger im Beruf bleiben. Wichtig für die Berufszufriedenheit sind die Zahl der Pflegenden pro Schicht, die frühzeitige Bekanntgabe von Einsatzplänen, Weiterentwicklungsmöglichkeiten und der Lohn. Nur dank Pflegenden aus dem Ausland kann die Gesundheitsversorgung in der Schweiz aufrechterhalten werden. Die Rekrutierung ausländischer Fachpersonen schwächt die Gesundheitsversorgung in deren Heimatländern. Die Schweiz muss selber mehr eigenes Pflegepersonal ausbilden."
+      },
+      {
+        "ueberschrift": "Pflegequalität sichern",
+        "inhalt": "Um die Sicherheit der Patientinnen und Patienten und eine gute Pflegequalität zu garantieren, braucht es jederzeit genügend und korrekt eingesetztes Pflegepersonal auf allen Abteilungen. Die Spitäler, Kliniken, Heime und der ambulante Bereich brauchen dafür die nötigen finanziellen Mittel. Die Stärkung der Pflege lohnt sich. Viel Leid kann verhindert werden. Genügend diplomiertes Pflegefachpersonal verringert das Komplikations- und Sterberisiko der Patientinnen und Patienten. Unnötige Kosten durch lange und erneute Spitalaufenthalte werden vermieden; dieser Zusammenhang ist wissenschaftlich bewiesen."
+      },
+      {
+        "ueberschrift": "Gegenvorschlag ist ungenügend",
+        "inhalt": "Der vom Parlament erarbeitete indirekte Gegenvorschlag konzentriert sich auf Investitionen in die Ausbildung. Frühzeitige Berufsausstiege können dadurch nicht verhindert werden. Es fehlen Massnahmen, welche die Pflegequalität sichern und die Arbeitsbedingungen verbessern. Die Investitionen des Parlaments in die Ausbildung verpuffen."
+      }
+    ],
+    "empfehlungKomitee": "ja",
+    "argumenteBundesrat": [
+      {
+        "ueberschrift": "Keine Regelung der Löhne durch den Bund",
+        "inhalt": "Gute Arbeitsbedingungen und faire Löhne sind wichtig, damit der Pflegeberuf attraktiv ist und die in der Pflege tätigen Personen möglichst lange im Beruf verbleiben. Dafür sollen weiterhin Spitäler, Heime und Spitexorganisationen sowie die Kantone und die Sozialpartner gemeinsam sorgen. Sie kennen die Verhältnisse vor Ort am besten. Löhne und Arbeitsbedingungen sollen nicht durch den Bund geregelt werden."
+      },
+      {
+        "ueberschrift": "Keine Sonderstellung eines Berufs",
+        "inhalt": "Die Pflege ist ein wichtiger Teil der medizinischen Grundversorgung, die bereits in der Verfassung verankert ist. Bundesrat und Parlament wollen die Pflege nicht noch gesondert erwähnen. Damit würde eine Berufsgruppe eine Sonderstellung in der Verfassung erhalten."
+      },
+      {
+        "ueberschrift": "Direkte Abrechnung nur mit Kostenkontrolle",
+        "inhalt": "Der Gegenvorschlag nimmt mit der direkten Abrechnung ein Anliegen der Initiative auf, sieht aber einen Kontrollmechanismus vor. Der Bundesrat unternimmt seit einigen Jahren grosse Anstrengungen, um den Anstieg der Gesundheitskosten zu bremsen. Die Kosten sollen nur in dem Umfang steigen, wie sie medizinisch begründbar sind. Bei einer direkten Abrechnung ohne Kontrollmechanismus besteht die Gefahr, dass die Gesundheitskosten und damit die Krankenkassenprämien steigen."
+      },
+      {
+        "ueberschrift": "Eine Milliarde Franken für Ausbildungsoffensive",
+        "inhalt": "Die grösste Herausforderung ist der Mangel an Pflegefachkräften. Bundesrat und Parlament haben deshalb in ihrem Gegenvorschlag eine Ausbildungsoffensive beschlossen, für die rasch rund eine Milliarde Franken zur Verfügung steht. Damit könnten die dringend benötigten Ausbildungsplätze für Pflegefachpersonen geschaffen und diese in Aus- und Weiterbildung finanziell unterstützt werden."
+      },
+      {
+        "ueberschrift": "Gegenvorschlag stärkt die Pflege rasch",
+        "inhalt": "Bundesrat und Parlament möchten die Pflege rasch und wirkungsvoll stärken. In ihrem indirekten Gegenvorschlag nehmen sie die Forderungen der Initiative weitgehend auf. Der Gegenvorschlag enthält konkrete Massnahmen, die vom Parlament bereits verabschiedet sind und rasch umgesetzt werden können. Bei Annahme der Initiative fällt dieser Gegenvorschlag dahin. Bundesrat und Parlament müssten ein neues Gesetz ausarbeiten und durch den parlamentarischen Prozess bringen, was zu einer deutlichen Verzögerung führen könnte."
+      }
+    ],
+    "empfehlungBundesrat": "nein"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "content": "{\"titel\":\"Ehe für alle\",\"im_detail\":[{\"ueberschrift\":\"Aktuelle Rechtslage\",\"inhalt\":\"In der Schweiz können gleichgeschlechtliche Paare ihre Beziehung mit einer eingetragenen Partnerschaft anerkennen lassen. Pro Jahr tun dies etwa 700 Paare. Die eingetragene Partnerschaft ist der Ehe ähnlich, aber nicht in jeder Hinsicht gleichgestellt. Rechtliche Unterschiede zur Ehe bestehen vor allem bei der Einbürgerung, im Bereich der Fortpflanzungsmedizin und bei der Adoption.\"},{\"ueberschrift\":\"Verschiedene Familienformen\",\"inhalt\":\"Es gibt heute viele verschiedene Formen des familiären Zusammenlebens. Eine dieser Formen ist das gleichgeschlechtliche Paar mit oder ohne Kinder. Für manche dieser Paare wäre es nicht nur aus rechtlicher Sicht, sondern auch symbolisch wichtig, zivil heiraten zu können. Denn die eingetragene Partnerschaft wird nicht von allen als der Ehe gleichwertig empfunden. In zahlreichen anderen Ländern können gleichgeschlechtliche Paare heiraten.\"},{\"ueberschrift\":\"Einbürgerung\",\"inhalt\":\"Ausländische Ehepartnerinnen und Ehepartner können sich erleichtert einbürgern lassen. Dieses Recht gilt mit der Öffnung der Ehe auch für die ausländische Ehefrau einer Schweizerin und den ausländischen Ehemann eines Schweizers.\"},{\"ueberschrift\":\"Adoption\",\"inhalt\":\"Wer in einer eingetragenen Partnerschaft lebt, darf bereits heute das Kind des Partners oder der Partnerin adoptieren. Neu soll ein gleichgeschlechtliches Ehepaar auch gemeinsam ein Kind adoptieren können.\"},{\"ueberschrift\":\"Fortpflanzungsmedizin\",\"inhalt\":\"Die Schweiz erlaubt die Samenspende einzig verheirateten Paaren. Deshalb weichen heute manche Frauenpaare ins Ausland aus. Mit der Öffnung der Ehe wird die gesetzlich geregelte Samenspende in der Schweiz auch verheirateten Frauenpaaren erlaubt. Bei dieser Samenspende ist vorgeschrieben, dass der Spender in das Samenspenderregister eingetragen wird. Das verfassungsmässige Recht des Kindes, zu erfahren, wer sein biologischer Vater ist, ist damit gewährleistet. Anonyme Samenspenden bleiben verboten; dasselbe gilt auch für die Eizellenspende und die Leihmutterschaft.\"},{\"ueberschrift\":\"Keine Verfassungsänderung\",\"inhalt\":\"Bundesrat und Parlament sind der Auffassung, dass für die Öffnung der Ehe für gleichgeschlechtliche Paare die Verfassung nicht geändert werden muss. Die Bundesverfassung definiert die Ehe nicht als Verbindung zwischen Frau und Mann. Das Parlament hat zudem entschieden, dass auch für den Zugang zur Samenspende für verheiratete Frauenpaare eine Gesetzesrevision genügt.\"},{\"ueberschrift\":\"Umwandlung in Ehe\",\"inhalt\":\"Nach der Öffnung der Ehe für gleichgeschlechtliche Paare können keine neuen eingetragenen Partnerschaften mehr geschlossen werden. Paare, die bereits in einer eingetragenen Partnerschaft leben, können diese weiterführen oder durch eine gemeinsame Erklärung beim Zivilstandsamt in eine Ehe umwandeln.\"}],\"argumenteKomitee\":[{\"ueberschrift\":\"Ehe für alle inklusive Samenspende\",\"inhalt\":\"Die «Ehe für alle» inklusive Samenspende für lesbische Paare führt zu gesetzlich vorgesehener Vaterlosigkeit und Identitätsproblemen für die betroffenen Kinder. Ehe und Familie sind eng miteinander verknüpft, da Kinder auf natürliche Weise nur aus einer Verbindung von Mann und Frau entstehen. Drei verschiedene Komitees mit Parlamentariern aus CVP/Die Mitte, EDU, EVP und SVP haben deshalb das Referendum ergriffen.\"},{\"ueberschrift\":\"Lebensgemeinschaft von Mann und Frau\",\"inhalt\":\"Bundesgericht und Bundesrat haben das Recht auf Ehe stets als eine auf Dauer angelegte Lebensgemeinschaft von Frau und Mann interpretiert (Art. 14 der Bundesverfassung). Nur die Verbindung von Mann und Frau hat aus sich heraus die Fähigkeit zur Weitergabe des Lebens, weshalb sie als zentraler Eckpfeiler von Gesellschaft und Staat zu schützen ist. Die «Ehe für alle» mit einer blossen Gesetzesänderung einzuführen, ist klar verfassungswidrig.\"},{\"ueberschrift\":\"Keine Diskriminierung\",\"inhalt\":\"Das «Privileg» der Ehe zwischen Mann und Frau gründet u. a. auf biologischen Fakten. Das ist keine Diskriminierung. Das Gleichheitsgebot besagt, dass Gleiches gleich und Ungleiches ungleich zu behandeln ist. Die Ehe neu zu definieren, wäre zudem unverhältnismässig: Im Jahr 2020 wurde in der Schweiz 35160-mal geheiratet, aber nur 651-mal eine eingetragene Partnerschaft eingegangen.\"},{\"ueberschrift\":\"Verfassungswidrige Samenspendeausweitung\",\"inhalt\":\"Das vorliegende Gesetz erlaubt darüber hinaus - entgegen der ursprünglichen Absicht des Bundesrates - die Samenspende für lesbische Paare. Damit verstösst die «Ehe für alle» gegen Artikel 119 der Bundesverfassung. Dieser erlaubt nämlich die medizinisch unterstützte Fortpflanzung auch heterosexuellen Paaren nur bei Unfruchtbarkeit oder der Gefahr einer schweren Krankheit. Lesbische Paare als unfruchtbar einzustufen, widerspricht dabei allen gültigen Definitionen.\"},{\"ueberschrift\":\"Kindeswohl bleibt auf der Strecke\",\"inhalt\":\"Die Samenspende wird vom medizinischen Ausnahmefall zum gesetzlichen Regelfall - ohne Rücksicht auf die Konsequenzen für die Kinder. Das Recht, seine beiden biologischen Eltern zu kennen und von ihnen betreut zu werden, bleibt den Kindern bis zum 18. Lebensjahr grundsätzlich verwehrt. Dabei ist die Verwurzelung in der Ursprungsfamilie für die kindliche Identitätsbildung zentral. Die Samenspende soll darum die Ausnahme bleiben. Kinder brauchen Vorbilder von beiden Geschlechtern - die Samenspende für lesbische Paare verwehrt ihnen jedoch per Gesetz den Vater.\"},{\"ueberschrift\":\"Leihmutterschaft als Nächstes?\",\"inhalt\":\"Indem «Unfruchtbarkeit» in der Gesetzesvorlage verfassungswidrig in «unerfüllten Kinderwunsch» umgedeutet wird, können sich künftig auch weitere Gruppen (Alleinstehende, schwule Paare) auf ihren unerfüllten Kinderwunsch berufen. Bald dürften Forderungen nach der Eizellenspende und der ethisch fragwürdigen Leihmutterschaft folgen.\"}],\"empfehlungKomitee\":\"nein\",\"argumenteBundesrat\":[{\"ueberschrift\":\"Gleiche Rechte für Paare gleichen Geschlechts\",\"inhalt\":\"Paare gleichen Geschlechts sollen dieselben Rechte haben wie Paare verschiedenen Geschlechts. Auch sie sollen heiraten können. Die Öffnung der Ehe führt ausserdem zu einer rechtlichen Gleichbehandlung bei der Einbürgerung, der Adoption und der Fortpflanzungsmedizin. Für die Ehe zwischen Frau und Mann ändert sich nichts. Bundesrat und Parlament befürworten die Vorlage insbesondere aus den folgenden Gründen:\"},{\"ueberschrift\":\"Individuelle Freiheiten\",\"inhalt\":\"Der Staat soll den Menschen nicht vorschreiben, wie sie ihr Privat- und Familienleben zu gestalten haben. Ob und wie ein Paar seine Partnerschaft rechtlich regeln will, soll ihm freigestellt werden. Bereits heute bilden gleichgeschlechtliche Paare mit oder ohne Kinder Lebensgemeinschaften. Hingegen können sie heute nicht heiraten, sondern lediglich eine eingetragene Partnerschaft eingehen. Diese ist der Ehe nicht in allen Bereichen gleichgestellt. Die Öffnung der Ehe beseitigt diese Ungleichbehandlung. Niemandem entsteht dadurch ein Nachteil.\"},{\"ueberschrift\":\"Kindeswohl bleibt gewahrt\",\"inhalt\":\"In der Schweiz wachsen bereits heute Kinder in Familien gleichgeschlechtlicher Paare auf. Diese Konstellation wirkt sich nicht nachteilig auf ihre Entwicklung aus, wie Studien zeigen. Welche Zuwendung und Fürsorge Eltern ihren Kindern zukommen lassen, ist keine Frage der Familienform oder des Geschlechts. Deshalb ist es richtig, dass auch gleichgeschlechtliche Ehepaare Kinder gemeinsam adoptieren dürfen und dass auch verheiratete Frauenpaare Zugang zur Samenspende erhalten.\"},{\"ueberschrift\":\"Recht auf Kenntnis der Abstammung\",\"inhalt\":\"Die Verfassung hält fest, dass jede Person Anrecht auf Kenntnis ihrer Abstammung hat. Weil das Gesetz die Samenspende in der Schweiz nur für verheiratete Paare zulässt, entscheiden sich heute manche Frauenpaare für eine Samenspende im Ausland. Dort ist nicht immer gewährleistet, dass das Kind erfahren kann, wer sein biologischer Vater ist. Mit der Öffnung der Ehe und dem Zugang zur streng regulierten Samenspende in der Schweiz bleibt das Recht auf Kenntnis der Abstammung gewahrt.\"},{\"ueberschrift\":\"Strikt geregelte Fortpflanzungsmedizin\",\"inhalt\":\"Die Vorlage sieht keine weiteren Anpassungen in der Fortpflanzungsmedizin vor. Die anonyme Samenspende, die Eizellenspende und die Leihmutterschaft bleiben für alle Paare verboten. So haben alle Ehepaare, auch gleichgeschlechtliche, im Bereich der Fortpflanzungsmedizin gleiche Rechte.\"},{\"ueberschrift\":\"Verfassung erlaubt Ehe für alle\",\"inhalt\":\"Für Bundesrat und Parlament gibt es keinen Grund, warum gleichgeschlechtliche Paare nicht heiraten dürfen sollen. Für die Öffnung der Ehe braucht es keine Verfassungsänderung. Die Verfassung definiert die Ehe nicht als Verbindung zwischen Frau und Mann.\"}],\"empfehlungBundesrat\":\"ja\"}",
+  "refusal": null,
+  "role": "assistant",
+  "function_call": null,
+  "tool_calls": [],
+  "parsed": {
+    "titel": "Ehe für alle",
+    "im_detail": [
+      {
+        "ueberschrift": "Aktuelle Rechtslage",
+        "inhalt": "In der Schweiz können gleichgeschlechtliche Paare ihre Beziehung mit einer eingetragenen Partnerschaft anerkennen lassen. Pro Jahr tun dies etwa 700 Paare. Die eingetragene Partnerschaft ist der Ehe ähnlich, aber nicht in jeder Hinsicht gleichgestellt. Rechtliche Unterschiede zur Ehe bestehen vor allem bei der Einbürgerung, im Bereich der Fortpflanzungsmedizin und bei der Adoption."
+      },
+      {
+        "ueberschrift": "Verschiedene Familienformen",
+        "inhalt": "Es gibt heute viele verschiedene Formen des familiären Zusammenlebens. Eine dieser Formen ist das gleichgeschlechtliche Paar mit oder ohne Kinder. Für manche dieser Paare wäre es nicht nur aus rechtlicher Sicht, sondern auch symbolisch wichtig, zivil heiraten zu können. Denn die eingetragene Partnerschaft wird nicht von allen als der Ehe gleichwertig empfunden. In zahlreichen anderen Ländern können gleichgeschlechtliche Paare heiraten."
+      },
+      {
+        "ueberschrift": "Einbürgerung",
+        "inhalt": "Ausländische Ehepartnerinnen und Ehepartner können sich erleichtert einbürgern lassen. Dieses Recht gilt mit der Öffnung der Ehe auch für die ausländische Ehefrau einer Schweizerin und den ausländischen Ehemann eines Schweizers."
+      },
+      {
+        "ueberschrift": "Adoption",
+        "inhalt": "Wer in einer eingetragenen Partnerschaft lebt, darf bereits heute das Kind des Partners oder der Partnerin adoptieren. Neu soll ein gleichgeschlechtliches Ehepaar auch gemeinsam ein Kind adoptieren können."
+      },
+      {
+        "ueberschrift": "Fortpflanzungsmedizin",
+        "inhalt": "Die Schweiz erlaubt die Samenspende einzig verheirateten Paaren. Deshalb weichen heute manche Frauenpaare ins Ausland aus. Mit der Öffnung der Ehe wird die gesetzlich geregelte Samenspende in der Schweiz auch verheirateten Frauenpaaren erlaubt. Bei dieser Samenspende ist vorgeschrieben, dass der Spender in das Samenspenderregister eingetragen wird. Das verfassungsmässige Recht des Kindes, zu erfahren, wer sein biologischer Vater ist, ist damit gewährleistet. Anonyme Samenspenden bleiben verboten; dasselbe gilt auch für die Eizellenspende und die Leihmutterschaft."
+      },
+      {
+        "ueberschrift": "Keine Verfassungsänderung",
+        "inhalt": "Bundesrat und Parlament sind der Auffassung, dass für die Öffnung der Ehe für gleichgeschlechtliche Paare die Verfassung nicht geändert werden muss. Die Bundesverfassung definiert die Ehe nicht als Verbindung zwischen Frau und Mann. Das Parlament hat zudem entschieden, dass auch für den Zugang zur Samenspende für verheiratete Frauenpaare eine Gesetzesrevision genügt."
+      },
+      {
+        "ueberschrift": "Umwandlung in Ehe",
+        "inhalt": "Nach der Öffnung der Ehe für gleichgeschlechtliche Paare können keine neuen eingetragenen Partnerschaften mehr geschlossen werden. Paare, die bereits in einer eingetragenen Partnerschaft leben, können diese weiterführen oder durch eine gemeinsame Erklärung beim Zivilstandsamt in eine Ehe umwandeln."
+      }
+    ],
+    "argumenteKomitee": [
+      {
+        "ueberschrift": "Ehe für alle inklusive Samenspende",
+        "inhalt": "Die «Ehe für alle» inklusive Samenspende für lesbische Paare führt zu gesetzlich vorgesehener Vaterlosigkeit und Identitätsproblemen für die betroffenen Kinder. Ehe und Familie sind eng miteinander verknüpft, da Kinder auf natürliche Weise nur aus einer Verbindung von Mann und Frau entstehen. Drei verschiedene Komitees mit Parlamentariern aus CVP/Die Mitte, EDU, EVP und SVP haben deshalb das Referendum ergriffen."
+      },
+      {
+        "ueberschrift": "Lebensgemeinschaft von Mann und Frau",
+        "inhalt": "Bundesgericht und Bundesrat haben das Recht auf Ehe stets als eine auf Dauer angelegte Lebensgemeinschaft von Frau und Mann interpretiert (Art. 14 der Bundesverfassung). Nur die Verbindung von Mann und Frau hat aus sich heraus die Fähigkeit zur Weitergabe des Lebens, weshalb sie als zentraler Eckpfeiler von Gesellschaft und Staat zu schützen ist. Die «Ehe für alle» mit einer blossen Gesetzesänderung einzuführen, ist klar verfassungswidrig."
+      },
+      {
+        "ueberschrift": "Keine Diskriminierung",
+        "inhalt": "Das «Privileg» der Ehe zwischen Mann und Frau gründet u. a. auf biologischen Fakten. Das ist keine Diskriminierung. Das Gleichheitsgebot besagt, dass Gleiches gleich und Ungleiches ungleich zu behandeln ist. Die Ehe neu zu definieren, wäre zudem unverhältnismässig: Im Jahr 2020 wurde in der Schweiz 35160-mal geheiratet, aber nur 651-mal eine eingetragene Partnerschaft eingegangen."
+      },
+      {
+        "ueberschrift": "Verfassungswidrige Samenspendeausweitung",
+        "inhalt": "Das vorliegende Gesetz erlaubt darüber hinaus - entgegen der ursprünglichen Absicht des Bundesrates - die Samenspende für lesbische Paare. Damit verstösst die «Ehe für alle» gegen Artikel 119 der Bundesverfassung. Dieser erlaubt nämlich die medizinisch unterstützte Fortpflanzung auch heterosexuellen Paaren nur bei Unfruchtbarkeit oder der Gefahr einer schweren Krankheit. Lesbische Paare als unfruchtbar einzustufen, widerspricht dabei allen gültigen Definitionen."
+      },
+      {
+        "ueberschrift": "Kindeswohl bleibt auf der Strecke",
+        "inhalt": "Die Samenspende wird vom medizinischen Ausnahmefall zum gesetzlichen Regelfall - ohne Rücksicht auf die Konsequenzen für die Kinder. Das Recht, seine beiden biologischen Eltern zu kennen und von ihnen betreut zu werden, bleibt den Kindern bis zum 18. Lebensjahr grundsätzlich verwehrt. Dabei ist die Verwurzelung in der Ursprungsfamilie für die kindliche Identitätsbildung zentral. Die Samenspende soll darum die Ausnahme bleiben. Kinder brauchen Vorbilder von beiden Geschlechtern - die Samenspende für lesbische Paare verwehrt ihnen jedoch per Gesetz den Vater."
+      },
+      {
+        "ueberschrift": "Leihmutterschaft als Nächstes?",
+        "inhalt": "Indem «Unfruchtbarkeit» in der Gesetzesvorlage verfassungswidrig in «unerfüllten Kinderwunsch» umgedeutet wird, können sich künftig auch weitere Gruppen (Alleinstehende, schwule Paare) auf ihren unerfüllten Kinderwunsch berufen. Bald dürften Forderungen nach der Eizellenspende und der ethisch fragwürdigen Leihmutterschaft folgen."
+      }
+    ],
+    "empfehlungKomitee": "nein",
+    "argumenteBundesrat": [
+      {
+        "ueberschrift": "Gleiche Rechte für Paare gleichen Geschlechts",
+        "inhalt": "Paare gleichen Geschlechts sollen dieselben Rechte haben wie Paare verschiedenen Geschlechts. Auch sie sollen heiraten können. Die Öffnung der Ehe führt ausserdem zu einer rechtlichen Gleichbehandlung bei der Einbürgerung, der Adoption und der Fortpflanzungsmedizin. Für die Ehe zwischen Frau und Mann ändert sich nichts. Bundesrat und Parlament befürworten die Vorlage insbesondere aus den folgenden Gründen:"
+      },
+      {
+        "ueberschrift": "Individuelle Freiheiten",
+        "inhalt": "Der Staat soll den Menschen nicht vorschreiben, wie sie ihr Privat- und Familienleben zu gestalten haben. Ob und wie ein Paar seine Partnerschaft rechtlich regeln will, soll ihm freigestellt werden. Bereits heute bilden gleichgeschlechtliche Paare mit oder ohne Kinder Lebensgemeinschaften. Hingegen können sie heute nicht heiraten, sondern lediglich eine eingetragene Partnerschaft eingehen. Diese ist der Ehe nicht in allen Bereichen gleichgestellt. Die Öffnung der Ehe beseitigt diese Ungleichbehandlung. Niemandem entsteht dadurch ein Nachteil."
+      },
+      {
+        "ueberschrift": "Kindeswohl bleibt gewahrt",
+        "inhalt": "In der Schweiz wachsen bereits heute Kinder in Familien gleichgeschlechtlicher Paare auf. Diese Konstellation wirkt sich nicht nachteilig auf ihre Entwicklung aus, wie Studien zeigen. Welche Zuwendung und Fürsorge Eltern ihren Kindern zukommen lassen, ist keine Frage der Familienform oder des Geschlechts. Deshalb ist es richtig, dass auch gleichgeschlechtliche Ehepaare Kinder gemeinsam adoptieren dürfen und dass auch verheiratete Frauenpaare Zugang zur Samenspende erhalten."
+      },
+      {
+        "ueberschrift": "Recht auf Kenntnis der Abstammung",
+        "inhalt": "Die Verfassung hält fest, dass jede Person Anrecht auf Kenntnis ihrer Abstammung hat. Weil das Gesetz die Samenspende in der Schweiz nur für verheiratete Paare zulässt, entscheiden sich heute manche Frauenpaare für eine Samenspende im Ausland. Dort ist nicht immer gewährleistet, dass das Kind erfahren kann, wer sein biologischer Vater ist. Mit der Öffnung der Ehe und dem Zugang zur streng regulierten Samenspende in der Schweiz bleibt das Recht auf Kenntnis der Abstammung gewahrt."
+      },
+      {
+        "ueberschrift": "Strikt geregelte Fortpflanzungsmedizin",
+        "inhalt": "Die Vorlage sieht keine weiteren Anpassungen in der Fortpflanzungsmedizin vor. Die anonyme Samenspende, die Eizellenspende und die Leihmutterschaft bleiben für alle Paare verboten. So haben alle Ehepaare, auch gleichgeschlechtliche, im Bereich der Fortpflanzungsmedizin gleiche Rechte."
+      },
+      {
+        "ueberschrift": "Verfassung erlaubt Ehe für alle",
+        "inhalt": "Für Bundesrat und Parlament gibt es keinen Grund, warum gleichgeschlechtliche Paare nicht heiraten dürfen sollen. Für die Öffnung der Ehe braucht es keine Verfassungsänderung. Die Verfassung definiert die Ehe nicht als Verbindung zwischen Frau und Mann."
+      }
+    ],
+    "empfehlungBundesrat": "ja"
+  }
+}

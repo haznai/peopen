@@ -1,0 +1,78 @@
+{
+  "content": "{\"titel\":\"Volksinitiative «Für Freiheit und körperliche Unversehrtheit»\",\"im_detail\":[{\"ueberschrift\":\"Ausgangslage\",\"inhalt\":\"Bundesrat und Kantone ergriffen während der Corona-Pandemie teils einschneidende Massnahmen. Ziel war es, die Ausbreitung des Virus zu bremsen, die Bevölkerung zu schützen und eine Überlastung der Spitäler zu verhindern. Die Schweiz setzte früh auf die Beschaffung neuer Impfstoffe. Die Impfung war ein wesentlicher Teil der Strategie zur Bewältigung der Pandemie. Ab 2021 konnte sich die Schweizer Bevölkerung impfen lassen. Rund 70 Prozent nutzten diese Möglichkeit. In der Folge wurden viele Schutzmassnahmen wieder aufgehoben. Für Personen, die nicht geimpft oder genesen waren, blieben vorübergehend gewisse Einschränkungen bestehen.\"},{\"ueberschrift\":\"Initiativtext\",\"inhalt\":\"Der Initiativtext verwendet den Ausdruck «Impfung» nicht. Vielmehr verlangt er allgemein, dass für staatliche Eingriffe in die körperliche und geistige Unversehrtheit die Zustimmung der betroffenen Person vorliegen muss. Zudem soll eine Person, die ihre Zustimmung verweigert, weder bestraft werden dürfen noch soll sie deswegen soziale oder berufliche Nachteile haben.\"},{\"ueberschrift\":\"Körperliche Unversehrtheit\",\"inhalt\":\"Die körperliche und geistige Unversehrtheit ist schon heute als Grundrecht in der Bundesverfassung festgeschrieben (Artikel 10, Absatz 2). Dieses Grundrecht schützt den menschlichen Körper gegen jede Einwirkung durch den Staat. Eine solche Einwirkung ist grundsätzlich nur zulässig, wenn die betroffene Person zustimmt. Ein Grundrecht gilt jedoch nicht absolut. Der Staat kann es unter bestimmten Bedingungen einschränken.\"},{\"ueberschrift\":\"Einschränkung eines Grundrechts\",\"inhalt\":\"Die Hürden für die Einschränkung eines Grundrechts sind hoch. Es muss dafür ein überwiegendes öffentliches Interesse bestehen, oder die Grundrechte anderer Personen müssen gefährdet sein. Eine solche Einschränkung braucht stets eine rechtliche Grundlage und sie muss verhältnismässig sein. Unter diesen Voraussetzungen kann die Polizei zum Beispiel verdächtige Personen durchsuchen oder festnehmen.\"},{\"ueberschrift\":\"Impfobligatorium\",\"inhalt\":\"Der Staat muss das Recht auf körperliche und geistige Unversehrtheit auch beim Impfen respektieren. Eine Impfung ohne Zustimmung ist ausgeschlossen. Das Epidemiengesetz sieht für gewisse Ausnahmesituationen aber die Möglichkeit eines befristeten Impfobligatoriums für bestimmte Personengruppen vor. Dies, wenn die Bevölkerung nicht mit anderen, milderen Massnahmen geschützt werden kann. So könnte etwa in sensiblen Bereichen von Spitälern ein Impfobligatorium für das Personal ausgesprochen werden. Wer eine Impfung ablehnt, muss unter Umständen in eine andere Abteilung wechseln. Eine Impfung ohne Zustimmung bleibt ausgeschlossen. Ein behördliches Impfobligatorium wurde auf Bundesebene noch nie ausgesprochen, auch nicht während der Corona-Pandemie.\"},{\"ueberschrift\":\"Einschränkungen für Ungeimpfte\",\"inhalt\":\"In der letzten Phase der Pandemie gab es gewisse Einschränkungen für Ungeimpfte: Als die Zahl der an Covid-19 Erkrankten stark anstieg, durften vorübergehend nur noch Geimpfte und Genesene Restaurants und andere Einrichtungen besuchen. Ziel dieser Massnahmen war es, weitergehende Einschränkungen für die gesamte Bevölkerung und für die Betriebe zu vermeiden.\"},{\"ueberschrift\":\"Folgen einer Annahme\",\"inhalt\":\"Der Initiativtext erfasst grundsätzlich alle Tätigkeiten von Bund, Kantonen und Gemeinden, die in irgendeiner Weise auf den menschlichen Körper einwirken, beispielsweise die Arbeit der Polizei. Welche Folgen die Annahme der Initiative auf deren Arbeit hätte, würde von der konkreten Umsetzung und der Rechtsprechung abhängen. Zuständig dafür wären die Parlamente, die Gerichte und weitere Behörden auf Bundes-, Kantons- und Gemeindeebene.\"}],\"argumenteKomitee\":[{\"ueberschrift\":\"Ja zur letzten Bastion der Freiheit\",\"inhalt\":\"Weder Politik, Pharmaindustrie noch internationale Organisationen sollen entscheiden können, ob ein implantierbarer Microchip, Nanopartikel, eine Gen-Manipulation, eine Impfung oder etwas anderes in unseren Körper kommt, Punkt! Deshalb Ja zur letzten Bastion der Freiheit!\"},{\"ueberschrift\":\"Microchip für Arbeiter\",\"inhalt\":\"2018 legte das Europäische Parlament die Studie «The Use of Chip Implants for Workers» (Der Einsatz von Chip-Implantaten bei Arbeitnehmern) vor, in welcher der Einsatz von Chip-Implantaten bei europäischen Arbeitern beschrieben wird und die auf S. 22 festhält, dass eine Behörde aufgrund des Rechts nur dann Einfluss nehmen darf, wenn es im Interesse der nationalen öffentlichen Sicherheit oder des wirtschaftlichen Wohls des Landes, zur Verhütung von Unruhen oder Verbrechen, zum Schutz der Gesundheit oder der Moral erforderlich ist oder zum Schutz der Rechte und Freiheiten anderer (Art. 8 Abs. 2 EMRK). Entscheidet hier in Zukunft auch die WHO? Warum erstellt man überhaupt eine solche Studie? Kommt die Überwachung?\"},{\"ueberschrift\":\"Endlich Rechtssicherheit\",\"inhalt\":\"Nicht die Bundesverfassung muss sich nach den Gesetzen richten, sondern die Gesetze nach der Bundesverfassung. Das Parlament kann bei einem Ja endlich gesetzlich festlegen, was eine körperliche Unversehrtheit ist und somit Rechtssicherheit schaffen.\"},{\"ueberschrift\":\"WHO-Pandemievertrag rechtsunwirksam?\",\"inhalt\":\"Bei einem Ja muss sich der Bundesrat entscheiden: Gilt die Bundesverfassung oder ein Vertrag mit einer nicht von uns gewählten Macht wie die World Health Organisation (WHO).\"}],\"empfehlungKomitee\":\"ja\",\"argumenteBundesrat\":[{\"ueberschrift\":\"Grundrecht ist garantiert\",\"inhalt\":\"Das Recht auf körperliche und geistige Unversehrtheit ist schon heute als Grundrecht in der Bundesverfassung verankert. Es schützt den menschlichen Körper vor Einwirkungen durch den Staat und darf nur aus sehr wichtigen Gründen und unter in der Verfassung festgelegten Bedingungen eingeschränkt werden.\"},{\"ueberschrift\":\"Impfzwang ist ausgeschlossen\",\"inhalt\":\"Die Entwicklung von Impfstoffen ist eine grosse medizinische Errungenschaft. Impfungen haben geholfen, übertragbare Krankheiten wie die Pocken auszurotten. Während der Corona-Pandemie erwies sich die Impfung als wirksames Mittel, um Menschen vor schweren Erkrankungen zu schützen. Auch beim Impfen gilt das Recht auf körperliche Unversehrtheit: Bereits heute darf in der Schweiz niemand ohne Zustimmung geimpft werden.\"},{\"ueberschrift\":\"Ungleichbehandlung ist die Ausnahme\",\"inhalt\":\"In Ausnahmesituationen können vorübergehende Einschränkungen für ungeimpfte Personen dazu beitragen, das Gesundheitswesen vor Überlastung zu schützen und strengere Massnahmen für alle zu verhindern. So beispielsweise während der Corona-Pandemie: Ungeimpften wurde der Zugang zu Restaurants und anderen Einrichtungen vorübergehend verwehrt, um die Betriebe nicht für alle schliessen zu müssen.\"},{\"ueberschrift\":\"Folgen sind unklar\",\"inhalt\":\"Es ist unklar, unter welchen Bedingungen notwendige Eingriffe durch den Staat in die körperliche Unversehrtheit eines Menschen noch möglich wären. Diese Unklarheit betrifft zahlreiche staatliche Aufgaben, wie die Polizeiarbeit, den Strafvollzug oder das Asylwesen. Je nach Umsetzung und Rechtsprechung könnte die Erfüllung zentraler Aufgaben durch Bund, Kantone und Gemeinden erschwert werden.\"}],\"empfehlungBundesrat\":\"nein\"}",
+  "refusal": null,
+  "role": "assistant",
+  "function_call": null,
+  "tool_calls": [],
+  "parsed": {
+    "titel": "Volksinitiative «Für Freiheit und körperliche Unversehrtheit»",
+    "im_detail": [
+      {
+        "ueberschrift": "Ausgangslage",
+        "inhalt": "Bundesrat und Kantone ergriffen während der Corona-Pandemie teils einschneidende Massnahmen. Ziel war es, die Ausbreitung des Virus zu bremsen, die Bevölkerung zu schützen und eine Überlastung der Spitäler zu verhindern. Die Schweiz setzte früh auf die Beschaffung neuer Impfstoffe. Die Impfung war ein wesentlicher Teil der Strategie zur Bewältigung der Pandemie. Ab 2021 konnte sich die Schweizer Bevölkerung impfen lassen. Rund 70 Prozent nutzten diese Möglichkeit. In der Folge wurden viele Schutzmassnahmen wieder aufgehoben. Für Personen, die nicht geimpft oder genesen waren, blieben vorübergehend gewisse Einschränkungen bestehen."
+      },
+      {
+        "ueberschrift": "Initiativtext",
+        "inhalt": "Der Initiativtext verwendet den Ausdruck «Impfung» nicht. Vielmehr verlangt er allgemein, dass für staatliche Eingriffe in die körperliche und geistige Unversehrtheit die Zustimmung der betroffenen Person vorliegen muss. Zudem soll eine Person, die ihre Zustimmung verweigert, weder bestraft werden dürfen noch soll sie deswegen soziale oder berufliche Nachteile haben."
+      },
+      {
+        "ueberschrift": "Körperliche Unversehrtheit",
+        "inhalt": "Die körperliche und geistige Unversehrtheit ist schon heute als Grundrecht in der Bundesverfassung festgeschrieben (Artikel 10, Absatz 2). Dieses Grundrecht schützt den menschlichen Körper gegen jede Einwirkung durch den Staat. Eine solche Einwirkung ist grundsätzlich nur zulässig, wenn die betroffene Person zustimmt. Ein Grundrecht gilt jedoch nicht absolut. Der Staat kann es unter bestimmten Bedingungen einschränken."
+      },
+      {
+        "ueberschrift": "Einschränkung eines Grundrechts",
+        "inhalt": "Die Hürden für die Einschränkung eines Grundrechts sind hoch. Es muss dafür ein überwiegendes öffentliches Interesse bestehen, oder die Grundrechte anderer Personen müssen gefährdet sein. Eine solche Einschränkung braucht stets eine rechtliche Grundlage und sie muss verhältnismässig sein. Unter diesen Voraussetzungen kann die Polizei zum Beispiel verdächtige Personen durchsuchen oder festnehmen."
+      },
+      {
+        "ueberschrift": "Impfobligatorium",
+        "inhalt": "Der Staat muss das Recht auf körperliche und geistige Unversehrtheit auch beim Impfen respektieren. Eine Impfung ohne Zustimmung ist ausgeschlossen. Das Epidemiengesetz sieht für gewisse Ausnahmesituationen aber die Möglichkeit eines befristeten Impfobligatoriums für bestimmte Personengruppen vor. Dies, wenn die Bevölkerung nicht mit anderen, milderen Massnahmen geschützt werden kann. So könnte etwa in sensiblen Bereichen von Spitälern ein Impfobligatorium für das Personal ausgesprochen werden. Wer eine Impfung ablehnt, muss unter Umständen in eine andere Abteilung wechseln. Eine Impfung ohne Zustimmung bleibt ausgeschlossen. Ein behördliches Impfobligatorium wurde auf Bundesebene noch nie ausgesprochen, auch nicht während der Corona-Pandemie."
+      },
+      {
+        "ueberschrift": "Einschränkungen für Ungeimpfte",
+        "inhalt": "In der letzten Phase der Pandemie gab es gewisse Einschränkungen für Ungeimpfte: Als die Zahl der an Covid-19 Erkrankten stark anstieg, durften vorübergehend nur noch Geimpfte und Genesene Restaurants und andere Einrichtungen besuchen. Ziel dieser Massnahmen war es, weitergehende Einschränkungen für die gesamte Bevölkerung und für die Betriebe zu vermeiden."
+      },
+      {
+        "ueberschrift": "Folgen einer Annahme",
+        "inhalt": "Der Initiativtext erfasst grundsätzlich alle Tätigkeiten von Bund, Kantonen und Gemeinden, die in irgendeiner Weise auf den menschlichen Körper einwirken, beispielsweise die Arbeit der Polizei. Welche Folgen die Annahme der Initiative auf deren Arbeit hätte, würde von der konkreten Umsetzung und der Rechtsprechung abhängen. Zuständig dafür wären die Parlamente, die Gerichte und weitere Behörden auf Bundes-, Kantons- und Gemeindeebene."
+      }
+    ],
+    "argumenteKomitee": [
+      {
+        "ueberschrift": "Ja zur letzten Bastion der Freiheit",
+        "inhalt": "Weder Politik, Pharmaindustrie noch internationale Organisationen sollen entscheiden können, ob ein implantierbarer Microchip, Nanopartikel, eine Gen-Manipulation, eine Impfung oder etwas anderes in unseren Körper kommt, Punkt! Deshalb Ja zur letzten Bastion der Freiheit!"
+      },
+      {
+        "ueberschrift": "Microchip für Arbeiter",
+        "inhalt": "2018 legte das Europäische Parlament die Studie «The Use of Chip Implants for Workers» (Der Einsatz von Chip-Implantaten bei Arbeitnehmern) vor, in welcher der Einsatz von Chip-Implantaten bei europäischen Arbeitern beschrieben wird und die auf S. 22 festhält, dass eine Behörde aufgrund des Rechts nur dann Einfluss nehmen darf, wenn es im Interesse der nationalen öffentlichen Sicherheit oder des wirtschaftlichen Wohls des Landes, zur Verhütung von Unruhen oder Verbrechen, zum Schutz der Gesundheit oder der Moral erforderlich ist oder zum Schutz der Rechte und Freiheiten anderer (Art. 8 Abs. 2 EMRK). Entscheidet hier in Zukunft auch die WHO? Warum erstellt man überhaupt eine solche Studie? Kommt die Überwachung?"
+      },
+      {
+        "ueberschrift": "Endlich Rechtssicherheit",
+        "inhalt": "Nicht die Bundesverfassung muss sich nach den Gesetzen richten, sondern die Gesetze nach der Bundesverfassung. Das Parlament kann bei einem Ja endlich gesetzlich festlegen, was eine körperliche Unversehrtheit ist und somit Rechtssicherheit schaffen."
+      },
+      {
+        "ueberschrift": "WHO-Pandemievertrag rechtsunwirksam?",
+        "inhalt": "Bei einem Ja muss sich der Bundesrat entscheiden: Gilt die Bundesverfassung oder ein Vertrag mit einer nicht von uns gewählten Macht wie die World Health Organisation (WHO)."
+      }
+    ],
+    "empfehlungKomitee": "ja",
+    "argumenteBundesrat": [
+      {
+        "ueberschrift": "Grundrecht ist garantiert",
+        "inhalt": "Das Recht auf körperliche und geistige Unversehrtheit ist schon heute als Grundrecht in der Bundesverfassung verankert. Es schützt den menschlichen Körper vor Einwirkungen durch den Staat und darf nur aus sehr wichtigen Gründen und unter in der Verfassung festgelegten Bedingungen eingeschränkt werden."
+      },
+      {
+        "ueberschrift": "Impfzwang ist ausgeschlossen",
+        "inhalt": "Die Entwicklung von Impfstoffen ist eine grosse medizinische Errungenschaft. Impfungen haben geholfen, übertragbare Krankheiten wie die Pocken auszurotten. Während der Corona-Pandemie erwies sich die Impfung als wirksames Mittel, um Menschen vor schweren Erkrankungen zu schützen. Auch beim Impfen gilt das Recht auf körperliche Unversehrtheit: Bereits heute darf in der Schweiz niemand ohne Zustimmung geimpft werden."
+      },
+      {
+        "ueberschrift": "Ungleichbehandlung ist die Ausnahme",
+        "inhalt": "In Ausnahmesituationen können vorübergehende Einschränkungen für ungeimpfte Personen dazu beitragen, das Gesundheitswesen vor Überlastung zu schützen und strengere Massnahmen für alle zu verhindern. So beispielsweise während der Corona-Pandemie: Ungeimpften wurde der Zugang zu Restaurants und anderen Einrichtungen vorübergehend verwehrt, um die Betriebe nicht für alle schliessen zu müssen."
+      },
+      {
+        "ueberschrift": "Folgen sind unklar",
+        "inhalt": "Es ist unklar, unter welchen Bedingungen notwendige Eingriffe durch den Staat in die körperliche Unversehrtheit eines Menschen noch möglich wären. Diese Unklarheit betrifft zahlreiche staatliche Aufgaben, wie die Polizeiarbeit, den Strafvollzug oder das Asylwesen. Je nach Umsetzung und Rechtsprechung könnte die Erfüllung zentraler Aufgaben durch Bund, Kantone und Gemeinden erschwert werden."
+      }
+    ],
+    "empfehlungBundesrat": "nein"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "content": "{\"titel\":\"Bundesbeschluss Über Die Velowege Sowie Die Fuss- Und Wanderwege\",\"im_detail\":[{\"ueberschrift\":\"Wachsende Bedeutung des Veloverkehrs\",\"inhalt\":\"Velofahren erfreut sich in der Schweiz wachsender Beliebtheit. Rund zwei Drittel der Haushalte besitzen mindestens ein Velo. Viele nutzen das Velo in der Freizeit, immer häufiger aber auch im Alltag, zum Beispiel um zur Arbeit zu fahren. Mit dem Aufkommen der Elektrovelos (E-Bikes) hat sich dieser Trend verstärkt. Da zu Spitzenzeiten die Bahnen, Busse und Trams oft voll sind und es dann auch für Autos häufig eng ist auf den Strassen, gewinnt das Velo an Bedeutung.\"},{\"ueberschrift\":\"Velowege wie Fuss- und Wanderwege\",\"inhalt\":\"Um den Veloverkehr aufzuwerten, lancierten mehrere Parteien und Verbände 2015 die Velo-Initiative. Diese zielte darauf ab, in der Verfassung eine Förderpflicht für den Bund zu verankern. Diese zwingende Vorgabe ging Bundesrat und Parlament zu weit. Sie befürworteten stattdessen einen direkten Gegenentwurf. Dieser gibt dem Bund die Möglichkeit, Velowege zu unterstützen. Velowege sollen damit künftig rechtlich gleich behandelt werden wie Fuss- und Wanderwege. Der seit rund 40 Jahren dazu bestehende Verfassungsartikel soll entsprechend ergänzt werden. Der Bund erhält damit die Aufgabe, Grundsätze für Velowegnetze festzulegen. Er kann zudem Massnahmen der Kantone und weiterer Akteure unterstützen und koordinieren sowie über Velowegnetze informieren. Aufgrund des direkten Gegenentwurfs zog das Initiativkomitee die Velo-Initiative zurück.\"},{\"ueberschrift\":\"Verkehrssicherheit\",\"inhalt\":\"Der Bundesbeschluss über die Velowege stärkt die Bestrebungen des Bundes, die Verkehrssicherheit zu erhöhen. Der Veloverkehr ist der einzige Bereich, in dem die Zahlen der bei Unfällen verletzten und getöteten Menschen seit dem Jahr 2000 gestiegen sind. Der Anstieg hat unter anderem mit dem Boom bei den E-Bikes zu tun, mit denen man schneller unterwegs ist. Mit einer Entflechtung des Verkehrs - beispielsweise mit gut markierten Radstreifen oder baulich abgetrennten Radwegen - kann die Sicherheit erhöht werden.\"},{\"ueberschrift\":\"Finanzielle Auswirkungen\",\"inhalt\":\"Dem Bund entstehen durch die Aufwertung des Veloverkehrs und seine damit verbundenen Aufgaben Kosten von voraussichtlich rund 1,8 Millionen Franken pro Jahr. Dieser Aufwand wird innerhalb des Budgets des Bundesamts für Strassen aufgefangen.\"},{\"ueberschrift\":\"Rolle Des Bundes Bei Den Fuss- Und Wanderwegen\",\"inhalt\":\"Bei den Fuss- und Wanderwegen unterstützt der Bund die Kantone und Gemeinden seit rund 40 Jahren mit Analysen, Planungstools, Standards sowie Beratungs- und Ausbildungsangeboten. Damit trägt er dazu bei, dass in der ganzen Schweiz über 60 000 Kilometer Wanderwege fachgerecht unterhalten werden und einheitlich signalisiert sind. Für die Fuss- und Wanderwege setzt der Bund rund 1,8 Millionen Franken pro Jahr ein. Dieser Betrag bleibt seit Jahren konstant. Bund und Kantone arbeiten mit verschiedenen Verbänden und Stiftungen zusammen, die sich um Fuss- und Wanderwege kümmern. Dazu gehören zum Beispiel der \\\"Dachverband Schweizer Wanderwege\\\", der \\\"Fachverband Fussverkehr Schweiz\\\" und die Stiftung \\\"SchweizMobil\\\".\"}],\"argumenteKomitee\":[],\"empfehlungKomitee\":\"ja\",\"argumenteBundesrat\":[{\"ueberschrift\":\"Velowege helfen, Mobilität zu bewältigen\",\"inhalt\":\"Zu Spitzenzeiten wird es in Bahn, Bus und Tram sowie für den Autoverkehr oft eng. Da die Mobilität in der Schweiz weiter wachsen wird, lohnt es sich, das Potenzial des Veloverkehrs besser zu nutzen. Dieses ist noch nicht ausgeschöpft: Fast 80 Prozent aller Fahrten in Bus und Tram und jede zweite Autofahrt sind kürzer als fünf Kilometer. Je besser das Velowegnetz ist, desto attraktiver ist es, für kürzere Fahrten das Velo zu nehmen.\"},{\"ueberschrift\":\"Unfälle vermeiden\",\"inhalt\":\"Ein gutes Velowegnetz hilft, die Verkehrssicherheit zu erhöhen. Das ist wichtig, da die Zahlen der bei Unfällen verletzten und getöteten Velofahrerinnen und Velofahrer in den letzten Jahren gestiegen sind. Wo es durchgehende Velowege hat und der Verkehr entflochten wird, kommen sich Auto-, Velo- und Fussverkehr weniger ins Gehege.\"},{\"ueberschrift\":\"Technische und gesellschaftliche Entwicklung\",\"inhalt\":\"Die technische Entwicklung begünstigt das Velofahren. Das zeigt sich unter anderem am Boom der E-Bikes. Diese erlauben es, grössere Distanzen zu bewältigen - und rasch und mühelos ans Ziel zu kommen. Neue Veloverleihsysteme, die dank Apps einfach zugänglich sind, sorgen zudem dafür, dass Velos schnell und unkompliziert genutzt werden können. In vielen Städten und Agglomerationen gewinnt das Velofahren dadurch an Bedeutung. Daher lohnt sich ein verstärktes Engagement für Velowege.\"},{\"ueberschrift\":\"Weder Lärm noch Abgase\",\"inhalt\":\"Velofahren schont die Umwelt: Wer mit dem Velo statt mit dem Auto oder dem öffentlichen Verkehr fährt, senkt den Energieverbrauch und die CO2-Emissionen. Veloverkehr verursacht zudem weder Lärm noch Abgase. Und wer Velo fährt, bewegt sich. Das ist gut für die Gesundheit.\"},{\"ueberschrift\":\"Tourismus fördert Velofahren\",\"inhalt\":\"Velofahren ist eine beliebte Sport- und Freizeitaktivität und wird auch für den Schweizer Tourismus immer wichtiger. Viele Städte und Ferienregionen fördern daher Angebote für Velo-Ausflüge und Mountainbike-Touren. Dafür braucht es gute Velowege.\"},{\"ueberschrift\":\"Für sichere und attraktive Velowege\",\"inhalt\":\"Aufgrund der wachsenden Mobilität ist es sinnvoll, dass sich der Bund für Velowege engagiert. Mit dem Bundesbeschluss über die Velowege kann er die Arbeiten der Kantone und Gemeinden auf bewährte Weise unterstützen - und so zu sicheren und attraktiven Velowege beitragen. Davon profitiert die ganze Bevölkerung.\"}],\"empfehlungBundesrat\":\"ja\"}",
+  "refusal": null,
+  "role": "assistant",
+  "function_call": null,
+  "tool_calls": [],
+  "parsed": {
+    "titel": "Bundesbeschluss Über Die Velowege Sowie Die Fuss- Und Wanderwege",
+    "im_detail": [
+      {
+        "ueberschrift": "Wachsende Bedeutung des Veloverkehrs",
+        "inhalt": "Velofahren erfreut sich in der Schweiz wachsender Beliebtheit. Rund zwei Drittel der Haushalte besitzen mindestens ein Velo. Viele nutzen das Velo in der Freizeit, immer häufiger aber auch im Alltag, zum Beispiel um zur Arbeit zu fahren. Mit dem Aufkommen der Elektrovelos (E-Bikes) hat sich dieser Trend verstärkt. Da zu Spitzenzeiten die Bahnen, Busse und Trams oft voll sind und es dann auch für Autos häufig eng ist auf den Strassen, gewinnt das Velo an Bedeutung."
+      },
+      {
+        "ueberschrift": "Velowege wie Fuss- und Wanderwege",
+        "inhalt": "Um den Veloverkehr aufzuwerten, lancierten mehrere Parteien und Verbände 2015 die Velo-Initiative. Diese zielte darauf ab, in der Verfassung eine Förderpflicht für den Bund zu verankern. Diese zwingende Vorgabe ging Bundesrat und Parlament zu weit. Sie befürworteten stattdessen einen direkten Gegenentwurf. Dieser gibt dem Bund die Möglichkeit, Velowege zu unterstützen. Velowege sollen damit künftig rechtlich gleich behandelt werden wie Fuss- und Wanderwege. Der seit rund 40 Jahren dazu bestehende Verfassungsartikel soll entsprechend ergänzt werden. Der Bund erhält damit die Aufgabe, Grundsätze für Velowegnetze festzulegen. Er kann zudem Massnahmen der Kantone und weiterer Akteure unterstützen und koordinieren sowie über Velowegnetze informieren. Aufgrund des direkten Gegenentwurfs zog das Initiativkomitee die Velo-Initiative zurück."
+      },
+      {
+        "ueberschrift": "Verkehrssicherheit",
+        "inhalt": "Der Bundesbeschluss über die Velowege stärkt die Bestrebungen des Bundes, die Verkehrssicherheit zu erhöhen. Der Veloverkehr ist der einzige Bereich, in dem die Zahlen der bei Unfällen verletzten und getöteten Menschen seit dem Jahr 2000 gestiegen sind. Der Anstieg hat unter anderem mit dem Boom bei den E-Bikes zu tun, mit denen man schneller unterwegs ist. Mit einer Entflechtung des Verkehrs - beispielsweise mit gut markierten Radstreifen oder baulich abgetrennten Radwegen - kann die Sicherheit erhöht werden."
+      },
+      {
+        "ueberschrift": "Finanzielle Auswirkungen",
+        "inhalt": "Dem Bund entstehen durch die Aufwertung des Veloverkehrs und seine damit verbundenen Aufgaben Kosten von voraussichtlich rund 1,8 Millionen Franken pro Jahr. Dieser Aufwand wird innerhalb des Budgets des Bundesamts für Strassen aufgefangen."
+      },
+      {
+        "ueberschrift": "Rolle Des Bundes Bei Den Fuss- Und Wanderwegen",
+        "inhalt": "Bei den Fuss- und Wanderwegen unterstützt der Bund die Kantone und Gemeinden seit rund 40 Jahren mit Analysen, Planungstools, Standards sowie Beratungs- und Ausbildungsangeboten. Damit trägt er dazu bei, dass in der ganzen Schweiz über 60 000 Kilometer Wanderwege fachgerecht unterhalten werden und einheitlich signalisiert sind. Für die Fuss- und Wanderwege setzt der Bund rund 1,8 Millionen Franken pro Jahr ein. Dieser Betrag bleibt seit Jahren konstant. Bund und Kantone arbeiten mit verschiedenen Verbänden und Stiftungen zusammen, die sich um Fuss- und Wanderwege kümmern. Dazu gehören zum Beispiel der \"Dachverband Schweizer Wanderwege\", der \"Fachverband Fussverkehr Schweiz\" und die Stiftung \"SchweizMobil\"."
+      }
+    ],
+    "argumenteKomitee": [],
+    "empfehlungKomitee": "ja",
+    "argumenteBundesrat": [
+      {
+        "ueberschrift": "Velowege helfen, Mobilität zu bewältigen",
+        "inhalt": "Zu Spitzenzeiten wird es in Bahn, Bus und Tram sowie für den Autoverkehr oft eng. Da die Mobilität in der Schweiz weiter wachsen wird, lohnt es sich, das Potenzial des Veloverkehrs besser zu nutzen. Dieses ist noch nicht ausgeschöpft: Fast 80 Prozent aller Fahrten in Bus und Tram und jede zweite Autofahrt sind kürzer als fünf Kilometer. Je besser das Velowegnetz ist, desto attraktiver ist es, für kürzere Fahrten das Velo zu nehmen."
+      },
+      {
+        "ueberschrift": "Unfälle vermeiden",
+        "inhalt": "Ein gutes Velowegnetz hilft, die Verkehrssicherheit zu erhöhen. Das ist wichtig, da die Zahlen der bei Unfällen verletzten und getöteten Velofahrerinnen und Velofahrer in den letzten Jahren gestiegen sind. Wo es durchgehende Velowege hat und der Verkehr entflochten wird, kommen sich Auto-, Velo- und Fussverkehr weniger ins Gehege."
+      },
+      {
+        "ueberschrift": "Technische und gesellschaftliche Entwicklung",
+        "inhalt": "Die technische Entwicklung begünstigt das Velofahren. Das zeigt sich unter anderem am Boom der E-Bikes. Diese erlauben es, grössere Distanzen zu bewältigen - und rasch und mühelos ans Ziel zu kommen. Neue Veloverleihsysteme, die dank Apps einfach zugänglich sind, sorgen zudem dafür, dass Velos schnell und unkompliziert genutzt werden können. In vielen Städten und Agglomerationen gewinnt das Velofahren dadurch an Bedeutung. Daher lohnt sich ein verstärktes Engagement für Velowege."
+      },
+      {
+        "ueberschrift": "Weder Lärm noch Abgase",
+        "inhalt": "Velofahren schont die Umwelt: Wer mit dem Velo statt mit dem Auto oder dem öffentlichen Verkehr fährt, senkt den Energieverbrauch und die CO2-Emissionen. Veloverkehr verursacht zudem weder Lärm noch Abgase. Und wer Velo fährt, bewegt sich. Das ist gut für die Gesundheit."
+      },
+      {
+        "ueberschrift": "Tourismus fördert Velofahren",
+        "inhalt": "Velofahren ist eine beliebte Sport- und Freizeitaktivität und wird auch für den Schweizer Tourismus immer wichtiger. Viele Städte und Ferienregionen fördern daher Angebote für Velo-Ausflüge und Mountainbike-Touren. Dafür braucht es gute Velowege."
+      },
+      {
+        "ueberschrift": "Für sichere und attraktive Velowege",
+        "inhalt": "Aufgrund der wachsenden Mobilität ist es sinnvoll, dass sich der Bund für Velowege engagiert. Mit dem Bundesbeschluss über die Velowege kann er die Arbeiten der Kantone und Gemeinden auf bewährte Weise unterstützen - und so zu sicheren und attraktiven Velowege beitragen. Davon profitiert die ganze Bevölkerung."
+      }
+    ],
+    "empfehlungBundesrat": "ja"
+  }
+}
