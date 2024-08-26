@@ -4,7 +4,8 @@
     "python312@latest",
     "poetry@latest",
     "nodejs_20@latest",
-    "overmind@latest"
+    "overmind@latest",
+    "datasette@latest"
   ],
   "shell": {
     "init_hook": [

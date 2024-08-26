@@ -1,6 +1,70 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "datasette@latest": {
+      "last_modified": "2024-08-18T21:16:56Z",
+      "resolved": "github:NixOS/nixpkgs/9aa35efbea27d320d0cdc5f922f0890812affb60#datasette",
+      "source": "devbox-search",
+      "version": "0.64.8",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f7dkq5z7gr89rv74djpg7hr21xm7ib3g-python3.12-datasette-0.64.8",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/b13yzq9lh0gcdh2mmrkkghclbi97nbbv-python3.12-datasette-0.64.8-dist"
+            }
+          ],
+          "store_path": "/nix/store/f7dkq5z7gr89rv74djpg7hr21xm7ib3g-python3.12-datasette-0.64.8"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sycrai6l6ljpbk1zn7vzr4c495wb9n5j-python3.12-datasette-0.64.8",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/6dapkr5slrxknkgwash7z141izhd9s71-python3.12-datasette-0.64.8-dist"
+            }
+          ],
+          "store_path": "/nix/store/sycrai6l6ljpbk1zn7vzr4c495wb9n5j-python3.12-datasette-0.64.8"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7q2bqa1ig6ygfihjrjqh78yan2gl6xd9-python3.12-datasette-0.64.8",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/dd5d52w143isp4zv4b0jr14785srrjjx-python3.12-datasette-0.64.8-dist"
+            }
+          ],
+          "store_path": "/nix/store/7q2bqa1ig6ygfihjrjqh78yan2gl6xd9-python3.12-datasette-0.64.8"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g1d0b9jjiy8mq456h2wbrpdyjs8ag163-python3.12-datasette-0.64.8",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/2snpxqssmnymq9k1nwa52jbrxdvk43mb-python3.12-datasette-0.64.8-dist"
+            }
+          ],
+          "store_path": "/nix/store/g1d0b9jjiy8mq456h2wbrpdyjs8ag163-python3.12-datasette-0.64.8"
+        }
+      }
+    },
     "nodejs_20@latest": {
       "last_modified": "2024-07-10T06:55:44Z",
       "plugin_version": "0.0.2",
