@@ -1,9 +1,4 @@
-<div align="center">
-<table border="0">
- <tr>
-  <td><img src="icon.png" width="300" height="300" alt="Your Icon"></td> <!-- Adjust 'src', 'width', and 'height' as needed -->
-  <td style="vertical-align: middle;"><h1 style="margin-left: 15px;">peopen - people's pen</h2></td>
- </tr>
-</table>
+<div style="text-align: center;">
+  <p><strong>peopen</strong> - people's pen</p>
+  <img src="assets/icon.png" width="250" height="250" alt="Your Icon" style="display: block; margin: 0 auto;">
 </div>
-
