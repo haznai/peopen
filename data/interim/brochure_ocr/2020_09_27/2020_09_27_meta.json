@@ -1,0 +1,3369 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 27. September 2020",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                546.3399658203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr eine massvolle Zuwanderung (Begrenzungsinitiative)\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                240.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.339000701904297,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.339000701904297,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.33799934387207,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.33799934387207,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderung des Jagdgesetzes",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.9873657226562,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                240.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                276.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderung des Bundesgesetzes \u00fcber die direkte Bundessteuer",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.9873657226562,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.5950012207031,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                312.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung der Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                276.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderung des Erwerbsersatz gesetzes ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.9873657226562,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                348.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Beschaffung neuer Kampf \ufb02ugzeuge",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.9873657226562,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                312.6150207519531,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr eine massvolle Zuwanderung(Begrenzungsinitiative)\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 8,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Zuwanderungspolitik der Schweiz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Personenfreiz\u00fcgigkeit mit der EU",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                432.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Coronakrise: Personenfreiz\u00fcgigkeit vor\u00fcbergehend eingeschr\u00e4nkt",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                297.98248291015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Zu- und Auswanderung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                204.5850067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "Was will die Initiative?",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Bilaterale I: Sieben miteinander verkn\u00fcpfte Abkommen mit der EU",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                393.98248291015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Folgen f\u00fcr die Schweizer Wirtschaft",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Arbeitskr\u00e4fte aus der EU und FZA",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Schutz der inl\u00e4ndischen Arbeitskr\u00e4fte",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Auswirkungen auf Sozialversicherungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "ArgumenteInitiativkomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Arbeitspl\u00e4tze und Wohlstand erhalten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Notwendige Fachkr\u00e4fte k\u00f6nnen weiterhin kommen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                192.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "JA zum bilateralen Weg \u2013 Masslosigkeit stoppen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                324.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Erfolgreicher Wegder Schweiz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Stabile Beziehungen erhalten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Grosse Nachteilef\u00fcr die Schweiz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                168.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bund sch\u00fctzt Schweizer Arbeitsmarkt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Bedarf an Arbeitskr\u00e4ften",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Wohlstand steht auf dem Spiel",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                336.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                264.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.45999908447266,
+                347.4429016113281,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 121b Zuwanderung ohne Personenfreiz\u00fcgigkeit ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.47000122070312,
+                253.43089294433594,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 197 Ziff. 124",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52999877929688,
+                529.3809204101562,
+                0.0
+            ]
+        },
+        {
+            "title": "12. \u00dcbergangsbestimmung zu Art. 121b (Zuwanderung ohne Personenfreiz\u00fcgigkeit) ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52999877929688,
+                513.3809204101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52999877929688,
+                411.41290283203125,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderung des Jagdgesetzes",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Entwicklung des Wolfsbestandes in der Schweiz",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                335.27252197265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Verbreitung des Wolfs in der Schweiz Ende 2019",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                527.2125244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Wolf breitet sich aus",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                204.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Kon\ufb02ikte mit W\u00f6lfen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Das revidierte Jagdgesetz:",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 12,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Erlegen von W\u00f6lfen aus Rudeln",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                420.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Wolf bleibt gesch\u00fctzt",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Jagdbare und gesch\u00fctzte Tierarten",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                32.599998474121094,
+                214.71249389648438,
+                0.0
+            ]
+        },
+        {
+            "title": "Kantone m\u00fcssenverh\u00e4ltnism\u00e4ssig handeln",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.552978515625,
+                0.0
+            ]
+        },
+        {
+            "title": "Erlegen von Einzelw\u00f6lfen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                432.552978515625,
+                0.0
+            ]
+        },
+        {
+            "title": "Regulierung von anderen Tieren",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                336.56298828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Beschwerderecht",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                240.56300354003906,
+                0.0
+            ]
+        },
+        {
+            "title": "Strengere Kriterien f\u00fcr Entsch\u00e4digungen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5029907226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausbau des Artenschutzes",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                420.50299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Vernetzung von Lebensr\u00e4umen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                336.50299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Finanzielle Unterst\u00fctzung f\u00fcr Kantone",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                216.5030059814453,
+                0.0
+            ]
+        },
+        {
+            "title": "Tierwohl",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5029907226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Umsetzung in Vorbereitung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                468.56500244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Was passiert bei einem \u00abNein\u00bb?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                360.56500244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Unn\u00f6tig und kompliziert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Absch\u00fcsse auf Vorrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                312.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Biber, Luchs, Schwan etc. in Gefahr",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                228.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Feldhasen endlich sch\u00fctzen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Bergwald sch\u00fctzen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                432.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Zur\u00fcck an den Absender",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                360.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Zeitgem\u00e4sse Regeln",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Schaden verhindern",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Guter Kompromiss",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                192.5850067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "Herdenschutz wirdgest\u00e4rkt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                108.58499908447266,
+                0.0
+            ]
+        },
+        {
+            "title": "Besserer Schutz f\u00fcr Wildtiere",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Massvolles Jagd- und Wildtierschutzgesetz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                480.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "I ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 16,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                379.4214782714844,
+                0.0
+            ]
+        },
+        {
+            "title": "Ersatz von Ausdr\u00fccken ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                338.5508728027344,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3 Abs. 1 und 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                249.5408935546875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Abs. 1 Einleitungssatz, Bst. b, c, l, m, o, p, q sowie 2, 3, 5 und 6 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                107.5509033203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7 Abs. 2 und 3 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                177.4709014892578,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7a Regulierung gesch\u00fctzter Arten ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                139.4709014892578,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 8 Wildtierschutz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                409.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11 Sach\u00fcberschrift (Betrifft nur den franz\u00f6sischen und den italienischen Text), Abs. 5 und 6 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                263.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11a \u00dcberregionale Wildtierkorridore ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                505.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 12 Abs. 2, 4, 5 und 6 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                379.47088623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 13 Abs. 4 und 5 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                167.45089721679688,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Abschnitt: Information und Forschung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                472.1784973144531,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 14 Sach\u00fcberschrift, Abs. 4 und 5 Information, Bildung und Forschung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                447.1408996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 14a Einfangen und Markieren ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                327.1310119628906,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 17 Abs. 1 Bst. h ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                149.12091064453125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18 Abs. 1 Bst. i ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                529.4609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 20 Abs. 1 und 1bis ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                447.4809875488281,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24 Abs. 2\u20134 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                297.47088623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "II ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                157.32151794433594,
+                0.0
+            ]
+        },
+        {
+            "title": "III ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                112.32150268554688,
+                0.0
+            ]
+        },
+        {
+            "title": "Anhang (Ziff. II) \u00c4nderung anderer Erlasse ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                501.5608825683594,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Bundesgesetz vom 1. Juli 19667 \u00fcber den Natur- und Heimatschutz ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                415.5984802246094,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 22a Einfangen und Markieren ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                390.5608825683594,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Waldgesetz vom 4. Oktober 19919",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                215.61849975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 27 Abs. 2 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                190.5509033203125,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Bundesgesetz vom 21. Juni 199110 \u00fcber die Fischerei ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                530.5285034179688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 6a Einfangen und Markieren ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                481.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderung des Bundesgesetzes \u00fcber die direkte Bundessteuer",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Heutige Steuerabz\u00fcge f\u00fcr Kinderkosten",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Die wichtigsten Steuerabz\u00fcge pro Kind bei Bund und Kantonen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.220001220703125,
+                335.13250732421875,
+                0.0
+            ]
+        },
+        {
+            "title": "Kinderzulagen und weitere Beitr\u00e4ge",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Drittbetreuungsabzug:",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                420.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": " Bund will Abzug erh\u00f6hen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.50299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Familie und Beruf vereinbaren",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                324.50299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Welche Eltern pro\ufb01tieren",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                264.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Auswirkungen auf die Schweizer Wirtschaft",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5029907226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Allgemeiner Kinderabzug:",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                456.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Entlastung f\u00fcr Familien",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                432.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Welche Familien pro\ufb01tieren",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                300.5229797363281,
+                0.0
+            ]
+        },
+        {
+            "title": "Wie viel Steuern spart ein Ehepaar dank der Erh\u00f6hung des allgemeinen Kinderabzugs?",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                527.2125244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Finanzielle Auswirkungen auf Bund und Kantone",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 26,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                180.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Wie sich die beiden h\u00f6heren Abz\u00fcge zusammen auswirken",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                359.1125183105469,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitees",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 28,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Nein zum Steuer-Bschiss",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 28,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                480.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Komitee \u00abNein zum Kinderabzug-Bschiss!\u00bb",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                505.0425109863281,
+                0.0
+            ]
+        },
+        {
+            "title": "Nein zu dieser Mogelpackung",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 29,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                504.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Komitee \u00abNein zur 370-Millionen-Mogelpackung\u00bb",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 29,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                529.04248046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung der Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 29,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                204.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Familie und Beruf besser vereinbaren",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Inl\u00e4ndische Fachkr\u00e4fte f\u00f6rdern",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Familien entlasten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                204.5850067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "Den Mittelstand unterst\u00fctzen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 31,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 31,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "I ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                367.24151611328125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 33 Abs. 3 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                316.40087890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 35 Abs. 1 Bst. a ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                228.3809051513672,
+                0.0
+            ]
+        },
+        {
+            "title": "II ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                122.25150299072266,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderung des Erwerbsersatzgesetzes ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 33,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 33,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.6449584960938,
+                0.0
+            ]
+        },
+        {
+            "title": "Unterschiede in der Praxis",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                420.64501953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Zwei Wochen Vaterschaftsurlaub",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                372.64501953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Anspruch auf Erwerbsersatz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                276.6549987792969,
+                0.0
+            ]
+        },
+        {
+            "title": "H\u00f6he der Entsch\u00e4digung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                132.65501403808594,
+                0.0
+            ]
+        },
+        {
+            "title": "Kosten und Finanzierung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 35,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.35999870300293,
+                528.5950317382812,
+                0.0
+            ]
+        },
+        {
+            "title": "Gegenvorschlag zur Volksinitiative",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 35,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.35999870300293,
+                396.5950012207031,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Teuer und unverantwortlich",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr KMU untragbar",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                240.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Missbr\u00e4uchlich und ungerecht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                144.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Richtungsentscheid",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 38,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 38,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                432.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 39,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Die ganze Familie pro\ufb01tiert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 39,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Vereinbarkeit von Familie und Beruf",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 39,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Organisatorisch und \ufb01nanziell verkraftbar",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 39,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                168.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Attraktiv auch f\u00fcr KMU",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 40,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Gleiches Mindestrecht f\u00fcr alle V\u00e4ter",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 40,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 40,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                348.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "I ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 8,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                359.6960144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesgesetz \u00fcber den Erwerbsersatz f\u00fcr Dienstleistende, bei Mutterschaft und bei Vaterschaft (Erwerbsersatzgesetz, EOG) ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                304.676025390625,
+                0.0
+            ]
+        },
+        {
+            "title": "IIIb. Die Vaterschaftsentsch\u00e4digung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                243.8861083984375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16i Anspruchsberechtigte ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                218.6959991455078,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16j Rahmenfrist, Beginn und Ende des Anspruchs ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                409.59588623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16k Form der Entsch\u00e4digung und Anzahl der Taggelder ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                263.59588623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16l H\u00f6he und Bemessung der Entsch\u00e4digung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                153.61599731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16m Vorrang der Vaterschaftsentsch\u00e4digung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.416015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 20 Abs. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                317.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "II ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                203.42599487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "III ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                158.42599487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Anhang (Ziff. II) \u00c4nderung anderer Erlasse ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.2709350585938,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Obligationenrecht13",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                443.6061096191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 329 Randtitel ",
+            "level": 4,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.6199951171875,
+                418.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "- VIII. Freizeit, Ferien, Urlaub f\u00fcr Jugendarbeit, Mutterschaftsund Vaterschaftsurlaub 1. Freizeit ",
+            "level": 5,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                406.6474914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 329b Abs. 3 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.6199951171875,
+                344.7709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 329g ",
+            "level": 4,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.6199951171875,
+                224.77090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Vaterschaurlaub fts",
+            "level": 5,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                213.1475067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 335c Abs. 3 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.6199951171875,
+                128.77090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 362 Abs. 1 Einleitungssatz und neue Aufz\u00e4hlungselemente ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.2699966430664,
+                515.450927734375,
+                0.0
+            ]
+        },
+        {
+            "title": "-, 2. Bundesgesetz vom 25. Juni 198214 \u00fcber die berufliche AltersHinterlassenen- und Invalidenvorsorge ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23992919921875,
+                422.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "Ersatz eines Ausdrucks ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                387.47088623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 8 Abs. 3 erster Satz ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                339.47088623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Bundesgesetz vom 20. M\u00e4rz 198116 \u00fcber die Unfallversicherung ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                244.8061065673828,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16 Abs. 3 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                219.4709014892578,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Beschaffung neuer Kampf\ufb02ugzeuge",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 42,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 42,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Sicherheitspolitische Lage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 43,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349000930786133,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Aufgaben von Kampf\ufb02ugzeugen:",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 43,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Luftpolizeidienst",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 43,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Terrorbedrohung und internationale Spannungen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 43,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                264.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bewaffneter Kon\ufb02ikt",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 44,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5029907226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Bestehende Flotte",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 44,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                420.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Geplante Nutzungsdauer bestehende Kampf\ufb02ugzeuge und neues Kampf\ufb02ugzeug",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 45,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                527.1724853515625,
+                0.0
+            ]
+        },
+        {
+            "title": "Finanzierung",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 45,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "K\u00fcnftige j\u00e4hrliche Ausgaben f\u00fcr den Kauf neuer Kampf\ufb02ugzeuge im Vergleich mit den Bundesausgaben 2019 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 46,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                527.2925415039062,
+                0.0
+            ]
+        },
+        {
+            "title": "Kompensationsgesch\u00e4fte",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 46,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Grundsatzentscheid und Beschaffung",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 46,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                168.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Gepr\u00fcfte Alternativen zu neuen Kampf\ufb02ugzeugen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 47,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                529.9825439453125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 48,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "24 -Milliarden- Blankoscheck",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 48,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Kosten",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 48,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                251.17251586914062,
+                0.0
+            ]
+        },
+        {
+            "title": "Unn\u00f6tige Luxus-Kampfjets",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 48,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                108.57499694824219,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 49,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                324.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 50,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Sicherheitslage bleibt unberechenbar",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 50,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Armee muss breit aufgestellt sein",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 50,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                312.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Kampf\ufb02ugzeuge sind unverzichtbar",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 50,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                228.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Keine geeigneten Alternativen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 50,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                144.5850067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "Unabh\u00e4ngigkeit in Krisen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 51,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Rechtzeitige Investition in die Sicherheit",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 51,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 51,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                312.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                356.84100341796875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                294.83099365234375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                437.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 4 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                379.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesrat und Parlament empfehlen, am 27. September 2020 wie folgt zu stimmen:",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                543.3800048828125,
+                0.0
+            ]
+        }
+    ],
+    "pages": 52,
+    "ocr_stats": {
+        "ocr_pages": 5,
+        "ocr_failed": 0,
+        "ocr_success": 5,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 46,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

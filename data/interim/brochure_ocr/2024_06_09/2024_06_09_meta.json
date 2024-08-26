@@ -1,0 +1,1324 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 9. Juni 2024",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Inhaltsverzeichnis",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abMaximal 10 % des Einkommens f\u00fcr die Krankenkassenpr\u00e4mien (Pr\u00e4mien-Entlastungs-Initiative)\u00bb",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 8,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Indirekter Gegenvorschlag",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr tiefere Pr\u00e4mien \u2013 Kostenbremse im Gesundheitswesen (Kostenbremse-Initiative)\u00bb",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 8,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Indirekter Gegenvorschlag",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr Freiheit und k\u00f6rperliche Unversehrtheit\u00bb",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Bundesgesetz \u00fcber eine sichere Stromversorgung mit erneuerbaren Energien",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 9,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Referendums-komitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Pr\u00e4mienverbilligung",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abMaximal 10 % des Einkommens f\u00fcr die Krankenkassenpr\u00e4mien (Pr\u00e4mien-Entlastungs-Initiative)\u00bb",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Im Detail",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Kantonale Unterschiede bei den Pr\u00e4mien",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Kantonale Unterschiede bei Pr\u00e4mien-verbilligung",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Finanzierung der Pr\u00e4mien-verbilligung",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Kosten der Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Auswirkung auf die Versicherten",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 4,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "L\u00f6hne stagnieren, Pr\u00e4mien explodieren",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Auch f\u00fcr Pensionierte und Einzelpersonen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Politik wird zum Handeln gezwungen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Initiative kostet zu viel",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Initiative schafft neuen Fehlanreiz",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Initiative blendet Ursachen aus",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Gegenvorschlag wirkt kosten-d\u00e4mpfend",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr tiefere Pr\u00e4mien \u2013 Kostenbremse im Gesundheitswesen (Kostenbremse-Initiative)\u00bb",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 8,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Im Detail",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 8,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Rolle der Tarifpartner",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Kostend\u00e4mpfende Massnahmen zwingend",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Gesetz regelt die Umsetzung",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Gr\u00fcnde f\u00fcr den Kostenanstieg",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Kostend\u00e4mpfende Massnahmen des Bundesrats",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 12,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Worum geht es?",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Wie funktioniert die Kostenbremse? ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Was sind die konkreten Massnahmen?",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Disziplinierende Wirkung",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Drohen Rationierungen? ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Droht ein Abbau von Leistungen?",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 14,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Richtige Diagnose, falsches Mittel",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Es braucht differenzierte Ans\u00e4tze",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Alterung der Bev\u00f6lkerung nicht ber\u00fccksichtigt",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Medizinischer Fortschritt nicht ber\u00fccksichtigt",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Gegenvorschlag schafft Transparenz",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr Freiheit und k\u00f6rperliche Unversehrtheit\u00bb",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 16,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Im Detail",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 16,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Initiativtext",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "K\u00f6rperliche Unversehrtheit",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Einschr\u00e4nkung eines Grundrechts",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Impfobligatorium",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Einschr\u00e4nkungen f\u00fcr Ungeimpfte",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Folgen einer Annahme",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 20,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ja zur letzten Bastion der Freiheit",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Microchip f\u00fcr Arbeiter",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Endlich Rechtssicherheit",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "WHO-Pandemievertrag rechts-unwirksam?",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Was ist die Wahrheit und Freiheit?",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 22,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Grundrecht ist garantiert",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Impfzwang ist ausgeschlossen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ungleichbehandlung ist die Ausnahme",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Folgen sind unklar",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Mehr Produktion im Inland",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Bundesgesetz \u00fcber eine sichere Stromversorgung mit erneuerbaren Energien",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 24,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Im Detail",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 11,
+            "page_index": 24,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausbau vor allem auf Geb\u00e4uden",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Natur und Landschaft",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Gebiete f\u00fcr Anlagen von nationalem Interesse",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Projekte f\u00fcr Wasserkraftwerke",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Mitsprache der Bev\u00f6lkerung",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Beschwerde\u00adm\u00f6glichkeit und Rechtsstaatlichkeit",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Energieeffizienz",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Flexibilit\u00e4t ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "im Stromnetz",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Winterreserve",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Energieversorgungssicherheit durch Innovation",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 8,
+            "page_index": 28,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Interessen\u00adabw\u00e4gung ausgeschaltet",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Zerst\u00f6rung unserer Landschaften",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Solarparks in den Alpen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Waldrodungen erleichtert",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Neue Staumauer in der N\u00e4he des Matterhorns",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Angriff auf die Demokratie",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 29,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Auf den D\u00e4chern statt in der Natur",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 29,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Referendums-komitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 29,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 9,
+            "page_index": 30,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Versorgungs\u00adsicherheit",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Unabh\u00e4ngigkeit",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Schonung von Natur und Landschaft ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Fokus auf geeignete Gebiete",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Unterst\u00fctzung von Umwelt-organisationen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Demokratische Rechte gewahrt",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Anreize ohne neue Pflichten und Abgaben",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Umsetzung langfristiger Ziele",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Bundesrat und Parlament empfehlen, am 9. Juni 2024 wie folgt zu stimmen:",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        }
+    ],
+    "pages": 32,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 33,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

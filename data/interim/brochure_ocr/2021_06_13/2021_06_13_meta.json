@@ -1,0 +1,6177 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 13. Juni 2021",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                546.3399658203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative f\u00fcr sauberes Trinkwasser und gesunde Nahrung",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                300.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr eine Schweiz ohne synthetische Pestizide\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.9873657226562,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                300.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Covid-19-Gesetz",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.9873657226562,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                240.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5850219726562,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.5950012207031,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "CO2-Gesetz",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                252.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung der Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesgesetz \u00fcber polizeiliche Massnahmen zur Bek\u00e4mpfung von Terrorismus (PMT)",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.9873657226562,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.5950012207031,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                276.5950012207031,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung der Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                276.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative f\u00fcr sauberes Trinkwasser und gesunde Nahrung und Volksinitiative \u00abF\u00fcr eine Schweiz ohne synthetische Pestizide\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00dcbersicht ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Gesetzesentwurf des Parlaments",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Begriffe",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                34.02000045776367,
+                530.7999877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr sauberes Trinkwasser und gesunde Nahrung \u2013 Keine Subventionen f\u00fcr den Pestizid- und den prophylaktischen Antibiotika-Einsatz\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.6449584960938,
+                0.0
+            ]
+        },
+        {
+            "title": "Forderungen der Initiative",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.64501953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Erhaltung der Biodiversit\u00e4t",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.572998046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Pestizidfreie Produktion",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5029907226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Kein vorbeugender Antibiotikaeinsatz",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.50299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Weniger D\u00fcnger durch weniger Tiere",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                216.5030059814453,
+                0.0
+            ]
+        },
+        {
+            "title": "Forschung, Beratung, Investitionen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5029907226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Auswirkungen der Initiative",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Verheerende Bilanz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Umlenkung der Subventionen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                240.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Landwirtschaft zukunftsf\u00e4hig machen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                432.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Lebensmittelproduktion wird geschw\u00e4cht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                360.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Umweltbelastung wird verlagert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                264.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Kontraproduktive Auswirkungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Anliegen schon vom Parlament aufgenommen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.45999908447266,
+                327.7110290527344,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 104 Abs. 1 Bst. a, 3 Bst. a, e und g sowie 4 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.47000122070312,
+                237.410888671875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 197 Ziff. 124",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52999877929688,
+                372.4308776855469,
+                0.0
+            ]
+        },
+        {
+            "title": "12. \u00dcbergangsbestimmung zu Art. 104 Abs. 1 Bst. a, 3 Bst. a, e und g sowie 4 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52999877929688,
+                356.4408874511719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52999877929688,
+                308.72100830078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr eine Schweiz ohne synthetische Pestizide\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 16,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Bund f\u00f6rdert Reduktion ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                432.56500244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Beschlossene Reduktionsziele",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.6549682617188,
+                0.0
+            ]
+        },
+        {
+            "title": "Initiative fordert Verbot",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                384.6549987792969,
+                0.0
+            ]
+        },
+        {
+            "title": "Landwirtschaftliche Produktion",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                348.5829772949219,
+                0.0
+            ]
+        },
+        {
+            "title": "Verarbeitung von Lebensmitteln",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                216.5830078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Boden- und Landschaftspflege",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                120.5929946899414,
+                0.0
+            ]
+        },
+        {
+            "title": "Definition von synthetischen Pestiziden",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.614990234375,
+                0.0
+            ]
+        },
+        {
+            "title": "Importverbot",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.625,
+                0.0
+            ]
+        },
+        {
+            "title": "Widerspruch zu Handelsrecht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                324.625,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00dcbergangsfrist",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                180.62501525878906,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Auswirkungen von Pestiziden",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Gesundheit in Gefahr",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Vorsorgeprinzip ignoriert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                180.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "L\u00f6sungen sind vorhanden",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Schweizer Landwirtschaft unterst\u00fctzen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Versorgungssicherheit beeintr\u00e4chtigt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                360.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Teurere Lebensmittel",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Klarer Wettbewerbsnachteil",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                216.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Zu viele Einschr\u00e4nkungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                120.57499694824219,
+                0.0
+            ]
+        },
+        {
+            "title": "Verletzung von Handelsabkommen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Politik bereits aktiv",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                348.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.89099884033203,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                347.9110107421875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 74 Abs. 2bis ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                267.6408996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 197 Ziff. 124",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                189.64089965820312,
+                0.0
+            ]
+        },
+        {
+            "title": "12. \u00dcbergangsbestimmung zu Art. 74 Abs. 2bis ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                173.65090942382812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                475.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Covid-19-Gesetz",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 21,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Befristetes Gesetz statt Notrecht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                252.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Umfangreiche finanzielle Unterst\u00fctzung",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Entsch\u00e4digung f\u00fcr Kurzarbeit ausgeweitet",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                456.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Entsch\u00e4digung bei Erwerbsausfall",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.5229797363281,
+                0.0
+            ]
+        },
+        {
+            "title": "Beteiligung an kantonalen H\u00e4rtefallhilfen ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5029907226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Unterst\u00fctzung f\u00fcr Kultur, Sport und Medien",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                456.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Sicherung der Gesundheitsversorgung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                324.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Arbeitnehmerschutz und weitere Massnahmen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                180.59500122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Erweiterung der Massnahmen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Was passiert bei einem Nein?",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                420.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Es geht nicht um das Impfen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                250.25999450683594,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Kein Notrecht ohne Rechtsgrundlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00dcberpr\u00fcfung ist Verfassungspflicht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Einmal Notrecht, immer wieder Notrecht.",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Wer ist der Souver\u00e4n in diesem Land?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                360.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                228.5850067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 26,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Dringend n\u00f6tige Hilfe f\u00fcr Menschen und Unternehmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Ein Nein w\u00fcrde Unterst\u00fctzung in Frage stellen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Gesetz st\u00e4rkt in der Krise die Demokratie ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Instrument der Solidarit\u00e4t",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 42,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 Gegenstand und Grunds\u00e4tze ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                324.6710205078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 Massnahmen im Bereich der politischen Rechte ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                96.67096710205078,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3 Massnahmen im Bereich der Gesundheitsversorgung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                471.7610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 4 Massnahmen im Bereich des Arbeitnehmerschutzes ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                481.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Massnahmen im Ausl\u00e4nder- und Asylbereich ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                329.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 6 Massnahmen bei Grenzschliessung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                529.7509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7 Justizielle und verfahrensrechtliche Massnahmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                461.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 8 Massnahmen im Bereich von Versammlungen von Gesellschaften ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                291.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Insolvenzrechtliche Massnahmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                195.76100158691406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10 Massnahmen im Bereich der Versorgungssicherheit ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.4210205078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11 Massnahmen im Kulturbereich ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                451.4110107421875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 12 H\u00e4rtefall-Massnahmen f\u00fcr Unternehmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                431.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 13 Massnahmen im Sportbereich ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                221.74099731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 14 Massnahmen im Medienbereich ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                475.84100341796875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 15 Massnahmen zur Entsch\u00e4digung des Erwerbsausfalls ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                169.84100341796875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16 Massnahme im Bereich der beruflichen Vorsorge ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                303.7610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 17 Massnahmen im Bereich der Arbeitslosenversicherung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                245.74099731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18 Strafbestimmungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                461.83099365234375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 19 Vollzug ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                369.8509826660156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 20 \u00c4nderung eines anderen Erlasses ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                331.83099365234375,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00dcbergangsbestimmung zur \u00c4nderung vom 22. M\u00e4rz 201916 (Art. 47a) ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                283.5508728027344,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 21 Referendum, Inkrafttreten und Geltungsdauer ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                215.8310089111328,
+                0.0
+            ]
+        },
+        {
+            "title": "CO2-Gesetz",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 28,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 30,
+            "page_index": 28,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 29,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Anstieg der Durchschnittstemperatur in der Schweiz und global",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 29,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                383.1725158691406,
+                0.0
+            ]
+        },
+        {
+            "title": "Bisherige Instrumente bleiben",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Finanzielle Anreize",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                480.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "CO2-Abgabe",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.50299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Flugticketabgabe",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.49298095703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bev\u00f6lkerung erh\u00e4lt Geld zur\u00fcck",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 30,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                180.5030059814453,
+                0.0
+            ]
+        },
+        {
+            "title": "Befreiung von der CO2-Abgabe",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 31,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5330200195312,
+                0.0
+            ]
+        },
+        {
+            "title": "Investitionen in den Klimaschutz",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 31,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Infrastruktur und Geb\u00e4ude",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 31,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                348.50299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Innovative Firmen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 31,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                288.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Besonders betroffene Regionen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 31,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                240.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Klimafonds und R\u00fcckverteilung der Lenkungsabgaben",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 32,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                527.1724853515625,
+                0.0
+            ]
+        },
+        {
+            "title": "Klimaschutzprojekte",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 32,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                168.5030059814453,
+                0.0
+            ]
+        },
+        {
+            "title": "Technischer Fortschritt",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 33,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5850219726562,
+                0.0
+            ]
+        },
+        {
+            "title": "Effizientere Fahrzeuge",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 33,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                492.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Vorgaben f\u00fcr Geb\u00e4ude",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 33,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                420.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Was passiert bei einem Nein?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 33,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                312.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitees",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 9,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Wirtschaftskomitee \u00abNein zum CO2-Gesetz\u00bb",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                505.0425109863281,
+                0.0
+            ]
+        },
+        {
+            "title": "CO2-Gesetz: Teuer. Nutzlos. Ungerecht.",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                480.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Komitee \u00abF\u00fcr eine soziale & radikale Klimapolitik\u00bb",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 35,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                325.0425109863281,
+                0.0
+            ]
+        },
+        {
+            "title": "System- statt Klimawandel!",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 35,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                300.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung der Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 35,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                192.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 36,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Schweiz ist besonders betroffen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 36,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Auftr\u00e4ge f\u00fcr KMU und neue Arbeitspl\u00e4tze",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 36,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Fair und sozial",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 36,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                204.5850067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "Einsparungen f\u00fcr Hausbesitzer und Mieter",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Vorteile f\u00fcr Autofahrer",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abh\u00e4ngigkeit von \u00d6l-Staaten wird reduziert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                360.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.5950012207031,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 1080,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Kapitel: Allgemeine Bestimmungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                363.8860778808594,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 Zweck ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                338.84100341796875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 Begriffe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                130.82101440429688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3 Verminderungsziele ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                233.74099731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 4 Massnahmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                373.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Nationale Bescheinigungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                247.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 6 Internationale Bescheinigungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                117.57099914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7 Koordination der Anpassungsmassnahmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                457.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 8 Verminderung nach dem Stand der Technik ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                365.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Kapitel: Technische Massnahmen zur Verminderung der CO2-Emissionen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                242.7960968017578,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Abschnitt: Geb\u00e4ude ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                218.8061065673828,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Grundsatz ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                193.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10 CO2-Grenzwerte ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.5609741210938,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Abschnitt: Personenwagen, Lieferwagen und leichte Sattelschlepper sowie schwere Fahrzeuge ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                186.59609985351562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11 Zielwerte f\u00fcr die Jahre 2021\u20132024 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                141.57101440429688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 12 Zielwerte ab 2025 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                387.7610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 13 Zwischenziele, Erleichterungen und Ausnahmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.5609741210938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 14 Berichterstattung und Vorschl\u00e4ge zu einer weitergehenden Verminderung der CO2-Emissionen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                355.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 15 Individuelle Zielvorgabe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                253.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16 Berechnung der individuellen Zielvorgabe und der durchschnittlichen CO2-Emissionen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                413.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 17 CO2-vermindernde Faktoren bei einzelnen Fahrzeugen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                263.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18 CO2-vermindernde Faktoren bei Neuwagenflotten durch den Einsatz von synthetischen Treibstoffen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                133.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 19 Ersatzleistung bei \u00dcberschreiten der individuellen Zielvorgabe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                375.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 20 Publikation ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                461.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Kapitel: Emissionshandelssystem und Kompensation bei fossilen Treibstoffen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                296.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Abschnitt: Emissionshandelssystem ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                272.80609130859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 21 Verpflichtung zur Teilnahme: Betreiber von Anlagen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                247.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 22 Verpflichtung zur Teilnahme: Betreiber von Luftfahrzeugen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.5609741210938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23 Teilnahme auf Gesuch ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                303.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24 R\u00fcckerstattung der CO2-Abgabe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                207.57101440429688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 25 Festlegung der zur Verf\u00fcgung stehenden Menge der Emissionsrechte ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                91.56096649169922,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 26 Ausgabe von Emissionsrechten f\u00fcr Anlagen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                442.6451110839844,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 27 Ausgabe von Emissionsrechten f\u00fcr Luftfahrzeuge ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                243.76100158691406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 28 Berichterstattung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                123.76099395751953,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 29 Ersatzleistung bei Nichtabgabe von Emissionsrechten ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.5609741210938,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Abschnitt: Kompensation bei fossilen Treibstoffen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                440.6061096191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 30 Grundsatz ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                415.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 31 Kompensationspflichtige Personen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                437.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 32 Ersatzleistung bei fehlender Kompensation ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                365.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Abschnitt: Emissionshandelsregister ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                248.7960968017578,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 33 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                223.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Kapitel: CO2-Abgabe auf fossilen Brennstoffen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                530.6060791015625,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Abschnitt: Erhebung der CO2-Abgabe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                516.5961303710938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 34 CO2-Abgabe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                491.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 35 Abgabepflichtige Personen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                375.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Abschnitt: R\u00fcckerstattung der CO2-Abgabe an Betreiber mit Verminderungsverpflichtung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                262.6161193847656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 36 Betreiber mit Verminderungsverpflichtung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                217.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 37 Ersatzleistungen bei Nichteinhalten der Verminderungsverpflichtung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                207.76100158691406,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Abschnitt: R\u00fcckerstattung der CO2-Abgabe an Betreiber von WKK-Anlagen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                488.6061096191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 38 Betreiber von WKK-Anlagen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                453.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 39 Voraussetzungen f\u00fcr die R\u00fcckerstattung und Umfang ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                277.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Abschnitt: R\u00fcckerstattung der CO2-Abgabe bei nicht energetischer Nutzung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                154.61610412597656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 40 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                119.5510025024414,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Abschnitt: \u00dcbriges anwendbares Recht ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                530.796142578125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 41 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                505.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Kapitel: Flugticketabgabe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                422.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 42 Gegenstand ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                397.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 43 Abgabepflichtige Personen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                193.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 44 Abgabeh\u00f6he ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                495.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 45 Entstehung und F\u00e4lligkeit ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                281.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 46 Abgabeanmeldung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                243.57101440429688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 47 Veranlagungsverf\u00fcgung, Zahlungsfrist und Verzugszins ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                121.56099700927734,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 48 Sicherstellung, Nachforderung und R\u00fcckzahlung sowie Verj\u00e4hrung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                495.7610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "6. Kapitel: Abgabe Allgemeine Luftfahrt ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                430.80609130859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 49 Gegenstand ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                405.7610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 50 Abgabepflichtige Personen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                145.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 51 Abgabeh\u00f6he, Entstehung und F\u00e4lligkeit ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                495.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 52 Verfahren ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                399.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "7. Kapitel: Klimafonds und Verteilung des Ertrags aus der CO2-Abgabe, aus der Flugticketabgabe und aus der Abgabe Allgemeine Luftfahrt ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                292.6161193847656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 53 Klimafonds ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                247.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 54 Rechnung des Fonds, Entnahmen und Finanzplanung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                355.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 55 Verminderung der CO2-Emissionen von Geb\u00e4uden ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                273.7610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 56 F\u00f6rderung von Technologien zur Verminderung von Treibhausgasen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                163.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 57 Weitere Massnahmen zur Verminderung von Treibhausgasemissionen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                529.7509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 58 Massnahmen zur Vermeidung von Sch\u00e4den ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                281.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 59 Evaluation ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                165.76100158691406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 60 Verteilung an Bev\u00f6lkerung und Wirtschaft ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                117.7509994506836,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 61 Berechnung des Ertrags aus der CO2-Abgabe, aus der Flugticketabgabe und aus der Abgabe Allgemeine Luftfahrt ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                345.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "8. Kapitel: Vollzug und F\u00f6rderung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                270.5960998535156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 62 Vollzug ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                245.55101013183594,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 63 Ausf\u00fchrungsbestimmungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                471.7710266113281,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 64 Auskunftspflicht ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                389.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 65 \u00dcberpr\u00fcfung der Zielerreichung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                199.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 66 \u00dcberpr\u00fcfung der klimabedingten finanziellen Risiken ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                151.74099731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 67 Evaluation ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.5609741210938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 68 Information und Bildung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                415.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "9. Kapitel: Amtshilfe und Datenschutz ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                306.5960998535156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 69 Amtshilfe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                281.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 70 Bearbeitung von Personendaten ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                101.5510025024414,
+                0.0
+            ]
+        },
+        {
+            "title": "10. Kapitel: Strafbestimmungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                474.7861022949219,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 72 Gef\u00e4hrdung der CO2-Abgabe, der Flugticketabgabe oder der Abgabe Allgemeine Luftfahrt ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                313.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 73 Falschangaben \u00fcber Fahrzeuge ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.5609741210938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 74 Verh\u00e4ltnis zum Bundesgesetz \u00fcber das Verwaltungsstrafrecht ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                457.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 75 \u00dcbrige Widerhandlungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                269.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "11. Kapitel: Schlussbestimmungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                162.59609985351562,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Abschnitt: Aufhebung und \u00c4nderung anderer Erlasse ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                148.61610412597656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 76 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                123.57099914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Abschnitt: \u00dcbergangsbestimmungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                530.796142578125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 77 \u00dcbertragung nicht verwendeter Emissionsrechte, Emissionsminderungszertifikate und Bescheinigungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                505.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 78 Erhebung und R\u00fcckerstattung der CO2-Abgabe und Verteilung des Ertrags ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                369.7610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 79 Verminderungsverpflichtung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                277.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 80 Erhebung der Flugticketabgabe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                185.74099731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 81 Aufhebung des Technologiefonds ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                127.7509994506836,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 82 Technische Massnahmen zur Verminderung der CO2-Emissionen bei Geb\u00e4uden ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                495.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 83 Festlegung der H\u00f6chstbeitr\u00e4ge ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                407.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 84 Nicht ausgesch\u00f6pfte Globalbeitr\u00e4ge ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                339.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Abschnitt: Koordination ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                254.60610961914062,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 85 CO2-Gesetz ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                229.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 17 Abs. 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                171.28089904785156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18 Abs. 3 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                133.27090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 30 Abs. 1 Bst. b und 3 dritter Satz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                529.4609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 86 Umweltschutzgesetz ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                433.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "7. Kapitel: Inverkehrbringen von Rohstoffen und Produkten ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                348.7861022949219,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Abschnitt: Biogene Treib- und Brennstoffe ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                324.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 41 Abs. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                299.45086669921875,
+                0.0
+            ]
+        },
+        {
+            "title": "7. Kapitel: Inverkehrbringen von Rohstoffen und Produkten ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                516.5961303710938,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Abschnitt: Erneuerbare Treib- und Brennstoffe ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                492.5960998535156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 41 Abs. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                467.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Abschnitt: Referendum und Inkrafttreten ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                312.5960998535156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 87 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                287.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Aufhebung und \u00c4nderung anderer Erlasse ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                499.1129150390625,
+                0.0
+            ]
+        },
+        {
+            "title": "I ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                470.6258850097656,
+                0.0
+            ]
+        },
+        {
+            "title": "II ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                425.6258850097656,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Mineral\u00f6lsteuergesetz vom 21. Juni 199632",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                377.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 48 Abs. 1bis, 2 und 2bis ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                352.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Bundesgesetz vom 7. Oktober 198334 \u00fcber den Umweltschutz ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                288.8660888671875,
+                0.0
+            ]
+        },
+        {
+            "title": "Ersatz eines Ausdrucks ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                263.5308837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7 Abs. 9 und 10 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                215.53089904785156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10c Abs. 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                133.51089477539062,
+                0.0
+            ]
+        },
+        {
+            "title": "7. Kapitel: Inverkehrbringen von erneuerbaren Treib- und Brennstoffen ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                516.7861328125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 35d ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                481.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 39 Sach\u00fcberschrift und Abs. 3 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                365.45086669921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 41 Abs. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                283.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 49 Abs. 3 erster Satz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                145.4709014892578,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 60 Abs. 1 Bst. s ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                87.47093963623047,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 61a Widerhandlungen gegen die Vorschriften \u00fcber die Lenkungsabgaben ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                485.4058837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 62 Abs. 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                315.2808837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Energiegesetz vom 30. September 201636",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                260.6061096191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 41 Abs. 3 und 3bis ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                235.27090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 53 Abs. 2 und 3 Bst. a ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                529.4609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesgesetz \u00fcber polizeiliche Massnahmen zur Bek\u00e4mpfung von Terrorismus (PMT)",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 38,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 18,
+            "page_index": 38,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 39,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Das neue Gesetz",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 39,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                348.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Terroristische Aktivit\u00e4t",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 39,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                130.25999450683594,
+                0.0
+            ]
+        },
+        {
+            "title": "Polizeiliche Massnahmen zur Bek\u00e4mpfung von Terrorismus",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 40,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                527.1724853515625,
+                0.0
+            ]
+        },
+        {
+            "title": "Massnahmen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 41,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.614990234375,
+                0.0
+            ]
+        },
+        {
+            "title": "Klare Regeln f\u00fcr die Anwendung",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 42,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.60498046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Wann k\u00f6nnen die Massnahmen angewendet werden? Ein Beispiel",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 42,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                358.260009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Vereinbarkeit mit Grundrechten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 42,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                204.60501098632812,
+                0.0
+            ]
+        },
+        {
+            "title": "Erg\u00e4nzung bestehender Instrumente",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 43,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.614990234375,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitees",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 9,
+            "page_index": 44,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Komitee \u00abNEIN zu Pr\u00e4ventivstrafen\u00bb",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 44,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                505.0425109863281,
+                0.0
+            ]
+        },
+        {
+            "title": "Wirkungsloses Gesetz",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 44,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                480.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Komitee \u00abf\u00fcr Rechtsstaatlichkeit und Verh\u00e4ltnism\u00e4ssigkeit\u00bb",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 45,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                529.04248046875,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr unsere Grundrechte",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 45,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                504.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung der Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 45,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                204.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 46,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Bev\u00f6lkerung besser sch\u00fctzen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 46,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                384.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Gezielte Massnahmen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 46,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                252.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Teil einer umfassenden Strategie",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 46,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                144.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Rechtsstaatliche Prinzipien gewahrt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 47,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Grundwerte wahren",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 47,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 47,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                312.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 529,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Bundesgesetz vom 21. M\u00e4rz 19972 \u00fcber Massnahmen zur Wahrung der inneren Sicherheit ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                354.8860778808594,
+                0.0
+            ]
+        },
+        {
+            "title": "Ingress ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                319.5308837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 Abs. 2 Bst. dbis ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                272.5508728027344,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 6 Abs. 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                210.5408935546875,
+                0.0
+            ]
+        },
+        {
+            "title": "4 a. Abschnitt: Aufgaben zum Schutz von Personen und Geb\u00e4uden ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                149.86610412597656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23d ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                124.53089904785156,
+                0.0
+            ]
+        },
+        {
+            "title": "Bisheriger Art. 24 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                110.5208969116211,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Abschnitt: Massnahmen zur Verhinderung terroristischer Aktivit\u00e4ten ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 17,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                516.7861328125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23e Begriffe ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                481.60601806640625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23f Grunds\u00e4tze ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                379.60601806640625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23g Dauer einer Massnahme ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                147.61599731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23h Datenbearbeitung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.416015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23i Antrag ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                253.41598510742188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23j Verf\u00fcgung von Massnahmen ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                171.42599487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23k Melde- und Gespr\u00e4chsteilnahmepflicht ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                495.61602783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23l Kontaktverbot ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                197.5959930419922,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23m Ein- und Ausgrenzung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                139.5959930419922,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23n Ausreiseverbot ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.416015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23o Eingrenzung auf eine Liegenschaft: Grunds\u00e4tze ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                175.41598510742188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23p Eingrenzung auf eine Liegenschaft: Verfahren ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                315.61602783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23q Elektronische \u00dcberwachung und Mobilfunklokalisierung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                495.416015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23r Vollzug der Massnahmen ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                111.42599487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                471.47088623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24a Abs. 7 erster Satz und 9 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                433.45086669921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24c Abs. 1 Bst. a, 5 zweiter Satz und 6 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                311.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "5 b. Abschnitt: Gemeinsame Bestimmungen zum 5. und 5a. Abschnitt ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                178.8061065673828,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24f Altersgrenze ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                153.61599731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24g Rechtsschutz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.416015625,
+                0.0
+            ]
+        },
+        {
+            "title": "6 a. Abschnitt: Strafbestimmungen ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                352.6161193847656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 29a Verst\u00f6sse gegen Massnahmen nach den Artikeln 23k\u201323q ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                327.4259948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 29b Strafverfolgung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                241.41598510742188,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Ausl\u00e4nder- und Integrationsgesetz vom 16. Dezember 200513",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 10,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                200.60610961914062,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 31 Abs. 3 erster Satz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                175.27090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 75 Abs. 1 Einleitungssatz sowie Bst. a und i ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                529.4609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 76 Abs. 1 Einleitungssatz sowie Bst. b Ziff. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                343.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 76a Abs. 2 Bst. j ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                239.45089721679688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 81 Abs. 5 und 6 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                168.20559692382812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 83 Abs. 1, 5 zweiter Satz, 7 Einleitungssatz und Bst. c sowie 9 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                427.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 84 Abs. 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                253.27090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 86 Abs. 1bis Bst. b und d ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                205.27090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 87 Abs. 1 Bst. d ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                529.4609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 98c Zusammenarbeit und Koordination mit fedpol ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                438.6250915527344,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Asylgesetz vom 26. Juni 199825",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                372.7861022949219,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5a Zusammenarbeit und Koordination mit fedpol  ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                347.59588623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 6a Abs. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                275.45086669921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 37 Abs. 6 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                227.45089721679688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 61 Abs. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                139.4608917236328,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 79 Bst. d ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                475.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 88 Abs. 3 erster Satz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                403.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 109 Abs. 7 zweiter Satz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                315.2808837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Bundesgesetz vom 20. Juni 200341 \u00fcber das Informationssystem f\u00fcr den Ausl\u00e4nder- und den Asylbereich ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                264.5960998535156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Abs. 1 Bst. c, l und p sowie 2 Bst. c Einleitungssatz und Ziff. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                229.27090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Ausweisgesetz vom 22. Juni 200148",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                530.6060791015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 12 Abs. 2 Bst. g ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                505.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "6. Strafgesetzbuch49",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                450.5960998535156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 78 Bst. d ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                425.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 90 Abs. 1 Bst. d ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                343.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 365 Abs. 2 Bst. v ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                241.27090454101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 367 Abs. 2 Bst. n und 4 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                159.28089904785156,
+                0.0
+            ]
+        },
+        {
+            "title": "7. Bundesgesetz vom 23. Dezember 201152 \u00fcber den ausserprozessualen Zeugenschutz ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                502.80609130859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 34 Abs. 2 und 3 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                467.45086669921875,
+                0.0
+            ]
+        },
+        {
+            "title": "8. Bundesgesetz vom 7. Oktober 199453 \u00fcber die kriminalpolizeilichen Zentralstellen des Bundes und gemeinsame Zentren f\u00fcr Polizei- und Zollzusammenarbeit mit anderen Staaten ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 8,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                422.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 Zusammenarbeit zwischen schweizerischen Polizeibeh\u00f6rden ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                377.59588623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1a V\u00f6lkerrechtliche Vertr\u00e4ge \u00fcber die Zusammenarbeit mit ausl\u00e4ndischen Polizeibeh\u00f6rden ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                461.4058837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                369.2808837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2a Aufgaben ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                331.4058837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3a Verdeckte Fahndung im Internet und in elektronischen Medien ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                139.39599609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3b Ausschreibung von Personen und Sachen zur verdeckten Registrierung oder gezielten Kontrolle ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                145.6060028076172,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Abs. 1bis erster Satz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                321.2808837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7 Abs. 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                263.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "9. Bundesgesetz vom 13. Juni 200859 \u00fcber die polizeilichen Informationssysteme des Bundes ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 9,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                212.60610961914062,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10 Abs. 4 Einleitungssatz sowie Bst. e ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                177.28089904785156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11 Abs. 5 Bst. e ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                529.4609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 12 Abs. 6 Bst. d ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                457.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 15 Abs. 1 Bst. gbis, h und j sowie 4 Einleitungssatz und Bst. k ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                385.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16 Abs. 2 Buchstabe gbis ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                157.4608917236328,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 17 Abs. 4 Bst. m ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                475.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 17a Datenindex Terrorismus ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                403.416015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 17b Datenweitergabe ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                171.42599487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18 Gesch\u00e4fts- und Aktenverwaltungssysteme von fedpol ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                413.59588623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "10. Zwangsanwendungsgesetz vom 20. M\u00e4rz 200878",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                502.6161193847656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 6 Bst. abis und c ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                477.2808837890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 19a Wegweisung und Fernhaltung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                411.4259948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 20a Durchsuchung von R\u00e4umen, Gegenst\u00e4nden und Fahrzeugen ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                363.416015625,
+                0.0
+            ]
+        },
+        {
+            "title": "11. Luftfahrtgesetz vom 21. Dezember 194879",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                284.6061096191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 108b ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.6199951171875,
+                259.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "IVb. Zuverl\u00e4ssigkeits\u00fcberpr\u00fcfung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                244.6475067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Grunds\u00e4tze ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                232.23599243164062,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 108c ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.2699966430664,
+                471.47088623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Datenbearbeitung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                456.84747314453125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 108d ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.2699966430664,
+                253.4608917236328,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Empfehlung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                238.83750915527344,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 108e ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.2699966430664,
+                185.45089721679688,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Wiederholung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                170.8275146484375,
+                0.0
+            ]
+        },
+        {
+            "title": "12. Strafregistergesetz vom 17. Juni 201680",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                134.7960968017578,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 46 Bst. d Ziff. 3 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                109.46089935302734,
+                0.0
+            ]
+        },
+        {
+            "title": "13. Bundesgesetz vom 18. M\u00e4rz 201682 betreffend die \u00dcberwachung des Post- und Fernmeldeverkehrs ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                478.6161193847656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 Abs. 1 Bst. f ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                443.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10 Abs. 2ter ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                361.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11 Abs. 4ter und 5 erster Satz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                293.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Koordination mit anderen Erlassen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                499.1129150390625,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Koordination mit dem Strafregistergesetz vom 17. Juni 2016 (StReG) ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                475.80609130859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 365 Abs. 2 Bst. v und 367 Abs. 2 Bst. n und 4 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                416.45086669921875,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Koordination mit dem Bundesgesetz vom 25. September 2020 \u00fcber den Datenschutz (DSG) ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                371.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18 Abs. 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                298.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 108c Abs. 3 und 4 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                198.4709014892578,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Koordination mit dem E-ID-Gesetz vom 27. September 2019 ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                525.5961303710938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Abs. 1 Bst. c und 2 Bst. c Einleitungssatz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                436.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Koordination mit dem Vorl\u00e4uferstoffgesetz vom 25. September 2020 ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                60.4900016784668,
+                529.8760986328125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Abs. 1 Bst. c und 2 Bst. c Ziff. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                60.4900016784668,
+                440.5508728027344,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Koordination mit E-ID-Gesetz vom 27. September 2019 und dem Vorl\u00e4uferstoffgesetz vom 25. September 2020 ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                448.6161193847656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Abs. 1 Bst. c und 2 Bst. c Ziff. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                349.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesrat und Parlament empfehlen, am 13. Juni 2021 wie folgt zu stimmen:",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                543.3800048828125,
+                0.0
+            ]
+        }
+    ],
+    "pages": 48,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 40,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

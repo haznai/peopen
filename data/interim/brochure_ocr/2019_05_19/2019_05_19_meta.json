@@ -1,0 +1,2082 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 19. Mai 2019",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                546.3375244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Erste Vorlage: Steuerreform und AHV-Finanzierung - Bundesgesetz u\u0308ber die Steuerreform und die AHV-Finanzierung (STAF) ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88650512695312,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.341798782348633,
+                408.6393127441406,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.341798782348633,
+                300.6393127441406,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343631744384766,
+                527.8641357421875,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343631744384766,
+                408.5692138671875,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung der Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343631744384766,
+                264.57830810546875,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343631744384766,
+                108.5813980102539,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343631744384766,
+                60.58445358276367,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage: Waffenrichtlinie - Umsetzung einer \u00c4nderung der EU-Waffenrichtlinie (Weiterentwicklung von Schengen)",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88650512695312,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.341699600219727,
+                408.6393127441406,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.341699600219727,
+                252.64230346679688,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34307098388672,
+                528.5751953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34307098388672,
+                408.5782165527344,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34307098388672,
+                264.5872802734375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34307098388672,
+                108.59039306640625,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34307098388672,
+                60.593467712402344,
+                0.0
+            ]
+        },
+        {
+            "title": "Erste Vorlage: Steuerreform und AHV-Finanzierung - Bundesgesetz u\u0308ber die Steuerreform und die AHV-Finanzierung (STAF) ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 10,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Dringend notwendige Reformen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                528.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Aus abgelehnten Vorlagen gelernt ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Reform AHV 21",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.5591049194336,
+                237.97950744628906,
+                0.0
+            ]
+        },
+        {
+            "title": "Innovation wird gef\u00f6rdert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                408.656494140625,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00f6deralistischer Ausgleich",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                252.65951538085938,
+                0.0
+            ]
+        },
+        {
+            "title": "Dividenden werden h\u00f6her besteuert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                27.83690071105957,
+                108.65950775146484,
+                0.0
+            ]
+        },
+        {
+            "title": "Steuerprivilegien werden aufgehoben",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                528.6624755859375,
+                0.0
+            ]
+        },
+        {
+            "title": "AHV in finanziellen N\u00f6ten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34670066833496,
+                528.5721435546875,
+                0.0
+            ]
+        },
+        {
+            "title": "2 Milliarden Franken mehr f\u00fcr die AHV ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34670066833496,
+                432.5782165527344,
+                0.0
+            ]
+        },
+        {
+            "title": "Mindereinnahmen f\u00fcr die \u00f6ffentliche Hand",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34670066833496,
+                336.5841979980469,
+                0.0
+            ]
+        },
+        {
+            "title": "Was passiert bei einem Nein?",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34654998779297,
+                420.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Massnahmen der Steuerreform und der AHV-Finanzierung im \u00dcberblick6",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                527.1699829101562,
+                0.0
+            ]
+        },
+        {
+            "title": "Steuerliche Massnahmen bei Unternehmen",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                34.01580047607422,
+                502.4268798828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Steuerliche Massnahmen bei Aktion\u00e4rinnen und Aktion\u00e4ren",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                34.01580047607422,
+                530.4269409179688,
+                0.0
+            ]
+        },
+        {
+            "title": "Finanzpolitische Massnahmen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                34.01580047607422,
+                298.64691162109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Finanzierung der AHV",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                34.01570129394531,
+                530.4269409179688,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitees",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Komitee \u00abUSR III, STAF: Nein bleibt NEIN!\u00bb",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                504.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Nein zum erneuten Steuerbschiss",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                480.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00abB\u00fcrgerliches Komitee NEIN zum AHV-Steuer-Deal\u00bb und \u00abGenerationenkomitee\u00bb",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.8938980102539,
+                408.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr eine sichere Altersvorsorge",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34657096862793,
+                372.57232666015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung der Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34657096862793,
+                240.57839965820312,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 8,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Notwendige Reformen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Der Kritik Rechnung getragen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                324.5754089355469,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr ein faireres Steuersystem",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                216.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr eine innovative Schweiz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                528.5724487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Ein wichtiger Schritt f\u00fcr sichere Renten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                468.5783996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Nichtstun w\u00e4re sch\u00e4dlich",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                420.5813903808594,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr die Schweizer Bev\u00f6lkerung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                348.5813903808594,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                288.5873718261719,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesgesetz \u00fcber die Steuerreform und die AHV-Finanzierung (STAF) vom 28. September 2018",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Bundesgesetz vom 3. Oktober 20032 \u00fcber den Finanz- und Lastenausgleich ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                343.43548583984375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3 Abs. 3 zweiter und dritter Satz ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                308.372802734375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23a \u00dcbergangsbestimmungen zur \u00c4nderung vom 28. September 2018 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.4625015258789,
+                210.36279296875,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Bundesgesetz vom 14. Dezember 19906 \u00fcber die direkte Bundessteuer ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 9,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                400.42718505859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Ingress ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                375.38446044921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18b Abs. 1 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52509307861328,
+                338.3644714355469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 20 Abs. 1bis und 3\u20137 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                240.38760375976562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 20a Abs. 1 Bst. b ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                241.38050842285156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 58 Abs. 1 Bst. c zweiter Satz ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.47439575195312,
+                99.39649963378906,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 61a Aufdeckung stiller Reserven bei Beginn der Steuerpflicht ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52839660644531,
+                529.37451171875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 61b Besteuerung stiller Reserven am Ende der Steuerpflicht ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                339.3814697265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 125 Abs. 3 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                227.3675994873047,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 196 Abs. 1 und 1bis ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                129.38751220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Bundesgesetz vom 14. Dezember 199011 \u00fcber die Harmonisierung der direkten Steuern der Kantone und Gemeinden ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 20,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46044921875,
+                468.43719482421875,
+                0.0
+            ]
+        },
+        {
+            "title": "Titel ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                433.3744812011719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7 Abs. 1 dritter und vierter Satz ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                361.3834533691406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7a Abs. 1 Bst. b ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                263.3704833984375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7b Kapitaleinlagenprinzip",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.4563980102539,
+                131.3765106201172,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 8 Abs. 2quinquies ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                177.38751220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 8a Einkommen aus Patenten und vergleichbaren Rechten bei selbstst\u00e4ndiger Erwerbst\u00e4tigkeit ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                529.37451171875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10a Abzug von Forschungs- und Entwicklungsaufwand bei selbstst\u00e4ndiger Erwerbst\u00e4tigkeit ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                471.387451171875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 14 Abs. 3 zweiter Satz ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                413.3644714355469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24 Abs. 3bis erster Satz und 3quater zweiter Satz ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                365.3644714355469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24a Patente und vergleichbare Rechte: Begriffe ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.45940399169922,
+                283.3744812011719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24b Patente und vergleichbare Rechte: Besteuerung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5220947265625,
+                457.37738037109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24c Aufdeckung stiller Reserven bei Beginn der Steuerpflicht ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5220947265625,
+                137.37351989746094,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24d Besteuerung stiller Reserven am Ende der Steuerpflicht ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                393.3814697265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 25a Zus\u00e4tzlicher Abzug von Forschungs- und Entwicklungsaufwand ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                281.3675842285156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 25abis Abzug auf Eigenfinanzierung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52839660644531,
+                529.37451171875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 25b Entlastungsbegrenzung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                85.37450408935547,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 28 Abs. 2\u20135 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                457.3744812011719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 29 Abs. 2 Bst. b und 3 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                419.3674621582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 72z19 Anpassung der kantonalen Gesetzgebung an die \u00c4nderung vom 28. September 2018 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                333.38446044921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 78g \u00dcbergangsbestimmungen zur \u00c4nderung vom 28. September 2018 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                177.38450622558594,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Bundesgesetz vom 22. Juni 195121 \u00fcber die Durchf\u00fchrung von zwischenstaatlichen Abkommen des Bundes zur Vermeidung der Doppelbesteuerung ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                434.44720458984375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 Abs. 1 Bst. g ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                389.3644714355469,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Bundesgesetz vom 20. Dezember 194622 \u00fcber die Alters- und Hinterlassenenversicherung ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5261459350586,
+                280.4272766113281,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 Abs. 4 und 5 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                245.364501953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Abs. 1 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                153.38450622558594,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 6 2. Beitr\u00e4ge der Arbeitnehmer nicht beitragspflichtiger Arbeitgeber ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                529.37451171875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 8 Beitr\u00e4ge von Einkommen aus selbstst\u00e4ndiger Erwerbst\u00e4tigkeit 1. Grundsatz ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                437.3674621582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10 Abs. 1 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                295.3774719238281,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 13 H\u00f6he des Arbeitgeberbeitrages ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                207.38751220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 103 Abs. 1bis\u20131quater ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                159.3905029296875,
+                0.0
+            ]
+        },
+        {
+            "title": "6. Bundesbeschluss vom 20. M\u00e4rz 199824 \u00fcber die Anhebung der Mehrwertsteuers\u00e4tze f\u00fcr die AHV/IV ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                416.44720458984375,
+                0.0
+            ]
+        },
+        {
+            "title": "Titel ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                381.38446044921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Ingress ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                333.387451171875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 Anhebung der Steuers\u00e4tze ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                296.3644714355469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 Abs. 1\u20133 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                206.364501953125,
+                0.0
+            ]
+        },
+        {
+            "title": "7. Verrechnungssteuergesetz vom 13. Oktober 196526",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                530.4471435546875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 4a Abs. 4 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                505.3744812011719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Abs. 1bis\u20131sexies ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                407.3704833984375,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage: Waffenrichtlinie - Umsetzung einer \u00c4nderung der EU-Waffenrichtlinie (Weiterentwicklung von Schengen)",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34654998779297,
+                528.5724487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Massnahmen gegen Waffenmissbrauch",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34654998779297,
+                312.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Neue Regelung f\u00fcr halbautomatische Waffen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                528.6444702148438,
+                0.0
+            ]
+        },
+        {
+            "title": "Administrative Neuerungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                420.6534729003906,
+                0.0
+            ]
+        },
+        {
+            "title": "Was nicht \u00e4ndert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                252.65951538085938,
+                0.0
+            ]
+        },
+        {
+            "title": "Schiesstradition unangetastet ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                528.6624755859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Was passiert bei einem Nein?",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                312.6625061035156,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Schweiz und Schengen/Dublin",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55900573730469,
+                453.9794921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.45940399169922,
+                199.44338989257812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.45940399169922,
+                161.43638610839844,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "unrecht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                396.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "freiheitsfeindlich",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                276.5754089355469,
+                0.0
+            ]
+        },
+        {
+            "title": "nutzlos",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                204.57540893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "gef\u00e4hrlich",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347949981689453,
+                528.5723266601562,
+                0.0
+            ]
+        },
+        {
+            "title": "antischweizerisch",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347949981689453,
+                444.5753173828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347949981689453,
+                312.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Bestehende L\u00fccken schliessen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                384.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Kein Diktat der EU",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.5783996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Niemand wird entwaffnet",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                192.57540893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Interesse der Schweiz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                528.5724487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Nein h\u00e4tte weitreichende Folgen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                456.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                288.5783996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Genehmigung und die Umsetzung des Notenaustauschs zwischen der Schweiz und der EU betreffend die \u00dcbernahme der Richtlinie (EU) 2017/853 zur \u00c4nderung der EU-Waffenrichtlinie (Weiterentwicklung des Schengen-Besitzstands)vom 28. September 2018",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                331.4433898925781,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderung eines anderen Erlasses ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                507.53839111328125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 4 Abs. 2bis und 2ter ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                459.2191162109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Verbote im Zusammenhang mit Waffen, Waffenbestandteilen und Waffenzubeh\u00f6r ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52509307861328,
+                369.21612548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11 Abs. 2 Bst. d ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.4563980102539,
+                261.38446044921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16 Sach\u00fcberschrift ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.4563980102539,
+                189.3815155029297,
+                0.0
+            ]
+        },
+        {
+            "title": "3 a. Kapitel: Erwerb und Besitz von Ladevorrichtungen mit hoher Kapazit\u00e4t ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.51811218261719,
+                516.4972534179688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16b Erwerb von Ladevorrichtungen mit hoher Kapazit\u00e4t ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                481.3744812011719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16c Besitzberechtigung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                419.3644714355469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18a Abs. 1 zweiter Satz ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                371.3674621582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 19 Nichtgewerbsm\u00e4ssiges Herstellen und Umbauen ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                333.387451171875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 21 Sach\u00fcberschrift, Abs. 1bis und 1ter ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                183.38450622558594,
+                0.0
+            ]
+        },
+        {
+            "title": "7. Kapitel: Ausnahmebewilligungen, Kontrolle, administrative Sanktionen und Geb\u00fchren ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                516.4373779296875,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Abschnitt: Ausnahmebewilligungen ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                482.4512939453125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 28b Nichtfeuerwaffen und Waffenzubeh\u00f6r ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                457.3744812011719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 28c Feuerwaffen sowie wesentliche oder besonders konstruierte Bestandteile ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.4563980102539,
+                267.37548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 28d Besondere Voraussetzungen f\u00fcr Sportsch\u00fctzen und -sch\u00fctzinnen ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                457.3744812011719,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Abschnitt: Kontrolle, administrative Sanktionen und Geb\u00fchren ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                160.48719787597656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 31 Abs. 1 Bst. f, 2\u20132ter und 3 Bst. c ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.5280990600586,
+                135.38450622558594,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 32a Abs. 1 Bst. c ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.45940399169922,
+                279.381591796875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 32b Abs. 2 Bst. b und 5 Bst. b ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.4563980102539,
+                187.37440490722656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 32c Abs. 3bis und 6 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52839660644531,
+                529.3746337890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 42b \u00dcbergangsbestimmung zur \u00c4nderung vom 28. September 2018 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.53109741210938,
+                417.38446044921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesrat und Parlament empfehlen, am 19. Mai 2019 wie folgt zu stimmen",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88990783691406,
+                543.37744140625,
+                0.0
+            ]
+        }
+    ],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 21,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

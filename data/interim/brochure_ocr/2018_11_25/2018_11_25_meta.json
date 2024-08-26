@@ -1,0 +1,1585 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 25. November 2018",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                546.3375244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Erste Vorlage ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                540.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr die W\u00fcrde der landwirtschaftlichen Nutztiere (Hornkuh-Initiative)\u00bb",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.89209747314453,
+                540.5694580078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abSchweizer Recht statt fremde Richter (Selbstbestimmungsinitiative)\u00bb",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Dritte Vorlage",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "\u00c4nderung des Bundesgesetzes u\u0308ber den Allgemeinen Teil des Sozialversicherungsrechts (ATSG) (Gesetzliche Grundlage fu\u0308r die \u00dcberwachung von Versicherten)",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Erste Vorlage: Hornkuh-Initiative \u2013 Volksinitiative \u00abFu\u0308r die Wu\u0308rde der landwirtschaftlichen Nutztiere (Hornkuh-Initiative)\u00bb ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88650512695312,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34309959411621,
+                529.2594604492188,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34309959411621,
+                408.5694885253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34309959411621,
+                264.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung imNationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34309959411621,
+                108.58150482177734,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34309959411621,
+                60.584503173828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage: Selbstbestimmungsinitiative \u2013 Volksinitiative \u00abSchweizer Recht statt fremde Richter (Selbstbestimmungsinitiative)\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347400665283203,
+                529.2625122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347400665283203,
+                408.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347400665283203,
+                252.5755157470703,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347400665283203,
+                108.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347400665283203,
+                60.57849884033203,
+                0.0
+            ]
+        },
+        {
+            "title": "Dritte Vorlage: \u00dcberwachung von Versicherten \u2013 \u00c4nderung des Bundesgesetzes u\u0308ber den Allgemeinen Teil des Sozialversicherungsrechts (ATSG) (Gesetzliche Grundlage fu\u0308r die \u00dcberwachung von Versicherten) ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                300.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343400955200195,
+                529.2594604492188,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343400955200195,
+                408.5694885253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343400955200195,
+                264.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343400955200195,
+                108.58150482177734,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343400955200195,
+                60.584503173828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Erste Vorlage: HornkuhInitiative Volksinitiative \u00abF\u00fcr die W\u00fcrde der landwirtschaftlichen Nutztiere (Hornkuh-Initiative)\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Bund f\u00f6rdert tierfreundliche Haltung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34910011291504,
+                444.5904846191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Weniger Tiere mit H\u00f6rnern",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34910011291504,
+                336.5994873046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Unterst\u00fctzung f\u00fcr Tiere mit H\u00f6rnern",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34910011291504,
+                240.6055145263672,
+                0.0
+            ]
+        },
+        {
+            "title": "Enthornte und nat\u00fcrlich hornlose Tiere",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.5591049194336,
+                530.5296630859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 104 Abs. 3 Bst. b ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                265.4969787597656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.44740295410156,
+                153.51300048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Kein Enthornungsverbot",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34779930114746,
+                300.58746337890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Kosten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34779930114746,
+                216.5904998779297,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Unvorstellbar bei Haustieren",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                372.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Kein Verbot \u2013 Freiwilligkeit",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                252.57540893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "Kurze Verfassungserg\u00e4nzung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                168.57839965820312,
+                0.0
+            ]
+        },
+        {
+            "title": "Umsetzung ist erarbeitet",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5755004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                324.58148193359375,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Tieren w\u00fcrde es nicht besser gehen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "H\u00f6rner erh\u00f6hen die Verletzungsgefahr",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                204.57839965820312,
+                0.0
+            ]
+        },
+        {
+            "title": "Kosten der Umsetzung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5755004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "Unternehmerische Eigenverantwortung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                420.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                300.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Volksinitiative \u00abF\u00fcr die W\u00fcrde der landwirtschaftlichen Nutztiere (Hornkuh-Initiative)\u00bb vom 15. Juni 2018",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46239471435547,
+                359.5140075683594,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage: Selbstbestimmungsinitiative \u2013 Volksinitiative \u00abSchweizer Recht statt fremde Richter (Selbstbestimmungsinitiative)\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Internationale Vernetzung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347000122070312,
+                528.5964965820312,
+                0.0
+            ]
+        },
+        {
+            "title": "Die eigenen Interessen wahren",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347000122070312,
+                456.59649658203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Schweiz entscheidet selber",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347000122070312,
+                348.59649658203125,
+                0.0
+            ]
+        },
+        {
+            "title": "L\u00f6sung bei Konflikten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347000122070312,
+                252.60250854492188,
+                0.0
+            ]
+        },
+        {
+            "title": "Was will die Initiative?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                528.5724487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Folgen der Initiative",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                300.5754089355469,
+                0.0
+            ]
+        },
+        {
+            "title": "Internationale Vertr\u00e4ge (V\u00f6lkerrecht): Bedeutung im Alltag, demokratische Mitwirkung",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.5591049194336,
+                457.6700134277344,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Abs. 1 und 4 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                264.98907470703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 56a V\u00f6lkerrechtliche Verpflichtungen ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                182.9781036376953,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 190 Massgebendes Recht ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                63.1110954284668,
+                529.1265869140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 197 Ziff. 124",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                63.1110954284668,
+                471.1396179199219,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                63.11079788208008,
+                367.15948486328125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "B\u00fcrgerinnen und B\u00fcrger bestimmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                372.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksentscheide m\u00fcssen gelten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                312.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Selbstbestimmung gef\u00e4hrdet",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                240.57850646972656,
+                0.0
+            ]
+        },
+        {
+            "title": "Direkte Demokratie sch\u00fctzen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5694580078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                324.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Schweiz bestimmt selber",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                444.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Verl\u00e4sslichkeit gef\u00e4hrdet",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                384.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Heute gute L\u00f6sungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.58447265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Starrer Mechanismus birgt Risiken",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                204.58750915527344,
+                0.0
+            ]
+        },
+        {
+            "title": "Abh\u00e4ngigkeit von anderen Staaten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Erfolgsmodell nicht gef\u00e4hrden",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                408.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                360.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.96019744873047,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Volksinitiative \u00abSchweizer Recht statt fremde Richter (Selbstbestimmungsinitiative)\u00bb vom 15. Juni 2018",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.96019744873047,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                359.006103515625,
+                0.0
+            ]
+        },
+        {
+            "title": "Dritte Vorlage: \u00dcberwachung von Versicherten \u2013 \u00c4nderung des Bundesgesetzes u\u0308ber den Allgemeinen Teil des Sozialversicherungsrechts (ATSG) (Gesetzliche Grundlage fu\u0308r die \u00dcberwachung von Versicherten) ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88639831542969,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 10,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474365234375,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34709930419922,
+                396.5934753417969,
+                0.0
+            ]
+        },
+        {
+            "title": "Wann darf observiert werden?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34709930419922,
+                264.5904846191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Wie darf observiert werden?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34709930419922,
+                192.5904998779297,
+                0.0
+            ]
+        },
+        {
+            "title": "Wo darf observiert werden?",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                528.5724487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Observationen: Vergleich der erlaubten Mittel",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                346.939208984375,
+                0.0
+            ]
+        },
+        {
+            "title": "Wie lange d\u00fcrfen Observationen dauern?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                528.5724487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Wer darf Observationen anordnen?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                468.5783996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Welche Rechte haben Observierte?",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.5843811035156,
+                0.0
+            ]
+        },
+        {
+            "title": "Observationen: F\u00fcr wen gilt die Regelung?",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55900573730469,
+                253.97950744628906,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 43b Observation: Genehmigung des Einsatzes von technischen Instrumenten zur Standortbestimmung ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                62.39609909057617,
+                209.37631225585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 79 Abs. 3 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.4563980102539,
+                317.1813049316406,
+                0.0
+            ]
+        },
+        {
+            "title": "Observationen sind selten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346641540527344,
+                528.5722045898438,
+                0.0
+            ]
+        },
+        {
+            "title": "Derzeit keine Observationen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346641540527344,
+                396.5782165527344,
+                0.0
+            ]
+        },
+        {
+            "title": "Was passiert bei einem Nein?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346641540527344,
+                300.58428955078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Alle sind betroffen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                360.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Missbrauch heute schon strafbar",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                252.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Mehr als die Polizei darf",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5755004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "Rechtsstaatliche Regeln sind n\u00f6tig",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                408.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                324.58148193359375,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "In Einzelf\u00e4llen n\u00f6tig",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                372.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Enge Grenzen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                264.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Rechte der Betroffenen gesch\u00fctzt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                108.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgewogene Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5755004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                444.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.96019744873047,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 43a Observation",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.46539306640625,
+                320.0559997558594,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesrat und Parlament empfehlen, am 25. November 2018 wie folgt zu stimmen",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                543.3775024414062,
+                0.0
+            ]
+        }
+    ],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 27,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -1,0 +1,1468 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 23. September 2018 ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                546.3375244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Erste Vorlage ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                540.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Velowege sowie die Fuss- und Wanderwege (direkter Gegen entwurf zur zur\u00fcckgezogenen Volksinitiative \u00abZur F\u00f6rderung der Velo-, Fuss- und Wanderwege [Velo-Initiative]\u00bb) ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.89209747314453,
+                540.5694580078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abFu\u0308r gesunde sowie umwelt freundlich und fair hergestellte Lebensmittel (Fair-Food-Initiative)\u00bb",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Dritte Vorlage",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abFu\u0308r Ern\u00e4hrungssouver\u00e4nit\u00e4t. Die Landwirtschaft betrifft uns alle\u00bb",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Erste Vorlage: Gegenentwurf zur Velo-Initiative \u2013 Bundesbeschluss u\u0308ber die Velowege sowie die Fuss- und Wanderwege ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88650512695312,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                312.5694885253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                529.2594604492188,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                408.5694885253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Standpunkt der Minderheit im Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                264.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                108.58150482177734,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                60.584503173828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage: Fair Food Initiative - Volksinitiative \u00abFu\u0308r gesunde sowie umweltfreundlich und fair hergestellte Lebensmittel (Fair-Food-Initiative)\u00bb ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34280014038086,
+                529.2594604492188,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34280014038086,
+                408.5694885253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34280014038086,
+                264.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34280014038086,
+                108.58150482177734,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34280014038086,
+                60.584503173828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Dritte Vorlage: Volksinitiative \u00abErn\u00e4hrungssouver\u00e4nit\u00e4t\u00bb \u2013 Volksinitiative \u00abFu\u0308r Ern\u00e4hrungssouver\u00e4nit\u00e4t. Die Landwirtschaft betrifft uns alle\u00bb ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                408.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34320068359375,
+                529.2594604492188,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34320068359375,
+                408.5694885253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34320068359375,
+                264.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34320068359375,
+                108.58150482177734,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34320068359375,
+                60.584503173828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Erste Vorlage: Gegenentwurf zur Velo-Initiative \u2013 Bundesbeschluss u\u0308ber die Velowege sowie die Fuss- und Wanderwege ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Wachsende Bedeutung des Veloverkehrs",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.345699310302734,
+                408.5904846191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Velowege wie Fuss- und Wanderwege ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.345699310302734,
+                300.5994873046875,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderungen in der Verfassung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.6221923828125,
+                527.2850341796875,
+                0.0
+            ]
+        },
+        {
+            "title": "Bund wird nur subsidi\u00e4r t\u00e4tig ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                204.59950256347656,
+                0.0
+            ]
+        },
+        {
+            "title": "Verkehrssicherheit",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                528.5994873046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Verkehrssicherheit ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.469030380249023,
+                394.8385925292969,
+                0.0
+            ]
+        },
+        {
+            "title": "Finanzielle Auswirkungen ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                528.5722045898438,
+                0.0
+            ]
+        },
+        {
+            "title": "Rolle des Bundes bei den Fuss- und Wanderwegen ",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55900573730469,
+                441.9794921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 104b4Lebensmittel ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.44740295410156,
+                244.5299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 197 Ziff. 125 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                63.10470199584961,
+                348.0098876953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                63.09270095825195,
+                276.0129089355469,
+                0.0
+            ]
+        },
+        {
+            "title": "Debatte Parlament ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Nein zur Initiative, Ja zum Gegen-entwurf ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                384.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00f6deralistische und finanzielle Bedenken ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.5783996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Beschr\u00e4nkung auf das Wesentliche ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                528.5755004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "R\u00fcckzug nach Debatte ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                420.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                360.58148193359375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.3435001373291,
+                312.58447265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Velowege helfen, Mobilit\u00e4t zu bew\u00e4ltigen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                396.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Unf\u00e4lle vermeiden",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.5813903808594,
+                0.0
+            ]
+        },
+        {
+            "title": "Technische und gesellschaftliche Entwicklung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                204.5843963623047,
+                0.0
+            ]
+        },
+        {
+            "title": "Weder L\u00e4rm noch Abgase ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5755004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "Tourismus f\u00f6rdert Velofahren ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                456.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr sichere und attraktive Velowege ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                384.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                300.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Velowege sowie die Fuss- und Wanderwege (direkter Gegenentwurf zur Volksinitiative \u00abZur F\u00f6rderung der Velo-, Fuss- und Wanderwege [Velo-Initiative]\u00bb) vom 13. M\u00e4rz 2018 ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 88Fuss-, Wander-und Velowege ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.44439697265625,
+                320.8880615234375,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage: Fair-Food-Initiative \u2013 Volksinitiative \u00abFu\u0308r gesunde sowie umweltfreundlich und fair hergestellte Lebensmittel (Fair-Food-Initiative)\u00bb ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                528.5722045898438,
+                0.0
+            ]
+        },
+        {
+            "title": "Ziel der Initiative",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                408.5752258300781,
+                0.0
+            ]
+        },
+        {
+            "title": "Verschiedene Massnahmen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                312.5722351074219,
+                0.0
+            ]
+        },
+        {
+            "title": "Schweizer Vorgaben f\u00fcr Importe ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                180.57830810546875,
+                0.0
+            ]
+        },
+        {
+            "title": "Kontrolle der Schweizer Vorgaben ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                432.57232666015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Verh\u00e4ltnis zu internationalen Abkommen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                348.5753173828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Initiativkomitee ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Ja zu gesunden und nachhaltig produzierten Lebensmitteln. ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Mehr gute Lebensmittel im Angebot ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                372.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Fairer Handel statt Freihandel ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Artgerechte Tierhaltung ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5694580078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Gute Lebensmittel zu fairen Preisen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                432.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Nicht mehr, sondern bessere Regeln ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                324.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                264.58148193359375,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346681594848633,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Bereits heute hohe Anforderungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346681594848633,
+                384.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Konflikt mit internationalen Abkommen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346681594848633,
+                216.57839965820312,
+                0.0
+            ]
+        },
+        {
+            "title": "Kontrolle im Ausland schwierig ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5694580078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Verfassung gen\u00fcgt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                420.5694885253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                360.5664978027344,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.96019744873047,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Volksinitiative \u00abF\u00fcr gesunde sowie umweltfreundlich und fair hergestellte Lebensmittel (Fair-Food-Initiative)\u00bb vom 16. M\u00e4rz 2018 ",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.96019744873047,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.45940399169922,
+                338.5469055175781,
+                0.0
+            ]
+        },
+        {
+            "title": "Dritte Vorlage: Volksinitiative \u00abErn\u00e4hrungssouver\u00e4nit\u00e4t\u00bb \u2013 Volksinitiative \u00abFu\u0308r Ern\u00e4hrungssouver\u00e4nit\u00e4t. Die Landwirtschaft betrifft uns alle\u00bb ",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474365234375,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                528.5722045898438,
+                0.0
+            ]
+        },
+        {
+            "title": "Erh\u00f6hung der Anzahl Besch\u00e4ftigter ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                360.5692138671875,
+                0.0
+            ]
+        },
+        {
+            "title": "Landesweit gleiche Arbeits bedingungen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                240.5723114013672,
+                0.0
+            ]
+        },
+        {
+            "title": "Schweizer Normen auch f\u00fcr Import produkte ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343799591064453,
+                528.5755004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "Gerechte Preise",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343799591064453,
+                444.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Generelles Gentech-Verbot ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343799591064453,
+                336.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Initiativkomitee ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Vielf\u00e4ltige Produktions grundlagen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                372.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgewogener und eintr\u00e4glicher Markt ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Gerechter Welthandel ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                360.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                276.58148193359375,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                536.9871826171875,
+                0.0
+            ]
+        },
+        {
+            "title": "R\u00fcckschritt statt Fortschritt ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                396.5721130371094,
+                0.0
+            ]
+        },
+        {
+            "title": "H\u00f6here Kosten f\u00fcr alle ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                276.5751037597656,
+                0.0
+            ]
+        },
+        {
+            "title": "Handels- beschr\u00e4nkungen f\u00fcr Landwirtschaft ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346590042114258,
+                192.5782012939453,
+                0.0
+            ]
+        },
+        {
+            "title": "Nachteile f\u00fcr ganze Wirtschaft ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                528.5694580078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bereits erf\u00fcllte Anliegen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                456.5694885253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Teure Konsequenzen ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                360.57550048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347900390625,
+                276.5784912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesrat und Parlament empfehlen, am 23. September 2018 wie folgt zu stimmen: ",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                543.3775024414062,
+                0.0
+            ]
+        }
+    ],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 26,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

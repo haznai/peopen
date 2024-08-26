@@ -1,0 +1,2381 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 7. M\u00e4rz 2021",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                546.3399658203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative \u00abJa zum Verh\u00fcllungsverbot\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 8,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347000122070312,
+                533.2479858398438,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346799850463867,
+                408.62347412109375,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346799850463867,
+                312.62249755859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Indirekter Gegenvorschlag",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346799850463867,
+                168.6225128173828,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesgesetz \u00fcber elektronische Identifizierungsdienste (E-ID-Gesetz)",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                288.64501953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                276.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Wirtschaftspartnerschaftsabkommen mit Indonesien",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349700927734375,
+                533.2464599609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349700927734375,
+                408.60150146484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349700927734375,
+                264.60150146484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                264.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                108.5949935913086,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                60.595001220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Volksinitiative \u00abJa zum Verh\u00fcllungsverbot\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 12,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Heute sind Kantone zust\u00e4ndig",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.5950317382812,
+                0.0
+            ]
+        },
+        {
+            "title": "Verh\u00fcllungsverbot in Kantonen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                371.1625061035156,
+                0.0
+            ]
+        },
+        {
+            "title": "Verh\u00fcllung kann Folgen haben",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.625,
+                0.0
+            ]
+        },
+        {
+            "title": "Initiative verlangt schweizweites Verbot",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                432.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausnahmen",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                336.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Indirekter Gegenvorschlag",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                530.260009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Freie Menschen zeigen Gesicht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Gebot der Gleichberechtigung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                276.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr Sicherheit und Ordnung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                168.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Kein Konflikt mit Religions- und Meinungsfreiheit",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Covid-19 tangiert die Initiative nicht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                432.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                336.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Vollverschleierung ist ein Randph\u00e4nomen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                360.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Kantonale Zust\u00e4ndigkeit wahren",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Verbot ist kontraproduktiv",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                132.5850067138672,
+                0.0
+            ]
+        },
+        {
+            "title": "Verh\u00fcllung kann schon heute Konsequenzen haben",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Gegenvorschlag l\u00f6st Probleme gezielt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                420.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                324.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.45999908447266,
+                357.7110290527344,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10a Verbot der Verh\u00fcllung des eigenen Gesichts ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.47000122070312,
+                273.5658874511719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 197 Ziff. 124",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.47000122070312,
+                157.43089294433594,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.52999877929688,
+                538.3109741210938,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesgesetz \u00fcber elektronische Identifizierungsdienste (E-ID-Gesetz)",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 10,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.6050109863281,
+                0.0
+            ]
+        },
+        {
+            "title": "Gesetzlich geregelt und vom Bund anerkannt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                312.6050109863281,
+                0.0
+            ]
+        },
+        {
+            "title": "Was bringt die E-ID?",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.625,
+                0.0
+            ]
+        },
+        {
+            "title": "Eindeutige Identifizierung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                408.625,
+                0.0
+            ]
+        },
+        {
+            "title": "Bund ist f\u00fcr E-ID verantwortlich",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                348.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Technische Umsetzung",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                240.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Wie funktioniert die E-ID?",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                527.2125244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "E-ID-Anbieterin",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                250.87001037597656,
+                323.3174743652344,
+                0.0
+            ]
+        },
+        {
+            "title": "Bund",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                200.9399871826172,
+                387.8974609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Online-Dienst",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                187.72999572753906,
+                246.63751220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Nutzerin / Nutzer",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                128.39999389648438,
+                323.3174743652344,
+                0.0
+            ]
+        },
+        {
+            "title": "E-ID ist freiwillig",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                156.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Datenschutz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.6649780273438,
+                0.0
+            ]
+        },
+        {
+            "title": "Aufgabenteilung Staat \u2013 Private",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                372.6650085449219,
+                0.0
+            ]
+        },
+        {
+            "title": "Unabh\u00e4ngige Anerkennung und Kontrolle",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                204.67501831054688,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Digitaler Schweizer Pass",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bund wird zum Datenlieferanten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Ungen\u00fcgender Datenschutz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                216.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Vertrauen der Bev\u00f6lkerung fehlt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                144.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Seniorenverb\u00e4nde sagen Nein",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Acht Kantone lehnen das Gesetz ab",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                456.56500244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                360.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Einfach und sicher",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                372.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Handlungsbedarf",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                228.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Sinnvolle Aufgabenteilung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                156.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Datenschutz wird gest\u00e4rkt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5750122070312,
+                0.0
+            ]
+        },
+        {
+            "title": "Schl\u00fcssel zur weiteren Digitalisierung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                336.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 256,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Abschnitt: Allgemeine Bestimmungen ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                367.006103515625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 Gegenstand und Zweck ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                341.96099853515625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 Begriffe ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                83.96097564697266,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Abschnitt: Ausstellung, Arten und Inhalt sowie Sperrung und Widerruf von E-ID ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 9,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                470.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 3 Pers\u00f6nliche Voraussetzungen ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                443.7710266113281,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 4 Sicherheitsniveaus ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                239.74099731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 5 Personenidentifizierungsdaten ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                437.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 6 Ausstellungsprozess ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                199.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 7 Aktualisierung der Personenidentifizierungsdaten ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                419.73101806640625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 8 Systematische Verwendung der Versichertennummer zum Datenaustausch ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                319.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Datenbearbeitung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                197.74099731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 10 Subsidi\u00e4res E-ID-System des Bundes ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                505.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11 Sperrung und Widerruf ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                405.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Abschnitt: Inhaberinnen und Inhaber von E-ID ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                270.5960998535156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 12 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                253.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Abschnitt: Anbieterinnen von elektronischen Identit\u00e4tsdienstleistungen ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                150.59609985351562,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 13 Anerkennung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                123.57099914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 14 Erl\u00f6schen der Anerkennung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                231.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 15 Pflichten ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                529.5609741210938,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 16 Datenweitergabe und Datennutzung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                529.7509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 17 Zugang zu einer E-ID ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                331.7510070800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 18 Interoperabilit\u00e4t ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                243.76100158691406,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 19 Aufsichtsmassnahmen und Entzug der Anerkennung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.25,
+                127.7509994506836,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Abschnitt: Betreiberinnen von E-ID-verwendenden Diensten ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                456.5960998535156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 20 Vereinbarung mit einem IdP ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                439.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 21 Verwendung der E-ID-Registrierungsnummer ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                363.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 22 Zu akzeptierende E-ID ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                315.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "6. Abschnitt: Funktion des Bundesamtes f\u00fcr Polizei ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                218.60610961914062,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 23 Aufgaben und Pflichten ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                201.57101440429688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 24 Informationssystem ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                95.55097198486328,
+                0.0
+            ]
+        },
+        {
+            "title": "7. Abschnitt: Eidgen\u00f6ssische E-ID-Kommission ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                232.8061065673828,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 25 Organisation ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                215.77101135253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 26 Aufgaben und Zust\u00e4ndigkeiten ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                471.5710144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 27 Aufgaben des Sekretariats ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                255.57101440429688,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 28 Personal des Sekretariats ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                97.56096649169922,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 29 Amts- und Gesch\u00e4ftsgeheimnis ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                529.7509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 30 Bearbeitung von Personendaten ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                491.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "8. Abschnitt: Geb\u00fchren ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                346.80609130859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 31 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                329.7710266113281,
+                0.0
+            ]
+        },
+        {
+            "title": "9. Abschnitt: Haftung ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                192.78610229492188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 32 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                175.75100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "10. Abschnitt: Schlussbestimmungen ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                530.6060791015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 33 \u00dcbergangsbestimmung ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                505.5610046386719,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 34 \u00c4nderung anderer Erlasse ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                211.56100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 35 Referendum und Inkrafttreten ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                173.54100036621094,
+                0.0
+            ]
+        },
+        {
+            "title": "\u00c4nderung anderer Erlasse ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                499.1129150390625,
+                0.0
+            ]
+        },
+        {
+            "title": "1. Bundesgesetz vom 20. Juni 200314 \u00fcber das Informationssystem f\u00fcr den Ausl\u00e4nder- und den Asylbereich ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                443.7961120605469,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Abs. 1 Bst. c und 2 Bst. c Ziff. 3 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                408.47088623046875,
+                0.0
+            ]
+        },
+        {
+            "title": "2. Ausweisgesetz vom 22. Juni 200116",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                530.6060791015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 Abs. 3 zweiter Satz ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                505.2709045410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 11 Abs. 1 Einleitungssatz, Bst. k und 2 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                467.2610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 12 Abs. 2 Bst. g ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55000305175781,
+                305.2508850097656,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 14 Verbot von Paralleldatensammlungen ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.55999755859375,
+                233.39599609375,
+                0.0
+            ]
+        },
+        {
+            "title": "3. Zivilgesetzbuch18",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                530.796142578125,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 43a Abs. 4 Ziff. 9 ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                115.30000305175781,
+                505.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "4. Bundesgesetz vom 20. Dezember 194619 \u00fcber die Alters- und Hinterlassenenversicherung ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                426.7861022949219,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 50a Abs. 1 Bst. bquater ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                391.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "5. Bundesgesetz vom 18. M\u00e4rz 201621 \u00fcber die elektronische Signatur ",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                304.9179992675781,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 9 Abs. 1bis ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.23999786376953,
+                277.46087646484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Wirtschaftspartnerschaftsabkommen zwischen den EFTA-Staaten1 und Indonesien",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 20,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 14,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                533.25,
+                0.0
+            ]
+        },
+        {
+            "title": "Indonesien als wichtiger Markt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.336999893188477,
+                528.6224975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Schweiz im Wettbewerb",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.337400436401367,
+                420.62249755859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Verbesserter Marktzugang",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.337400436401367,
+                312.62249755859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Umfassendes Abkommen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00f6rderung nachhaltiger Entwicklung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.635009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Palm\u00f6l:",
+            "level": 2,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                324.64501953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Eine vielschichtige Angelegenheit",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                312.572998046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Beschr\u00e4nkte Zugest\u00e4ndnisse",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5029907226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Zertifiziert nachhaltiges Palm\u00f6l",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.50299072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Der Markt f\u00fcr Palm\u00f6l",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                530.260009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Indonesien als gr\u00f6sster Produzent",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                515.2100219726562,
+                0.0
+            ]
+        },
+        {
+            "title": "Nachfrage in der Schweiz sinkt",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                127.55999755859375,
+                455.21002197265625,
+                0.0
+            ]
+        },
+        {
+            "title": "Langfristige Zusammenarbeit",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34000015258789,
+                528.60498046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 5,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Verachtung des Lebens",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Zerst\u00f6rung schreitet voran",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                252.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Wirtschaftlich vernachl\u00e4ssigbar",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "Schutz von Menschund Umwelt hat Priorit\u00e4t",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                396.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                288.5849914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 7,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Wichtig f\u00fcr den Standort Schweiz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                408.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Benachteiligung vermeiden",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                336.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Keine Gefahr f\u00fcr die Landwirtschaft",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                228.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Kein Freihandel mit Palm\u00f6l",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                156.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Wirksame Kontrollen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                528.5650024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "AusgewogenesAbkommen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                444.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.349998474121094,
+                324.57501220703125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                536.9900512695312,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 1 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.2699966430664,
+                349.9410095214844,
+                0.0
+            ]
+        },
+        {
+            "title": "Art. 2 ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                64.27999877929688,
+                267.95098876953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesrat und Parlament empfehlen, am 7. M\u00e4rz 2021 wie folgt zu stimmen:",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88999938964844,
+                543.3800048828125,
+                0.0
+            ]
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 25,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

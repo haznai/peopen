@@ -1,0 +1,640 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 3. M\u00e4rz 2024",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 16,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Inhaltsverzeichnis",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr ein besseres Leben im Alter (Initiative f\u00fcr eine 13. AHV-Rente)\u00bb",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr eine sichere und nachhaltige Altersvorsorge (Renteninitiative)\u00bb",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr ein besseres Leben im Alter (Initiative f\u00fcr eine 13. AHV-Rente)\u00bb",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Im Detail",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 8,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Der Auftrag der AHV",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Altersrenten der AHV",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Initiative will eine 13. AHV-Rente",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Erg\u00e4nzungs-leistungen bleiben trotz 13. Rente erhalten",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Andere Renten bleiben gleich",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Finanzielle Auswirkungen der Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Finanzierung offen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Massnahmen zur Stabilisierung der AHV",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Darum geht es",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Die Rente reicht nicht mehr",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Beste L\u00f6sung f\u00fcr anst\u00e4ndige Renten",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "AHV ist f\u00fcr Frauen besonders wichtig",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Finanzielle Mittel sind vorhanden",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 8,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Mehrkosten belasten AHV zu stark ",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Initiative verteuert Arbeit oder Konsum",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "H\u00f6here Steuern oder weniger Ausgaben",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Hohe Kosten, geringer sozialer Nutzen",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Sicherung der Renten hat Priorit\u00e4t",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "\u00fcber die Volksinitiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "\u00abF\u00fcr ein besseres Leben im Alter (Initiative f\u00fcr eine 13. AHV-Rente)\u00bb",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "vom 17. M\u00e4rz 2023",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Volksinitiative \u00abF\u00fcr eine sichere und nachhaltige Altersvorsorge (Renteninitiative)\u00bb",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 10,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Im Detail",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 10,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Finanzen der AHV bis 2030 stabilisiert",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Herausforderungen der AHV",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Rentenalter 67 im Jahr 2043",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Finanzielle Auswirkungen der Initiative",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Auswirkungen auf die IV",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 16,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "AHV-Renten sichern",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Eine faire und langfristige L\u00f6sung",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Im weltweiten Vergleich moderat",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Weniger Zuwanderung",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 18,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Automatismus ist zu starr",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Rentenalter 65 ist noch nicht umgesetzt",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Initiative ist einseitig",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "N\u00e4chste Reform ist bereits aufgegleist",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Automatismus ist unschweizerisch",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        }
+    ],
+    "pages": 20,
+    "ocr_stats": {
+        "ocr_pages": 4,
+        "ocr_failed": 0,
+        "ocr_success": 4,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 15,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

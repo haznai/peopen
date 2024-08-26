@@ -1,0 +1,973 @@
+{
+    "languages": [
+        "de"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Volksabstimmung 9. Februar 2020",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                546.3375244140625,
+                0.0
+            ]
+        },
+        {
+            "title": "Erste Vorlage",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                540.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Erste Vorlage: \u00abMehr bezahlbare Wohnungen\u00bb \u2013 Volksinitiative \u00abMehr bezahlbare Wohnungen\u00bb",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88650512695312,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.350797653198242,
+                408.6393127441406,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.350797653198242,
+                336.6393127441406,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34368133544922,
+                528.5751953125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34368133544922,
+                408.5782165527344,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34368133544922,
+                264.5872802734375,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34368133544922,
+                108.59039306640625,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34368133544922,
+                60.593467712402344,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage: Verbot der Diskriminierung Verbot der Diskriminierung aufgrund der sexuellen Orientierung",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88650512695312,
+                573.9415893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "In K\u00fcrze",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.332901000976562,
+                408.63031005859375,
+                0.0
+            ]
+        },
+        {
+            "title": "Die Vorlage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.332901000976562,
+                288.63330078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungsfrage",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343650817871094,
+                528.5692749023438,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343650817871094,
+                408.57232666015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343650817871094,
+                264.5813903808594,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im Nationalrat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343650817871094,
+                120.59049987792969,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmung im St\u00e4nderat",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.343650817871094,
+                72.59346771240234,
+                0.0
+            ]
+        },
+        {
+            "title": "Erste Vorlage: \u00abMehr bezahlbare Wohnungen\u00bb Volksinitiative \u00abMehr bezahlbare Wohnungen\u00bb",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Im Detail ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 10,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                533.2474975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausgangslage ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34678077697754,
+                528.5722045898438,
+                0.0
+            ]
+        },
+        {
+            "title": "Angebot an Mietwohnungen seit 2016",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34678077697754,
+                396.5693054199219,
+                0.0
+            ]
+        },
+        {
+            "title": "Entwicklung der Mietpreise",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34678077697754,
+                324.57830810546875,
+                0.0
+            ]
+        },
+        {
+            "title": "Regional unterschiedliche Situation",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                528.6444702148438,
+                0.0
+            ]
+        },
+        {
+            "title": "Forderungen der Initiative ",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                444.6474914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Vorkaufsrecht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                324.4344787597656,
+                0.0
+            ]
+        },
+        {
+            "title": "Erhalt preisg\u00fcnstiger Mietwohnungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                27.83690071105957,
+                228.43150329589844,
+                0.0
+            ]
+        },
+        {
+            "title": "Kosten der Initiative",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346601486206055,
+                528.5722045898438,
+                0.0
+            ]
+        },
+        {
+            "title": "Bisherige F\u00f6rderung durchden Bund",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346601486206055,
+                444.5753173828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Aufstockung des Fonds",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346601486206055,
+                300.58428955078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Initiativkomitee",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 8,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr mehr bezahlbare Wohnungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                384.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Spekulation eind\u00e4mmen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                324.5783996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr g\u00fcnstigere Mieten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                204.58140563964844,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr das Gemeinwohl",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                132.58140563964844,
+                0.0
+            ]
+        },
+        {
+            "title": "Wirksame Umsetzung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347949981689453,
+                528.5692749023438,
+                0.0
+            ]
+        },
+        {
+            "title": "Wohnen ist ein Grundrecht",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347949981689453,
+                480.57232666015625,
+                0.0
+            ]
+        },
+        {
+            "title": "F\u00fcr faire energetische Sanierungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347949981689453,
+                408.57232666015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Initiativkomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347949981689453,
+                336.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Ausreichend Wohnraum",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                396.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Hohe Kosten",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Keine Bevorteilung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                216.57240295410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Vorkaufsrecht benachteiligt Private",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                144.57240295410156,
+                0.0
+            ]
+        },
+        {
+            "title": "Energiestrategie wird unterlaufen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.338918685913086,
+                528.575439453125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bew\u00e4hrte F\u00f6rderung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.338918685913086,
+                432.5813903808594,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.338918685913086,
+                336.5873718261719,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesbeschluss \u00fcber die Volksinitiative \u00abMehr bezahlbare Wohnungen\u00bb vom 22. M\u00e4rz 2019",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Neu: Sexuelle Orientierung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346601486206055,
+                432.5692138671875,
+                0.0
+            ]
+        },
+        {
+            "title": "Voraussetzungen f\u00fcr die Strafbarkeit",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346601486206055,
+                288.5693054199219,
+                0.0
+            ]
+        },
+        {
+            "title": "Schutz der ganzen Gruppe",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                528.5994873046875,
+                0.0
+            ]
+        },
+        {
+            "title": "Strafbar in anderen L\u00e4ndern",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.340900421142578,
+                432.6054992675781,
+                0.0
+            ]
+        },
+        {
+            "title": "Zweite Vorlage: Verbot der Diskriminierung \u2013 Verbot der Diskriminierung aufgrund derr sexuellen Orientierung",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                574.1515502929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Heutige Regelung",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346601486206055,
+                528.5722045898438,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Referendumskomitee",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                536.9874877929688,
+                0.0
+            ]
+        },
+        {
+            "title": "Hass bereits verp\u00f6nt",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                372.5724182128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Keine Pseudo Schutzgesetze",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                288.5754089355469,
+                0.0
+            ]
+        },
+        {
+            "title": "Bereits gen\u00fcgend rechtliche Grundlagen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.346500396728516,
+                192.58140563964844,
+                0.0
+            ]
+        },
+        {
+            "title": "Keine Gesinnungsjustiz",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                528.5724487304688,
+                0.0
+            ]
+        },
+        {
+            "title": "Keine Kriminalisierung von Meinungen",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                432.5783996582031,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung des Referendumskomitees",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                300.5843811035156,
+                0.0
+            ]
+        },
+        {
+            "title": "Argumente Bundesrat und Parlament",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34654998779297,
+                536.9873657226562,
+                0.0
+            ]
+        },
+        {
+            "title": "Mehr Schutz vor Diskriminierung",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34654998779297,
+                384.57232666015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Meinungs\u00e4usserungsfreiheit garantiert",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.34654998779297,
+                228.57540893554688,
+                0.0
+            ]
+        },
+        {
+            "title": "Fundamental f\u00fcr die Gesellschaft",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                528.575439453125,
+                0.0
+            ]
+        },
+        {
+            "title": "Empfehlung von Bundesrat und Parlament",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                28.347930908203125,
+                432.5813903808594,
+                0.0
+            ]
+        },
+        {
+            "title": "Abstimmungstext ",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                536.987548828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Strafgesetzbuch und Milit\u00e4rstrafgesetz (Diskriminierung und Aufruf zu Hass aufgrund der sexuellen Orientierung)\u00c4nderung vom 14. Dezember 2018",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                504.572509765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Bundesrat und Parlament empfehlen, am 9. Februar 2020 wie folgt zu stimmen",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                121.88980865478516,
+                543.3775024414062,
+                0.0
+            ]
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 16,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}
