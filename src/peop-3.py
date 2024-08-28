@@ -2,16 +2,16 @@
 # types and attributes
 # misc
 import os
+import logging
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum
-from typing import Literal, Mapping, Optional
+from typing import Literal, Mapping, Optional, Union
 
 # dspy imports
 import dspy
 from dspy.datasets import DataLoader
-from dspy.teleprompt import BootstrapFewShotWithRandomSearch
-from dspy.teleprompt.teleprompt import Teleprompter
+from dspy.teleprompt import BootstrapFewShotWithRandomSearch, MIPROv2
 
 # metrics
 from evaluate import load
@@ -24,7 +24,6 @@ from opentelemetry.sdk import trace as trace_sdk
 from opentelemetry.sdk.resources import Resource
 from opentelemetry.sdk.trace.export import SimpleSpanProcessor
 from rouge import Rouge
-from transformers.models.dpt.modeling_dpt import Tuple
 
 
 # %% Class definitions
@@ -50,6 +49,8 @@ class HyperParams:
     is_truncation_required: bool = field(default=False)
     # how much of the training data should be used
     training_set_limit: Optional[int] = field(default=None)
+    # how many validation examples should be used
+    valid_set_limit: Optional[int] = field(default=None)
     # dataset training language
     language: TrainingLanguage = field(default=TrainingLanguage.ALL)
     # naming of run
@@ -105,6 +106,9 @@ class Logger:
         trace_api.set_tracer_provider(tracer_provider=tracer_provider)
         DSPyInstrumentor().instrument()
 
+        # turn off local `INFO` level logging
+        logging.getLogger("httpx").setLevel(logging.WARNING)
+
 
 @dataclass(frozen=True)
 class Dataset:
@@ -115,14 +119,13 @@ class Dataset:
     data: Mapping[Literal["train", "validation", "test"], list[dspy.Example]]
 
     def __init__(self, parameters: HyperParams):
-        # load data from huggingface
-        fields_to_use: Tuple[str] = ("text", "regeste", "language")
+        fields_to_use = ("text", "regeste", "language")  # type: ignore -- dspy bug
         input = ("text",)
-        DataLoader.from_huggingface
         dataset = DataLoader().from_huggingface(
             dataset_name="rcds/swiss_leading_decision_summarization",
-            fields=fields_to_use,
+            fields=fields_to_use,  # type:ignore -- dspy bug
             input_keys=input,
+            trust_remote_code=True,
         )
 
         # filter out irrelevant languages
@@ -131,8 +134,8 @@ class Dataset:
                 pass
             # default case
             case _:
-                for data_split, examples in dataset.copy().items():
-                    dataset[data_split] = list(
+                for data_split, examples in dataset.copy().items():  # type: ignore
+                    dataset[data_split] = list(  # type: ignore
                         filter(
                             lambda example: example["language"]
                             == parameters.language.value,
@@ -142,10 +145,6 @@ class Dataset:
 
         # @todo: add truncation
         if parameters.is_truncation_required:
-            pass
-
-        # @todo: implement training data limit
-        if parameters.training_set_limit is not None:
             pass
 
         object.__setattr__(self, "data", dataset)
@@ -158,7 +157,7 @@ class Metrics:
     """
 
     @staticmethod
-    def _calculate_bert_score(
+    def _calculate_mean_bert_score(
         pred: str,
         ground_truth: str,
     ) -> float:
@@ -171,10 +170,10 @@ class Metrics:
             lang=["de", "fr", "it"],
         )
         # bertscore can return multiple values, so we average them
-        return sum(bert_scores["f1"]) / len(bert_scores["f1"])
+        return sum(bert_scores["f1"]) / len(bert_scores["f1"])  # type: ignore
 
     @staticmethod
-    def _calculate_rouge_score(
+    def _calculate_mean_rouge_score(
         pred: str,
         ground_truth: str,
     ) -> float:
@@ -182,14 +181,29 @@ class Metrics:
         Computes and returns the average ROUGE score based on untokenized inputs
         """
         rouge = Rouge()
-        rouge.get_scores(pred, ground_truth)[0]
+        scores = rouge.get_scores(pred, ground_truth)[0]
+
+        # average f1 of all ROUGE scores
+        avg_score_through_all_metrics = 0
+        num_scores = len(scores)
+        for metric_name, metric_scores in scores.items():
+            # average of f1-scores
+            avg_score_through_all_metrics += metric_scores["f"]  # type: ignore
+
+        avg_score_through_all_metrics = avg_score_through_all_metrics / num_scores
+        return avg_score_through_all_metrics
 
     @staticmethod
     def get_score(example, prediction, trace=None):
         # function signature is important to be compatible with dspy optimizers
         # @todo: implement more metrics
         # @todo: make `regeste` not hard coded?
-        return Metrics._calculate_bert_score(
+
+        # return Metrics._calculate_mean_bert_score(
+        #     pred=prediction.regeste, ground_truth=example.regeste
+        # )
+
+        return Metrics._calculate_mean_rouge_score(
             pred=prediction.regeste, ground_truth=example.regeste
         )
 
@@ -284,22 +298,25 @@ class Trainer:
     params: HyperParams
     network: Network
     data: Dataset
-    optimizer: Teleprompter
-    # @todo implement for optimizing based on hyperparams as well
-    # hyperparameters: HyperParams
+    optimizer: Union[BootstrapFewShotWithRandomSearch, MIPROv2]
 
-    def optimize(self):
+    # @todo implement for optimizing based on hyperparams as well
+
+    def optimize(self, **kwargs):
         # @todo: this operation happens wayyyy too late, can be done earlier
         trainset = self.data.data["train"]
         valset = self.data.data["validation"]
+
         if self.params.training_set_limit is not None:
             trainset = trainset[: self.params.training_set_limit]
 
+        if self.params.valid_set_limit is not None:
+            valset = valset[: self.params.valid_set_limit]
+
         optimized_network = self.optimizer.compile(
-            student=self.network,
-            teacher=self.network,
             trainset=trainset,
             valset=valset,
+            **kwargs,
         )
 
         # saving of the optimized model
@@ -317,23 +334,28 @@ class Trainer:
 # %% Loading in the data
 
 # @todo: define everything outside of this notebook, with all parameters load into from outside this file
+# @todo: just pass params to the trainer class, all other classes should not need to know about it
 params = HyperParams(
-    training_run_name="first_training_run", language=TrainingLanguage.GERMAN
+    training_run_name="first_training_run",
+    language=TrainingLanguage.GERMAN,
+    training_set_limit=100,
+    valid_set_limit=20,
 )
 lm = LanguageModel(
     name="gpt-4o-mini-2024-07-18",
     url="https://api.openai.com/v1/",
-    api_key="redacted",
+    api_key=os.environ.get("OPENAI_API_KEY"),  # type: ignore
 )
-logging = Logger()
+_ = Logger()  # just needs to be init
 data = Dataset(parameters=params)
 metrics = Metrics()
 network = Network()
 # this optimizer is known to work, but in preliminary testing, turned out to be dissapointing
-optimizer = BootstrapFewShotWithRandomSearch(
-    metric=metrics.get_score, max_labeled_demos=8, num_candidate_programs=16
-)
 
+
+optimizer = BootstrapFewShotWithRandomSearch(
+    metric=metrics.get_score, max_labeled_demos=8, num_candidate_programs=8
+)
 
 # this optimizer is the future of dspy-ai, but throws weird errors at times
 # from dspy.teleprompt import MIPROv2
@@ -342,4 +364,9 @@ optimizer = BootstrapFewShotWithRandomSearch(
 trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
 
 # %% training
-trainer.optimize()
+# rethink the abstraction with `extra_params` passing to `Trainer` (and passing `params` earlier)
+extra_params = {
+    "student": network
+    # "teacher": Network
+}
+trainer.optimize(**extra_params)
