@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.7.12"
+__generated_with = "0.8.0"
 app = marimo.App(width="medium")
 
 
@@ -29,6 +29,7 @@ def __():
 
     # metrics
     from evaluate import load
+    from rouge import Rouge
 
     # phoenix setup
     from opentelemetry.sdk.resources import Resource
@@ -152,6 +153,7 @@ def __(
                 api_key=self.api_key,
                 api_base=self.url,
                 model_type=self.type.value,
+                max_tokens=8180,
             )
             dspy.settings.configure(lm=openai_model)
             object.__setattr__(self, "model", openai_model)
@@ -244,6 +246,18 @@ def __(
             return sum(bert_scores["f1"]) / len(bert_scores["f1"])
 
         @staticmethod
+        def _calculate_rouge_score(
+            pred: str,
+            ground_truth: str,
+        ) -> float:
+            """
+            Computes and returns the average ROUGE score based on untokenized inputs
+            """
+            rouge = Rouge()
+            rouge.get_scores(pred, ground_truth)[0]
+
+
+        @staticmethod
         def get_score(example, prediction, trace=None):
             # function signature is important to be compatible with dspy optimizers
             # @todo: implement more metrics
@@ -265,15 +279,13 @@ def __(
             # @todo: implement phoenix attributes/metadata here @see first notebook
 
             #### definition of modules ####
-            text_splitter = dspy.ChainOfThought(
+            text_splitter = dspy.Predict(
                 self.TextSplitterSignature,
             )
-            sachverhalt_summarizer = dspy.ChainOfThought(self.SachverhaltSummarizerSignature)
-            erwaehgungen_summarizer = dspy.ChainOfThought(
-                self.ErwaehgungenSummarizerSignature
-            )
+            sachverhalt_summarizer = dspy.Predict(self.SachverhaltSummarizerSignature)
+            erwaehgungen_summarizer = dspy.Predict(self.ErwaehgungenSummarizerSignature)
 
-            regeste_generator = dspy.ChainOfThought(
+            regeste_generator = dspy.Predict(
                 self.RegesteGeneratorSignature,
             )
 
@@ -289,7 +301,6 @@ def __(
             ).gekuerzte_erwaehgungen
 
             return regeste_generator(
-                text=text,
                 gekuerzter_sachverhalt=gekuerzter_sachverhalt,
                 gekuerzte_erwaehgungen=gekuerzte_erwaehgungen,
                 dispositiv=splitted_results.dispositiv,
@@ -330,7 +341,6 @@ def __(
             Die Regeste sollte eine klare und strukturierte Kurzzusammenfassung des Urteils bieten, die aus zitierten Artikeln, Keywords und einem sehr kurzer Fliesstext besteht. Beachte das Dispositiv, da es das endgültige Urteil enthält.
             """
 
-            text = dspy.InputField()
             gekuerzter_sachverhalt = dspy.InputField()
             gekuerzte_erwaehgungen = dspy.InputField()
             dispositiv = dspy.InputField()
@@ -358,8 +368,9 @@ def __(
             if self.params.training_set_limit is not None:
                 trainset = trainset[: self.params.training_set_limit]
 
-            optimized_network = optimizer.compile(
+            optimized_network = self.optimizer.compile(
                 student=self.network,
+                teacher=self.network,
                 trainset=self.data.data["train"],
                 valset=self.data.data["validation"],
             )
@@ -410,14 +421,27 @@ def __(
     params = HyperParams(
         training_run_name="first_training_run", language=TrainingLanguage.GERMAN
     )
-    lm = LanguageModel(name="second_run_llamafile")
+    lm = LanguageModel(
+        name="gpt-4o-mini-2024-07-18",
+        url="https://api.openai.com/v1/",
+        api_key="redacted",
+    )
     logging = Logger()
     data = Dataset(parameters=params)
     metrics = Metrics()
     network = Network()
+    # this optimizer is known to work, but in preliminary testing, turned out to be dissapointing
     optimizer = BootstrapFewShotWithRandomSearch(
-        metric=metrics.get_score, max_labeled_demos=8, num_candidate_programs=8
+        metric=metrics.get_score, max_labeled_demos=8, num_candidate_programs=16
     )
+
+
+    # this optimizer is the future of dspy-ai, but throws weird errors at times
+    #
+    # from dspy.teleprompt import MIPROv2
+
+    # optimizer = MIPROv2(prompt_model=lm.model, task_model=lm.model, metric=metrics.get_score)
+
     trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
     return data, lm, logging, metrics, network, optimizer, params, trainer
 
@@ -431,6 +455,11 @@ def __(mo):
 @app.cell
 def __(trainer):
     trainer.optimize()
+    return
+
+
+@app.cell
+def __():
     return
 
 
