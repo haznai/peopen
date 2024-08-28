@@ -1,53 +1,33 @@
-
-# %%
-# marimo notebook
-import marimo as mo
-
+# %% imports
 # types and attributes
-from enum import Enum
+# misc
+import os
 from dataclasses import dataclass, field
-from typing import List, Optional
+from datetime import datetime
+from enum import Enum
+from typing import Literal, Mapping, Optional
 
 # dspy imports
 import dspy
-from dspy.predict import Predict
 from dspy.datasets import DataLoader
 from dspy.teleprompt import BootstrapFewShotWithRandomSearch
 from dspy.teleprompt.teleprompt import Teleprompter
 
 # metrics
 from evaluate import load
-from rouge import Rouge
+from openinference.instrumentation.dspy import DSPyInstrumentor
+from opentelemetry import trace as trace_api
+from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
+from opentelemetry.sdk import trace as trace_sdk
 
 # phoenix setup
 from opentelemetry.sdk.resources import Resource
-from opentelemetry.sdk import trace as trace_sdk
-from opentelemetry import trace as trace_api
-from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
 from opentelemetry.sdk.trace.export import SimpleSpanProcessor
-from openinference.instrumentation.dspy import DSPyInstrumentor
+from rouge import Rouge
+from transformers.models.dpt.modeling_dpt import Tuple
 
 
-# misc
-import os
-from datetime import datetime
-
-# %%
-
-
-# %%
-mo.md(r"""# imperative shell""")
-
-# %%
-mo.md(r"""## Instantiation of all objects""")
-
-# %%
-mo.md(r"""## Class definitions""")
-
-# %%
-mo.md(r"""# Functional core""")
-
-# %%
+# %% Class definitions
 class TrainingLanguage(Enum):
     GERMAN = "de"
     FRENCH = "fr"
@@ -93,7 +73,7 @@ class LanguageModel:
     url: str = field(default="http://localhost:8080/v1/")
     api_key: str = field(default="no_api_key_specified")
     type: ModelType = field(default=ModelType.CHAT)
-    model: dspy.OpenAI = field(default=None)
+    model: dspy.OpenAI = field(init=False)
 
     def __post_init__(self):
         openai_model = dspy.OpenAI(
@@ -136,7 +116,7 @@ class Dataset:
 
     def __init__(self, parameters: HyperParams):
         # load data from huggingface
-        fields_to_use = ("text", "regeste", "language")
+        fields_to_use: Tuple[str] = ("text", "regeste", "language")
         input = ("text",)
         DataLoader.from_huggingface
         dataset = DataLoader().from_huggingface(
@@ -203,7 +183,6 @@ class Metrics:
         """
         rouge = Rouge()
         rouge.get_scores(pred, ground_truth)[0]
-
 
     @staticmethod
     def get_score(example, prediction, trace=None):
@@ -319,8 +298,8 @@ class Trainer:
         optimized_network = self.optimizer.compile(
             student=self.network,
             teacher=self.network,
-            trainset=self.data.data["train"],
-            valset=self.data.data["validation"],
+            trainset=trainset,
+            valset=valset,
         )
 
         # saving of the optimized model
@@ -334,12 +313,10 @@ class Trainer:
         file_extension = ".json"
         optimized_network.save(file_path + file_extension)
 
-# %%
-mo.md("""# Import""")
 
-# %%
+# %% Loading in the data
+
 # @todo: define everything outside of this notebook, with all parameters load into from outside this file
-
 params = HyperParams(
     training_run_name="first_training_run", language=TrainingLanguage.GERMAN
 )
@@ -359,12 +336,10 @@ optimizer = BootstrapFewShotWithRandomSearch(
 
 
 # this optimizer is the future of dspy-ai, but throws weird errors at times
-#
 # from dspy.teleprompt import MIPROv2
-
 # optimizer = MIPROv2(prompt_model=lm.model, task_model=lm.model, metric=metrics.get_score)
 
 trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
 
-# %%
+# %% training
 trainer.optimize()
