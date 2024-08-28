@@ -5,7 +5,9 @@
     "poetry@latest",
     "nodejs_20@latest",
     "overmind@latest",
-    "datasette@latest"
+    "datasette@latest",
+    "jq@latest",
+    "hyperfine@latest"
   ],
   "shell": {
     "init_hook": [
