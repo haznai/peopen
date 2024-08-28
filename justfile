@@ -4,8 +4,8 @@ default:
 # launch marimo.app to edit a notebook file
 edit notebook:
   open -a Marimo.app --background
-  sudo marimo edit {{notebook}} --headless --no-token
+  marimo edit {{notebook}} --headless --no-token
 
 # start training run
 train:
-  sudo overmind s 
+  overmind s 
