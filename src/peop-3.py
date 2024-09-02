@@ -108,6 +108,10 @@ class Logger:
 
         # turn off local `INFO` level logging
         logging.getLogger("httpx").setLevel(logging.WARNING)
+        logging.getLogger("urllib3").setLevel(logging.WARNING)
+        logging.getLogger("openai").setLevel(logging.WARNING)
+        logging.getLogger("root").setLevel(logging.WARNING)
+        logging.getLogger("httpcore").setLevel(logging.WARNING)
 
 
 @dataclass(frozen=True)
@@ -142,6 +146,15 @@ class Dataset:
                             examples,
                         )
                     )
+
+        # @todo: preprocess all datasets and ensure that labels and inputs are always
+        # correct and you don't need to manually do it in the code
+        # remove language key
+        # this input handling is a mess atm
+        for data_split, examples in dataset.copy().items():  # type: ignore
+            dataset[data_split] = [  # type: ignore
+                example.without("language").with_inputs("text") for example in examples
+            ]
 
         # @todo: add truncation
         if parameters.is_truncation_required:
@@ -220,13 +233,17 @@ class Network(dspy.Module):
         # @todo: implement phoenix attributes/metadata here @see first notebook
 
         #### definition of modules ####
-        text_splitter = dspy.Predict(
+        text_splitter = dspy.TypedPredictor(
             self.TextSplitterSignature,
         )
-        sachverhalt_summarizer = dspy.Predict(self.SachverhaltSummarizerSignature)
-        erwaehgungen_summarizer = dspy.Predict(self.ErwaehgungenSummarizerSignature)
+        sachverhalt_summarizer = dspy.TypedPredictor(
+            self.SachverhaltSummarizerSignature
+        )
+        erwaehgungen_summarizer = dspy.TypedPredictor(
+            self.ErwaehgungenSummarizerSignature
+        )
 
-        regeste_generator = dspy.Predict(
+        regeste_generator = dspy.TypedChainOfThought(
             self.RegesteGeneratorSignature,
         )
 
@@ -338,9 +355,10 @@ class Trainer:
 params = HyperParams(
     training_run_name="first_training_run",
     language=TrainingLanguage.GERMAN,
-    training_set_limit=100,
-    valid_set_limit=20,
+    training_set_limit=50,
+    valid_set_limit=50,
 )
+# @todo: remove api key from here, and load it from .envrc
 lm = LanguageModel(
     name="gpt-4o-mini-2024-07-18",
     url="https://api.openai.com/v1/",
@@ -353,9 +371,18 @@ network = Network()
 # this optimizer is known to work, but in preliminary testing, turned out to be dissapointing
 
 
-optimizer = BootstrapFewShotWithRandomSearch(
-    metric=metrics.get_score, max_labeled_demos=8, num_candidate_programs=8
+# @todo: fix regex bug https://github.com/stanfordnlp/dspy/blob/main/dspy/propose/grounded_proposer.py
+# @todo: fix student.predictor() bug (never finds any predictors) -> also grounded_proposer.py
+# @todo: fix not saving bug (might be related to the above)
+# @todo: maybe switch to bootstrapfewshot because of simplicity for the fix?
+optimizer = MIPROv2(
+    prompt_model=lm.model,
+    task_model=lm.model,
+    metric=metrics.get_score,
+    init_temperature=0.5,
+    log_dir="models",
 )
+# @todo: look into extra options for fields: Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Gekuerzter Sachverhalt:', 'desc': '${gekuerzter_sachverhalt}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31ab579c0>})\n    gekuerzte_erwaehgungen = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Gekuerzte Erwaehgungen:', 'desc': '${gekuerzte_erwaehgungen}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b003d80>})\n    dispositiv = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Dispositiv:', 'desc': '${dispositiv}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b003060>})\n    reasoning = Field(annotation=str required=True json_schema_extra={'prefix': \"Reasoning: Let's think step by step in order to\", 'desc': '${produce the regeste}. We ...', '__dspy_field_type': 'output', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b002b60>, 'parser': <class 'str'>})\n    regeste = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'output', 'prefix': 'Regeste:', 'desc': '${regeste}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b001440>, 'parser': <class 'str'>})\n)"
 
 # this optimizer is the future of dspy-ai, but throws weird errors at times
 # from dspy.teleprompt import MIPROv2
@@ -364,9 +391,10 @@ optimizer = BootstrapFewShotWithRandomSearch(
 trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
 
 # %% training
-# rethink the abstraction with `extra_params` passing to `Trainer` (and passing `params` earlier)
+# @todo rethink the abstraction with `extra_params` passing to `Trainer` (and passing `params` earlier)
 extra_params = {
-    "student": network
-    # "teacher": Network
+    "student": network,
+    "num_batches": 5,
 }
+
 trainer.optimize(**extra_params)
