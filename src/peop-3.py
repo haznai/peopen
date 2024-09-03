@@ -180,7 +180,7 @@ class Metrics:
             predictions=[pred],
             references=[ground_truth],
             model_type="bert-base-multilingual-cased",
-            lang=["de", "fr", "it"],
+            lang=["de"],
         )
         # bertscore can return multiple values, so we average them
         return sum(bert_scores["f1"]) / len(bert_scores["f1"])  # type: ignore
@@ -228,37 +228,36 @@ class Network(dspy.Module):
 
     def __init__(self):
         super().__init__()
+        #### definition of modules ####
+        self.text_splitter = dspy.TypedPredictor(
+            self.TextSplitterSignature,
+        )
+        self.sachverhalt_summarizer = dspy.TypedPredictor(
+            self.SachverhaltSummarizerSignature
+        )
+        self.erwaehgungen_summarizer = dspy.TypedPredictor(
+            self.ErwaehgungenSummarizerSignature
+        )
+
+        self.regeste_generator = dspy.TypedChainOfThought(
+            self.RegesteGeneratorSignature,
+        )
 
     def forward(self, text: str):
         # @todo: implement phoenix attributes/metadata here @see first notebook
 
-        #### definition of modules ####
-        text_splitter = dspy.TypedPredictor(
-            self.TextSplitterSignature,
-        )
-        sachverhalt_summarizer = dspy.TypedPredictor(
-            self.SachverhaltSummarizerSignature
-        )
-        erwaehgungen_summarizer = dspy.TypedPredictor(
-            self.ErwaehgungenSummarizerSignature
-        )
-
-        regeste_generator = dspy.TypedChainOfThought(
-            self.RegesteGeneratorSignature,
-        )
-
         #### execution and passing of data ####
         # text parameter is equivalent to the lds dataset `text` input
-        splitted_results = text_splitter(text=text)
-        gekuerzter_sachverhalt = sachverhalt_summarizer(
+        splitted_results = self.text_splitter(text=text)
+        gekuerzter_sachverhalt = self.sachverhalt_summarizer(
             sachverhalt=splitted_results.sachverhalt
         ).gekuerzter_sachverhalt
 
-        gekuerzte_erwaehgungen = erwaehgungen_summarizer(
+        gekuerzte_erwaehgungen = self.erwaehgungen_summarizer(
             erwaehgungen=splitted_results.erwaehgungen
         ).gekuerzte_erwaehgungen
 
-        return regeste_generator(
+        return self.regeste_generator(
             gekuerzter_sachverhalt=gekuerzter_sachverhalt,
             gekuerzte_erwaehgungen=gekuerzte_erwaehgungen,
             dispositiv=splitted_results.dispositiv,
@@ -355,10 +354,11 @@ class Trainer:
 params = HyperParams(
     training_run_name="first_training_run",
     language=TrainingLanguage.GERMAN,
-    training_set_limit=50,
-    valid_set_limit=50,
+    training_set_limit=5,
+    valid_set_limit=5,
 )
-# @todo: remove api key from here, and load it from .envrc
+
+
 lm = LanguageModel(
     name="gpt-4o-mini-2024-07-18",
     url="https://api.openai.com/v1/",
@@ -372,21 +372,21 @@ network = Network()
 
 
 # @todo: fix regex bug https://github.com/stanfordnlp/dspy/blob/main/dspy/propose/grounded_proposer.py
-# @todo: fix student.predictor() bug (never finds any predictors) -> also grounded_proposer.py
 # @todo: fix not saving bug (might be related to the above)
-# @todo: maybe switch to bootstrapfewshot because of simplicity for the fix?
-optimizer = MIPROv2(
-    prompt_model=lm.model,
-    task_model=lm.model,
-    metric=metrics.get_score,
-    init_temperature=0.5,
-    log_dir="models",
-)
 # @todo: look into extra options for fields: Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Gekuerzter Sachverhalt:', 'desc': '${gekuerzter_sachverhalt}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31ab579c0>})\n    gekuerzte_erwaehgungen = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Gekuerzte Erwaehgungen:', 'desc': '${gekuerzte_erwaehgungen}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b003d80>})\n    dispositiv = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Dispositiv:', 'desc': '${dispositiv}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b003060>})\n    reasoning = Field(annotation=str required=True json_schema_extra={'prefix': \"Reasoning: Let's think step by step in order to\", 'desc': '${produce the regeste}. We ...', '__dspy_field_type': 'output', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b002b60>, 'parser': <class 'str'>})\n    regeste = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'output', 'prefix': 'Regeste:', 'desc': '${regeste}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b001440>, 'parser': <class 'str'>})\n)"
 
-# this optimizer is the future of dspy-ai, but throws weird errors at times
-# from dspy.teleprompt import MIPROv2
-# optimizer = MIPROv2(prompt_model=lm.model, task_model=lm.model, metric=metrics.get_score)
+# optimizer = MIPROv2(
+#     prompt_model=lm.model,
+#     task_model=lm.model,
+#     metric=metrics.get_score,
+#     init_temperature=0.5,
+#     log_dir="models",
+# )
+
+optimizer = BootstrapFewShotWithRandomSearch(
+    metric=metrics.get_score,
+    max_rounds=2,
+)
 
 trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
 
@@ -394,7 +394,7 @@ trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer
 # @todo rethink the abstraction with `extra_params` passing to `Trainer` (and passing `params` earlier)
 extra_params = {
     "student": network,
-    "num_batches": 5,
+    # "num_batches": 5,
 }
 
 trainer.optimize(**extra_params)
