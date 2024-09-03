@@ -113,6 +113,54 @@
         }
       }
     },
+    "jetbrains.pycharm-professional@latest": {
+      "last_modified": "2024-08-27T08:49:48Z",
+      "resolved": "github:NixOS/nixpkgs/a6292e34000dc93d43bccf78338770c1c5ec8a99#jetbrains.pycharm-professional",
+      "source": "devbox-search",
+      "version": "2024.2.0.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8zifrlq7jj2xy525mhzjmk7p5myzhsmb-pycharm-professional-2024.2.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8zifrlq7jj2xy525mhzjmk7p5myzhsmb-pycharm-professional-2024.2.0.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vm4chrn1pps4s5f6kbnvwrvnnjcn8cck-pycharm-professional-2024.2.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vm4chrn1pps4s5f6kbnvwrvnnjcn8cck-pycharm-professional-2024.2.0.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0vlbbcwpmwav8v1anhvc8ycs296gzzz9-pycharm-professional-2024.2.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0vlbbcwpmwav8v1anhvc8ycs296gzzz9-pycharm-professional-2024.2.0.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qxmp9b75b06ajw8blc3j4wrb38b1yxhv-pycharm-professional-2024.2.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qxmp9b75b06ajw8blc3j4wrb38b1yxhv-pycharm-professional-2024.2.0.1"
+        }
+      }
+    },
     "jq@latest": {
       "last_modified": "2024-08-21T20:16:49Z",
       "resolved": "github:NixOS/nixpkgs/36a9aeaaa17a2d4348498275f9fe530cd4f9e519#jq",

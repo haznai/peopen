@@ -7,7 +7,8 @@
     "overmind@latest",
     "datasette@latest",
     "jq@latest",
-    "hyperfine@latest"
+    "hyperfine@latest",
+    "jetbrains.pycharm-professional@latest"
   ],
   "shell": {
     "init_hook": [

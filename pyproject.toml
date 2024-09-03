@@ -12,7 +12,7 @@ torch = "^2.3.0"
 cookiecutter = "^2.6.0"
 marimo = "*"
 numpy = "^1.26.4"
-dspy-ai = "^2.4"
+dspy = {path = "dspy-ai" }
 nltk = "^3.8.1"
 rouge = "^1.0.1"
 evaluate = "^0.4.1"
@@ -21,7 +21,6 @@ bert-score = "^0.3.13"
 arize-phoenix = "^4.2.4"
 openinference-instrumentation-dspy = "^0.1.9"
 opentelemetry-exporter-otlp = "^1.24.0"
-marker-pdf = "^0.2.16"
 ipykernel = "^6.29.5"
 
 [build-system]

@@ -217,3 +217,5 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+.idea
+dspy-ai
