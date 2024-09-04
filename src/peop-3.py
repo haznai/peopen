@@ -212,13 +212,13 @@ class Metrics:
         # @todo: implement more metrics
         # @todo: make `regeste` not hard coded?
 
-        # return Metrics._calculate_mean_bert_score(
-        #     pred=prediction.regeste, ground_truth=example.regeste
-        # )
-
-        return Metrics._calculate_mean_rouge_score(
+        return Metrics._calculate_mean_bert_score(
             pred=prediction.regeste, ground_truth=example.regeste
         )
+
+        # return Metrics._calculate_mean_rouge_score(
+        #     pred=prediction.regeste, ground_truth=example.regeste
+        # )
 
 
 class Network(dspy.Module):
@@ -338,12 +338,12 @@ class Trainer:
         # saving of the optimized model
         iso_date = datetime.today().strftime("%Y-%m-%d")
         file_path = f"models/{iso_date}_{self.params.training_run_name}"
+        file_extension = ".json"
 
         # check if file exists, if yes, append a character until filename doesn't exist
-        while os.path.exists(file_path):
+        while os.path.exists(file_path + file_extension):
             file_path += "_new"
 
-        file_extension = ".json"
         optimized_network.save(file_path + file_extension)
 
 
@@ -352,10 +352,10 @@ class Trainer:
 # @todo: define everything outside of this notebook, with all parameters load into from outside this file
 # @todo: just pass params to the trainer class, all other classes should not need to know about it
 params = HyperParams(
-    training_run_name="first_training_run",
+    training_run_name="second_training_run",
     language=TrainingLanguage.GERMAN,
-    training_set_limit=5,
-    valid_set_limit=5,
+    training_set_limit=100,
+    valid_set_limit=50,
 )
 
 
@@ -385,7 +385,7 @@ network = Network()
 
 optimizer = BootstrapFewShotWithRandomSearch(
     metric=metrics.get_score,
-    max_rounds=2,
+    max_rounds=3,
 )
 
 trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
@@ -396,5 +396,6 @@ extra_params = {
     "student": network,
     # "num_batches": 5,
 }
+
 
 trainer.optimize(**extra_params)
