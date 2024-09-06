@@ -1,0 +1,1545 @@
+2024-09-04 20:11:36,706 - OpenAI Response Token Usage: 3047
+2024-09-04 20:11:36,714 - OpenAI Response Token Usage: 1097
+2024-09-04 20:11:36,721 - OpenAI Response Token Usage: 2012
+2024-09-04 20:11:36,731 - OpenAI Response Token Usage: 2045
+2024-09-04 20:11:36,734 - OpenAI Response Token Usage: 2176
+2024-09-04 20:11:37,627 - matplotlib data path: /Users/hazn/Desktop/code.nosync/peopen/.venv/lib/python3.12/site-packages/matplotlib/mpl-data
+2024-09-04 20:11:37,631 - CONFIGDIR=/Users/hazn/.matplotlib
+2024-09-04 20:11:37,632 - interactive is False
+2024-09-04 20:11:37,632 - platform is darwin
+2024-09-04 20:11:37,665 - CACHEDIR=/Users/hazn/.matplotlib
+2024-09-04 20:11:37,669 - Using fontManager instance from /Users/hazn/.matplotlib/fontlist-v390.json
+2024-09-04 20:11:37,827 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:38,988 - OpenAI Response Token Usage: 4487
+2024-09-04 20:11:38,994 - OpenAI Response Token Usage: 884
+2024-09-04 20:11:39,000 - OpenAI Response Token Usage: 2139
+2024-09-04 20:11:39,008 - OpenAI Response Token Usage: 1306
+2024-09-04 20:11:39,010 - OpenAI Response Token Usage: 1399
+2024-09-04 20:11:39,909 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:40,726 - OpenAI Response Token Usage: 3202
+2024-09-04 20:11:40,733 - OpenAI Response Token Usage: 1543
+2024-09-04 20:11:40,738 - OpenAI Response Token Usage: 1047
+2024-09-04 20:11:40,747 - OpenAI Response Token Usage: 9177
+2024-09-04 20:11:40,749 - OpenAI Response Token Usage: 9404
+2024-09-04 20:11:41,500 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:42,084 - OpenAI Response Token Usage: 9894
+2024-09-04 20:11:42,091 - OpenAI Response Token Usage: 1389
+2024-09-04 20:11:42,097 - OpenAI Response Token Usage: 4735
+2024-09-04 20:11:42,105 - OpenAI Response Token Usage: 1653
+2024-09-04 20:11:42,904 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:43,598 - OpenAI Response Token Usage: 12820
+2024-09-04 20:11:43,605 - OpenAI Response Token Usage: 2362
+2024-09-04 20:11:43,611 - OpenAI Response Token Usage: 4846
+2024-09-04 20:11:43,618 - OpenAI Response Token Usage: 1579
+2024-09-04 20:11:44,738 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:45,504 - OpenAI Response Token Usage: 5000
+2024-09-04 20:11:45,511 - OpenAI Response Token Usage: 1875
+2024-09-04 20:11:45,518 - OpenAI Response Token Usage: 1599
+2024-09-04 20:11:45,527 - OpenAI Response Token Usage: 1529
+2024-09-04 20:11:46,374 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:47,048 - OpenAI Response Token Usage: 15050
+2024-09-04 20:11:47,052 - OpenAI Response Token Usage: 15077
+2024-09-04 20:11:47,059 - OpenAI Response Token Usage: 8190
+2024-09-04 20:11:47,065 - OpenAI Response Token Usage: 950
+2024-09-04 20:11:47,073 - OpenAI Response Token Usage: 1559
+2024-09-04 20:11:47,883 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:48,652 - OpenAI Response Token Usage: 9894
+2024-09-04 20:11:48,659 - OpenAI Response Token Usage: 1389
+2024-09-04 20:11:48,664 - OpenAI Response Token Usage: 4735
+2024-09-04 20:11:48,672 - OpenAI Response Token Usage: 1659
+2024-09-04 20:11:49,551 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:50,207 - OpenAI Response Token Usage: 5544
+2024-09-04 20:11:50,213 - OpenAI Response Token Usage: 3220
+2024-09-04 20:11:50,219 - OpenAI Response Token Usage: 1138
+2024-09-04 20:11:50,227 - OpenAI Response Token Usage: 1401
+2024-09-04 20:11:51,018 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:51,675 - OpenAI Response Token Usage: 4445
+2024-09-04 20:11:51,682 - OpenAI Response Token Usage: 2039
+2024-09-04 20:11:51,689 - OpenAI Response Token Usage: 1611
+2024-09-04 20:11:51,697 - OpenAI Response Token Usage: 1557
+2024-09-04 20:11:52,500 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:53,230 - OpenAI Response Token Usage: 3137
+2024-09-04 20:11:53,237 - OpenAI Response Token Usage: 670
+2024-09-04 20:11:53,243 - OpenAI Response Token Usage: 1689
+2024-09-04 20:11:53,250 - OpenAI Response Token Usage: 1811
+2024-09-04 20:11:53,981 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:54,723 - OpenAI Response Token Usage: 6632
+2024-09-04 20:11:54,726 - OpenAI Response Token Usage: 10728
+2024-09-04 20:11:54,734 - OpenAI Response Token Usage: 3635
+2024-09-04 20:11:54,740 - OpenAI Response Token Usage: 125
+2024-09-04 20:11:54,748 - OpenAI Response Token Usage: 5131
+2024-09-04 20:11:55,558 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:56,212 - OpenAI Response Token Usage: 2884
+2024-09-04 20:11:56,219 - OpenAI Response Token Usage: 308
+2024-09-04 20:11:56,225 - OpenAI Response Token Usage: 1015
+2024-09-04 20:11:56,233 - OpenAI Response Token Usage: 1535
+2024-09-04 20:11:56,974 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:57,828 - OpenAI Response Token Usage: 2535
+2024-09-04 20:11:57,835 - OpenAI Response Token Usage: 1053
+2024-09-04 20:11:57,841 - OpenAI Response Token Usage: 1137
+2024-09-04 20:11:57,850 - OpenAI Response Token Usage: 1431
+2024-09-04 20:11:58,578 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:11:59,508 - OpenAI Response Token Usage: 4266
+2024-09-04 20:11:59,514 - OpenAI Response Token Usage: 1398
+2024-09-04 20:11:59,520 - OpenAI Response Token Usage: 1931
+2024-09-04 20:11:59,530 - OpenAI Response Token Usage: 1766
+2024-09-04 20:12:00,383 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:01,004 - OpenAI Response Token Usage: 7937
+2024-09-04 20:12:01,011 - OpenAI Response Token Usage: 808
+2024-09-04 20:12:01,018 - OpenAI Response Token Usage: 5856
+2024-09-04 20:12:01,028 - OpenAI Response Token Usage: 4006
+2024-09-04 20:12:01,032 - OpenAI Response Token Usage: 4135
+2024-09-04 20:12:01,891 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:02,513 - OpenAI Response Token Usage: 7723
+2024-09-04 20:12:02,519 - OpenAI Response Token Usage: 3976
+2024-09-04 20:12:02,525 - OpenAI Response Token Usage: 2068
+2024-09-04 20:12:02,533 - OpenAI Response Token Usage: 1776
+2024-09-04 20:12:02,537 - OpenAI Response Token Usage: 1879
+2024-09-04 20:12:03,282 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:04,182 - OpenAI Response Token Usage: 4832
+2024-09-04 20:12:04,189 - OpenAI Response Token Usage: 592
+2024-09-04 20:12:04,194 - OpenAI Response Token Usage: 2521
+2024-09-04 20:12:04,202 - OpenAI Response Token Usage: 1524
+2024-09-04 20:12:04,939 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:05,598 - OpenAI Response Token Usage: 15034
+2024-09-04 20:12:05,601 - OpenAI Response Token Usage: 19128
+2024-09-04 20:12:05,608 - OpenAI Response Token Usage: 7397
+2024-09-04 20:12:05,614 - OpenAI Response Token Usage: 1447
+2024-09-04 20:12:05,622 - OpenAI Response Token Usage: 5494
+2024-09-04 20:12:05,624 - OpenAI Response Token Usage: 5627
+2024-09-04 20:12:06,303 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:07,065 - OpenAI Response Token Usage: 10992
+2024-09-04 20:12:07,073 - OpenAI Response Token Usage: 1192
+2024-09-04 20:12:07,079 - OpenAI Response Token Usage: 5271
+2024-09-04 20:12:07,087 - OpenAI Response Token Usage: 1853
+2024-09-04 20:12:07,090 - OpenAI Response Token Usage: 1953
+2024-09-04 20:12:07,865 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:08,778 - OpenAI Response Token Usage: 6816
+2024-09-04 20:12:08,785 - OpenAI Response Token Usage: 1275
+2024-09-04 20:12:08,791 - OpenAI Response Token Usage: 3137
+2024-09-04 20:12:08,799 - OpenAI Response Token Usage: 1721
+2024-09-04 20:12:09,789 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:10,544 - OpenAI Response Token Usage: 3289
+2024-09-04 20:12:10,551 - OpenAI Response Token Usage: 807
+2024-09-04 20:12:10,557 - OpenAI Response Token Usage: 1601
+2024-09-04 20:12:10,566 - OpenAI Response Token Usage: 1541
+2024-09-04 20:12:11,547 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:12,258 - OpenAI Response Token Usage: 9160
+2024-09-04 20:12:12,265 - OpenAI Response Token Usage: 4142
+2024-09-04 20:12:12,271 - OpenAI Response Token Usage: 4494
+2024-09-04 20:12:12,279 - OpenAI Response Token Usage: 3563
+2024-09-04 20:12:13,001 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:14,031 - OpenAI Response Token Usage: 2348
+2024-09-04 20:12:14,038 - OpenAI Response Token Usage: 1129
+2024-09-04 20:12:14,043 - OpenAI Response Token Usage: 1051
+2024-09-04 20:12:14,052 - OpenAI Response Token Usage: 1733
+2024-09-04 20:12:15,030 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:15,758 - OpenAI Response Token Usage: 4209
+2024-09-04 20:12:15,765 - OpenAI Response Token Usage: 2046
+2024-09-04 20:12:15,771 - OpenAI Response Token Usage: 1478
+2024-09-04 20:12:15,780 - OpenAI Response Token Usage: 1610
+2024-09-04 20:12:16,495 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:17,466 - OpenAI Response Token Usage: 5794
+2024-09-04 20:12:17,473 - OpenAI Response Token Usage: 536
+2024-09-04 20:12:17,479 - OpenAI Response Token Usage: 2970
+2024-09-04 20:12:17,487 - OpenAI Response Token Usage: 1639
+2024-09-04 20:12:18,306 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:19,123 - OpenAI Response Token Usage: 14014
+2024-09-04 20:12:19,132 - OpenAI Response Token Usage: 14400
+2024-09-04 20:12:19,139 - OpenAI Response Token Usage: 14300
+2024-09-04 20:12:19,156 - OpenAI Response Token Usage: 14014
+2024-09-04 20:12:19,164 - OpenAI Response Token Usage: 14400
+2024-09-04 20:12:19,169 - OpenAI Response Token Usage: 14300
+2024-09-04 20:12:19,187 - OpenAI Response Token Usage: 24012
+2024-09-04 20:12:19,196 - OpenAI Response Token Usage: 24477
+2024-09-04 20:12:19,209 - OpenAI Response Token Usage: 24371
+2024-09-04 20:12:19,235 - OpenAI Response Token Usage: 43320
+2024-09-04 20:12:19,247 - OpenAI Response Token Usage: 43744
+2024-09-04 20:12:19,273 - OpenAI Response Token Usage: 43655
+2024-09-04 20:12:19,307 - OpenAI Response Token Usage: 20885
+2024-09-04 20:12:19,316 - OpenAI Response Token Usage: 21374
+2024-09-04 20:12:19,326 - OpenAI Response Token Usage: 21239
+2024-09-04 20:12:19,346 - OpenAI Response Token Usage: 24098
+2024-09-04 20:12:19,354 - OpenAI Response Token Usage: 24553
+2024-09-04 20:12:19,365 - OpenAI Response Token Usage: 24441
+2024-09-04 20:12:19,388 - OpenAI Response Token Usage: 18823
+2024-09-04 20:12:19,397 - OpenAI Response Token Usage: 19314
+2024-09-04 20:12:19,405 - OpenAI Response Token Usage: 19169
+2024-09-04 20:12:19,425 - OpenAI Response Token Usage: 25604
+2024-09-04 20:12:19,434 - OpenAI Response Token Usage: 26039
+2024-09-04 20:12:19,445 - OpenAI Response Token Usage: 25966
+2024-09-04 20:12:19,466 - OpenAI Response Token Usage: 44903
+2024-09-04 20:12:19,476 - OpenAI Response Token Usage: 45336
+2024-09-04 20:12:19,497 - OpenAI Response Token Usage: 45241
+2024-09-04 20:12:19,529 - OpenAI Response Token Usage: 28046
+2024-09-04 20:12:19,538 - OpenAI Response Token Usage: 28515
+2024-09-04 20:12:19,553 - OpenAI Response Token Usage: 28377
+2024-09-04 20:12:19,574 - OpenAI Response Token Usage: 14014
+2024-09-04 20:12:19,584 - OpenAI Response Token Usage: 14326
+2024-09-04 20:12:19,590 - OpenAI Response Token Usage: 14263
+2024-09-04 20:12:19,605 - OpenAI Response Token Usage: 14014
+2024-09-04 20:12:19,612 - OpenAI Response Token Usage: 14326
+2024-09-04 20:12:19,616 - OpenAI Response Token Usage: 14263
+2024-09-04 20:12:19,631 - OpenAI Response Token Usage: 17135
+2024-09-04 20:12:19,639 - OpenAI Response Token Usage: 17634
+2024-09-04 20:12:19,645 - OpenAI Response Token Usage: 17419
+2024-09-04 20:12:19,662 - OpenAI Response Token Usage: 24798
+2024-09-04 20:12:19,670 - OpenAI Response Token Usage: 25159
+2024-09-04 20:12:19,681 - OpenAI Response Token Usage: 25099
+2024-09-04 20:12:19,701 - OpenAI Response Token Usage: 16120
+2024-09-04 20:12:19,712 - OpenAI Response Token Usage: 16582
+2024-09-04 20:12:19,719 - OpenAI Response Token Usage: 16448
+2024-09-04 20:12:19,736 - OpenAI Response Token Usage: 17237
+2024-09-04 20:12:19,744 - OpenAI Response Token Usage: 17672
+2024-09-04 20:12:19,752 - OpenAI Response Token Usage: 17543
+2024-09-04 20:12:19,769 - OpenAI Response Token Usage: 14877
+2024-09-04 20:12:19,777 - OpenAI Response Token Usage: 15335
+2024-09-04 20:12:19,783 - OpenAI Response Token Usage: 15172
+2024-09-04 20:12:19,799 - OpenAI Response Token Usage: 15626
+2024-09-04 20:12:19,806 - OpenAI Response Token Usage: 16046
+2024-09-04 20:12:19,812 - OpenAI Response Token Usage: 15939
+2024-09-04 20:12:19,828 - OpenAI Response Token Usage: 25356
+2024-09-04 20:12:19,836 - OpenAI Response Token Usage: 25741
+2024-09-04 20:12:19,846 - OpenAI Response Token Usage: 25652
+2024-09-04 20:12:19,867 - OpenAI Response Token Usage: 19446
+2024-09-04 20:12:19,874 - OpenAI Response Token Usage: 19844
+2024-09-04 20:12:19,882 - OpenAI Response Token Usage: 19793
+2024-09-04 20:12:19,899 - OpenAI Response Token Usage: 14014
+2024-09-04 20:12:19,909 - OpenAI Response Token Usage: 14540
+2024-09-04 20:12:19,915 - OpenAI Response Token Usage: 14252
+2024-09-04 20:12:19,929 - OpenAI Response Token Usage: 14014
+2024-09-04 20:12:19,936 - OpenAI Response Token Usage: 14540
+2024-09-04 20:12:19,940 - OpenAI Response Token Usage: 14252
+2024-09-04 20:12:19,956 - OpenAI Response Token Usage: 18668
+2024-09-04 20:12:19,965 - OpenAI Response Token Usage: 19030
+2024-09-04 20:12:19,973 - OpenAI Response Token Usage: 19006
+2024-09-04 20:12:19,991 - OpenAI Response Token Usage: 20617
+2024-09-04 20:12:20,000 - OpenAI Response Token Usage: 21060
+2024-09-04 20:12:20,009 - OpenAI Response Token Usage: 20945
+2024-09-04 20:12:20,026 - OpenAI Response Token Usage: 16747
+2024-09-04 20:12:20,033 - OpenAI Response Token Usage: 17135
+2024-09-04 20:12:20,039 - OpenAI Response Token Usage: 17068
+2024-09-04 20:12:20,055 - OpenAI Response Token Usage: 13653
+2024-09-04 20:12:20,062 - OpenAI Response Token Usage: 14042
+2024-09-04 20:12:20,066 - OpenAI Response Token Usage: 13927
+2024-09-04 20:12:20,080 - OpenAI Response Token Usage: 15504
+2024-09-04 20:12:20,087 - OpenAI Response Token Usage: 15956
+2024-09-04 20:12:20,093 - OpenAI Response Token Usage: 15826
+2024-09-04 20:12:20,108 - OpenAI Response Token Usage: 21266
+2024-09-04 20:12:20,117 - OpenAI Response Token Usage: 21622
+2024-09-04 20:12:20,126 - OpenAI Response Token Usage: 21569
+2024-09-04 20:12:20,146 - OpenAI Response Token Usage: 19480
+2024-09-04 20:12:20,154 - OpenAI Response Token Usage: 19724
+2024-09-04 20:12:20,162 - OpenAI Response Token Usage: 19771
+2024-09-04 20:12:20,180 - OpenAI Response Token Usage: 20519
+2024-09-04 20:12:20,188 - OpenAI Response Token Usage: 20882
+2024-09-04 20:12:20,198 - OpenAI Response Token Usage: 20822
+2024-09-04 20:12:20,216 - OpenAI Response Token Usage: 14014
+2024-09-04 20:12:20,224 - OpenAI Response Token Usage: 14426
+2024-09-04 20:12:20,228 - OpenAI Response Token Usage: 14546
+2024-09-04 20:12:20,242 - OpenAI Response Token Usage: 14014
+2024-09-04 20:12:20,248 - OpenAI Response Token Usage: 14426
+2024-09-04 20:12:20,252 - OpenAI Response Token Usage: 14546
+2024-09-04 20:12:20,267 - OpenAI Response Token Usage: 24995
+2024-09-04 20:12:20,275 - OpenAI Response Token Usage: 25442
+2024-09-04 20:12:20,283 - OpenAI Response Token Usage: 25573
+2024-09-04 20:12:20,302 - OpenAI Response Token Usage: 16688
+2024-09-04 20:12:20,309 - OpenAI Response Token Usage: 17052
+2024-09-04 20:12:20,315 - OpenAI Response Token Usage: 17263
+2024-09-04 20:12:20,331 - OpenAI Response Token Usage: 15574
+2024-09-04 20:12:20,339 - OpenAI Response Token Usage: 15895
+2024-09-04 20:12:20,345 - OpenAI Response Token Usage: 16174
+2024-09-04 20:12:20,362 - OpenAI Response Token Usage: 18334
+2024-09-04 20:12:20,371 - OpenAI Response Token Usage: 18821
+2024-09-04 20:12:20,379 - OpenAI Response Token Usage: 18909
+2024-09-04 20:12:20,397 - OpenAI Response Token Usage: 15600
+2024-09-04 20:12:20,406 - OpenAI Response Token Usage: 16042
+2024-09-04 20:12:20,413 - OpenAI Response Token Usage: 16149
+2024-09-04 20:12:20,431 - OpenAI Response Token Usage: 18412
+2024-09-04 20:12:20,440 - OpenAI Response Token Usage: 18839
+2024-09-04 20:12:20,449 - OpenAI Response Token Usage: 18984
+2024-09-04 20:12:20,467 - OpenAI Response Token Usage: 20353
+2024-09-04 20:12:20,475 - OpenAI Response Token Usage: 20675
+2024-09-04 20:12:20,483 - OpenAI Response Token Usage: 20895
+2024-09-04 20:12:20,502 - OpenAI Response Token Usage: 18438
+2024-09-04 20:12:20,511 - OpenAI Response Token Usage: 18873
+2024-09-04 20:12:20,518 - OpenAI Response Token Usage: 19006
+2024-09-04 20:12:20,533 - Starting trial num: 0
+2024-09-04 20:12:20,533 - instruction_idx 1
+2024-09-04 20:12:20,534 - demos_idx 2
+2024-09-04 20:12:20,534 - instruction_idx 6
+2024-09-04 20:12:20,534 - demos_idx 2
+2024-09-04 20:12:20,535 - instruction_idx 8
+2024-09-04 20:12:20,535 - demos_idx 6
+2024-09-04 20:12:20,535 - instruction_idx 4
+2024-09-04 20:12:20,535 - demos_idx 5
+2024-09-04 20:12:20,545 - OpenAI Response Token Usage: 42507
+2024-09-04 20:12:20,553 - OpenAI Response Token Usage: 8709
+2024-09-04 20:12:20,561 - OpenAI Response Token Usage: 5661
+2024-09-04 20:12:20,569 - OpenAI Response Token Usage: 5941
+2024-09-04 20:12:21,621 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:22,272 - OpenAI Response Token Usage: 44304
+2024-09-04 20:12:22,279 - OpenAI Response Token Usage: 8277
+2024-09-04 20:12:22,285 - OpenAI Response Token Usage: 7487
+2024-09-04 20:12:22,296 - OpenAI Response Token Usage: 6340
+2024-09-04 20:12:23,257 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:24,098 - OpenAI Response Token Usage: 40138
+2024-09-04 20:12:24,105 - OpenAI Response Token Usage: 8560
+2024-09-04 20:12:24,111 - OpenAI Response Token Usage: 4764
+2024-09-04 20:12:24,119 - OpenAI Response Token Usage: 6074
+2024-09-04 20:12:25,245 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:25,882 - OpenAI Response Token Usage: 34659
+2024-09-04 20:12:25,889 - OpenAI Response Token Usage: 7893
+2024-09-04 20:12:25,896 - OpenAI Response Token Usage: 2967
+2024-09-04 20:12:25,908 - OpenAI Response Token Usage: 6076
+2024-09-04 20:12:26,614 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:27,558 - OpenAI Response Token Usage: 36511
+2024-09-04 20:12:27,565 - OpenAI Response Token Usage: 7955
+2024-09-04 20:12:27,571 - OpenAI Response Token Usage: 3790
+2024-09-04 20:12:27,579 - OpenAI Response Token Usage: 6044
+2024-09-04 20:12:28,528 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:29,420 - OpenAI Response Token Usage: 43584
+2024-09-04 20:12:29,427 - OpenAI Response Token Usage: 8701
+2024-09-04 20:12:29,433 - OpenAI Response Token Usage: 6252
+2024-09-04 20:12:29,442 - OpenAI Response Token Usage: 5986
+2024-09-04 20:12:30,232 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:31,890 - OpenAI Response Token Usage: 36735
+2024-09-04 20:12:31,897 - OpenAI Response Token Usage: 8445
+2024-09-04 20:12:31,903 - OpenAI Response Token Usage: 3421
+2024-09-04 20:12:31,911 - OpenAI Response Token Usage: 5929
+2024-09-04 20:12:32,575 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:33,462 - OpenAI Response Token Usage: 36611
+2024-09-04 20:12:33,466 - OpenAI Response Token Usage: 38715
+2024-09-04 20:12:33,472 - OpenAI Response Token Usage: 9051
+2024-09-04 20:12:33,478 - OpenAI Response Token Usage: 2924
+2024-09-04 20:12:33,487 - OpenAI Response Token Usage: 8487
+2024-09-04 20:12:34,307 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:35,052 - OpenAI Response Token Usage: 44567
+2024-09-04 20:12:35,059 - OpenAI Response Token Usage: 8884
+2024-09-04 20:12:35,065 - OpenAI Response Token Usage: 6735
+2024-09-04 20:12:35,073 - OpenAI Response Token Usage: 6109
+2024-09-04 20:12:35,843 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:36,491 - OpenAI Response Token Usage: 35961
+2024-09-04 20:12:36,500 - OpenAI Response Token Usage: 7508
+2024-09-04 20:12:36,508 - OpenAI Response Token Usage: 3728
+2024-09-04 20:12:36,517 - OpenAI Response Token Usage: 5882
+2024-09-04 20:12:37,589 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:38,334 - OpenAI Response Token Usage: 40666
+2024-09-04 20:12:38,343 - OpenAI Response Token Usage: 9354
+2024-09-04 20:12:38,350 - OpenAI Response Token Usage: 6793
+2024-09-04 20:12:38,360 - OpenAI Response Token Usage: 6042
+2024-09-04 20:12:39,099 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:39,823 - OpenAI Response Token Usage: 46476
+2024-09-04 20:12:39,831 - OpenAI Response Token Usage: 8914
+2024-09-04 20:12:39,836 - OpenAI Response Token Usage: 6042
+2024-09-04 20:12:39,844 - OpenAI Response Token Usage: 5869
+2024-09-04 20:12:40,765 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:41,467 - OpenAI Response Token Usage: 37830
+2024-09-04 20:12:41,474 - OpenAI Response Token Usage: 8260
+2024-09-04 20:12:41,480 - OpenAI Response Token Usage: 4353
+2024-09-04 20:12:41,488 - OpenAI Response Token Usage: 6220
+2024-09-04 20:12:42,612 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:43,646 - OpenAI Response Token Usage: 37480
+2024-09-04 20:12:43,654 - OpenAI Response Token Usage: 7761
+2024-09-04 20:12:43,659 - OpenAI Response Token Usage: 4352
+2024-09-04 20:12:43,667 - OpenAI Response Token Usage: 5996
+2024-09-04 20:12:44,703 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:45,427 - OpenAI Response Token Usage: 44580
+2024-09-04 20:12:45,434 - OpenAI Response Token Usage: 8249
+2024-09-04 20:12:45,440 - OpenAI Response Token Usage: 7599
+2024-09-04 20:12:45,448 - OpenAI Response Token Usage: 6112
+2024-09-04 20:12:46,275 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:46,966 - OpenAI Response Token Usage: 38216
+2024-09-04 20:12:46,974 - OpenAI Response Token Usage: 9080
+2024-09-04 20:12:46,980 - OpenAI Response Token Usage: 3043
+2024-09-04 20:12:46,988 - OpenAI Response Token Usage: 5878
+2024-09-04 20:12:48,262 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:48,859 - OpenAI Response Token Usage: 34909
+2024-09-04 20:12:48,867 - OpenAI Response Token Usage: 8194
+2024-09-04 20:12:48,875 - OpenAI Response Token Usage: 3151
+2024-09-04 20:12:48,885 - OpenAI Response Token Usage: 6138
+2024-09-04 20:12:49,659 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:50,467 - OpenAI Response Token Usage: 36223
+2024-09-04 20:12:50,474 - OpenAI Response Token Usage: 7850
+2024-09-04 20:12:50,480 - OpenAI Response Token Usage: 3682
+2024-09-04 20:12:50,491 - OpenAI Response Token Usage: 5991
+2024-09-04 20:12:51,224 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:51,983 - OpenAI Response Token Usage: 38743
+2024-09-04 20:12:51,990 - OpenAI Response Token Usage: 8201
+2024-09-04 20:12:51,996 - OpenAI Response Token Usage: 4134
+2024-09-04 20:12:52,005 - OpenAI Response Token Usage: 6030
+2024-09-04 20:12:52,821 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:53,484 - OpenAI Response Token Usage: 42785
+2024-09-04 20:12:53,490 - OpenAI Response Token Usage: 8522
+2024-09-04 20:12:53,496 - OpenAI Response Token Usage: 6217
+2024-09-04 20:12:53,505 - OpenAI Response Token Usage: 6171
+2024-09-04 20:12:54,353 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:54,993 - OpenAI Response Token Usage: 41084
+2024-09-04 20:12:55,000 - OpenAI Response Token Usage: 8813
+2024-09-04 20:12:55,006 - OpenAI Response Token Usage: 5399
+2024-09-04 20:12:55,014 - OpenAI Response Token Usage: 6037
+2024-09-04 20:12:55,753 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:56,510 - OpenAI Response Token Usage: 42956
+2024-09-04 20:12:56,515 - OpenAI Response Token Usage: 44562
+2024-09-04 20:12:56,521 - OpenAI Response Token Usage: 11898
+2024-09-04 20:12:56,527 - OpenAI Response Token Usage: 2924
+2024-09-04 20:12:56,536 - OpenAI Response Token Usage: 7923
+2024-09-04 20:12:57,353 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:58,097 - OpenAI Response Token Usage: 40418
+2024-09-04 20:12:58,104 - OpenAI Response Token Usage: 9354
+2024-09-04 20:12:58,109 - OpenAI Response Token Usage: 6793
+2024-09-04 20:12:58,117 - OpenAI Response Token Usage: 6042
+2024-09-04 20:12:58,939 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:12:59,831 - OpenAI Response Token Usage: 43742
+2024-09-04 20:12:59,838 - OpenAI Response Token Usage: 8171
+2024-09-04 20:12:59,844 - OpenAI Response Token Usage: 6989
+2024-09-04 20:12:59,852 - OpenAI Response Token Usage: 6159
+2024-09-04 20:13:00,645 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:01,307 - OpenAI Response Token Usage: 43017
+2024-09-04 20:13:01,312 - OpenAI Response Token Usage: 47113
+2024-09-04 20:13:01,319 - OpenAI Response Token Usage: 12192
+2024-09-04 20:13:01,324 - OpenAI Response Token Usage: 2924
+2024-09-04 20:13:01,332 - OpenAI Response Token Usage: 10426
+2024-09-04 20:13:02,328 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:03,126 - [2m2024-09-04T18:13:03.126028Z[0m [[32m[1minfo     [0m] [1mAverage Metric: 17.532069087028503 / 25 (70.1%)[0m [[0m[1m[34mdspy.evaluate.evaluate[0m][0m [36mfilename[0m=[35mevaluate.py[0m [36mlineno[0m=[35m203[0m
+2024-09-04 20:13:03,138 - OpenAI Response Token Usage: 35989
+2024-09-04 20:13:03,144 - OpenAI Response Token Usage: 8067
+2024-09-04 20:13:03,150 - OpenAI Response Token Usage: 3354
+2024-09-04 20:13:03,158 - OpenAI Response Token Usage: 5953
+2024-09-04 20:13:04,051 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:04,645 - [2m2024-09-04T18:13:04.644993Z[0m [[32m[1minfo     [0m] [1mAverage Metric: 0.6884143948554993 / 1 (68.8%)[0m [[0m[1m[34mdspy.evaluate.evaluate[0m][0m [36mfilename[0m=[35mevaluate.py[0m [36mlineno[0m=[35m203[0m
+2024-09-04 20:13:05,450 - OpenAI Response Token Usage: 35989
+2024-09-04 20:13:05,456 - OpenAI Response Token Usage: 8067
+2024-09-04 20:13:05,461 - OpenAI Response Token Usage: 3354
+2024-09-04 20:13:05,472 - OpenAI Response Token Usage: 5953
+2024-09-04 20:13:06,486 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:07,206 - OpenAI Response Token Usage: 37455
+2024-09-04 20:13:07,212 - OpenAI Response Token Usage: 7844
+2024-09-04 20:13:07,218 - OpenAI Response Token Usage: 4155
+2024-09-04 20:13:07,227 - OpenAI Response Token Usage: 5892
+2024-09-04 20:13:08,074 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:09,036 - OpenAI Response Token Usage: 40418
+2024-09-04 20:13:09,042 - OpenAI Response Token Usage: 9354
+2024-09-04 20:13:09,048 - OpenAI Response Token Usage: 6793
+2024-09-04 20:13:09,056 - OpenAI Response Token Usage: 6042
+2024-09-04 20:13:09,946 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:11,173 - OpenAI Response Token Usage: 42841
+2024-09-04 20:13:11,180 - OpenAI Response Token Usage: 8360
+2024-09-04 20:13:11,187 - OpenAI Response Token Usage: 6560
+2024-09-04 20:13:11,195 - OpenAI Response Token Usage: 6022
+2024-09-04 20:13:12,096 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:12,698 - OpenAI Response Token Usage: 45791
+2024-09-04 20:13:12,704 - OpenAI Response Token Usage: 9354
+2024-09-04 20:13:12,709 - OpenAI Response Token Usage: 6793
+2024-09-04 20:13:12,717 - OpenAI Response Token Usage: 6042
+2024-09-04 20:13:13,456 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:14,670 - OpenAI Response Token Usage: 45393
+2024-09-04 20:13:14,677 - OpenAI Response Token Usage: 7802
+2024-09-04 20:13:14,683 - OpenAI Response Token Usage: 8199
+2024-09-04 20:13:14,691 - OpenAI Response Token Usage: 6139
+2024-09-04 20:13:15,699 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:16,280 - OpenAI Response Token Usage: 41943
+2024-09-04 20:13:16,287 - OpenAI Response Token Usage: 8630
+2024-09-04 20:13:16,295 - OpenAI Response Token Usage: 2230
+2024-09-04 20:13:16,305 - OpenAI Response Token Usage: 5604
+2024-09-04 20:13:17,107 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:17,681 - OpenAI Response Token Usage: 38066
+2024-09-04 20:13:17,686 - OpenAI Response Token Usage: 41237
+2024-09-04 20:13:17,693 - OpenAI Response Token Usage: 9794
+2024-09-04 20:13:17,698 - OpenAI Response Token Usage: 2924
+2024-09-04 20:13:17,707 - OpenAI Response Token Usage: 9522
+2024-09-04 20:13:18,531 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:19,182 - OpenAI Response Token Usage: 37091
+2024-09-04 20:13:19,189 - OpenAI Response Token Usage: 7746
+2024-09-04 20:13:19,195 - OpenAI Response Token Usage: 4227
+2024-09-04 20:13:19,204 - OpenAI Response Token Usage: 6054
+2024-09-04 20:13:19,923 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:20,591 - OpenAI Response Token Usage: 52075
+2024-09-04 20:13:20,595 - OpenAI Response Token Usage: 52143
+2024-09-04 20:13:20,602 - OpenAI Response Token Usage: 9731
+2024-09-04 20:13:20,609 - OpenAI Response Token Usage: 8363
+2024-09-04 20:13:20,619 - OpenAI Response Token Usage: 6095
+2024-09-04 20:13:21,886 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:22,497 - OpenAI Response Token Usage: 36033
+2024-09-04 20:13:22,504 - OpenAI Response Token Usage: 8225
+2024-09-04 20:13:22,510 - OpenAI Response Token Usage: 3259
+2024-09-04 20:13:22,521 - OpenAI Response Token Usage: 6036
+2024-09-04 20:13:23,326 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:23,904 - OpenAI Response Token Usage: 43310
+2024-09-04 20:13:23,911 - OpenAI Response Token Usage: 9355
+2024-09-04 20:13:23,917 - OpenAI Response Token Usage: 6793
+2024-09-04 20:13:23,924 - OpenAI Response Token Usage: 6042
+2024-09-04 20:13:24,590 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:25,890 - OpenAI Response Token Usage: 34909
+2024-09-04 20:13:25,896 - OpenAI Response Token Usage: 8194
+2024-09-04 20:13:25,901 - OpenAI Response Token Usage: 3151
+2024-09-04 20:13:25,908 - OpenAI Response Token Usage: 6138
+2024-09-04 20:13:26,663 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:27,405 - OpenAI Response Token Usage: 38177
+2024-09-04 20:13:27,412 - OpenAI Response Token Usage: 8637
+2024-09-04 20:13:27,418 - OpenAI Response Token Usage: 4120
+2024-09-04 20:13:27,426 - OpenAI Response Token Usage: 6086
+2024-09-04 20:13:28,142 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:28,694 - OpenAI Response Token Usage: 36144
+2024-09-04 20:13:28,700 - OpenAI Response Token Usage: 7967
+2024-09-04 20:13:28,706 - OpenAI Response Token Usage: 3607
+2024-09-04 20:13:28,715 - OpenAI Response Token Usage: 6045
+2024-09-04 20:13:29,872 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:30,405 - OpenAI Response Token Usage: 42627
+2024-09-04 20:13:30,412 - OpenAI Response Token Usage: 9438
+2024-09-04 20:13:30,418 - OpenAI Response Token Usage: 5703
+2024-09-04 20:13:30,426 - OpenAI Response Token Usage: 6108
+2024-09-04 20:13:31,292 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:32,105 - OpenAI Response Token Usage: 43626
+2024-09-04 20:13:32,113 - OpenAI Response Token Usage: 7750
+2024-09-04 20:13:32,119 - OpenAI Response Token Usage: 7353
+2024-09-04 20:13:32,130 - OpenAI Response Token Usage: 6072
+2024-09-04 20:13:33,020 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:34,027 - OpenAI Response Token Usage: 41627
+2024-09-04 20:13:34,035 - OpenAI Response Token Usage: 8816
+2024-09-04 20:13:34,042 - OpenAI Response Token Usage: 5730
+2024-09-04 20:13:34,050 - OpenAI Response Token Usage: 6106
+2024-09-04 20:13:35,004 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:35,671 - OpenAI Response Token Usage: 36573
+2024-09-04 20:13:35,675 - OpenAI Response Token Usage: 38777
+2024-09-04 20:13:35,682 - OpenAI Response Token Usage: 8980
+2024-09-04 20:13:35,688 - OpenAI Response Token Usage: 2924
+2024-09-04 20:13:35,696 - OpenAI Response Token Usage: 8513
+2024-09-04 20:13:36,502 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:37,016 - OpenAI Response Token Usage: 37830
+2024-09-04 20:13:37,021 - OpenAI Response Token Usage: 8260
+2024-09-04 20:13:37,027 - OpenAI Response Token Usage: 4353
+2024-09-04 20:13:37,037 - OpenAI Response Token Usage: 6220
+2024-09-04 20:13:37,875 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:38,645 - OpenAI Response Token Usage: 34997
+2024-09-04 20:13:38,652 - OpenAI Response Token Usage: 8481
+2024-09-04 20:13:38,659 - OpenAI Response Token Usage: 2663
+2024-09-04 20:13:38,666 - OpenAI Response Token Usage: 6120
+2024-09-04 20:13:39,529 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:40,369 - OpenAI Response Token Usage: 39711
+2024-09-04 20:13:40,376 - OpenAI Response Token Usage: 8203
+2024-09-04 20:13:40,383 - OpenAI Response Token Usage: 5106
+2024-09-04 20:13:40,393 - OpenAI Response Token Usage: 5970
+2024-09-04 20:13:41,143 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:41,689 - OpenAI Response Token Usage: 43507
+2024-09-04 20:13:41,696 - OpenAI Response Token Usage: 9322
+2024-09-04 20:13:41,702 - OpenAI Response Token Usage: 6041
+2024-09-04 20:13:41,711 - OpenAI Response Token Usage: 6289
+2024-09-04 20:13:42,383 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:43,066 - OpenAI Response Token Usage: 37131
+2024-09-04 20:13:43,073 - OpenAI Response Token Usage: 8054
+2024-09-04 20:13:43,079 - OpenAI Response Token Usage: 4016
+2024-09-04 20:13:43,088 - OpenAI Response Token Usage: 6033
+2024-09-04 20:13:43,736 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:44,435 - OpenAI Response Token Usage: 36718
+2024-09-04 20:13:44,440 - OpenAI Response Token Usage: 38785
+2024-09-04 20:13:44,449 - OpenAI Response Token Usage: 9382
+2024-09-04 20:13:44,454 - OpenAI Response Token Usage: 2924
+2024-09-04 20:13:44,463 - OpenAI Response Token Usage: 8429
+2024-09-04 20:13:45,388 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:46,057 - OpenAI Response Token Usage: 37355
+2024-09-04 20:13:46,064 - OpenAI Response Token Usage: 8400
+2024-09-04 20:13:46,071 - OpenAI Response Token Usage: 3802
+2024-09-04 20:13:46,080 - OpenAI Response Token Usage: 6004
+2024-09-04 20:13:46,807 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:47,423 - OpenAI Response Token Usage: 39145
+2024-09-04 20:13:47,429 - OpenAI Response Token Usage: 7673
+2024-09-04 20:13:47,436 - OpenAI Response Token Usage: 5354
+2024-09-04 20:13:47,445 - OpenAI Response Token Usage: 6115
+2024-09-04 20:13:48,193 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:48,769 - OpenAI Response Token Usage: 35091
+2024-09-04 20:13:48,776 - OpenAI Response Token Usage: 8021
+2024-09-04 20:13:48,782 - OpenAI Response Token Usage: 3052
+2024-09-04 20:13:48,791 - OpenAI Response Token Usage: 5831
+2024-09-04 20:13:49,432 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:49,989 - OpenAI Response Token Usage: 37302
+2024-09-04 20:13:49,993 - OpenAI Response Token Usage: 39402
+2024-09-04 20:13:50,000 - OpenAI Response Token Usage: 9348
+2024-09-04 20:13:50,005 - OpenAI Response Token Usage: 2924
+2024-09-04 20:13:50,014 - OpenAI Response Token Usage: 8413
+2024-09-04 20:13:50,708 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:51,788 - OpenAI Response Token Usage: 46629
+2024-09-04 20:13:51,795 - OpenAI Response Token Usage: 8635
+2024-09-04 20:13:51,803 - OpenAI Response Token Usage: 8054
+2024-09-04 20:13:51,814 - OpenAI Response Token Usage: 6071
+2024-09-04 20:13:52,583 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:53,250 - OpenAI Response Token Usage: 47576
+2024-09-04 20:13:53,258 - OpenAI Response Token Usage: 7958
+2024-09-04 20:13:53,268 - OpenAI Response Token Usage: 8274
+2024-09-04 20:13:53,278 - OpenAI Response Token Usage: 6093
+2024-09-04 20:13:53,975 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:54,570 - OpenAI Response Token Usage: 33988
+2024-09-04 20:13:54,577 - OpenAI Response Token Usage: 7546
+2024-09-04 20:13:54,583 - OpenAI Response Token Usage: 2645
+2024-09-04 20:13:54,591 - OpenAI Response Token Usage: 5791
+2024-09-04 20:13:55,419 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:56,314 - OpenAI Response Token Usage: 46177
+2024-09-04 20:13:56,321 - OpenAI Response Token Usage: 8029
+2024-09-04 20:13:56,327 - OpenAI Response Token Usage: 8181
+2024-09-04 20:13:56,410 - OpenAI Response Token Usage: 6120
+2024-09-04 20:13:57,226 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:58,132 - OpenAI Response Token Usage: 37480
+2024-09-04 20:13:58,138 - OpenAI Response Token Usage: 7761
+2024-09-04 20:13:58,143 - OpenAI Response Token Usage: 4352
+2024-09-04 20:13:58,151 - OpenAI Response Token Usage: 5996
+2024-09-04 20:13:58,882 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:13:59,621 - OpenAI Response Token Usage: 37646
+2024-09-04 20:13:59,628 - OpenAI Response Token Usage: 9320
+2024-09-04 20:13:59,635 - OpenAI Response Token Usage: 3280
+2024-09-04 20:13:59,643 - OpenAI Response Token Usage: 6112
+2024-09-04 20:14:00,547 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:01,127 - OpenAI Response Token Usage: 35428
+2024-09-04 20:14:01,132 - OpenAI Response Token Usage: 36820
+2024-09-04 20:14:01,139 - OpenAI Response Token Usage: 8472
+2024-09-04 20:14:01,144 - OpenAI Response Token Usage: 2924
+2024-09-04 20:14:01,154 - OpenAI Response Token Usage: 7702
+2024-09-04 20:14:02,212 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:02,979 - OpenAI Response Token Usage: 41055
+2024-09-04 20:14:02,986 - OpenAI Response Token Usage: 9355
+2024-09-04 20:14:02,992 - OpenAI Response Token Usage: 6793
+2024-09-04 20:14:03,000 - OpenAI Response Token Usage: 6042
+2024-09-04 20:14:03,842 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:04,705 - OpenAI Response Token Usage: 36483
+2024-09-04 20:14:04,712 - OpenAI Response Token Usage: 7615
+2024-09-04 20:14:04,718 - OpenAI Response Token Usage: 3985
+2024-09-04 20:14:04,729 - OpenAI Response Token Usage: 6015
+2024-09-04 20:14:05,565 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:06,182 - OpenAI Response Token Usage: 42058
+2024-09-04 20:14:06,189 - OpenAI Response Token Usage: 8788
+2024-09-04 20:14:06,196 - OpenAI Response Token Usage: 5573
+2024-09-04 20:14:06,204 - OpenAI Response Token Usage: 6181
+2024-09-04 20:14:07,138 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:08,067 - OpenAI Response Token Usage: 37427
+2024-09-04 20:14:08,074 - OpenAI Response Token Usage: 8410
+2024-09-04 20:14:08,080 - OpenAI Response Token Usage: 3990
+2024-09-04 20:14:08,089 - OpenAI Response Token Usage: 6154
+2024-09-04 20:14:08,725 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:09,295 - OpenAI Response Token Usage: 43216
+2024-09-04 20:14:09,303 - OpenAI Response Token Usage: 8531
+2024-09-04 20:14:09,309 - OpenAI Response Token Usage: 6415
+2024-09-04 20:14:09,319 - OpenAI Response Token Usage: 6091
+2024-09-04 20:14:10,134 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:10,859 - OpenAI Response Token Usage: 37068
+2024-09-04 20:14:10,866 - OpenAI Response Token Usage: 8231
+2024-09-04 20:14:10,875 - OpenAI Response Token Usage: 3856
+2024-09-04 20:14:10,884 - OpenAI Response Token Usage: 6065
+2024-09-04 20:14:11,581 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:12,320 - OpenAI Response Token Usage: 35967
+2024-09-04 20:14:12,326 - OpenAI Response Token Usage: 37651
+2024-09-04 20:14:12,334 - OpenAI Response Token Usage: 8730
+2024-09-04 20:14:12,339 - OpenAI Response Token Usage: 2924
+2024-09-04 20:14:12,348 - OpenAI Response Token Usage: 8022
+2024-09-04 20:14:13,144 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:14,294 - OpenAI Response Token Usage: 38773
+2024-09-04 20:14:14,300 - OpenAI Response Token Usage: 8005
+2024-09-04 20:14:14,307 - OpenAI Response Token Usage: 4941
+2024-09-04 20:14:14,315 - OpenAI Response Token Usage: 6079
+2024-09-04 20:14:15,023 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:15,806 - OpenAI Response Token Usage: 40508
+2024-09-04 20:14:15,813 - OpenAI Response Token Usage: 8159
+2024-09-04 20:14:15,820 - OpenAI Response Token Usage: 5491
+2024-09-04 20:14:15,828 - OpenAI Response Token Usage: 5891
+2024-09-04 20:14:16,655 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:17,507 - OpenAI Response Token Usage: 40369
+2024-09-04 20:14:17,513 - OpenAI Response Token Usage: 9354
+2024-09-04 20:14:17,519 - OpenAI Response Token Usage: 6793
+2024-09-04 20:14:17,526 - OpenAI Response Token Usage: 6042
+2024-09-04 20:14:18,203 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:18,878 - OpenAI Response Token Usage: 40641
+2024-09-04 20:14:18,884 - OpenAI Response Token Usage: 9354
+2024-09-04 20:14:18,889 - OpenAI Response Token Usage: 6793
+2024-09-04 20:14:18,896 - OpenAI Response Token Usage: 6042
+2024-09-04 20:14:19,664 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:20,370 - OpenAI Response Token Usage: 36332
+2024-09-04 20:14:20,378 - OpenAI Response Token Usage: 8117
+2024-09-04 20:14:20,385 - OpenAI Response Token Usage: 3635
+2024-09-04 20:14:20,394 - OpenAI Response Token Usage: 6095
+2024-09-04 20:14:21,368 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:21,866 - OpenAI Response Token Usage: 37445
+2024-09-04 20:14:21,873 - OpenAI Response Token Usage: 8343
+2024-09-04 20:14:21,879 - OpenAI Response Token Usage: 3734
+2024-09-04 20:14:21,888 - OpenAI Response Token Usage: 6144
+2024-09-04 20:14:22,564 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:23,080 - OpenAI Response Token Usage: 37200
+2024-09-04 20:14:23,087 - OpenAI Response Token Usage: 8239
+2024-09-04 20:14:23,093 - OpenAI Response Token Usage: 3814
+2024-09-04 20:14:23,101 - OpenAI Response Token Usage: 6014
+2024-09-04 20:14:24,134 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:24,703 - OpenAI Response Token Usage: 39408
+2024-09-04 20:14:24,710 - OpenAI Response Token Usage: 8187
+2024-09-04 20:14:24,715 - OpenAI Response Token Usage: 4625
+2024-09-04 20:14:24,724 - OpenAI Response Token Usage: 5923
+2024-09-04 20:14:25,577 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:26,511 - OpenAI Response Token Usage: 35287
+2024-09-04 20:14:26,518 - OpenAI Response Token Usage: 8104
+2024-09-04 20:14:26,523 - OpenAI Response Token Usage: 3104
+2024-09-04 20:14:26,531 - OpenAI Response Token Usage: 6167
+2024-09-04 20:14:27,425 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:28,049 - OpenAI Response Token Usage: 41512
+2024-09-04 20:14:28,056 - OpenAI Response Token Usage: 9354
+2024-09-04 20:14:28,061 - OpenAI Response Token Usage: 6793
+2024-09-04 20:14:28,069 - OpenAI Response Token Usage: 6042
+2024-09-04 20:14:28,720 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:29,714 - OpenAI Response Token Usage: 43259
+2024-09-04 20:14:29,721 - OpenAI Response Token Usage: 7768
+2024-09-04 20:14:29,726 - OpenAI Response Token Usage: 7484
+2024-09-04 20:14:29,735 - OpenAI Response Token Usage: 6319
+2024-09-04 20:14:30,805 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:31,537 - OpenAI Response Token Usage: 46334
+2024-09-04 20:14:31,544 - OpenAI Response Token Usage: 8410
+2024-09-04 20:14:31,550 - OpenAI Response Token Usage: 7939
+2024-09-04 20:14:31,558 - OpenAI Response Token Usage: 5999
+2024-09-04 20:14:32,409 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:33,015 - OpenAI Response Token Usage: 34797
+2024-09-04 20:14:33,021 - OpenAI Response Token Usage: 7640
+2024-09-04 20:14:33,027 - OpenAI Response Token Usage: 3065
+2024-09-04 20:14:33,035 - OpenAI Response Token Usage: 5920
+2024-09-04 20:14:33,799 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:34,528 - OpenAI Response Token Usage: 39915
+2024-09-04 20:14:34,534 - OpenAI Response Token Usage: 8778
+2024-09-04 20:14:34,540 - OpenAI Response Token Usage: 2152
+2024-09-04 20:14:34,548 - OpenAI Response Token Usage: 5603
+2024-09-04 20:14:35,426 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:36,043 - OpenAI Response Token Usage: 37511
+2024-09-04 20:14:36,047 - OpenAI Response Token Usage: 39580
+2024-09-04 20:14:36,054 - OpenAI Response Token Usage: 9382
+2024-09-04 20:14:36,059 - OpenAI Response Token Usage: 2924
+2024-09-04 20:14:36,070 - OpenAI Response Token Usage: 8443
+2024-09-04 20:14:37,063 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:37,615 - OpenAI Response Token Usage: 37111
+2024-09-04 20:14:37,623 - OpenAI Response Token Usage: 8131
+2024-09-04 20:14:37,630 - OpenAI Response Token Usage: 4092
+2024-09-04 20:14:37,639 - OpenAI Response Token Usage: 6256
+2024-09-04 20:14:38,438 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:39,223 - OpenAI Response Token Usage: 36576
+2024-09-04 20:14:39,227 - OpenAI Response Token Usage: 38758
+2024-09-04 20:14:39,233 - OpenAI Response Token Usage: 9063
+2024-09-04 20:14:39,238 - OpenAI Response Token Usage: 2924
+2024-09-04 20:14:39,246 - OpenAI Response Token Usage: 8569
+2024-09-04 20:14:39,924 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:40,649 - OpenAI Response Token Usage: 41130
+2024-09-04 20:14:40,654 - OpenAI Response Token Usage: 45226
+2024-09-04 20:14:40,660 - OpenAI Response Token Usage: 11264
+2024-09-04 20:14:40,666 - OpenAI Response Token Usage: 2924
+2024-09-04 20:14:40,674 - OpenAI Response Token Usage: 10426
+2024-09-04 20:14:41,561 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:42,731 - OpenAI Response Token Usage: 36203
+2024-09-04 20:14:42,738 - OpenAI Response Token Usage: 8016
+2024-09-04 20:14:42,743 - OpenAI Response Token Usage: 3397
+2024-09-04 20:14:42,751 - OpenAI Response Token Usage: 5936
+2024-09-04 20:14:43,783 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:44,462 - OpenAI Response Token Usage: 39701
+2024-09-04 20:14:44,466 - OpenAI Response Token Usage: 42917
+2024-09-04 20:14:44,474 - OpenAI Response Token Usage: 10493
+2024-09-04 20:14:44,479 - OpenAI Response Token Usage: 2924
+2024-09-04 20:14:44,486 - OpenAI Response Token Usage: 9522
+2024-09-04 20:14:45,200 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:45,793 - OpenAI Response Token Usage: 39544
+2024-09-04 20:14:45,800 - OpenAI Response Token Usage: 8265
+2024-09-04 20:14:45,806 - OpenAI Response Token Usage: 4744
+2024-09-04 20:14:45,814 - OpenAI Response Token Usage: 5992
+2024-09-04 20:14:46,491 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:47,527 - OpenAI Response Token Usage: 48467
+2024-09-04 20:14:47,535 - OpenAI Response Token Usage: 8218
+2024-09-04 20:14:47,541 - OpenAI Response Token Usage: 8907
+2024-09-04 20:14:47,549 - OpenAI Response Token Usage: 5975
+2024-09-04 20:14:48,332 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:49,094 - OpenAI Response Token Usage: 34600
+2024-09-04 20:14:49,100 - OpenAI Response Token Usage: 7783
+2024-09-04 20:14:49,106 - OpenAI Response Token Usage: 2718
+2024-09-04 20:14:49,116 - OpenAI Response Token Usage: 5757
+2024-09-04 20:14:49,850 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:50,672 - OpenAI Response Token Usage: 38646
+2024-09-04 20:14:50,679 - OpenAI Response Token Usage: 8153
+2024-09-04 20:14:50,685 - OpenAI Response Token Usage: 4708
+2024-09-04 20:14:50,693 - OpenAI Response Token Usage: 6041
+2024-09-04 20:14:51,396 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:51,981 - OpenAI Response Token Usage: 43584
+2024-09-04 20:14:51,987 - OpenAI Response Token Usage: 8701
+2024-09-04 20:14:51,992 - OpenAI Response Token Usage: 6252
+2024-09-04 20:14:52,000 - OpenAI Response Token Usage: 5986
+2024-09-04 20:14:52,667 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:53,283 - OpenAI Response Token Usage: 37306
+2024-09-04 20:14:53,289 - OpenAI Response Token Usage: 8365
+2024-09-04 20:14:53,295 - OpenAI Response Token Usage: 3756
+2024-09-04 20:14:53,302 - OpenAI Response Token Usage: 5968
+2024-09-04 20:14:54,215 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:55,256 - OpenAI Response Token Usage: 36634
+2024-09-04 20:14:55,262 - OpenAI Response Token Usage: 7655
+2024-09-04 20:14:55,269 - OpenAI Response Token Usage: 3951
+2024-09-04 20:14:55,279 - OpenAI Response Token Usage: 5885
+2024-09-04 20:14:56,102 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:57,168 - OpenAI Response Token Usage: 38773
+2024-09-04 20:14:57,175 - OpenAI Response Token Usage: 8719
+2024-09-04 20:14:57,180 - OpenAI Response Token Usage: 4328
+2024-09-04 20:14:57,188 - OpenAI Response Token Usage: 6111
+2024-09-04 20:14:57,873 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:14:58,719 - OpenAI Response Token Usage: 40511
+2024-09-04 20:14:58,725 - OpenAI Response Token Usage: 8215
+2024-09-04 20:14:58,731 - OpenAI Response Token Usage: 5243
+2024-09-04 20:14:58,740 - OpenAI Response Token Usage: 5983
+2024-09-04 20:14:59,554 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:00,242 - OpenAI Response Token Usage: 38338
+2024-09-04 20:15:00,249 - OpenAI Response Token Usage: 8247
+2024-09-04 20:15:00,255 - OpenAI Response Token Usage: 4411
+2024-09-04 20:15:00,263 - OpenAI Response Token Usage: 6009
+2024-09-04 20:15:01,072 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:01,881 - OpenAI Response Token Usage: 35618
+2024-09-04 20:15:01,885 - OpenAI Response Token Usage: 37362
+2024-09-04 20:15:01,891 - OpenAI Response Token Usage: 8528
+2024-09-04 20:15:01,896 - OpenAI Response Token Usage: 2924
+2024-09-04 20:15:01,904 - OpenAI Response Token Usage: 8046
+2024-09-04 20:15:02,755 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:03,300 - OpenAI Response Token Usage: 40666
+2024-09-04 20:15:03,307 - OpenAI Response Token Usage: 9354
+2024-09-04 20:15:03,312 - OpenAI Response Token Usage: 6793
+2024-09-04 20:15:03,321 - OpenAI Response Token Usage: 6042
+2024-09-04 20:15:04,105 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:04,920 - OpenAI Response Token Usage: 42785
+2024-09-04 20:15:04,926 - OpenAI Response Token Usage: 8522
+2024-09-04 20:15:04,931 - OpenAI Response Token Usage: 6217
+2024-09-04 20:15:04,939 - OpenAI Response Token Usage: 6171
+2024-09-04 20:15:05,620 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:06,819 - OpenAI Response Token Usage: 37345
+2024-09-04 20:15:06,825 - OpenAI Response Token Usage: 8406
+2024-09-04 20:15:06,831 - OpenAI Response Token Usage: 3684
+2024-09-04 20:15:06,839 - OpenAI Response Token Usage: 5903
+2024-09-04 20:15:07,785 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:08,493 - OpenAI Response Token Usage: 35339
+2024-09-04 20:15:08,500 - OpenAI Response Token Usage: 7815
+2024-09-04 20:15:08,505 - OpenAI Response Token Usage: 3247
+2024-09-04 20:15:08,513 - OpenAI Response Token Usage: 5938
+2024-09-04 20:15:09,312 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:09,861 - OpenAI Response Token Usage: 38216
+2024-09-04 20:15:09,867 - OpenAI Response Token Usage: 9080
+2024-09-04 20:15:09,873 - OpenAI Response Token Usage: 3043
+2024-09-04 20:15:09,881 - OpenAI Response Token Usage: 5878
+2024-09-04 20:15:10,542 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:11,135 - OpenAI Response Token Usage: 42013
+2024-09-04 20:15:11,142 - OpenAI Response Token Usage: 8191
+2024-09-04 20:15:11,148 - OpenAI Response Token Usage: 6413
+2024-09-04 20:15:11,158 - OpenAI Response Token Usage: 6155
+2024-09-04 20:15:11,804 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:12,658 - OpenAI Response Token Usage: 44580
+2024-09-04 20:15:12,665 - OpenAI Response Token Usage: 8249
+2024-09-04 20:15:12,672 - OpenAI Response Token Usage: 7599
+2024-09-04 20:15:12,680 - OpenAI Response Token Usage: 6112
+2024-09-04 20:15:13,789 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:14,359 - OpenAI Response Token Usage: 38699
+2024-09-04 20:15:14,366 - OpenAI Response Token Usage: 8924
+2024-09-04 20:15:14,373 - OpenAI Response Token Usage: 4083
+2024-09-04 20:15:14,383 - OpenAI Response Token Usage: 6262
+2024-09-04 20:15:15,259 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:16,023 - OpenAI Response Token Usage: 36074
+2024-09-04 20:15:16,030 - OpenAI Response Token Usage: 7912
+2024-09-04 20:15:16,036 - OpenAI Response Token Usage: 3582
+2024-09-04 20:15:16,044 - OpenAI Response Token Usage: 5991
+2024-09-04 20:15:16,781 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:17,741 - OpenAI Response Token Usage: 42541
+2024-09-04 20:15:17,748 - OpenAI Response Token Usage: 9354
+2024-09-04 20:15:17,753 - OpenAI Response Token Usage: 6793
+2024-09-04 20:15:17,761 - OpenAI Response Token Usage: 6042
+2024-09-04 20:15:18,460 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:19,419 - OpenAI Response Token Usage: 37812
+2024-09-04 20:15:19,427 - OpenAI Response Token Usage: 7902
+2024-09-04 20:15:19,434 - OpenAI Response Token Usage: 4301
+2024-09-04 20:15:19,445 - OpenAI Response Token Usage: 5950
+2024-09-04 20:15:20,487 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:21,252 - OpenAI Response Token Usage: 37044
+2024-09-04 20:15:21,256 - OpenAI Response Token Usage: 39228
+2024-09-04 20:15:21,263 - OpenAI Response Token Usage: 9286
+2024-09-04 20:15:21,268 - OpenAI Response Token Usage: 2924
+2024-09-04 20:15:21,278 - OpenAI Response Token Usage: 8524
+2024-09-04 20:15:21,991 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:22,983 - OpenAI Response Token Usage: 47239
+2024-09-04 20:15:22,990 - OpenAI Response Token Usage: 8337
+2024-09-04 20:15:22,996 - OpenAI Response Token Usage: 8564
+2024-09-04 20:15:23,004 - OpenAI Response Token Usage: 6068
+2024-09-04 20:15:23,750 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:24,908 - OpenAI Response Token Usage: 38229
+2024-09-04 20:15:24,915 - OpenAI Response Token Usage: 8419
+2024-09-04 20:15:24,922 - OpenAI Response Token Usage: 4126
+2024-09-04 20:15:24,930 - OpenAI Response Token Usage: 5908
+2024-09-04 20:15:25,849 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:26,587 - OpenAI Response Token Usage: 36157
+2024-09-04 20:15:26,594 - OpenAI Response Token Usage: 7952
+2024-09-04 20:15:26,600 - OpenAI Response Token Usage: 3606
+2024-09-04 20:15:26,608 - OpenAI Response Token Usage: 6022
+2024-09-04 20:15:27,280 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:28,129 - OpenAI Response Token Usage: 40258
+2024-09-04 20:15:28,136 - OpenAI Response Token Usage: 8230
+2024-09-04 20:15:28,142 - OpenAI Response Token Usage: 4224
+2024-09-04 20:15:28,150 - OpenAI Response Token Usage: 5981
+2024-09-04 20:15:29,355 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:30,306 - OpenAI Response Token Usage: 36107
+2024-09-04 20:15:30,312 - OpenAI Response Token Usage: 7991
+2024-09-04 20:15:30,318 - OpenAI Response Token Usage: 3336
+2024-09-04 20:15:30,326 - OpenAI Response Token Usage: 5883
+2024-09-04 20:15:31,097 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:31,928 - OpenAI Response Token Usage: 48492
+2024-09-04 20:15:31,932 - OpenAI Response Token Usage: 50467
+2024-09-04 20:15:31,939 - OpenAI Response Token Usage: 14358
+2024-09-04 20:15:31,945 - OpenAI Response Token Usage: 3903
+2024-09-04 20:15:31,953 - OpenAI Response Token Usage: 8172
+2024-09-04 20:15:32,795 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:33,573 - OpenAI Response Token Usage: 36818
+2024-09-04 20:15:33,577 - OpenAI Response Token Usage: 38944
+2024-09-04 20:15:33,584 - OpenAI Response Token Usage: 9143
+2024-09-04 20:15:33,589 - OpenAI Response Token Usage: 2924
+2024-09-04 20:15:33,597 - OpenAI Response Token Usage: 8422
+2024-09-04 20:15:34,508 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:35,187 - OpenAI Response Token Usage: 36987
+2024-09-04 20:15:35,194 - OpenAI Response Token Usage: 7570
+2024-09-04 20:15:35,202 - OpenAI Response Token Usage: 4135
+2024-09-04 20:15:35,211 - OpenAI Response Token Usage: 8845
+2024-09-04 20:15:36,332 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:37,099 - OpenAI Response Token Usage: 38755
+2024-09-04 20:15:37,103 - OpenAI Response Token Usage: 41572
+2024-09-04 20:15:37,110 - OpenAI Response Token Usage: 10111
+2024-09-04 20:15:37,115 - OpenAI Response Token Usage: 2924
+2024-09-04 20:15:37,125 - OpenAI Response Token Usage: 9143
+2024-09-04 20:15:37,945 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:38,473 - OpenAI Response Token Usage: 41972
+2024-09-04 20:15:38,479 - OpenAI Response Token Usage: 8356
+2024-09-04 20:15:38,485 - OpenAI Response Token Usage: 5829
+2024-09-04 20:15:38,493 - OpenAI Response Token Usage: 6054
+2024-09-04 20:15:39,229 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:39,972 - OpenAI Response Token Usage: 38716
+2024-09-04 20:15:39,978 - OpenAI Response Token Usage: 8232
+2024-09-04 20:15:39,984 - OpenAI Response Token Usage: 4362
+2024-09-04 20:15:39,992 - OpenAI Response Token Usage: 5950
+2024-09-04 20:15:40,649 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:41,905 - OpenAI Response Token Usage: 49718
+2024-09-04 20:15:41,909 - OpenAI Response Token Usage: 49816
+2024-09-04 20:15:41,917 - OpenAI Response Token Usage: 8773
+2024-09-04 20:15:41,924 - OpenAI Response Token Usage: 9273
+2024-09-04 20:15:41,931 - OpenAI Response Token Usage: 6095
+2024-09-04 20:15:42,843 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:43,974 - OpenAI Response Token Usage: 41240
+2024-09-04 20:15:43,980 - OpenAI Response Token Usage: 9355
+2024-09-04 20:15:43,986 - OpenAI Response Token Usage: 6793
+2024-09-04 20:15:43,994 - OpenAI Response Token Usage: 6042
+2024-09-04 20:15:44,917 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:45,552 - OpenAI Response Token Usage: 37940
+2024-09-04 20:15:45,559 - OpenAI Response Token Usage: 8692
+2024-09-04 20:15:45,565 - OpenAI Response Token Usage: 3655
+2024-09-04 20:15:45,574 - OpenAI Response Token Usage: 5998
+2024-09-04 20:15:46,811 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:47,867 - OpenAI Response Token Usage: 35530
+2024-09-04 20:15:47,873 - OpenAI Response Token Usage: 8237
+2024-09-04 20:15:47,879 - OpenAI Response Token Usage: 3119
+2024-09-04 20:15:47,887 - OpenAI Response Token Usage: 6109
+2024-09-04 20:15:48,662 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:49,377 - OpenAI Response Token Usage: 35961
+2024-09-04 20:15:49,383 - OpenAI Response Token Usage: 7508
+2024-09-04 20:15:49,388 - OpenAI Response Token Usage: 3728
+2024-09-04 20:15:49,396 - OpenAI Response Token Usage: 5882
+2024-09-04 20:15:50,341 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:15:51,289 - OpenAI Response Token Usage: 43429
+2024-09-04 20:15:51,296 - OpenAI Response Token Usage: 8280
+2024-09-04 20:15:51,302 - OpenAI Response Token Usage: 6303
+2024-09-04 20:15:51,310 - OpenAI Response Token Usage: 6148
+2024-09-04 20:15:52,032 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:16:32,518 - OpenAI Response Token Usage: 37120
+2024-09-04 20:16:34,990 - OpenAI Response Token Usage: 7667
+2024-09-04 20:16:50,476 - OpenAI Response Token Usage: 5625
+2024-09-04 20:16:52,831 - OpenAI Response Token Usage: 7400
+2024-09-04 20:16:53,638 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:17:57,263 - OpenAI Response Token Usage: 38532
+2024-09-04 20:18:05,001 - OpenAI Response Token Usage: 8363
+2024-09-04 20:18:10,345 - OpenAI Response Token Usage: 4539
+2024-09-04 20:18:13,079 - OpenAI Response Token Usage: 6199
+2024-09-04 20:18:14,254 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:19:41,806 - OpenAI Response Token Usage: 39986
+2024-09-04 20:19:45,111 - OpenAI Response Token Usage: 8384
+2024-09-04 20:19:51,059 - OpenAI Response Token Usage: 5178
+2024-09-04 20:19:54,384 - OpenAI Response Token Usage: 6070
+2024-09-04 20:19:55,361 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:20:48,028 - OpenAI Response Token Usage: 38172
+2024-09-04 20:20:51,501 - OpenAI Response Token Usage: 8256
+2024-09-04 20:20:55,177 - OpenAI Response Token Usage: 4299
+2024-09-04 20:20:57,242 - OpenAI Response Token Usage: 5983
+2024-09-04 20:20:58,258 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:22:30,364 - OpenAI Response Token Usage: 42891
+2024-09-04 20:22:34,343 - OpenAI Response Token Usage: 8321
+2024-09-04 20:22:38,881 - OpenAI Response Token Usage: 6593
+2024-09-04 20:22:41,410 - OpenAI Response Token Usage: 6036
+2024-09-04 20:22:42,360 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:25:34,985 - OpenAI Response Token Usage: 54742
+2024-09-04 20:26:25,508 - OpenAI Response Token Usage: 58836
+2024-09-04 20:26:28,319 - OpenAI Response Token Usage: 8230
+2024-09-04 20:26:34,491 - OpenAI Response Token Usage: 9910
+2024-09-04 20:26:37,765 - OpenAI Response Token Usage: 10176
+2024-09-04 20:26:38,738 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:27:15,177 - OpenAI Response Token Usage: 36432
+2024-09-04 20:27:18,693 - OpenAI Response Token Usage: 7810
+2024-09-04 20:27:27,097 - OpenAI Response Token Usage: 3985
+2024-09-04 20:27:28,684 - OpenAI Response Token Usage: 6171
+2024-09-04 20:27:29,780 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:28:02,010 - OpenAI Response Token Usage: 36608
+2024-09-04 20:28:43,057 - OpenAI Response Token Usage: 38707
+2024-09-04 20:28:47,421 - OpenAI Response Token Usage: 9017
+2024-09-04 20:28:47,440 - OpenAI Response Token Usage: 2924
+2024-09-04 20:28:49,560 - OpenAI Response Token Usage: 8429
+2024-09-04 20:28:50,560 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:29:34,042 - OpenAI Response Token Usage: 36786
+2024-09-04 20:29:42,196 - OpenAI Response Token Usage: 9369
+2024-09-04 20:29:47,615 - OpenAI Response Token Usage: 3444
+2024-09-04 20:29:49,607 - OpenAI Response Token Usage: 6510
+2024-09-04 20:29:50,601 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:30:48,323 - OpenAI Response Token Usage: 38773
+2024-09-04 20:30:53,454 - OpenAI Response Token Usage: 8764
+2024-09-04 20:30:59,191 - OpenAI Response Token Usage: 4312
+2024-09-04 20:31:01,506 - OpenAI Response Token Usage: 6097
+2024-09-04 20:31:02,820 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:32:14,811 - OpenAI Response Token Usage: 41236
+2024-09-04 20:32:18,463 - OpenAI Response Token Usage: 8599
+2024-09-04 20:32:24,713 - OpenAI Response Token Usage: 5158
+2024-09-04 20:32:27,581 - OpenAI Response Token Usage: 6002
+2024-09-04 20:32:28,494 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:33:34,378 - OpenAI Response Token Usage: 39906
+2024-09-04 20:33:37,567 - OpenAI Response Token Usage: 7869
+2024-09-04 20:33:43,432 - OpenAI Response Token Usage: 5449
+2024-09-04 20:33:45,800 - OpenAI Response Token Usage: 6001
+2024-09-04 20:33:46,864 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:33:47,496 - OpenAI Response Token Usage: 38743
+2024-09-04 20:33:47,502 - OpenAI Response Token Usage: 8201
+2024-09-04 20:33:47,507 - OpenAI Response Token Usage: 4134
+2024-09-04 20:33:47,515 - OpenAI Response Token Usage: 6030
+2024-09-04 20:33:48,303 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:35:16,037 - OpenAI Response Token Usage: 41286
+2024-09-04 20:35:19,559 - OpenAI Response Token Usage: 9479
+2024-09-04 20:35:24,475 - OpenAI Response Token Usage: 5006
+2024-09-04 20:35:26,856 - OpenAI Response Token Usage: 6056
+2024-09-04 20:35:27,801 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:37:34,015 - OpenAI Response Token Usage: 44619
+2024-09-04 20:37:38,470 - OpenAI Response Token Usage: 8716
+2024-09-04 20:40:10,238 - OpenAI Response Token Usage: 6779
+2024-09-04 20:40:14,331 - OpenAI Response Token Usage: 6596
+2024-09-04 20:40:15,151 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:40:47,904 - OpenAI Response Token Usage: 35735
+2024-09-04 20:43:30,886 - OpenAI Response Token Usage: 8435
+2024-09-04 20:43:37,038 - OpenAI Response Token Usage: 3087
+2024-09-04 20:43:39,292 - OpenAI Response Token Usage: 5913
+2024-09-04 20:43:40,232 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:45:49,274 - OpenAI Response Token Usage: 46343
+2024-09-04 20:45:52,126 - OpenAI Response Token Usage: 7733
+2024-09-04 20:46:04,159 - OpenAI Response Token Usage: 8702
+2024-09-04 20:46:06,864 - OpenAI Response Token Usage: 6382
+2024-09-04 20:46:07,850 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:47:58,644 - OpenAI Response Token Usage: 45618
+2024-09-04 20:48:02,701 - OpenAI Response Token Usage: 9247
+2024-09-04 20:48:07,662 - OpenAI Response Token Usage: 5731
+2024-09-04 20:48:09,983 - OpenAI Response Token Usage: 6342
+2024-09-04 20:48:11,020 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:48:38,293 - OpenAI Response Token Usage: 35752
+2024-09-04 20:49:06,091 - OpenAI Response Token Usage: 37073
+2024-09-04 20:49:09,026 - OpenAI Response Token Usage: 8579
+2024-09-04 20:49:09,040 - OpenAI Response Token Usage: 2924
+2024-09-04 20:49:11,469 - OpenAI Response Token Usage: 7601
+2024-09-04 20:49:12,280 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:50:16,564 - OpenAI Response Token Usage: 38734
+2024-09-04 20:50:19,929 - OpenAI Response Token Usage: 8218
+2024-09-04 20:50:25,300 - OpenAI Response Token Usage: 4853
+2024-09-04 20:50:27,922 - OpenAI Response Token Usage: 6213
+2024-09-04 20:50:29,083 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:52:14,240 - OpenAI Response Token Usage: 42702
+2024-09-04 20:55:06,590 - OpenAI Response Token Usage: 8646
+2024-09-04 20:55:13,521 - OpenAI Response Token Usage: 6312
+2024-09-04 20:55:16,183 - OpenAI Response Token Usage: 6088
+2024-09-04 20:55:17,662 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:57:10,692 - OpenAI Response Token Usage: 43388
+2024-09-04 20:57:13,876 - OpenAI Response Token Usage: 9338
+2024-09-04 20:57:13,887 - OpenAI Response Token Usage: 6793
+2024-09-04 20:57:16,311 - OpenAI Response Token Usage: 6044
+2024-09-04 20:57:17,375 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:58:00,096 - OpenAI Response Token Usage: 37358
+2024-09-04 20:58:05,524 - OpenAI Response Token Usage: 8401
+2024-09-04 20:58:12,084 - OpenAI Response Token Usage: 3984
+2024-09-04 20:58:14,772 - OpenAI Response Token Usage: 6188
+2024-09-04 20:58:15,877 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 20:59:19,233 - OpenAI Response Token Usage: 40447
+2024-09-04 20:59:19,247 - OpenAI Response Token Usage: 9355
+2024-09-04 20:59:19,256 - OpenAI Response Token Usage: 6793
+2024-09-04 20:59:19,267 - OpenAI Response Token Usage: 6042
+2024-09-04 20:59:20,144 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:00:25,312 - OpenAI Response Token Usage: 39480
+2024-09-04 21:00:29,105 - OpenAI Response Token Usage: 8316
+2024-09-04 21:05:26,128 - OpenAI Response Token Usage: 4880
+2024-09-04 21:05:30,888 - OpenAI Response Token Usage: 6200
+2024-09-04 21:05:31,948 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:05:56,870 - OpenAI Response Token Usage: 38387
+2024-09-04 21:05:59,406 - OpenAI Response Token Usage: 8435
+2024-09-04 21:06:05,819 - OpenAI Response Token Usage: 3938
+2024-09-04 21:06:42,677 - OpenAI Response Token Usage: 8961
+2024-09-04 21:06:43,385 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:09:44,752 - OpenAI Response Token Usage: 48158
+2024-09-04 21:09:50,830 - OpenAI Response Token Usage: 9181
+2024-09-04 21:09:56,531 - OpenAI Response Token Usage: 8445
+2024-09-04 21:10:00,276 - OpenAI Response Token Usage: 5940
+2024-09-04 21:10:01,446 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:11:37,174 - OpenAI Response Token Usage: 36782
+2024-09-04 21:12:44,207 - OpenAI Response Token Usage: 39002
+2024-09-04 21:12:52,584 - OpenAI Response Token Usage: 9364
+2024-09-04 21:12:52,595 - OpenAI Response Token Usage: 2924
+2024-09-04 21:12:56,471 - OpenAI Response Token Usage: 8789
+2024-09-04 21:12:57,298 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:14:46,943 - OpenAI Response Token Usage: 35184
+2024-09-04 21:15:33,423 - OpenAI Response Token Usage: 36798
+2024-09-04 21:15:43,184 - OpenAI Response Token Usage: 8324
+2024-09-04 21:15:43,197 - OpenAI Response Token Usage: 2924
+2024-09-04 21:15:48,373 - OpenAI Response Token Usage: 7928
+2024-09-04 21:15:49,229 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:16:54,284 - OpenAI Response Token Usage: 40369
+2024-09-04 21:17:17,644 - OpenAI Response Token Usage: 8935
+2024-09-04 21:17:19,301 - OpenAI Response Token Usage: 2173
+2024-09-04 21:17:24,010 - OpenAI Response Token Usage: 5654
+2024-09-04 21:17:24,818 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:21:44,190 - OpenAI Response Token Usage: 39906
+2024-09-04 21:21:50,954 - OpenAI Response Token Usage: 9353
+2024-09-04 21:21:50,967 - OpenAI Response Token Usage: 6793
+2024-09-04 21:21:50,980 - OpenAI Response Token Usage: 6042
+2024-09-04 21:21:51,888 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:23:11,390 - OpenAI Response Token Usage: 38141
+2024-09-04 21:24:17,136 - OpenAI Response Token Usage: 41432
+2024-09-04 21:24:23,838 - OpenAI Response Token Usage: 9821
+2024-09-04 21:24:23,851 - OpenAI Response Token Usage: 2924
+2024-09-04 21:24:55,774 - OpenAI Response Token Usage: 9639
+2024-09-04 21:24:56,807 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:28:01,288 - OpenAI Response Token Usage: 54053
+2024-09-04 21:28:08,178 - OpenAI Response Token Usage: 8112
+2024-09-04 21:28:15,624 - OpenAI Response Token Usage: 8948
+2024-09-04 21:28:18,839 - OpenAI Response Token Usage: 6036
+2024-09-04 21:28:20,039 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:29:39,205 - OpenAI Response Token Usage: 35533
+2024-09-04 21:30:19,064 - OpenAI Response Token Usage: 37362
+2024-09-04 21:30:23,897 - OpenAI Response Token Usage: 8590
+2024-09-04 21:30:23,908 - OpenAI Response Token Usage: 2924
+2024-09-04 21:30:51,969 - OpenAI Response Token Usage: 8238
+2024-09-04 21:30:53,054 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:33:04,132 - OpenAI Response Token Usage: 42484
+2024-09-04 21:33:14,513 - OpenAI Response Token Usage: 8801
+2024-09-04 21:33:22,832 - OpenAI Response Token Usage: 5301
+2024-09-04 21:33:25,550 - OpenAI Response Token Usage: 6131
+2024-09-04 21:33:26,655 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:33:27,472 - OpenAI Response Token Usage: 41084
+2024-09-04 21:33:27,478 - OpenAI Response Token Usage: 8813
+2024-09-04 21:33:27,483 - OpenAI Response Token Usage: 5399
+2024-09-04 21:33:27,491 - OpenAI Response Token Usage: 6037
+2024-09-04 21:33:28,256 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:35:34,279 - OpenAI Response Token Usage: 39128
+2024-09-04 21:37:42,566 - OpenAI Response Token Usage: 42351
+2024-09-04 21:37:46,987 - OpenAI Response Token Usage: 10478
+2024-09-04 21:37:47,000 - OpenAI Response Token Usage: 2924
+2024-09-04 21:37:52,011 - OpenAI Response Token Usage: 9519
+2024-09-04 21:37:53,380 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:38:48,685 - OpenAI Response Token Usage: 40435
+2024-09-04 21:39:36,924 - OpenAI Response Token Usage: 7931
+2024-09-04 21:40:08,828 - OpenAI Response Token Usage: 3090
+2024-09-04 21:40:13,523 - OpenAI Response Token Usage: 6064
+2024-09-04 21:40:14,332 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:41:23,742 - OpenAI Response Token Usage: 38577
+2024-09-04 21:41:31,902 - OpenAI Response Token Usage: 8319
+2024-09-04 21:41:37,805 - OpenAI Response Token Usage: 4456
+2024-09-04 21:41:40,912 - OpenAI Response Token Usage: 6018
+2024-09-04 21:41:41,917 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:44:22,405 - OpenAI Response Token Usage: 42109
+2024-09-04 21:44:37,994 - OpenAI Response Token Usage: 8524
+2024-09-04 21:44:42,869 - OpenAI Response Token Usage: 6175
+2024-09-04 21:44:48,625 - OpenAI Response Token Usage: 6160
+2024-09-04 21:44:49,560 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:48:00,366 - OpenAI Response Token Usage: 40528
+2024-09-04 21:48:00,377 - OpenAI Response Token Usage: 9355
+2024-09-04 21:48:00,385 - OpenAI Response Token Usage: 6793
+2024-09-04 21:48:00,396 - OpenAI Response Token Usage: 6042
+2024-09-04 21:48:01,435 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:51:13,090 - OpenAI Response Token Usage: 41004
+2024-09-04 21:51:20,592 - OpenAI Response Token Usage: 10172
+2024-09-04 21:51:20,605 - OpenAI Response Token Usage: 6793
+2024-09-04 21:51:26,610 - OpenAI Response Token Usage: 6025
+2024-09-04 21:51:27,870 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:52:44,084 - OpenAI Response Token Usage: 38732
+2024-09-04 21:52:46,665 - OpenAI Response Token Usage: 7337
+2024-09-04 21:53:15,163 - OpenAI Response Token Usage: 5308
+2024-09-04 21:53:19,217 - OpenAI Response Token Usage: 6053
+2024-09-04 21:53:20,357 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:55:06,615 - OpenAI Response Token Usage: 37758
+2024-09-04 21:55:18,353 - OpenAI Response Token Usage: 8053
+2024-09-04 21:55:29,427 - OpenAI Response Token Usage: 4355
+2024-09-04 21:55:32,806 - OpenAI Response Token Usage: 6045
+2024-09-04 21:55:33,910 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 21:58:33,873 - OpenAI Response Token Usage: 39820
+2024-09-04 21:58:39,192 - OpenAI Response Token Usage: 8414
+2024-09-04 21:59:07,810 - OpenAI Response Token Usage: 5092
+2024-09-04 21:59:12,787 - OpenAI Response Token Usage: 6096
+2024-09-04 21:59:13,703 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:00:23,267 - OpenAI Response Token Usage: 37372
+2024-09-04 22:00:29,248 - OpenAI Response Token Usage: 7987
+2024-09-04 22:00:38,969 - OpenAI Response Token Usage: 4053
+2024-09-04 22:00:42,876 - OpenAI Response Token Usage: 5918
+2024-09-04 22:00:43,930 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:01:27,188 - OpenAI Response Token Usage: 37495
+2024-09-04 22:01:32,741 - OpenAI Response Token Usage: 8184
+2024-09-04 22:01:39,304 - OpenAI Response Token Usage: 3816
+2024-09-04 22:01:46,571 - OpenAI Response Token Usage: 5969
+2024-09-04 22:01:47,347 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:04:50,240 - OpenAI Response Token Usage: 39964
+2024-09-04 22:04:50,250 - OpenAI Response Token Usage: 9355
+2024-09-04 22:04:50,259 - OpenAI Response Token Usage: 6793
+2024-09-04 22:04:50,273 - OpenAI Response Token Usage: 6042
+2024-09-04 22:04:51,116 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:06:01,290 - OpenAI Response Token Usage: 41091
+2024-09-04 22:06:05,023 - OpenAI Response Token Usage: 8028
+2024-09-04 22:06:09,160 - OpenAI Response Token Usage: 5936
+2024-09-04 22:06:14,288 - OpenAI Response Token Usage: 6057
+2024-09-04 22:06:15,472 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:08:42,734 - OpenAI Response Token Usage: 42233
+2024-09-04 22:08:42,746 - OpenAI Response Token Usage: 9355
+2024-09-04 22:08:42,755 - OpenAI Response Token Usage: 6793
+2024-09-04 22:08:42,766 - OpenAI Response Token Usage: 6042
+2024-09-04 22:08:43,507 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:10:34,697 - OpenAI Response Token Usage: 41584
+2024-09-04 22:10:39,500 - OpenAI Response Token Usage: 9356
+2024-09-04 22:10:39,513 - OpenAI Response Token Usage: 6793
+2024-09-04 22:10:39,526 - OpenAI Response Token Usage: 6044
+2024-09-04 22:10:40,347 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:13:09,827 - OpenAI Response Token Usage: 45716
+2024-09-04 22:16:03,966 - OpenAI Response Token Usage: 49812
+2024-09-04 22:16:14,646 - OpenAI Response Token Usage: 13288
+2024-09-04 22:16:14,658 - OpenAI Response Token Usage: 2924
+2024-09-04 22:16:17,382 - OpenAI Response Token Usage: 10437
+2024-09-04 22:16:18,272 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:16:19,239 - OpenAI Response Token Usage: 34659
+2024-09-04 22:16:19,246 - OpenAI Response Token Usage: 7893
+2024-09-04 22:16:19,251 - OpenAI Response Token Usage: 2967
+2024-09-04 22:16:19,258 - OpenAI Response Token Usage: 6076
+2024-09-04 22:16:19,992 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:17:21,293 - OpenAI Response Token Usage: 37282
+2024-09-04 22:17:33,716 - OpenAI Response Token Usage: 7909
+2024-09-04 22:17:39,331 - OpenAI Response Token Usage: 3982
+2024-09-04 22:17:43,893 - OpenAI Response Token Usage: 5936
+2024-09-04 22:17:44,796 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:18:32,332 - OpenAI Response Token Usage: 37643
+2024-09-04 22:19:24,316 - OpenAI Response Token Usage: 40276
+2024-09-04 22:19:27,672 - OpenAI Response Token Usage: 9552
+2024-09-04 22:19:27,682 - OpenAI Response Token Usage: 2924
+2024-09-04 22:19:30,441 - OpenAI Response Token Usage: 8990
+2024-09-04 22:19:31,537 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:20:26,852 - OpenAI Response Token Usage: 39833
+2024-09-04 22:20:31,972 - OpenAI Response Token Usage: 7564
+2024-09-04 22:20:40,655 - OpenAI Response Token Usage: 5457
+2024-09-04 22:20:44,294 - OpenAI Response Token Usage: 5911
+2024-09-04 22:20:45,214 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:21:38,377 - OpenAI Response Token Usage: 38650
+2024-09-04 22:21:43,126 - OpenAI Response Token Usage: 8094
+2024-09-04 22:21:46,668 - OpenAI Response Token Usage: 4622
+2024-09-04 22:21:49,137 - OpenAI Response Token Usage: 5946
+2024-09-04 22:21:49,901 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:22:34,585 - OpenAI Response Token Usage: 37282
+2024-09-04 22:22:47,598 - OpenAI Response Token Usage: 7888
+2024-09-04 22:22:52,722 - OpenAI Response Token Usage: 4301
+2024-09-04 22:22:54,550 - OpenAI Response Token Usage: 6136
+2024-09-04 22:22:55,589 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:23:50,077 - OpenAI Response Token Usage: 37790
+2024-09-04 22:24:00,582 - OpenAI Response Token Usage: 8712
+2024-09-04 22:24:11,986 - OpenAI Response Token Usage: 3903
+2024-09-04 22:24:14,059 - OpenAI Response Token Usage: 6113
+2024-09-04 22:24:14,996 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:25:56,825 - OpenAI Response Token Usage: 38815
+2024-09-04 22:26:27,212 - OpenAI Response Token Usage: 41380
+2024-09-04 22:26:33,129 - OpenAI Response Token Usage: 9373
+2024-09-04 22:26:33,142 - OpenAI Response Token Usage: 2924
+2024-09-04 22:26:36,052 - OpenAI Response Token Usage: 8926
+2024-09-04 22:26:36,860 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:27:26,376 - OpenAI Response Token Usage: 38052
+2024-09-04 22:28:24,468 - OpenAI Response Token Usage: 40779
+2024-09-04 22:28:29,591 - OpenAI Response Token Usage: 10107
+2024-09-04 22:28:29,604 - OpenAI Response Token Usage: 2924
+2024-09-04 22:28:33,574 - OpenAI Response Token Usage: 9170
+2024-09-04 22:28:34,686 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:30:45,389 - OpenAI Response Token Usage: 41644
+2024-09-04 22:30:45,402 - OpenAI Response Token Usage: 9355
+2024-09-04 22:30:45,412 - OpenAI Response Token Usage: 6793
+2024-09-04 22:30:45,423 - OpenAI Response Token Usage: 6042
+2024-09-04 22:30:46,394 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:31:54,932 - OpenAI Response Token Usage: 40693
+2024-09-04 22:31:58,662 - OpenAI Response Token Usage: 8067
+2024-09-04 22:32:11,648 - OpenAI Response Token Usage: 5700
+2024-09-04 22:32:15,177 - OpenAI Response Token Usage: 6034
+2024-09-04 22:32:15,908 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:34:11,552 - OpenAI Response Token Usage: 40858
+2024-09-04 22:34:15,554 - OpenAI Response Token Usage: 8259
+2024-09-04 22:34:15,567 - OpenAI Response Token Usage: 6793
+2024-09-04 22:34:19,153 - OpenAI Response Token Usage: 6097
+2024-09-04 22:34:20,008 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:34:52,877 - OpenAI Response Token Usage: 34272
+2024-09-04 22:34:57,002 - OpenAI Response Token Usage: 7762
+2024-09-04 22:34:59,973 - OpenAI Response Token Usage: 2656
+2024-09-04 22:35:04,919 - OpenAI Response Token Usage: 5881
+2024-09-04 22:35:05,711 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:36:41,905 - OpenAI Response Token Usage: 46775
+2024-09-04 22:36:44,444 - OpenAI Response Token Usage: 9315
+2024-09-04 22:36:49,094 - OpenAI Response Token Usage: 5800
+2024-09-04 22:36:51,346 - OpenAI Response Token Usage: 6203
+2024-09-04 22:36:52,312 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:37:17,555 - OpenAI Response Token Usage: 34623
+2024-09-04 22:37:20,543 - OpenAI Response Token Usage: 7840
+2024-09-04 22:37:24,876 - OpenAI Response Token Usage: 2837
+2024-09-04 22:37:27,273 - OpenAI Response Token Usage: 5802
+2024-09-04 22:37:28,091 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:37:55,738 - OpenAI Response Token Usage: 41506
+2024-09-04 22:37:58,714 - OpenAI Response Token Usage: 8210
+2024-09-04 22:38:01,905 - OpenAI Response Token Usage: 2975
+2024-09-04 22:38:03,743 - OpenAI Response Token Usage: 5927
+2024-09-04 22:38:04,756 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:38:52,410 - OpenAI Response Token Usage: 37970
+2024-09-04 22:38:56,193 - OpenAI Response Token Usage: 8746
+2024-09-04 22:39:01,024 - OpenAI Response Token Usage: 3673
+2024-09-04 22:39:03,379 - OpenAI Response Token Usage: 6154
+2024-09-04 22:39:04,284 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:39:54,625 - OpenAI Response Token Usage: 38282
+2024-09-04 22:40:46,361 - OpenAI Response Token Usage: 41091
+2024-09-04 22:40:50,331 - OpenAI Response Token Usage: 9890
+2024-09-04 22:40:50,337 - OpenAI Response Token Usage: 2924
+2024-09-04 22:40:52,869 - OpenAI Response Token Usage: 9193
+2024-09-04 22:40:53,726 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:41:08,508 - OpenAI Response Token Usage: 34544
+2024-09-04 22:41:10,587 - OpenAI Response Token Usage: 7396
+2024-09-04 22:41:16,121 - OpenAI Response Token Usage: 3078
+2024-09-04 22:41:19,048 - OpenAI Response Token Usage: 5897
+2024-09-04 22:41:20,094 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:41:46,866 - OpenAI Response Token Usage: 35814
+2024-09-04 22:41:49,802 - OpenAI Response Token Usage: 7663
+2024-09-04 22:41:53,368 - OpenAI Response Token Usage: 3482
+2024-09-04 22:41:55,321 - OpenAI Response Token Usage: 5817
+2024-09-04 22:41:56,393 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:42:43,645 - OpenAI Response Token Usage: 37934
+2024-09-04 22:42:46,734 - OpenAI Response Token Usage: 8463
+2024-09-04 22:42:51,584 - OpenAI Response Token Usage: 3990
+2024-09-04 22:42:53,500 - OpenAI Response Token Usage: 5913
+2024-09-04 22:42:54,420 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:43:41,359 - OpenAI Response Token Usage: 38685
+2024-09-04 22:43:45,701 - OpenAI Response Token Usage: 8892
+2024-09-04 22:43:49,698 - OpenAI Response Token Usage: 3864
+2024-09-04 22:43:51,987 - OpenAI Response Token Usage: 6131
+2024-09-04 22:43:52,700 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:45:12,391 - OpenAI Response Token Usage: 41700
+2024-09-04 22:45:16,383 - OpenAI Response Token Usage: 8206
+2024-09-04 22:45:21,058 - OpenAI Response Token Usage: 5959
+2024-09-04 22:45:23,700 - OpenAI Response Token Usage: 6046
+2024-09-04 22:45:24,409 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:46:02,822 - OpenAI Response Token Usage: 40455
+2024-09-04 22:46:09,054 - OpenAI Response Token Usage: 8444
+2024-09-04 22:46:12,890 - OpenAI Response Token Usage: 3244
+2024-09-04 22:46:15,069 - OpenAI Response Token Usage: 5986
+2024-09-04 22:46:15,834 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:47:36,246 - OpenAI Response Token Usage: 41281
+2024-09-04 22:47:40,235 - OpenAI Response Token Usage: 8176
+2024-09-04 22:47:46,285 - OpenAI Response Token Usage: 5917
+2024-09-04 22:47:48,549 - OpenAI Response Token Usage: 5989
+2024-09-04 22:47:49,398 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:48:04,758 - OpenAI Response Token Usage: 37099
+2024-09-04 22:48:40,424 - OpenAI Response Token Usage: 39022
+2024-09-04 22:48:42,951 - OpenAI Response Token Usage: 8665
+2024-09-04 22:48:42,964 - OpenAI Response Token Usage: 2924
+2024-09-04 22:48:45,368 - OpenAI Response Token Usage: 8224
+2024-09-04 22:48:46,448 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:49:27,448 - OpenAI Response Token Usage: 36723
+2024-09-04 22:49:30,849 - OpenAI Response Token Usage: 8680
+2024-09-04 22:49:36,574 - OpenAI Response Token Usage: 3296
+2024-09-04 22:49:38,604 - OpenAI Response Token Usage: 5972
+2024-09-04 22:49:39,376 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:49:40,089 - OpenAI Response Token Usage: 40138
+2024-09-04 22:49:40,095 - OpenAI Response Token Usage: 8560
+2024-09-04 22:49:40,101 - OpenAI Response Token Usage: 4764
+2024-09-04 22:49:40,108 - OpenAI Response Token Usage: 6074
+2024-09-04 22:49:40,817 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:50:47,146 - OpenAI Response Token Usage: 39513
+2024-09-04 22:50:50,724 - OpenAI Response Token Usage: 8685
+2024-09-04 22:50:54,924 - OpenAI Response Token Usage: 4772
+2024-09-04 22:50:58,583 - OpenAI Response Token Usage: 6077
+2024-09-04 22:50:59,338 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:51:18,242 - OpenAI Response Token Usage: 34773
+2024-09-04 22:51:20,996 - OpenAI Response Token Usage: 7561
+2024-09-04 22:51:23,777 - OpenAI Response Token Usage: 2978
+2024-09-04 22:51:25,648 - OpenAI Response Token Usage: 5796
+2024-09-04 22:51:26,389 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:52:01,203 - OpenAI Response Token Usage: 38282
+2024-09-04 22:52:05,406 - OpenAI Response Token Usage: 8306
+2024-09-04 22:52:09,012 - OpenAI Response Token Usage: 3538
+2024-09-04 22:52:10,909 - OpenAI Response Token Usage: 5992
+2024-09-04 22:52:12,009 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:53:06,758 - OpenAI Response Token Usage: 38638
+2024-09-04 22:54:13,733 - OpenAI Response Token Usage: 42117
+2024-09-04 22:54:17,087 - OpenAI Response Token Usage: 10070
+2024-09-04 22:54:17,099 - OpenAI Response Token Usage: 2924
+2024-09-04 22:54:19,368 - OpenAI Response Token Usage: 9846
+2024-09-04 22:54:20,208 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:55:03,443 - OpenAI Response Token Usage: 37204
+2024-09-04 22:55:07,982 - OpenAI Response Token Usage: 8291
+2024-09-04 22:55:13,527 - OpenAI Response Token Usage: 3714
+2024-09-04 22:55:15,451 - OpenAI Response Token Usage: 6060
+2024-09-04 22:55:16,212 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:57:04,985 - OpenAI Response Token Usage: 45339
+2024-09-04 22:58:30,074 - OpenAI Response Token Usage: 49435
+2024-09-04 22:58:35,028 - OpenAI Response Token Usage: 13341
+2024-09-04 22:58:35,041 - OpenAI Response Token Usage: 2924
+2024-09-04 22:58:40,936 - OpenAI Response Token Usage: 10463
+2024-09-04 22:58:41,870 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 22:59:37,074 - OpenAI Response Token Usage: 39102
+2024-09-04 22:59:39,921 - OpenAI Response Token Usage: 7886
+2024-09-04 22:59:48,673 - OpenAI Response Token Usage: 5054
+2024-09-04 22:59:50,567 - OpenAI Response Token Usage: 6118
+2024-09-04 22:59:51,237 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:00:53,754 - OpenAI Response Token Usage: 40259
+2024-09-04 23:02:12,454 - OpenAI Response Token Usage: 44355
+2024-09-04 23:02:14,997 - OpenAI Response Token Usage: 10805
+2024-09-04 23:02:15,007 - OpenAI Response Token Usage: 2924
+2024-09-04 23:02:17,216 - OpenAI Response Token Usage: 10390
+2024-09-04 23:02:17,984 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:02:43,043 - OpenAI Response Token Usage: 36897
+2024-09-04 23:02:48,592 - OpenAI Response Token Usage: 8500
+2024-09-04 23:02:53,795 - OpenAI Response Token Usage: 3408
+2024-09-04 23:02:56,382 - OpenAI Response Token Usage: 6103
+2024-09-04 23:02:57,055 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:03:34,887 - OpenAI Response Token Usage: 36960
+2024-09-04 23:04:16,091 - OpenAI Response Token Usage: 39050
+2024-09-04 23:04:19,292 - OpenAI Response Token Usage: 9213
+2024-09-04 23:04:19,304 - OpenAI Response Token Usage: 2924
+2024-09-04 23:04:21,428 - OpenAI Response Token Usage: 8435
+2024-09-04 23:04:22,111 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:04:52,486 - OpenAI Response Token Usage: 35673
+2024-09-04 23:04:54,618 - OpenAI Response Token Usage: 8061
+2024-09-04 23:04:57,869 - OpenAI Response Token Usage: 3231
+2024-09-04 23:04:59,850 - OpenAI Response Token Usage: 5779
+2024-09-04 23:05:00,544 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:06:10,665 - OpenAI Response Token Usage: 41150
+2024-09-04 23:06:14,377 - OpenAI Response Token Usage: 8398
+2024-09-04 23:06:20,592 - OpenAI Response Token Usage: 5213
+2024-09-04 23:06:22,797 - OpenAI Response Token Usage: 6085
+2024-09-04 23:06:23,473 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:07:27,559 - OpenAI Response Token Usage: 40271
+2024-09-04 23:07:30,900 - OpenAI Response Token Usage: 8307
+2024-09-04 23:07:35,890 - OpenAI Response Token Usage: 5318
+2024-09-04 23:07:38,158 - OpenAI Response Token Usage: 6082
+2024-09-04 23:07:38,836 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:10:24,481 - OpenAI Response Token Usage: 47000
+2024-09-04 23:11:57,958 - OpenAI Response Token Usage: 51097
+2024-09-04 23:12:02,599 - OpenAI Response Token Usage: 15519
+2024-09-04 23:12:02,611 - OpenAI Response Token Usage: 2924
+2024-09-04 23:12:05,285 - OpenAI Response Token Usage: 10472
+2024-09-04 23:12:06,013 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:13:05,029 - OpenAI Response Token Usage: 39305
+2024-09-04 23:13:08,443 - OpenAI Response Token Usage: 8267
+2024-09-04 23:13:12,344 - OpenAI Response Token Usage: 4763
+2024-09-04 23:13:14,453 - OpenAI Response Token Usage: 5919
+2024-09-04 23:13:15,115 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:15:02,110 - OpenAI Response Token Usage: 41709
+2024-09-04 23:15:05,705 - OpenAI Response Token Usage: 8923
+2024-09-04 23:15:10,289 - OpenAI Response Token Usage: 5663
+2024-09-04 23:15:12,766 - OpenAI Response Token Usage: 6097
+2024-09-04 23:15:13,455 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:17:14,366 - OpenAI Response Token Usage: 41517
+2024-09-04 23:17:14,379 - OpenAI Response Token Usage: 9338
+2024-09-04 23:17:14,387 - OpenAI Response Token Usage: 6793
+2024-09-04 23:17:14,399 - OpenAI Response Token Usage: 6044
+2024-09-04 23:17:15,236 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:17:51,662 - OpenAI Response Token Usage: 36983
+2024-09-04 23:18:33,927 - OpenAI Response Token Usage: 39107
+2024-09-04 23:18:38,066 - OpenAI Response Token Usage: 9349
+2024-09-04 23:18:38,079 - OpenAI Response Token Usage: 2924
+2024-09-04 23:18:40,206 - OpenAI Response Token Usage: 8555
+2024-09-04 23:18:41,101 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:19:22,125 - OpenAI Response Token Usage: 37356
+2024-09-04 23:19:24,645 - OpenAI Response Token Usage: 7590
+2024-09-04 23:19:28,581 - OpenAI Response Token Usage: 4316
+2024-09-04 23:19:31,438 - OpenAI Response Token Usage: 5849
+2024-09-04 23:19:32,096 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:19:59,493 - OpenAI Response Token Usage: 35509
+2024-09-04 23:20:02,507 - OpenAI Response Token Usage: 8083
+2024-09-04 23:20:10,927 - OpenAI Response Token Usage: 3525
+2024-09-04 23:20:12,914 - OpenAI Response Token Usage: 6326
+2024-09-04 23:20:13,620 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:21:49,299 - OpenAI Response Token Usage: 42597
+2024-09-04 23:21:52,931 - OpenAI Response Token Usage: 8621
+2024-09-04 23:21:59,641 - OpenAI Response Token Usage: 6286
+2024-09-04 23:22:02,100 - OpenAI Response Token Usage: 6092
+2024-09-04 23:22:02,798 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:22:24,095 - OpenAI Response Token Usage: 35055
+2024-09-04 23:22:26,757 - OpenAI Response Token Usage: 7544
+2024-09-04 23:22:32,152 - OpenAI Response Token Usage: 3217
+2024-09-04 23:22:34,857 - OpenAI Response Token Usage: 6058
+2024-09-04 23:22:35,522 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:24:13,874 - OpenAI Response Token Usage: 40247
+2024-09-04 23:24:13,885 - OpenAI Response Token Usage: 9354
+2024-09-04 23:24:13,894 - OpenAI Response Token Usage: 6793
+2024-09-04 23:24:13,904 - OpenAI Response Token Usage: 6042
+2024-09-04 23:24:14,590 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:26:13,450 - OpenAI Response Token Usage: 46440
+2024-09-04 23:26:17,765 - OpenAI Response Token Usage: 8721
+2024-09-04 23:26:22,372 - OpenAI Response Token Usage: 7627
+2024-09-04 23:26:24,298 - OpenAI Response Token Usage: 6051
+2024-09-04 23:26:25,019 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:27:14,691 - OpenAI Response Token Usage: 37361
+2024-09-04 23:27:17,740 - OpenAI Response Token Usage: 8986
+2024-09-04 23:27:23,520 - OpenAI Response Token Usage: 3525
+2024-09-04 23:27:26,063 - OpenAI Response Token Usage: 6164
+2024-09-04 23:27:26,759 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:28:36,557 - OpenAI Response Token Usage: 39730
+2024-09-04 23:28:40,021 - OpenAI Response Token Usage: 8354
+2024-09-04 23:28:44,990 - OpenAI Response Token Usage: 5051
+2024-09-04 23:28:46,996 - OpenAI Response Token Usage: 6034
+2024-09-04 23:28:47,672 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:29:18,712 - OpenAI Response Token Usage: 38980
+2024-09-04 23:30:15,398 - OpenAI Response Token Usage: 41935
+2024-09-04 23:30:19,389 - OpenAI Response Token Usage: 10300
+2024-09-04 23:30:19,400 - OpenAI Response Token Usage: 2924
+2024-09-04 23:30:21,766 - OpenAI Response Token Usage: 9371
+2024-09-04 23:30:22,501 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:30:23,024 - OpenAI Response Token Usage: 46476
+2024-09-04 23:30:23,031 - OpenAI Response Token Usage: 8914
+2024-09-04 23:30:23,036 - OpenAI Response Token Usage: 6042
+2024-09-04 23:30:23,044 - OpenAI Response Token Usage: 5869
+2024-09-04 23:30:23,682 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:30:58,324 - OpenAI Response Token Usage: 36205
+2024-09-04 23:31:02,191 - OpenAI Response Token Usage: 8044
+2024-09-04 23:31:07,463 - OpenAI Response Token Usage: 3714
+2024-09-04 23:31:10,069 - OpenAI Response Token Usage: 6170
+2024-09-04 23:31:10,744 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:31:23,350 - OpenAI Response Token Usage: 34009
+2024-09-04 23:31:25,199 - OpenAI Response Token Usage: 7555
+2024-09-04 23:31:30,947 - OpenAI Response Token Usage: 2705
+2024-09-04 23:31:33,029 - OpenAI Response Token Usage: 5747
+2024-09-04 23:31:33,688 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:32:46,536 - OpenAI Response Token Usage: 40793
+2024-09-04 23:32:52,570 - OpenAI Response Token Usage: 8433
+2024-09-04 23:32:56,545 - OpenAI Response Token Usage: 5453
+2024-09-04 23:32:58,858 - OpenAI Response Token Usage: 6069
+2024-09-04 23:32:59,539 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:33:38,062 - OpenAI Response Token Usage: 36764
+2024-09-04 23:33:40,871 - OpenAI Response Token Usage: 8251
+2024-09-04 23:33:44,865 - OpenAI Response Token Usage: 3528
+2024-09-04 23:33:47,199 - OpenAI Response Token Usage: 6000
+2024-09-04 23:33:47,897 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:35:21,827 - OpenAI Response Token Usage: 43111
+2024-09-04 23:35:25,013 - OpenAI Response Token Usage: 8148
+2024-09-04 23:35:30,790 - OpenAI Response Token Usage: 6892
+2024-09-04 23:35:34,568 - OpenAI Response Token Usage: 6242
+2024-09-04 23:35:35,273 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:38:20,622 - OpenAI Response Token Usage: 47822
+2024-09-04 23:39:04,626 - OpenAI Response Token Usage: 51917
+2024-09-04 23:39:07,622 - OpenAI Response Token Usage: 15492
+2024-09-04 23:39:07,635 - OpenAI Response Token Usage: 2924
+2024-09-04 23:39:09,848 - OpenAI Response Token Usage: 10451
+2024-09-04 23:39:10,535 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:40:56,173 - OpenAI Response Token Usage: 43615
+2024-09-04 23:41:00,508 - OpenAI Response Token Usage: 8443
+2024-09-04 23:41:08,286 - OpenAI Response Token Usage: 7000
+2024-09-04 23:41:10,791 - OpenAI Response Token Usage: 6193
+2024-09-04 23:41:11,488 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow
+2024-09-04 23:41:12,024 - OpenAI Response Token Usage: 43017
+2024-09-04 23:41:12,027 - OpenAI Response Token Usage: 47113
+2024-09-04 23:41:12,033 - OpenAI Response Token Usage: 12192
+2024-09-04 23:41:12,039 - OpenAI Response Token Usage: 2924
+2024-09-04 23:41:12,046 - OpenAI Response Token Usage: 10426
+2024-09-04 23:41:12,711 - open file: /Users/hazn/.cache/huggingface/metrics/bert_score/default/default_experiment-1-0.arrow

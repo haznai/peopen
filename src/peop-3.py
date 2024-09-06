@@ -112,6 +112,7 @@ class Logger:
         logging.getLogger("openai").setLevel(logging.WARNING)
         logging.getLogger("root").setLevel(logging.WARNING)
         logging.getLogger("httpcore").setLevel(logging.WARNING)
+        logging.getLogger("filelock").setLevel(logging.WARNING)
 
 
 @dataclass(frozen=True)
@@ -354,10 +355,9 @@ class Trainer:
 params = HyperParams(
     training_run_name="second_training_run",
     language=TrainingLanguage.GERMAN,
-    training_set_limit=100,
-    valid_set_limit=50,
+    training_set_limit=300,
+    valid_set_limit=100,
 )
-
 
 lm = LanguageModel(
     name="gpt-4o-mini-2024-07-18",
@@ -368,34 +368,32 @@ _ = Logger()  # just needs to be init
 data = Dataset(parameters=params)
 metrics = Metrics()
 network = Network()
+
+extra_params = {
+    "student": network,
+}
 # this optimizer is known to work, but in preliminary testing, turned out to be dissapointing
 
 
 # @todo: fix regex bug https://github.com/stanfordnlp/dspy/blob/main/dspy/propose/grounded_proposer.py
-# @todo: fix not saving bug (might be related to the above)
 # @todo: look into extra options for fields: Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Gekuerzter Sachverhalt:', 'desc': '${gekuerzter_sachverhalt}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31ab579c0>})\n    gekuerzte_erwaehgungen = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Gekuerzte Erwaehgungen:', 'desc': '${gekuerzte_erwaehgungen}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b003d80>})\n    dispositiv = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Dispositiv:', 'desc': '${dispositiv}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b003060>})\n    reasoning = Field(annotation=str required=True json_schema_extra={'prefix': \"Reasoning: Let's think step by step in order to\", 'desc': '${produce the regeste}. We ...', '__dspy_field_type': 'output', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b002b60>, 'parser': <class 'str'>})\n    regeste = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'output', 'prefix': 'Regeste:', 'desc': '${regeste}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b001440>, 'parser': <class 'str'>})\n)"
 
-# optimizer = MIPROv2(
-#     prompt_model=lm.model,
-#     task_model=lm.model,
-#     metric=metrics.get_score,
-#     init_temperature=0.5,
-#     log_dir="models",
-# )
-
-optimizer = BootstrapFewShotWithRandomSearch(
+optimizer = MIPROv2(
+    prompt_model=lm.model,
+    task_model=lm.model,
     metric=metrics.get_score,
-    max_rounds=3,
+    init_temperature=0.8,
+    log_dir="models",
 )
+
+# optimizer = BootstrapFewShotWithRandomSearch(
+#     metric=metrics.get_score,
+#     max_rounds=3,
+# )
 
 trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
 
 # %% training
 # @todo rethink the abstraction with `extra_params` passing to `Trainer` (and passing `params` earlier)
-extra_params = {
-    "student": network,
-    # "num_batches": 5,
-}
-
 
 trainer.optimize(**extra_params)
