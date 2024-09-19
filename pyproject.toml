@@ -22,6 +22,7 @@ arize-phoenix = "^4.2.4"
 openinference-instrumentation-dspy = "^0.1.9"
 opentelemetry-exporter-otlp = "^1.24.0"
 ipykernel = "^6.29.5"
+tqdm = "^4.66.5"
 
 [build-system]
 requires = ["poetry-core"]

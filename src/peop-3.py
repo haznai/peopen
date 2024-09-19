@@ -1,12 +1,13 @@
-# %% imports
+## %% imports
 # types and attributes
 # misc
-import os
 import logging
+import os
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum
 from typing import Literal, Mapping, Optional, Union
+from tqdm import tqdm
 
 # dspy imports
 import dspy
@@ -14,7 +15,7 @@ from dspy.datasets import DataLoader
 from dspy.teleprompt import BootstrapFewShotWithRandomSearch, MIPROv2
 
 # metrics
-from evaluate import load
+from evaluate import EvaluationModule, load
 from openinference.instrumentation.dspy import DSPyInstrumentor
 from opentelemetry import trace as trace_api
 from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
@@ -83,6 +84,7 @@ class LanguageModel:
             api_base=self.url,
             model_type=self.type.value,
             max_tokens=8180,
+            experimental=true
         )
         dspy.settings.configure(lm=openai_model)
         object.__setattr__(self, "model", openai_model)
@@ -112,7 +114,6 @@ class Logger:
         logging.getLogger("openai").setLevel(logging.WARNING)
         logging.getLogger("root").setLevel(logging.WARNING)
         logging.getLogger("httpcore").setLevel(logging.WARNING)
-        logging.getLogger("filelock").setLevel(logging.WARNING)
 
 
 @dataclass(frozen=True)
@@ -170,14 +171,17 @@ class Metrics:
     Defines calculation of eval metrics
     """
 
+    evaltuator_bertscore = load("bertscore", keep_in_memory=True)
+
     @staticmethod
     def _calculate_mean_bert_score(
+        evaluator: EvaluationModule,
         pred: str,
         ground_truth: str,
     ) -> float:
         """Computes and returns the average f1 BERTScore based on untokenized inputs"""
-        bertscore = load("bertscore")
-        bert_scores = bertscore.compute(
+
+        bert_scores = evaluator.compute(
             predictions=[pred],
             references=[ground_truth],
             model_type="bert-base-multilingual-cased",
@@ -207,14 +211,15 @@ class Metrics:
         avg_score_through_all_metrics = avg_score_through_all_metrics / num_scores
         return avg_score_through_all_metrics
 
-    @staticmethod
-    def get_score(example, prediction, trace=None):
+    def get_score(self, example, prediction, trace=None):
         # function signature is important to be compatible with dspy optimizers
         # @todo: implement more metrics
         # @todo: make `regeste` not hard coded?
 
         return Metrics._calculate_mean_bert_score(
-            pred=prediction.regeste, ground_truth=example.regeste
+            evaluator=self.evaltuator_bertscore,
+            pred=prediction.regeste,
+            ground_truth=example.regeste,
         )
 
         # return Metrics._calculate_mean_rouge_score(
@@ -355,9 +360,10 @@ class Trainer:
 params = HyperParams(
     training_run_name="second_training_run",
     language=TrainingLanguage.GERMAN,
-    training_set_limit=300,
-    valid_set_limit=100,
+    training_set_limit=100,
+    valid_set_limit=50,
 )
+
 
 lm = LanguageModel(
     name="gpt-4o-mini-2024-07-18",
@@ -368,32 +374,56 @@ _ = Logger()  # just needs to be init
 data = Dataset(parameters=params)
 metrics = Metrics()
 network = Network()
-
-extra_params = {
-    "student": network,
-}
 # this optimizer is known to work, but in preliminary testing, turned out to be dissapointing
 
 
 # @todo: fix regex bug https://github.com/stanfordnlp/dspy/blob/main/dspy/propose/grounded_proposer.py
+# @todo: fix not saving bug (might be related to the above)
 # @todo: look into extra options for fields: Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Gekuerzter Sachverhalt:', 'desc': '${gekuerzter_sachverhalt}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31ab579c0>})\n    gekuerzte_erwaehgungen = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Gekuerzte Erwaehgungen:', 'desc': '${gekuerzte_erwaehgungen}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b003d80>})\n    dispositiv = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'input', 'prefix': 'Dispositiv:', 'desc': '${dispositiv}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b003060>})\n    reasoning = Field(annotation=str required=True json_schema_extra={'prefix': \"Reasoning: Let's think step by step in order to\", 'desc': '${produce the regeste}. We ...', '__dspy_field_type': 'output', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b002b60>, 'parser': <class 'str'>})\n    regeste = Field(annotation=str required=True json_schema_extra={'__dspy_field_type': 'output', 'prefix': 'Regeste:', 'desc': '${regeste}', 'format': <function TypedPredictor._prepare_signature.<locals>.<lambda> at 0x31b001440>, 'parser': <class 'str'>})\n)"
 
-optimizer = MIPROv2(
-    prompt_model=lm.model,
-    task_model=lm.model,
-    metric=metrics.get_score,
-    init_temperature=0.8,
-    log_dir="models",
-)
-
-# optimizer = BootstrapFewShotWithRandomSearch(
+# optimizer = MIPROv2(
+#     prompt_model=lm.model,
+#     task_model=lm.model,
 #     metric=metrics.get_score,
-#     max_rounds=3,
+#     init_temperature=0.5,
+#     log_dir="models",
 # )
 
-trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
+optimizer = BootstrapFewShotWithRandomSearch(
+    metric=metrics.get_score,
+    max_rounds=3,
+)
+
+# trainer = Trainer(params=params, network=network, data=data, optimizer=optimizer)
 
 # %% training
 # @todo rethink the abstraction with `extra_params` passing to `Trainer` (and passing `params` earlier)
+# extra_params = {
+#     "student": network,
+#     # "num_batches": 5,
+# }
 
-trainer.optimize(**extra_params)
+
+# trainer.optimize(**extra_params~/.phoenix)
+
+# %% evaluation
+# load in model
+network.load(
+    "/Users/hazn/Desktop/code.nosync/peopen/models/2024-09-03_second_training_run.json"
+)
+
+# get scores for the test set
+scores = []
+
+shrunken_test_data = data.data["test"][:100]
+for example in tqdm(shrunken_test_data, desc="Processing test data"):
+    pred = network.forward(example["text"])
+
+    score = metrics.get_score(example, pred)
+    print(score)
+    scores.append(score)
+
+# get average score
+average_score = sum(scores) / len(scores)
+
+print(f"average score: {average_score}")
