@@ -527,6 +527,70 @@
           "store_path": "/nix/store/zwvdwiw0zg5liz6lkkkqyab035parhld-python3-3.12.3"
         }
       }
+    },
+    "sqlite-utils@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#sqlite-utils",
+      "source": "devbox-search",
+      "version": "3.37",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hlrrl4b01fm7fbqygpikqv2l0m18xhvb-python3.12-sqlite-utils-3.37",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/ah419jpxq76v7i059jjmc7i62q2s3p5z-python3.12-sqlite-utils-3.37-dist"
+            }
+          ],
+          "store_path": "/nix/store/hlrrl4b01fm7fbqygpikqv2l0m18xhvb-python3.12-sqlite-utils-3.37"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rnmlri8c2dkxs86yv7ndz42mns4wbgx7-python3.12-sqlite-utils-3.37",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/8yw41f47ms89q54ivvia84apanrm5rd6-python3.12-sqlite-utils-3.37-dist"
+            }
+          ],
+          "store_path": "/nix/store/rnmlri8c2dkxs86yv7ndz42mns4wbgx7-python3.12-sqlite-utils-3.37"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/48svvm9q4h76irakwwypi4n7v3fh36ri-python3.12-sqlite-utils-3.37",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/vfya703kwcqk5sx63mcw1fk9kjrhf1x4-python3.12-sqlite-utils-3.37-dist"
+            }
+          ],
+          "store_path": "/nix/store/48svvm9q4h76irakwwypi4n7v3fh36ri-python3.12-sqlite-utils-3.37"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fyfvv7hgij9vsw8vfzb76iihdi7qv38a-python3.12-sqlite-utils-3.37",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/cym9vadlgbxbzkg3w2nqii2skb51xfcc-python3.12-sqlite-utils-3.37-dist"
+            }
+          ],
+          "store_path": "/nix/store/fyfvv7hgij9vsw8vfzb76iihdi7qv38a-python3.12-sqlite-utils-3.37"
+        }
+      }
     }
   }
 }

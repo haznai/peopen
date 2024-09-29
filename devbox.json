@@ -8,7 +8,8 @@
     "datasette@latest",
     "jq@latest",
     "hyperfine@latest",
-    "jetbrains.pycharm-professional@latest"
+    "jetbrains.pycharm-professional@latest",
+    "sqlite-utils@latest"
   ],
   "shell": {
     "init_hook": [
