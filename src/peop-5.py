@@ -1,0 +1,364 @@
+## %% imports
+# types and attributes
+# misc
+import logging
+import os
+import pickle
+from dataclasses import dataclass, field
+from datetime import datetime
+from enum import Enum
+from typing import List, Literal, Mapping, Optional, Tuple
+from pathlib import Path
+
+# dspy imports
+import dspy
+from dspy.teleprompt import BootstrapFewShotWithRandomSearch
+
+# metrics
+from evaluate import EvaluationModule, load
+from openinference.instrumentation.dspy import DSPyInstrumentor
+from opentelemetry import trace as trace_api
+from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
+from opentelemetry.sdk import trace as trace_sdk
+
+# phoenix setup
+from opentelemetry.sdk.resources import Resource
+from opentelemetry.sdk.trace.export import SimpleSpanProcessor
+from rouge import Rouge
+
+
+# %% Class definitions
+@dataclass(frozen=True)
+class HyperParams:
+    """
+    Hyperparameters for the training, loaded once at the start of the program.
+    """
+
+    # How much of the training data should be used
+    training_set_limit: Optional[int] = field(default=None)
+    # How many validation examples should be used
+    valid_set_limit: Optional[int] = field(default=None)
+    # Naming of the training run
+    training_run_name: str = field(default="no_training_run_name_specified")
+    # Other hyperparameters
+    phoenix_metadata: Optional[dict] = field(default=None)
+
+
+class ModelType(Enum):
+    TEXT = "text"
+    CHAT = "chat"
+
+
+# @todo: switch to 2.5 dspy lm setup
+@dataclass(frozen=True)
+class LanguageModel:
+    """
+    Defines which language model to use and configures dspy to use the model.
+    """
+
+    name: str = field(default="")
+    url: str = field(default="http://localhost:8080/v1/")
+    api_key: str = field(default="no_api_key_specified")
+    type: ModelType = field(default=ModelType.CHAT)
+    max_tokens: int = field(default=8180)
+    model: dspy.OpenAI = field(init=False)
+
+    def __post_init__(self):
+        openai_model = dspy.OpenAI(
+            model=self.name,
+            api_key=self.api_key,
+            api_base=self.url,
+            model_type=self.type.value,
+            max_tokens=self.max_tokens,
+            experimental=True,
+        )
+        dspy.settings.configure(lm=openai_model)
+        object.__setattr__(self, "model", openai_model)
+
+
+@dataclass(frozen=True)
+class Logger:
+    """
+    Logging setup.
+    """
+
+    training_run_name: str = field(default="no_training_run_name_specified")
+    endpoint: str = field(default="http://localhost:6006/v1/traces")
+
+    def __post_init__(self):
+        # Phoenix setup to work seamlessly with dspy
+        resource = Resource(attributes={"training_run_name": self.training_run_name})
+        tracer_provider = trace_sdk.TracerProvider(resource=resource)
+        tracer_provider.add_span_processor(
+            SimpleSpanProcessor(OTLPSpanExporter(self.endpoint))
+        )
+        trace_api.set_tracer_provider(tracer_provider=tracer_provider)
+        DSPyInstrumentor().instrument()
+
+        # Turn off local `INFO` level logging to not clutter the logs
+        logging.getLogger("httpx").setLevel(logging.WARNING)
+        logging.getLogger("urllib3").setLevel(logging.WARNING)
+        logging.getLogger("openai").setLevel(logging.WARNING)
+        logging.getLogger("root").setLevel(logging.WARNING)
+        logging.getLogger("httpcore").setLevel(logging.WARNING)
+
+
+@dataclass(frozen=True)
+class Dataset:
+    """
+    Dataset the model is trained on, with split of training and validation data.
+    """
+
+    data: Mapping[Literal["train", "validation"], List[dspy.Example]]
+
+    def __init__(
+        self,
+        train_pickle_path: str,
+        valid_pickle_path: str,
+    ):
+        with open(train_pickle_path, "rb") as f:
+            train_dataset = pickle.load(f)
+
+            if (train_dataset is None) or (len(train_dataset) == 0):
+                raise ValueError("Training dataset is empty or wrongly loaded")
+
+        with open(valid_pickle_path, "rb") as f:
+            valid_dataset = pickle.load(f)
+
+            if (valid_dataset is None) or (len(valid_dataset) == 0):
+                raise ValueError("Validation dataset is empty or wrongly loaded")
+
+        dataset = {
+            "train": train_dataset,
+            "validation": valid_dataset,
+        }
+
+        object.__setattr__(self, "data", dataset)
+
+
+@dataclass(frozen=True)
+class Metrics:
+    """
+    Defines calculation of evaluation metrics.
+    """
+
+    evaltuator_bertscore = load("bertscore", keep_in_memory=True)
+
+    @staticmethod
+    def _calculate_mean_bert_score(
+        evaluator: EvaluationModule,
+        pred: str,
+        ground_truth: str,
+    ) -> float:
+        """Computes and returns the average f1 BERTScore based on untokenized inputs"""
+
+        bert_scores = evaluator.compute(
+            predictions=[pred],
+            references=[ground_truth],
+            model_type="bert-base-multilingual-cased",
+            lang=["de"],
+        )
+        # bertscore can return multiple values, so we average them
+        return sum(bert_scores["f1"]) / len(bert_scores["f1"])  # type: ignore
+
+    @staticmethod
+    def _calculate_mean_rouge_score(
+        pred: str,
+        ground_truth: str,
+    ) -> float:
+        """
+        Computes and returns the average ROUGE score based on untokenized inputs
+        """
+        rouge = Rouge()
+        scores = rouge.get_scores(pred, ground_truth)[0]
+
+        # average f1 of all ROUGE scores
+        avg_score_through_all_metrics = 0
+        num_scores = len(scores)
+        for metric_name, metric_scores in scores.items():
+            # average of f1-scores
+            avg_score_through_all_metrics += metric_scores["f"]  # type: ignore
+
+        avg_score_through_all_metrics = avg_score_through_all_metrics / num_scores
+        return avg_score_through_all_metrics
+
+    def get_score(self, example, prediction, trace=None):
+        # function signature is important to be compatible with dspy optimizers
+        # @todo: implement more metrics
+        # @todo: make `Wortlaut` not hard coded?
+
+        return Metrics._calculate_mean_bert_score(
+            evaluator=self.evaltuator_bertscore,
+            pred=prediction.regeste,
+            ground_truth=example.regeste,
+        )
+
+        # @todo: ayo what's goin' on here
+        # return Metrics._calculate_mean_rouge_score(
+        #     pred=prediction.regeste, ground_truth=example.regeste
+        # )
+
+
+class Network(dspy.Module):
+    """
+    Defines the model structure and training steps.
+    """
+
+    def __init__(self):
+        super().__init__()
+        #### Definition of modules ####
+        # Placeholder modules for generalization
+        self.module1 = dspy.TypedPredictor(
+            self.Module1Signature,
+        )
+        self.module2 = dspy.TypedPredictor(self.Module2Signature)
+        self.module3 = dspy.TypedPredictor(self.Module3Signature)
+
+        self.final_module = dspy.TypedChainOfThought(
+            self.FinalModuleSignature,
+        )
+
+    def forward(self, input_text: str):
+        # Generalized forward method
+        result1 = self.module1(text=input_text)
+        result2 = self.module2(input=result1.output)
+        result3 = self.module3(input=result2.output)
+
+        return self.final_module(
+            input1=result1.output,
+            input2=result2.output,
+            input3=result3.output,
+        )
+
+    class Module1Signature(dspy.Signature):
+        """
+        Description for Module1 task.
+        """
+
+        text = dspy.InputField()
+        output = dspy.OutputField()
+
+    class Module2Signature(dspy.Signature):
+        """
+        Description for Module2 task.
+        """
+
+        input = dspy.InputField()
+        output = dspy.OutputField()
+
+    class Module3Signature(dspy.Signature):
+        """
+        Description for Module3 task.
+        """
+
+        input = dspy.InputField()
+        output = dspy.OutputField()
+
+    class FinalModuleSignature(dspy.Signature):
+        """
+        Description for the final module task.
+        """
+
+        input1 = dspy.InputField()
+        input2 = dspy.InputField()
+        input3 = dspy.InputField()
+
+        prediction = dspy.OutputField()
+
+
+@dataclass(frozen=True)
+class Trainer:
+    """
+    Optimizes the network; actual training happens here.
+    """
+
+    params: HyperParams
+    network: Network
+    data: Dataset
+    optimizer: BootstrapFewShotWithRandomSearch
+
+    def optimize(self, **kwargs):
+        trainset = self.data.data["train"]
+        valset = self.data.data["validation"]
+
+        if self.params.training_set_limit is not None:
+            trainset = trainset[: self.params.training_set_limit]
+
+        if self.params.valid_set_limit is not None:
+            valset = valset[: self.params.valid_set_limit]
+
+        # @todo pass kwargs through hyperparams
+        optimized_network = self.optimizer.compile(
+            trainset=trainset,
+            valset=valset,
+            **kwargs,
+        )
+
+        # Saving the optimized model
+        iso_date = datetime.today().strftime("%Y-%m-%d")
+        file_path = f"models/{iso_date}_{self.params.training_run_name}"
+        file_extension = ".json"
+
+        # Check if file exists; if yes, append a character until filename doesn't exist
+        while os.path.exists(file_path + file_extension):
+            file_path += "_new"
+
+        optimized_network.save(file_path + file_extension)
+
+
+# %% Helper functions
+
+
+def get_train_and_valid_path() -> Tuple[Path, Path]:
+    """
+    Get the project root directory.
+
+    This function works in both script and Jupyter notebook environments.
+    It tries different methods to find the project root.
+
+    Returns:
+        Path: The path to the project root directory.
+    """
+    try:
+        # Try to get the path of the current file (works in scripts)
+        path = Path(__file__).resolve().parent.parent
+    except NameError:
+        try:
+            # Try to get the path from Jupyter notebook
+            import IPython
+
+            path = Path(IPython.get_ipython().kernel.profile_dir).parent.parent
+        except:
+            # Fallback to current working directory
+            path = Path(os.getcwd()).parent.resolve()
+
+    train_path = path.joinpath(
+        "data", "processed", "volksiniativen_with_wortlaut_dspy_dataset_train.pkl"
+    )
+
+    valid_path = path.joinpath(
+        "data", "processed", "volksiniativen_with_wortlaut_dspy_dataset_valid.pkl"
+    )
+
+    return (train_path, valid_path)
+
+
+# %% Loading in the data
+hyper_params = HyperParams(training_run_name="first_run_2024-09-29")
+lm = LanguageModel(
+    name="gpt-4o-mini-2024-07-18",
+    url="https://api.openai.com/v1/",
+    api_key=os.environ.get("OPENAI_API_KEY"),  # type: ignore
+)
+_ = Logger()  # just needs to be init
+
+
+train_path, valid_path = get_train_and_valid_path()
+
+data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_path))
+
+metrics = Metrics()
+network = Network()
+
+# next: implement the trainer
+# change trainer code first to accept the data
