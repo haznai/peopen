@@ -70,7 +70,6 @@ class LanguageModel:
             api_base=self.url,
             model_type=self.type.value,
             max_tokens=self.max_tokens,
-            experimental=True,
         )
         dspy.settings.configure(lm=openai_model)
         object.__setattr__(self, "model", openai_model)
@@ -189,8 +188,8 @@ class Metrics:
 
         return Metrics._calculate_mean_bert_score(
             evaluator=self.evaltuator_bertscore,
-            pred=prediction.regeste,
-            ground_truth=example.regeste,
+            pred=prediction.final_wortlaut,
+            ground_truth=example.Wortlaut,
         )
 
         # @todo: ayo what's goin' on here
@@ -361,12 +360,12 @@ class Network(dspy.Module):
         ).draft_wortlaut
 
         # Node C1: Legal Review (ChainOfThought)
-        final_wortlaut = self.legal_review_module(
+        prediction = self.legal_review_module(
             draft_wortlaut=draft_wortlaut,
             legal_requirements=legal_requirements,
-        ).final_wortlaut
+        )
 
-        return final_wortlaut
+        return prediction
 
 
 @dataclass(frozen=True)
@@ -380,7 +379,9 @@ class Trainer:
     data: Dataset
     optimizer: BootstrapFewShotWithRandomSearch
 
-    def optimize(self, **kwargs):
+    def optimize(
+        self,
+    ):
         trainset = self.data.data["train"]
         valset = self.data.data["validation"]
 
@@ -392,9 +393,9 @@ class Trainer:
 
         # @todo pass kwargs through hyperparams
         optimized_network = self.optimizer.compile(
+            student=self.network,
             trainset=trainset,
             valset=valset,
-            **kwargs,
         )
 
         # Saving the optimized model
@@ -462,3 +463,12 @@ data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_pa
 
 metrics = Metrics()
 network = Network()
+trainer = Trainer(
+    params=hyper_params,
+    network=network,
+    data=data,
+    optimizer=BootstrapFewShotWithRandomSearch(metric=metrics.get_score),
+)
+
+# %% Training the model
+trainer.optimize()

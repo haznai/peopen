@@ -53,9 +53,42 @@ print("Validation DataFrame shape:", valid_df.shape)
 
 # Optional: Display the first few rows of each DataFrame
 print("\nTrain DataFrame preview:")
-print(train_df.head(1))
+train_df.head(1)
 print("\nValidation DataFrame preview:")
-print(valid_df.head(1))
+valid_df.head(1)
+
+
+def flatten_column(df, column_name):
+    def flatten_list(row):
+        if isinstance(row, list):
+            return "\n\n".join(
+                [
+                    f"{item['ueberschrift']}\n{item['inhalt']}"
+                    for item in row
+                    if isinstance(item, dict)
+                ]
+            )
+        return row
+
+    df[column_name] = df[column_name].apply(flatten_list)
+    return df
+
+
+# Flatten the nested columns
+columns_to_flatten = ["im_detail", "argumenteKomitee", "argumenteBundesrat"]
+for column in columns_to_flatten:
+    train_df = flatten_column(train_df, column)
+    valid_df = flatten_column(valid_df, column)
+
+# Print shapes to confirm
+print("Train DataFrame shape after flattening:", train_df.shape)
+print("Validation DataFrame shape after flattening:", valid_df.shape)
+
+# Optional: Display the first few rows of each DataFrame to verify the changes
+print("\nTrain DataFrame preview after flattening:")
+print(train_df[columns_to_flatten].head(1))
+print("\nValidation DataFrame preview after flattening:")
+print(valid_df[columns_to_flatten].head(1))
 
 
 from dspy.datasets import DataLoader

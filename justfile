@@ -8,4 +8,4 @@ edit notebook:
 
 # start training run
 train:
-  overmind s -D
+  overmind s
