@@ -204,66 +204,169 @@ class Network(dspy.Module):
     Defines the model structure and training steps.
     """
 
+    class SummarizeImDetailSignature(dspy.Signature):
+        """
+        Summarize the detailed explanations ('im_detail') to provide a concise overview of the initiative.
+        """
+
+        titel = dspy.InputField()
+        im_detail = dspy.InputField()
+
+        summarized_im_detail = dspy.OutputField()
+
+    class ExtractArgumentsCommitteeSignature(dspy.Signature):
+        """
+        Extract the main arguments presented by the supporting committee and their recommendation.
+        """
+
+        titel = dspy.InputField()
+        argumenteKomitee = dspy.InputField()
+        empfehlungKomitee = dspy.InputField()
+
+        arguments_committee = dspy.OutputField()
+
+    class ExtractArgumentsFederalCouncilSignature(dspy.Signature):
+        """
+        Extract the main arguments presented by the Federal Council opposing the initiative and their recommendation.
+        """
+
+        titel = dspy.InputField()
+        argumenteBundesrat = dspy.InputField()
+        empfehlungBundesrat = dspy.InputField()
+
+        arguments_bundesrat = dspy.OutputField()
+
+    class ClarifyAmbiguousTermsSignature(dspy.Signature):
+        """
+        Identify and clarify ambiguous or unclear terms in the summaries and arguments.
+        """
+
+        summarized_im_detail = dspy.InputField()
+        arguments_committee = dspy.InputField()
+        arguments_bundesrat = dspy.InputField()
+
+        clarified_terms = dspy.OutputField()
+
+    class HighlightLegalRequirementsSignature(dspy.Signature):
+        """
+        Identify legal requirements, constitutional provisions, and mandatory elements for the 'Wortlaut'.
+        """
+
+        summarized_im_detail = dspy.InputField()
+        clarified_terms = dspy.InputField()
+
+        legal_requirements = dspy.OutputField()
+
+    class GenerateDraftWortlautSignature(dspy.Signature):
+        """
+        Generate a draft of the 'Wortlaut' (exact wording) of the proposed constitutional amendment.
+        """
+
+        clarified_terms = dspy.InputField()
+        legal_requirements = dspy.InputField()
+        summarized_im_detail = dspy.InputField()
+        arguments_committee = dspy.InputField()
+
+        draft_wortlaut = dspy.OutputField()
+
+    class LegalReviewSignature(dspy.Signature):
+        """
+        Review the draft 'Wortlaut' for legal accuracy and compliance, and produce the final 'Wortlaut'.
+        """
+
+        draft_wortlaut = dspy.InputField()
+        legal_requirements = dspy.InputField()
+
+        final_wortlaut = dspy.OutputField()
+
     def __init__(self):
         super().__init__()
         #### Definition of modules ####
-        # Placeholder modules for generalization
-        self.module1 = dspy.TypedPredictor(
-            self.Module1Signature,
-        )
-        self.module2 = dspy.TypedPredictor(self.Module2Signature)
-        self.module3 = dspy.TypedPredictor(self.Module3Signature)
-
-        self.final_module = dspy.TypedChainOfThought(
-            self.FinalModuleSignature,
+        self.summarize_im_detail_module = dspy.TypedPredictor(
+            self.SummarizeImDetailSignature,
         )
 
-    def forward(self, input_text: str):
-        # Generalized forward method
-        result1 = self.module1(text=input_text)
-        result2 = self.module2(input=result1.output)
-        result3 = self.module3(input=result2.output)
-
-        return self.final_module(
-            input1=result1.output,
-            input2=result2.output,
-            input3=result3.output,
+        self.extract_arguments_committee_module = dspy.TypedPredictor(
+            self.ExtractArgumentsCommitteeSignature,
         )
 
-    class Module1Signature(dspy.Signature):
-        """
-        Description for Module1 task.
-        """
+        self.extract_arguments_federal_council_module = dspy.TypedPredictor(
+            self.ExtractArgumentsFederalCouncilSignature,
+        )
 
-        text = dspy.InputField()
-        output = dspy.OutputField()
+        self.clarify_ambiguous_terms_module = dspy.TypedChainOfThought(
+            self.ClarifyAmbiguousTermsSignature,
+        )
 
-    class Module2Signature(dspy.Signature):
-        """
-        Description for Module2 task.
-        """
+        self.highlight_legal_requirements_module = dspy.TypedChainOfThought(
+            self.HighlightLegalRequirementsSignature,
+        )
 
-        input = dspy.InputField()
-        output = dspy.OutputField()
+        self.generate_draft_wortlaut_module = dspy.TypedChainOfThought(
+            self.GenerateDraftWortlautSignature,
+        )
 
-    class Module3Signature(dspy.Signature):
-        """
-        Description for Module3 task.
-        """
+        self.legal_review_module = dspy.TypedChainOfThought(
+            self.LegalReviewSignature,
+        )
 
-        input = dspy.InputField()
-        output = dspy.OutputField()
+    def forward(
+        self,
+        titel,
+        im_detail,
+        argumenteKomitee,
+        empfehlungKomitee,
+        argumenteBundesrat,
+        empfehlungBundesrat,
+    ):
+        # Node A1: Summarize 'im_detail' (Predictor)
+        summarized_im_detail = self.summarize_im_detail_module(
+            titel=titel,
+            im_detail=im_detail,
+        ).summarized_im_detail
 
-    class FinalModuleSignature(dspy.Signature):
-        """
-        Description for the final module task.
-        """
+        # Node A2: Extract Arguments from Committee (Predictor)
+        arguments_committee = self.extract_arguments_committee_module(
+            titel=titel,
+            argumenteKomitee=argumenteKomitee,
+            empfehlungKomitee=empfehlungKomitee,
+        ).arguments_committee
 
-        input1 = dspy.InputField()
-        input2 = dspy.InputField()
-        input3 = dspy.InputField()
+        # Node A3: Extract Arguments from Federal Council (Predictor)
+        arguments_bundesrat = self.extract_arguments_federal_council_module(
+            titel=titel,
+            argumenteBundesrat=argumenteBundesrat,
+            empfehlungBundesrat=empfehlungBundesrat,
+        ).arguments_bundesrat
 
-        prediction = dspy.OutputField()
+        # Node B1: Clarify Ambiguous Terms (ChainOfThought)
+        clarified_terms = self.clarify_ambiguous_terms_module(
+            summarized_im_detail=summarized_im_detail,
+            arguments_committee=arguments_committee,
+            arguments_bundesrat=arguments_bundesrat,
+        ).clarified_terms
+
+        # Node B2: Highlight Legal Requirements (ChainOfThought)
+        legal_requirements = self.highlight_legal_requirements_module(
+            summarized_im_detail=summarized_im_detail,
+            clarified_terms=clarified_terms,
+        ).legal_requirements
+
+        # Bottleneck Node: Generate Draft 'Wortlaut' (ChainOfThought)
+        draft_wortlaut = self.generate_draft_wortlaut_module(
+            clarified_terms=clarified_terms,
+            legal_requirements=legal_requirements,
+            summarized_im_detail=summarized_im_detail,
+            arguments_committee=arguments_committee,
+        ).draft_wortlaut
+
+        # Node C1: Legal Review (ChainOfThought)
+        final_wortlaut = self.legal_review_module(
+            draft_wortlaut=draft_wortlaut,
+            legal_requirements=legal_requirements,
+        ).final_wortlaut
+
+        return final_wortlaut
 
 
 @dataclass(frozen=True)
@@ -359,6 +462,3 @@ data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_pa
 
 metrics = Metrics()
 network = Network()
-
-# next: implement the trainer
-# change trainer code first to accept the data
