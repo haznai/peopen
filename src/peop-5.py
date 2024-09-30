@@ -64,15 +64,9 @@ class LanguageModel:
     model: dspy.OpenAI = field(init=False)
 
     def __post_init__(self):
-        openai_model = dspy.OpenAI(
-            model=self.name,
-            api_key=self.api_key,
-            api_base=self.url,
-            model_type=self.type.value,
-            max_tokens=self.max_tokens,
-        )
-        dspy.settings.configure(lm=openai_model)
-        object.__setattr__(self, "model", openai_model)
+        lm = dspy.LM("openai/gpt-4o-mini")
+        dspy.configure(lm=lm)
+        object.__setattr__(self, "model", lm)
 
 
 @dataclass(frozen=True)
@@ -274,7 +268,6 @@ class Network(dspy.Module):
         """
 
         draft_wortlaut = dspy.InputField()
-        legal_requirements = dspy.InputField()
 
         final_wortlaut = dspy.OutputField()
 
@@ -309,7 +302,7 @@ class Network(dspy.Module):
             self.LegalReviewSignature,
         )
 
-    def forward(
+    def get_draft_wortlaut_prediction(
         self,
         titel,
         im_detail,
@@ -359,13 +352,33 @@ class Network(dspy.Module):
             arguments_committee=arguments_committee,
         ).draft_wortlaut
 
-        # Node C1: Legal Review (ChainOfThought)
+        return draft_wortlaut
+
+    def get_final_prediction(self, draft_wortlaut: str):
         prediction = self.legal_review_module(
             draft_wortlaut=draft_wortlaut,
-            legal_requirements=legal_requirements,
         )
-
         return prediction
+
+    def forward(
+        self,
+        titel,
+        im_detail,
+        argumenteKomitee,
+        empfehlungKomitee,
+        argumenteBundesrat,
+        empfehlungBundesrat,
+    ):
+        return self.get_final_prediction(
+            self.get_draft_wortlaut_prediction(
+                titel,
+                im_detail,
+                argumenteKomitee,
+                empfehlungKomitee,
+                argumenteBundesrat,
+                empfehlungBundesrat,
+            )
+        )
 
 
 @dataclass(frozen=True)
@@ -471,4 +484,27 @@ trainer = Trainer(
 )
 
 # %% Training the model
-trainer.optimize()
+# trainer.optimize()
+
+# %% Temp hosting the model
+(
+    titel,
+    im_detail,
+    argumenteKomitee,
+    empfehlungKomitee,
+    argumenteBundesrat,
+    empfehlungBundesrat,
+    Wortlaut,
+) = data.data["validation"][0]
+
+
+print(
+    network.get_draft_wortlaut_prediction(
+        titel,
+        im_detail,
+        argumenteKomitee,
+        empfehlungKomitee,
+        argumenteBundesrat,
+        empfehlungBundesrat,
+    )
+)

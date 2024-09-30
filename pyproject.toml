@@ -12,7 +12,7 @@ torch = "^2.3.0"
 cookiecutter = "^2.6.0"
 marimo = "*"
 numpy = "^1.26.4"
-dspy = {path = "dspy-ai" }
+dspy = "2.5.*"
 nltk = "^3.8.1"
 rouge = "^1.0.1"
 evaluate = "^0.4.1"

@@ -938,6 +938,17 @@ graph = ["objgraph (>=1.7.2)"]
 profile = ["gprof2dot (>=2022.7.29)"]
 
 [[package]]
+name = "diskcache"
+version = "5.6.3"
+description = "Disk Cache -- Disk and file backed persistent cache."
+optional = false
+python-versions = ">=3"
+files = [
+    {file = "diskcache-5.6.3-py3-none-any.whl", hash = "sha256:5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19"},
+    {file = "diskcache-5.6.3.tar.gz", hash = "sha256:2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc"},
+]
+
+[[package]]
 name = "distro"
 version = "1.9.0"
 description = "Distro - an OS platform information API"
@@ -961,46 +972,49 @@ files = [
 
 [[package]]
 name = "dspy"
-version = "2.0.8"
+version = "2.5.2"
 description = "DSPy"
 optional = false
-python-versions = ">=3.9,<3.13"
-files = []
-develop = false
+python-versions = ">=3.9"
+files = [
+    {file = "dspy-2.5.2-py3-none-any.whl", hash = "sha256:b11a91bf0cc027e661a34c562d4b3b52991fe21156f096ca756e40215a148fe3"},
+    {file = "dspy-2.5.2.tar.gz", hash = "sha256:e22c7ef7dc96e9a83494c0818f3b97b27445a81d95db2612c286e1fd4857a042"},
+]
 
 [package.dependencies]
-backoff = "^2.2"
-datasets = "^2.14.6"
-jinja2 = "^3.1.3"
-joblib = "^1.3"
-magicattr = "^0.1.6"
-openai = ">=0.28.1,<2.0.0"
-optuna = "^3.4.0"
-pandas = "^2.1.1"
-pydantic = "^2.0"
-regex = "^2023.10.3"
-requests = "^2.31.0"
-rich = "^13.7.1"
-structlog = "^24.1.0"
-tqdm = "^4.66.1"
-ujson = "^5.8.0"
+backoff = "*"
+datasets = "*"
+diskcache = "*"
+httpx = "*"
+joblib = ">=1.3,<2.0"
+litellm = "*"
+magicattr = ">=0.1.6,<0.2.0"
+openai = "*"
+optuna = "*"
+pandas = "*"
+pydantic = ">=2.0,<3.0"
+regex = "*"
+requests = "*"
+structlog = "*"
+tqdm = "*"
+ujson = "*"
 
 [package.extras]
-aws = ["boto3 (>=1.34.78,<2.0.0)"]
 chromadb = ["chromadb (>=0.4.14,<0.5.0)"]
-docs = ["autodoc_pydantic", "docutils (<0.17)", "furo (>=2023.3.27)", "m2r2", "myst-nb", "myst-parser", "sphinx (>=4.3.0)", "sphinx-autobuild", "sphinx-automodapi (==0.16.0)", "sphinx-reredirects (>=0.1.2,<0.2.0)", "sphinx_rtd_theme"]
-epsilla = ["pyepsilla (>=0.3.7,<0.4.0)"]
-fastembed = ["fastembed (>=0.2.0)"]
-marqo = ["marqo"]
-milvus = ["pymilvus (>=2.3.6,<3.0.0)"]
-pinecone = ["pinecone-client (>=2.2.4,<3.0.0)"]
-postgres = ["pgvector (>=0.2.5,<0.3.0)", "psycopg2 (>=2.9.9,<3.0.0)"]
-qdrant = ["fastembed (>=0.2.0)", "qdrant-client (>=1.6.2,<2.0.0)"]
-weaviate = ["weaviate-client (>=4.5.4,<5.0.0)"]
-
-[package.source]
-type = "directory"
-url = "dspy-ai"
+faiss-cpu = ["faiss-cpu", "sentence-transformers"]
+fastembed = ["fastembed"]
+google-vertex-ai = ["google-cloud-aiplatform (==1.43.0)"]
+groq = ["groq (>=0.8.0,<0.9.0)"]
+lancedb = ["lancedb (>=0.11.0,<0.12.0)"]
+langfuse = ["langfuse (>=2.36.1,<2.37.0)"]
+marqo = ["marqo (>=3.1.0,<3.2.0)"]
+milvus = ["pymilvus (>=2.3.7,<2.4.0)"]
+mongodb = ["pymongo (>=3.12.0,<3.13.0)"]
+myscale = ["clickhouse-connect"]
+pinecone = ["pinecone-client (>=2.2.4,<2.3.0)"]
+qdrant = ["fastembed", "qdrant-client"]
+snowflake = ["snowflake-snowpark-python"]
+weaviate = ["weaviate-client (>=4.6.5,<4.7.0)"]
 
 [[package]]
 name = "evaluate"
@@ -1929,6 +1943,32 @@ files = [
     {file = "kiwisolver-1.4.5-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:11d011a7574eb3b82bcc9c1a1d35c1d7075677fdd15de527d91b46bd35e935ee"},
     {file = "kiwisolver-1.4.5.tar.gz", hash = "sha256:e57e563a57fb22a142da34f38acc2fc1a5c864bc29ca1517a88abc963e60d6ec"},
 ]
+
+[[package]]
+name = "litellm"
+version = "1.40.8"
+description = "Library to easily interface with LLM API providers"
+optional = false
+python-versions = "!=2.7.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,>=3.8"
+files = [
+    {file = "litellm-1.40.8-py3-none-any.whl", hash = "sha256:cd0c313423dad49224696c45ac02c574abcaed6666c597543c2318b3521f4320"},
+    {file = "litellm-1.40.8.tar.gz", hash = "sha256:8878d2437ac50bcc6f39ded1729e2113eb5fee645fcebcd32fc241c529a21c00"},
+]
+
+[package.dependencies]
+aiohttp = "*"
+click = "*"
+importlib-metadata = ">=6.8.0"
+jinja2 = ">=3.1.2,<4.0.0"
+openai = ">=1.27.0"
+python-dotenv = ">=0.2.0"
+requests = ">=2.31.0,<3.0.0"
+tiktoken = ">=0.4.0"
+tokenizers = "*"
+
+[package.extras]
+extra-proxy = ["azure-identity (>=1.15.0,<2.0.0)", "azure-keyvault-secrets (>=4.8.0,<5.0.0)", "google-cloud-kms (>=2.21.3,<3.0.0)", "prisma (==0.11.0)", "resend (>=0.8.0,<0.9.0)"]
+proxy = ["PyJWT (>=2.8.0,<3.0.0)", "apscheduler (>=3.10.4,<4.0.0)", "backoff", "cryptography (>=42.0.5,<43.0.0)", "fastapi (>=0.111.0,<0.112.0)", "fastapi-sso (>=0.10.0,<0.11.0)", "gunicorn (>=22.0.0,<23.0.0)", "orjson (>=3.9.7,<4.0.0)", "python-multipart (>=0.0.9,<0.0.10)", "pyyaml (>=6.0.1,<7.0.0)", "rq", "uvicorn (>=0.22.0,<0.23.0)"]
 
 [[package]]
 name = "llvmlite"
@@ -3543,6 +3583,20 @@ files = [
 
 [package.dependencies]
 six = ">=1.5"
+
+[[package]]
+name = "python-dotenv"
+version = "1.0.1"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "python-dotenv-1.0.1.tar.gz", hash = "sha256:e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca"},
+    {file = "python_dotenv-1.0.1-py3-none-any.whl", hash = "sha256:f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a"},
+]
+
+[package.extras]
+cli = ["click (>=5.0)"]
 
 [[package]]
 name = "python-multipart"
@@ -5488,4 +5542,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.12"
-content-hash = "28d3a0a8cb139943f82b3b089ee5c165af042854c484e8c62cfc79b1e61e1129"
+content-hash = "c4c3e5662197f7d07b18c34c7629f73961eeda84b11045944595cf3228ad1d20"
