@@ -43,6 +43,10 @@ train_df = result_df.iloc[4:24]  # Next 20 entries for training
 train_df = train_df.drop("Datum", axis=1)
 valid_df = valid_df.drop("Datum", axis=1)
 
+# Remove the Title der Vorlage column from both train_df and valid_df
+train_df = train_df.drop("Titel der Vorlage", axis=1)
+valid_df = valid_df.drop("Titel der Vorlage", axis=1)
+
 # Print shapes to confirm
 print("Train DataFrame shape:", train_df.shape)
 print("Validation DataFrame shape:", valid_df.shape)
