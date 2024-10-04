@@ -36,8 +36,28 @@ result_df["Datum"] = pd.to_datetime(result_df["Datum"], format="mixed")
 result_df = result_df.sort_values("Datum", ascending=False)
 
 # Split the data into train and validation sets
-valid_df = result_df.head(4)  # Most recent 4 entries for validation
-train_df = result_df.iloc[4:24]  # Next 20 entries for training
+total_rows = len(result_df)
+expected_rows = 24
+
+# Sanity check
+assert (
+    total_rows == expected_rows
+), f"Expected {expected_rows} rows, but got {total_rows} rows"
+
+valid_rows = 5
+train_rows = total_rows - valid_rows
+
+valid_df = result_df.head(valid_rows)  # Most recent 5 entries for validation
+train_df = result_df.iloc[valid_rows:total_rows]  # Remaining entries for training
+
+# Additional sanity check for train_df
+assert (
+    len(train_df) == train_rows
+), f"Expected {train_rows} rows for training, but got {len(train_df)}"
+
+assert (
+    len(valid_df) == valid_rows
+), f"Expected {valid_rows} rows for validation, but got {len(valid_df)}"
 
 # Remove the date column from both train_df and valid_df
 train_df = train_df.drop("Datum", axis=1)
