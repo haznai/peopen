@@ -8,4 +8,11 @@ edit notebook:
 
 # start training run
 train:
-  overmind s
+  open -g -a Orbstack
+  OVERMIND_PROCESSES=training,logging overmind s
+
+prototype:
+  open -g -a Orbstack
+  OVERMIND_PROCESSES=hosting,logging,ep_peopen overmind s
+
+
