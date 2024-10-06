@@ -238,34 +238,39 @@ class Network(dspy.Module):
 
         clarified_terms = dspy.OutputField()
 
-    class HighlightLegalRequirementsSignature(dspy.Signature):
+    class WriteHumanUnderstandableDraftSignature(dspy.Signature):
         """
-        Identify legal requirements, constitutional provisions, and mandatory elements for the 'Wortlaut'.
+        Create a simple, human-understandable draft of the popular initiative.
+
+        This module takes the input information and produces a clear, straightforward
+        version of the initiative. The output should be easily understood by the general
+        public, avoiding legal jargon and complex language. Focus on presenting the main
+        ideas and objectives in simple terms.
         """
 
-        summarized_im_detail = dspy.InputField()
         clarified_terms = dspy.InputField()
+        summarized_im_detail = dspy.InputField()
+        arguments_committee = dspy.InputField()
+        arguments_bundesrat = dspy.InputField()
+
+        human_understandable_draft = dspy.OutputField()
+
+    class HighlightLegalRequirementsSignature(dspy.Signature):
+        """
+        Identify legal requirements, constitutional provisions, and mandatory elements for the final law text ('Wortlaut').
+        """
+
+        human_understandable_draft = dspy.InputField()
 
         legal_requirements = dspy.OutputField()
 
-    class GenerateDraftWortlautSignature(dspy.Signature):
+    class GenerateWortlaut(dspy.Signature):
         """
-        Generate a draft of the 'Wortlaut' (exact wording) of the proposed constitutional amendment.
+        Generate the 'Wortlaut' (legal text) of the proposed constitutional amendment.
         """
 
-        clarified_terms = dspy.InputField()
+        human_understandable_draft = dspy.InputField()
         legal_requirements = dspy.InputField()
-        summarized_im_detail = dspy.InputField()
-        arguments_committee = dspy.InputField()
-
-        draft_wortlaut = dspy.OutputField()
-
-    class LegalReviewSignature(dspy.Signature):
-        """
-        Review the draft 'Wortlaut' for legal accuracy and compliance, and produce the final 'Wortlaut'.
-        """
-
-        draft_wortlaut = dspy.InputField()
 
         final_wortlaut = dspy.OutputField()
 
@@ -284,7 +289,7 @@ class Network(dspy.Module):
             self.ExtractArgumentsFederalCouncilSignature,
         )
 
-        self.clarify_ambiguous_terms_module = dspy.TypedChainOfThought(
+        self.clarify_ambiguous_terms_module = dspy.TypedPredictor(
             self.ClarifyAmbiguousTermsSignature,
         )
 
@@ -292,15 +297,15 @@ class Network(dspy.Module):
             self.HighlightLegalRequirementsSignature,
         )
 
-        self.generate_draft_wortlaut_module = dspy.TypedChainOfThought(
-            self.GenerateDraftWortlautSignature,
+        self.write_human_understandable_draft_module = dspy.TypedChainOfThought(
+            self.WriteHumanUnderstandableDraftSignature,
         )
 
-        self.legal_review_module = dspy.TypedChainOfThought(
-            self.LegalReviewSignature,
+        self.generate_wortlaut_module = dspy.TypedChainOfThought(
+            self.GenerateWortlaut,
         )
 
-    def get_draft_wortlaut_prediction(
+    def get_first_draft(
         self,
         titel,
         im_detail,
@@ -336,27 +341,24 @@ class Network(dspy.Module):
             arguments_bundesrat=arguments_bundesrat,
         ).clarified_terms
 
-        # Node B2: Highlight Legal Requirements (ChainOfThought)
-        legal_requirements = self.highlight_legal_requirements_module(
-            summarized_im_detail=summarized_im_detail,
+        human_understandable_draft = self.write_human_understandable_draft_module(
             clarified_terms=clarified_terms,
-        ).legal_requirements
-
-        # Bottleneck Node: Generate Draft 'Wortlaut' (ChainOfThought)
-        draft_wortlaut = self.generate_draft_wortlaut_module(
-            clarified_terms=clarified_terms,
-            legal_requirements=legal_requirements,
             summarized_im_detail=summarized_im_detail,
             arguments_committee=arguments_committee,
-        ).draft_wortlaut
+            arguments_bundesrat=arguments_bundesrat,
+        ).human_understandable_draft
 
-        return draft_wortlaut
+        return human_understandable_draft
 
-    def get_final_prediction(self, draft_wortlaut: str):
-        prediction = self.legal_review_module(
-            draft_wortlaut=draft_wortlaut,
+    def get_final_prediction(self, human_understandable_draft: str):
+        legal_requirements = self.highlight_legal_requirements_module(
+            human_understandable_draft=human_understandable_draft,
+        ).legal_requirements
+
+        return self.generate_wortlaut_module(
+            human_understandable_draft=human_understandable_draft,
+            legal_requirements=legal_requirements,
         )
-        return prediction
 
     def forward(
         self,
@@ -368,7 +370,7 @@ class Network(dspy.Module):
         empfehlungBundesrat,
     ):
         return self.get_final_prediction(
-            self.get_draft_wortlaut_prediction(
+            self.get_first_draft(
                 titel,
                 im_detail,
                 argumenteKomitee,

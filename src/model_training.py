@@ -51,6 +51,8 @@ def get_train_and_valid_path() -> Tuple[Path, Path]:
 
 
 # %% Loading in the data
+train_path, valid_path = get_train_and_valid_path()
+
 hyper_params = HyperParams(training_run_name="first_run_2024-10-06")
 lm = LanguageModel(
     name="gpt-4o-mini-2024-07-18",
@@ -58,13 +60,7 @@ lm = LanguageModel(
     api_key=os.environ.get("OPENAI_API_KEY"),  # type: ignore
 )
 _ = Logger()  # just needs to be init
-
-
-train_path, valid_path = get_train_and_valid_path()
-
 data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_path))
-
-
 metrics = Metrics()
 network = Network()
 trainer = Trainer(
