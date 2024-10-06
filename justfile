@@ -13,6 +13,6 @@ train:
 
 prototype:
   open -g -a Orbstack
-  OVERMIND_PROCESSES=hosting,logging,ep_peopen overmind s
+  OVERMIND_PROCESSES=serving,logging,ep_peopen overmind s
 
 
