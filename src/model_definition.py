@@ -48,7 +48,6 @@ class ModelType(Enum):
     CHAT = "chat"
 
 
-# @todo: switch to 2.5 dspy lm setup
 @dataclass(frozen=True)
 class LanguageModel:
     """
@@ -403,7 +402,6 @@ class Trainer:
         if self.params.valid_set_limit is not None:
             valset = valset[: self.params.valid_set_limit]
 
-        # @todo pass kwargs through hyperparams
         optimized_network = self.optimizer.compile(
             student=self.network,
             trainset=trainset,
