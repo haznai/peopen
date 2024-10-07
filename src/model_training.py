@@ -68,7 +68,7 @@ trainer = Trainer(
     network=network,
     data=data,
     optimizer=BootstrapFewShotWithRandomSearch(
-        metric=metrics.get_score, num_threads=1, num_candidate_programs=4
+        metric=metrics.get_score, num_threads=1, num_candidate_programs=4, max_rounds=2
     ),
 )
 
