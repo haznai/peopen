@@ -7,50 +7,14 @@ from model_definition import (
     Metrics,
     Network,
     Trainer,
+    get_train_and_valid_path,
 )
 
 import os
-from typing import Tuple
-from pathlib import Path
 from dspy import BootstrapFewShotWithRandomSearch
 
 
-# %% Helper functions
-def get_train_and_valid_path() -> Tuple[Path, Path]:
-    """
-    Get the project root directory.
-
-    This function works in both script and Jupyter notebook environments.
-    It tries different methods to find the project root.
-
-    Returns:
-        Path: The path to the project root directory.
-    """
-    try:
-        # Try to get the path of the current file (works in scripts)
-        path = Path(__file__).resolve().parent.parent
-    except NameError:
-        try:
-            # Try to get the path from Jupyter notebook
-            import IPython
-
-            path = Path(IPython.get_ipython().kernel.profile_dir).parent.parent  # type: ignore
-        except Exception:
-            # Fallback to current working directory
-            path = Path(os.getcwd()).parent.resolve()
-
-    train_path = path.joinpath(
-        "data", "processed", "volksiniativen_with_wortlaut_dspy_dataset_train.pkl"
-    )
-
-    valid_path = path.joinpath(
-        "data", "processed", "volksiniativen_with_wortlaut_dspy_dataset_valid.pkl"
-    )
-
-    return (train_path, valid_path)
-
-
-# %% Loading in the data
+# %%# %% Loading in the data
 train_path, valid_path = get_train_and_valid_path()
 
 hyper_params = HyperParams(training_run_name="first_run_2024-10-06")

@@ -4,10 +4,11 @@
 import logging
 import os
 import pickle
+from pathlib import Path
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum
-from typing import List, Literal, Mapping, Optional
+from typing import List, Literal, Mapping, Optional, Tuple
 
 # dspy imports
 import dspy
@@ -420,3 +421,38 @@ class Trainer:
             file_path += "_new"
 
         optimized_network.save(file_path + file_extension)
+
+
+# %% Helper functions
+def get_train_and_valid_path() -> Tuple[Path, Path]:
+    """
+    Get the project root directory.
+
+    This function works in both script and Jupyter notebook environments.
+    It tries different methods to find the project root.
+
+    Returns:
+        Tuple with paths to the train and validation datasets
+    """
+    try:
+        # Try to get the path of the current file (works in scripts)
+        path = Path(__file__).resolve().parent.parent
+    except NameError:
+        try:
+            # Try to get the path from Jupyter notebook
+            import IPython
+
+            path = Path(IPython.get_ipython().kernel.profile_dir).parent.parent  # type: ignore
+        except Exception:
+            # Fallback to current working directory
+            path = Path(os.getcwd()).parent.resolve()
+
+    train_path = path.joinpath(
+        "data", "processed", "volksiniativen_with_wortlaut_dspy_dataset_train.pkl"
+    )
+
+    valid_path = path.joinpath(
+        "data", "processed", "volksiniativen_with_wortlaut_dspy_dataset_valid.pkl"
+    )
+
+    return (train_path, valid_path)
