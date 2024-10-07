@@ -9,10 +9,20 @@ edit notebook:
 # start training run
 train:
   open -g -a Orbstack
-  OVERMIND_PROCESSES=training,logging overmind s
+  OVERMIND_PROCESSES=training,logging overmind s -D
 
 prototype:
   open -g -a Orbstack
-  OVERMIND_PROCESSES=serving,logging,ep_peopen overmind s
+  OVERMIND_PROCESSES=serving,logging,ep_peopen overmind s -D
 
 
+# profile training run
+profile:
+  # delete caches
+  sudo rm -rf local_cache
+  find . -type d -name '__pycache__' -exec rm -rf {} +; find . -type d -name 'local_cache' -exec rm -rf {} +
+  rm -rf ~/.dspy_cache/
+
+  # start application
+  open -g -a Orbstack
+  OVERMIND_PROCESSES=profiling,logging overmind s -D

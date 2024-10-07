@@ -2,6 +2,10 @@
 data/processed/brochure_ocr
 data/processed/volksinitiatives
 
+# scalene profiles
+profile.html
+profile.json
+
 # llamafile tings
 .llamafile
 .ape*

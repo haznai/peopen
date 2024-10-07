@@ -655,6 +655,17 @@ files = [
 colorama = {version = "*", markers = "platform_system == \"Windows\""}
 
 [[package]]
+name = "cloudpickle"
+version = "3.0.0"
+description = "Pickler class to extend the standard pickle.Pickler functionality"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "cloudpickle-3.0.0-py3-none-any.whl", hash = "sha256:246ee7d0c295602a036e86369c77fecda4ab17b506496730f2f576d9016fd9c7"},
+    {file = "cloudpickle-3.0.0.tar.gz", hash = "sha256:996d9a482c6fb4f33c1a35335cf8afd065d2a56e973270364840712d9131a882"},
+]
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
@@ -2643,6 +2654,17 @@ files = [
 nvidia-nvjitlink-cu12 = "*"
 
 [[package]]
+name = "nvidia-ml-py"
+version = "12.560.30"
+description = "Python Bindings for the NVIDIA Management Library"
+optional = false
+python-versions = "*"
+files = [
+    {file = "nvidia-ml-py-12.560.30.tar.gz", hash = "sha256:f0254dc7400647680a072ee02509bfd46102b60bdfeca321576d4d4817e7fe97"},
+    {file = "nvidia_ml_py-12.560.30-py3-none-any.whl", hash = "sha256:fea371c94d63e38a611c17bbb85fe400e9c8ddb9e8684a9cd0e47786a4bc3c73"},
+]
+
+[[package]]
 name = "nvidia-nccl-cu12"
 version = "2.20.5"
 description = "NVIDIA Collective Communication Library (NCCL) Runtime"
@@ -4161,6 +4183,45 @@ testing = ["h5py (>=3.7.0)", "huggingface-hub (>=0.12.1)", "hypothesis (>=6.70.2
 torch = ["safetensors[numpy]", "torch (>=1.10)"]
 
 [[package]]
+name = "scalene"
+version = "1.5.45"
+description = "Scalene: A high-resolution, low-overhead CPU, GPU, and memory profiler for Python with AI-powered optimization suggestions"
+optional = false
+python-versions = "!=3.11.0,>=3.8"
+files = [
+    {file = "scalene-1.5.45-cp310-cp310-macosx_13_0_universal2.whl", hash = "sha256:18d76bca68cd6be7f6c0efc734085b63ca006e2a9f2249a69a55ffa0059cc1b2"},
+    {file = "scalene-1.5.45-cp310-cp310-macosx_14_0_universal2.whl", hash = "sha256:28cf3f3a1fe1c82b3f599833314bb79b2ef9cdaff472f8be6972a3c871323a14"},
+    {file = "scalene-1.5.45-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:7f91951140d533b35f91e83b65ac69c23bbcb0f048cea586c3669700be628795"},
+    {file = "scalene-1.5.45-cp310-cp310-win_amd64.whl", hash = "sha256:04529738d14e1c47e0874dca745dadf05f3d5da329c32779bc15e446b92d0c7d"},
+    {file = "scalene-1.5.45-cp311-cp311-macosx_13_0_universal2.whl", hash = "sha256:3f0f68d6895e4d12215307b0593e1c38437ce2c032044e5b3a2a7cc99fd5de5d"},
+    {file = "scalene-1.5.45-cp311-cp311-macosx_14_0_universal2.whl", hash = "sha256:d92b109c3526da3c3242e75b50f0a30f5d5a5ed0d599e363a05f0dbb18cb2559"},
+    {file = "scalene-1.5.45-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:ca53428d7fb8bf1b892203ffc13520341f47865fd7753374b449b2efd3c553ff"},
+    {file = "scalene-1.5.45-cp312-cp312-macosx_13_0_universal2.whl", hash = "sha256:047f60f3b3c78e2f105d7da40a22d724ce7a15755b390211c4c69c803bb19ce3"},
+    {file = "scalene-1.5.45-cp312-cp312-macosx_14_0_universal2.whl", hash = "sha256:2f3f36487cf852477abe9844eb189bcdab5ef532b4bdf3e0969ce171ce8c3cd6"},
+    {file = "scalene-1.5.45-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:3cd9b97410633cf6c58cfb951003cfbca7e05dd13cc8b8030f94580272db7cc8"},
+    {file = "scalene-1.5.45-cp312-cp312-win_amd64.whl", hash = "sha256:5f63d0b62b74d3d37b5e92d41465f46821bee3d684f7c2a8dab864aac37ebacb"},
+    {file = "scalene-1.5.45-cp38-cp38-macosx_13_0_universal2.whl", hash = "sha256:326acc139520654bcc932af22ca3e178ee19721c477947a86eb1d80ace844ca1"},
+    {file = "scalene-1.5.45-cp38-cp38-macosx_14_0_universal2.whl", hash = "sha256:2e6c726c79a5e22d2d2794326df4c2be58000dd6ee1a85524b7820a823cab94c"},
+    {file = "scalene-1.5.45-cp38-cp38-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:4d6baf3b812a96049ca156eb4bccbdf3ae78f8960a76644b82796e8ebcd0bed7"},
+    {file = "scalene-1.5.45-cp38-cp38-win_amd64.whl", hash = "sha256:024058c10e7bc2175d7d797b5af651bac5f33404376863a2b28b7efeb2bcef99"},
+    {file = "scalene-1.5.45-cp39-cp39-macosx_13_0_universal2.whl", hash = "sha256:e9280554413f1e07daa2df39a40672035b7da30f6888b0ff16d3ecfdd7db55b6"},
+    {file = "scalene-1.5.45-cp39-cp39-macosx_14_0_universal2.whl", hash = "sha256:a4cf2f2d11b4caa64caabb1ac939edb75b309ad1163e6a8b5cc6472978930270"},
+    {file = "scalene-1.5.45-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:c283cc5a84dc838fb582df38ac3655d74f58e0fca3714d0b6620169b0b92bf5d"},
+    {file = "scalene-1.5.45-cp39-cp39-win_amd64.whl", hash = "sha256:af82baa1564964b121a49066fb2383640deccbd37107cf7fd303f969976fadaa"},
+    {file = "scalene-1.5.45.tar.gz", hash = "sha256:47796aa5662bb9ea9e9d4dc4cfe4677ace6f6051701fc6ddaa457769876cf2ed"},
+]
+
+[package.dependencies]
+cloudpickle = ">=2.2.1"
+Jinja2 = ">=3.0.3"
+numpy = ">=1.24.0,<1.27 || >1.27"
+nvidia-ml-py = {version = ">=12.555.43", markers = "platform_system != \"Darwin\""}
+psutil = ">=5.9.2"
+pydantic = ">=2.6"
+rich = ">=10.7.0"
+wheel = ">=0.36.1"
+
+[[package]]
 name = "scikit-learn"
 version = "1.5.1"
 description = "A set of python modules for machine learning and data mining"
@@ -5205,6 +5266,20 @@ files = [
 ]
 
 [[package]]
+name = "wheel"
+version = "0.44.0"
+description = "A built-package format for Python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "wheel-0.44.0-py3-none-any.whl", hash = "sha256:2376a90c98cc337d18623527a97c31797bd02bad0033d41547043a1cbfbe448f"},
+    {file = "wheel-0.44.0.tar.gz", hash = "sha256:a29c3f2817e95ab89aa4660681ad547c0e9547f20e75b0562fe7723c9a2a9d49"},
+]
+
+[package.extras]
+test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
+
+[[package]]
 name = "wrapt"
 version = "1.16.0"
 description = "Module for decorators, wrappers and monkey patching."
@@ -5542,4 +5617,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.12"
-content-hash = "c4c3e5662197f7d07b18c34c7629f73961eeda84b11045944595cf3228ad1d20"
+content-hash = "a62d45b3d4efe280e3e7f2ea6ad2c29370a1b3a8a9d5623845fd8deb0394acfa"
