@@ -5,47 +5,14 @@ from model_definition import (
     Dataset,
     LanguageModel,
     get_train_and_valid_path,
+    get_model_path,
 )
 
 # dspy
 from dspy.evaluate.evaluate import Evaluate
 
 # helper imports
-from pathlib import Path
 import os
-
-
-# %% Helper functions
-def get_model_path(model_json_path: str) -> Path:
-    """
-    Only pass the name of the saved model (+ .json file extension).
-
-    This function works in both script and Jupyter notebook environments.
-
-    Returns:
-        Path: The path to the model file.
-    """
-    path = None
-    try:
-        # Try to get the path of the root
-        path = Path(__file__).resolve().parent.parent
-    except Exception:
-        try:
-            import IPython
-
-            path = Path(IPython.get_ipython().kernel.profile_dir).parent.parent  # type: ignore
-        except Exception:
-            path = Path(os.getcwd()).parent.resolve()
-
-    if path is None:
-        raise Exception(f"model with path {model_json_path} couldn't be initialized")
-
-    model_path = path.joinpath("models", model_json_path)
-
-    if not model_path.exists():
-        raise Exception(f"model with path {model_path} couldn't be initialized")
-
-    return model_path
 
 
 # %% I/O
