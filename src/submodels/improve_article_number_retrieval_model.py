@@ -5,7 +5,14 @@ from article_number_retrieval_model import (
 import pickle
 import pandas as pd
 from dspy.datasets import DataLoader
-from tabulate import tabulate
+from sklearn.metrics import (
+    accuracy_score,
+    precision_score,
+    recall_score,
+    f1_score,
+    hamming_loss,
+    roc_auc_score,
+)
 
 from typing import TypeAlias
 
@@ -80,22 +87,76 @@ def fill_out_the_preds_vs_targets(
     return (filled_preds, filled_targets)
 
 
-def eval(all_preds: ListOfArticleNumbers, all_targets: ListOfArticleNumbers):
-    """ """
-    # Prepare data for the table
-    for preds, targets in zip(all_preds, all_targets):
-        table_data = []
-        headers = ["Parsed Article", "Target Article", "Match"]
-        for single_pred, single_target in zip(preds, targets):
-            match = "✓" if single_pred == single_target else "✗"
-            table_data.append([single_pred, single_target, match])
-        print(tabulate(table_data, headers=headers, tablefmt="grid"))
+def eval(retrieved_preds, retrieved_targets):
+    """
+    Evaluate multilabel classification performance.
 
-    # @todo: use roc-auc: https://huggingface.co/spaces/eval-metric/roc_auc
-    # @todo: use accuracy
+    Parameters:
+    - retrieved_preds: List of lists, each sublist contains predicted labels for an instance.
+    - retrieved_targets: List of lists, each sublist contains true labels for an instance.
+    """
+    # Step 1: Collect all unique labels, excluding None
+    all_labels = set()
+    for labels in retrieved_preds + retrieved_targets:
+        for label in labels:
+            if label is not None:
+                all_labels.add(label)
+
+    # Step 2: Map labels to indices
+    label_to_index = {label: idx for idx, label in enumerate(sorted(all_labels))}
+
+    # Step 3: Function to binarize label lists, handling None values
+    def binarize(labels):
+        num_labels = len(label_to_index)
+        binary_vector = [0] * num_labels
+        for label in labels:
+            if label is not None:
+                idx = label_to_index[label]
+                binary_vector[idx] = 1
+            else:
+                # If label is None, we skip it or handle it as needed
+                continue
+        return binary_vector
+
+    # Step 4: Binarize the labels
+    y_true = [binarize(labels) for labels in retrieved_targets]
+    y_pred = [binarize(labels) for labels in retrieved_preds]
+
+    # Step 5: Compute Exact Match Ratio (Subset Accuracy)
+    subset_accuracy = accuracy_score(y_true, y_pred)
+    print("Exact Match Ratio (Subset Accuracy): {:.4f}".format(subset_accuracy))
+
+    # Step 6: Compute Hamming Loss and Hamming Score
+    hamming_loss_value = hamming_loss(y_true, y_pred)
+    hamming_score = 1 - hamming_loss_value
+    print("Hamming Loss: {:.4f}".format(hamming_loss_value))
+    print("Hamming Score (Accuracy): {:.4f}".format(hamming_score))
+
+    # Step 7: Compute Precision, Recall, and F1 Score with micro averaging
+    precision_micro = precision_score(y_true, y_pred, average="micro", zero_division=0)
+    recall_micro = recall_score(y_true, y_pred, average="micro", zero_division=0)
+    f1_micro = f1_score(y_true, y_pred, average="micro", zero_division=0)
+
+    print("Micro-Averaged Precision: {:.4f}".format(precision_micro))
+    print("Micro-Averaged Recall: {:.4f}".format(recall_micro))
+    print("Micro-Averaged F1 Score: {:.4f}".format(f1_micro))
+
+    # Step 8: Compute Precision, Recall, and F1 Score with macro averaging
+    precision_macro = precision_score(y_true, y_pred, average="macro", zero_division=0)
+    recall_macro = recall_score(y_true, y_pred, average="macro", zero_division=0)
+    f1_macro = f1_score(y_true, y_pred, average="macro", zero_division=0)
+
+    print("Macro-Averaged Precision: {:.4f}".format(precision_macro))
+    print("Macro-Averaged Recall: {:.4f}".format(recall_macro))
+    print("Macro-Averaged F1 Score: {:.4f}".format(f1_macro))
 
 
+# Call the eval function
 retrieved_preds, retrieved_targets = fill_out_the_preds_vs_targets(
     retrieved_preds, retrieved_targets
 )
 eval(retrieved_preds, retrieved_targets)
+
+# %% print out retrieved_preds and retrieved_targets
+print(f"retrieved_preds: {retrieved_preds}")
+print(f"retrieved_targets: {retrieved_targets}")
