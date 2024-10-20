@@ -1,6 +1,7 @@
 ### project custom .gitignore ###
 data/processed/brochure_ocr
 data/processed/volksinitiatives
+models/ragarwal__factual-consistency-llama3-8b/
 
 # scalene profiles
 profile.html
