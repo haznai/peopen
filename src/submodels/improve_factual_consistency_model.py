@@ -35,7 +35,7 @@ def load_model() -> transformers.TextGenerationPipeline:
         device="mps",
     )
 
-    return pipeline
+    return pipeline  # type: ignore
 
 
 # %% model loading
@@ -66,7 +66,7 @@ assistant_content = None
 
 # Navigate through the structure to find the assistant's message
 for item in answer:  # type: ignore
-    generated_text = item.get("generated_text", [])
+    generated_text = item.get("generated_text", [])  # type: ignore
     for message in generated_text:
         if message.get("role") == "assistant":
             assistant_content = message.get("content")
