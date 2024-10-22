@@ -38,3 +38,8 @@ evaluate:
   OVERMIND_PROCESSES=evaluating,logging overmind s -D
   overmind echo
 
+
+improve_factual_consistency:
+  open -g -a Orbstack
+  OVERMIND_PROCESSES=improving_factual_consistency,logging overmind s -D
+  overmind echo

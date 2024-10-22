@@ -389,7 +389,7 @@ class Trainer:
     """
 
     params: HyperParams
-    network: Network
+    network: dspy.Module
     data: Dataset
     optimizer: BootstrapFewShotWithRandomSearch
 
