@@ -91,14 +91,12 @@ class FactualConsistencyMetrics:
         return self.is_yes_or_no(assistant_content)
 
     def get_score(self, example, prediction, trace=None):
-        # function signature is important to be compatible with dspy optimizers
-
-        # get the predicted values (summarized)
+        # Get the predicted values (summarized)
         pred_im_detail = prediction.summarized_im_detail
         pred_arguments_committee = prediction.arguments_committee
         pred_arguments_bundesrat = prediction.arguments_bundesrat
 
-        # get the original values (unsummarized)
+        # Get the original values (unsummarized)
         im_detail = example.im_detail
         argumenteKomitee = example.argumenteKomitee
         argumenteBundesrat = example.argumenteBundesrat
@@ -110,13 +108,25 @@ class FactualConsistencyMetrics:
         ]
         list_sources = [im_detail, argumenteKomitee, argumenteBundesrat]
 
-        score = 0
+        total_sentences = 0
+        total_consistent_sentences = 0
+
+        # Iterate through each prediction-source pair
         for pred, source in zip(list_preds, list_sources):
-            if self.is_factually_consistent(pred, source):
-                score += 1
+            # Split prediction into sentences
+            pred_sentences = [s.strip() for s in pred.split('.') if s.strip()]
 
-        return score / len(list_preds)
+            # Check each sentence for factual consistency
+            for sentence in pred_sentences:
+                if self.is_factually_consistent(sentence, source):
+                    total_consistent_sentences += 1
+                total_sentences += 1
 
+        # Return average score across all sentences
+        if total_sentences == 0:
+            return 0.0
+
+        return total_consistent_sentences / total_sentences
 
 class FactualConsistencyNetwork(dspy.Module):
     """
