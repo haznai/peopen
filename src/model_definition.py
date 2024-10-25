@@ -42,6 +42,8 @@ class HyperParams:
     training_run_name: str = field(default="no_training_run_name_specified")
     # Other hyperparameters
     phoenix_metadata: Optional[dict] = field(default=None)
+    # path to factual consistency model weights
+    fc_weights_path: str = field(default="no_factual_consistency_model_path_specified")
 
 
 class ModelType(Enum):
@@ -191,7 +193,7 @@ class Metrics:
         # )
 
 
-class Network(dspy.Module):
+class PenPrompterModel(dspy.Module):
     """
     Defines the model structure and training steps.
     """

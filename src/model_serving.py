@@ -6,7 +6,7 @@ from uvicorn import run
 
 # %% model imports
 from model_definition import (
-    Network,
+    PenPrompterModel,
     Dataset,
     LanguageModel,
     get_model_path,
@@ -19,7 +19,7 @@ import random
 
 # %% model setup
 model_path = get_model_path("2024-10-07_first_run_2024-10-06.json")
-trained_network = Network()
+trained_network = PenPrompterModel()
 trained_network.load(model_path)
 lm = LanguageModel(
     name="gpt-4o-mini-2024-07-18",
