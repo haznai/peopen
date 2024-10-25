@@ -1,6 +1,6 @@
 # custom imports
 from model_definition import (
-    PenPrompterModel,
+    PenPrompterNetwork,
     Metrics,
     Dataset,
     LanguageModel,
@@ -17,7 +17,7 @@ import os
 
 # %% I/O
 model_path = get_model_path("2024-10-07_first_run_2024-10-06.json")
-trained_network = PenPrompterModel()
+trained_network = PenPrompterNetwork()
 trained_network.load(model_path)
 
 train_path, valid_path = get_train_and_valid_path()

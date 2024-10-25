@@ -5,7 +5,7 @@ from model_definition import (
     LanguageModel,
     Logger,
     Metrics,
-    PenPrompterModel,
+    PenPrompterNetwork,
     Trainer,
     get_train_and_valid_path,
 )
@@ -29,7 +29,7 @@ lm = LanguageModel(
 _ = Logger()  # just needs to be init
 data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_path))
 metrics = Metrics()
-network = PenPrompterModel()
+network = PenPrompterNetwork()
 trainer = Trainer(
     params=hyper_params,
     network=network,

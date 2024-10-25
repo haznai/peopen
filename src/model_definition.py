@@ -14,6 +14,9 @@ from typing import List, Literal, Mapping, Optional, Tuple
 import dspy
 from dspy.teleprompt import BootstrapFewShotWithRandomSearch
 
+# custom models
+from submodels.factual_consistency_model import FactualConsistencyNetwork
+
 # metrics
 from evaluate import EvaluationModule, load
 from openinference.instrumentation.dspy import DSPyInstrumentor
@@ -193,53 +196,10 @@ class Metrics:
         # )
 
 
-class PenPrompterModel(dspy.Module):
+class PenPrompterNetwork(dspy.Module):
     """
     Defines the model structure and training steps.
     """
-
-    class SummarizeImDetailSignature(dspy.Signature):
-        """
-        Summarize the detailed explanations ('im_detail') to provide a concise overview of the initiative.
-        """
-
-        titel = dspy.InputField()
-        im_detail = dspy.InputField()
-
-        summarized_im_detail = dspy.OutputField()
-
-    class ExtractArgumentsCommitteeSignature(dspy.Signature):
-        """
-        Extract the main arguments presented by the supporting committee and their recommendation.
-        """
-
-        titel = dspy.InputField()
-        argumenteKomitee = dspy.InputField()
-        empfehlungKomitee = dspy.InputField()
-
-        arguments_committee = dspy.OutputField()
-
-    class ExtractArgumentsFederalCouncilSignature(dspy.Signature):
-        """
-        Extract the main arguments presented by the Federal Council opposing the initiative and their recommendation.
-        """
-
-        titel = dspy.InputField()
-        argumenteBundesrat = dspy.InputField()
-        empfehlungBundesrat = dspy.InputField()
-
-        arguments_bundesrat = dspy.OutputField()
-
-    class ClarifyAmbiguousTermsSignature(dspy.Signature):
-        """
-        Identify and clarify ambiguous or unclear terms in the summaries and arguments.
-        """
-
-        summarized_im_detail = dspy.InputField()
-        arguments_committee = dspy.InputField()
-        arguments_bundesrat = dspy.InputField()
-
-        clarified_terms = dspy.OutputField()
 
     class WriteHumanUnderstandableDraftSignature(dspy.Signature):
         """
@@ -251,7 +211,6 @@ class PenPrompterModel(dspy.Module):
         ideas and objectives in simple terms.
         """
 
-        clarified_terms = dspy.InputField()
         summarized_im_detail = dspy.InputField()
         arguments_committee = dspy.InputField()
         arguments_bundesrat = dspy.InputField()
@@ -317,35 +276,7 @@ class PenPrompterModel(dspy.Module):
         argumenteBundesrat,
         empfehlungBundesrat,
     ):
-        # Node A1: Summarize 'im_detail' (Predictor)
-        summarized_im_detail = self.summarize_im_detail_module(
-            titel=titel,
-            im_detail=im_detail,
-        ).summarized_im_detail
-
-        # Node A2: Extract Arguments from Committee (Predictor)
-        arguments_committee = self.extract_arguments_committee_module(
-            titel=titel,
-            argumenteKomitee=argumenteKomitee,
-            empfehlungKomitee=empfehlungKomitee,
-        ).arguments_committee
-
-        # Node A3: Extract Arguments from Federal Council (Predictor)
-        arguments_bundesrat = self.extract_arguments_federal_council_module(
-            titel=titel,
-            argumenteBundesrat=argumenteBundesrat,
-            empfehlungBundesrat=empfehlungBundesrat,
-        ).arguments_bundesrat
-
-        # Node B1: Clarify Ambiguous Terms (ChainOfThought)
-        clarified_terms = self.clarify_ambiguous_terms_module(
-            summarized_im_detail=summarized_im_detail,
-            arguments_committee=arguments_committee,
-            arguments_bundesrat=arguments_bundesrat,
-        ).clarified_terms
-
         human_understandable_draft = self.write_human_understandable_draft_module(
-            clarified_terms=clarified_terms,
             summarized_im_detail=summarized_im_detail,
             arguments_committee=arguments_committee,
             arguments_bundesrat=arguments_bundesrat,
