@@ -13,14 +13,25 @@ from model_definition import (
     get_train_and_valid_path,
 )
 
+from submodels.factual_consistency_model import (
+    FactualConsistencyNetwork,
+)
+
+
 # %% misc imports
 import os
 import random
 
 # %% model setup
-model_path = get_model_path("2024-10-07_first_run_2024-10-06.json")
-trained_network = PenPrompterNetwork()
-trained_network.load(model_path)
+model_path_pp = get_model_path("2024-10-26_penprompter-first-full-training.json")
+model_path_fc = get_model_path("2024-10-25_factual_consistency.json")
+
+fc_model = FactualConsistencyNetwork()
+fc_model.load(model_path_fc)
+fc_model._compiled = True
+network = PenPrompterNetwork(fc_model)
+trained_network = PenPrompterNetwork(fc_model)
+trained_network.load(model_path_pp)
 lm = LanguageModel(
     name="gpt-4o-mini-2024-07-18",
     url="https://api.openai.com/v1/",

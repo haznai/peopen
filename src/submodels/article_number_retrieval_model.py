@@ -76,7 +76,12 @@ class MatchingArticlesFromBundesverfassung(BaseModel):
 
 
 class ArticleNumberRM(dspy.Retrieve):
-    def __init__(self):
+    def __init__(self, k=3):
+        """
+        The 'k' parameter is not supported. Only kepy for compatibility with the dspy.Retrieve class.
+        """
+        assert k == 3, "setting 'k' parameter is not supported"
+        super().__init__(k)
         self.client = OpenAI()
         self.bundesverfassung_text = ""
         with open(get_path_to_bundesverfassung(), "r") as f:
