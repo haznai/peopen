@@ -13,9 +13,11 @@ from typing import List, Literal, Mapping, Optional, Tuple
 # dspy imports
 import dspy
 from dspy.teleprompt import BootstrapFewShotWithRandomSearch
+from sympy.printing.numpy import S
 
 # custom models
 from submodels.factual_consistency_model import FactualConsistencyNetwork
+from submodels.article_number_retrieval_model import ArticleNumberRM
 
 # metrics
 from evaluate import EvaluationModule, load
@@ -201,6 +203,8 @@ class PenPrompterNetwork(dspy.Module):
     Defines the model structure and training steps.
     """
 
+    fc_model: FactualConsistencyNetwork
+
     class WriteHumanUnderstandableDraftSignature(dspy.Signature):
         """
         Create a simple, human-understandable draft of the popular initiative.
@@ -226,34 +230,34 @@ class PenPrompterNetwork(dspy.Module):
 
         legal_requirements = dspy.OutputField()
 
-    class GenerateWortlaut(dspy.Signature):
+    class GenerateDraftWortlautSignature(dspy.Signature):
         """
-        Generate the 'Wortlaut' (legal text) of the proposed constitutional amendment.
+        Generate a draft Wortlaut (legal text) of the proposed constitutional amendment.
+
+        Importantly, instead of Article numbers in the legal text, placeholders should be used. Articles with placeholders should always look like this: 'Art. [ARTICLE NUMBER HERE]'
         """
 
         human_understandable_draft = dspy.InputField()
         legal_requirements = dspy.InputField()
 
+        draft_wortlaut_without_article_numbers = dspy.OutputField()
+
+    class GenerateFinalWortlautSignature(dspy.Signature):
+        """
+        Insert the article numbers into the 'Art. [ARTICLE NUMBER HERE]' placeholders in the draft and output the final legal text.
+        """
+
+        draft_wortlaut_without_article_numbers = dspy.InputField()
+        article_numbers = dspy.InputField()
+
         final_wortlaut = dspy.OutputField()
 
-    def __init__(self):
+    def __init__(self, fc_model: FactualConsistencyNetwork):
+        assert fc_model._compiled, "FactualConsistencyNetwork must be compiled before initializing PenPrompterNetwork"
+
         super().__init__()
-        #### Definition of modules ####
-        self.summarize_im_detail_module = dspy.TypedPredictor(
-            self.SummarizeImDetailSignature,
-        )
 
-        self.extract_arguments_committee_module = dspy.TypedPredictor(
-            self.ExtractArgumentsCommitteeSignature,
-        )
-
-        self.extract_arguments_federal_council_module = dspy.TypedPredictor(
-            self.ExtractArgumentsFederalCouncilSignature,
-        )
-
-        self.clarify_ambiguous_terms_module = dspy.TypedPredictor(
-            self.ClarifyAmbiguousTermsSignature,
-        )
+        self.fc_model = fc_model
 
         self.highlight_legal_requirements_module = dspy.TypedChainOfThought(
             self.HighlightLegalRequirementsSignature,
@@ -263,9 +267,15 @@ class PenPrompterNetwork(dspy.Module):
             self.WriteHumanUnderstandableDraftSignature,
         )
 
-        self.generate_wortlaut_module = dspy.TypedChainOfThought(
-            self.GenerateWortlaut,
+        self.generate_draft_wortlaut_module = dspy.TypedChainOfThought(
+            self.GenerateDraftWortlautSignature,
         )
+
+        self.generate_final_wortlaut_module = dspy.TypedPredictor(
+            self.GenerateFinalWortlautSignature,
+        )
+
+        self.article_number_retriever = ArticleNumberRM()
 
     def get_first_draft(
         self,
@@ -276,10 +286,18 @@ class PenPrompterNetwork(dspy.Module):
         argumenteBundesrat,
         empfehlungBundesrat,
     ):
+        summarizations = self.fc_model(
+            titel,
+            im_detail,
+            argumenteKomitee,
+            empfehlungKomitee,
+            argumenteBundesrat,
+            empfehlungBundesrat,
+        )
         human_understandable_draft = self.write_human_understandable_draft_module(
-            summarized_im_detail=summarized_im_detail,
-            arguments_committee=arguments_committee,
-            arguments_bundesrat=arguments_bundesrat,
+            summarized_im_detail=summarizations.summarized_im_detail,
+            arguments_committee=summarizations.arguments_committee,
+            arguments_bundesrat=summarizations.arguments_bundesrat,
         ).human_understandable_draft
 
         return human_understandable_draft
@@ -289,9 +307,20 @@ class PenPrompterNetwork(dspy.Module):
             human_understandable_draft=human_understandable_draft,
         ).legal_requirements
 
-        return self.generate_wortlaut_module(
+        draft_wortlaut_without_article_numbers = self.generate_draft_wortlaut_module(
             human_understandable_draft=human_understandable_draft,
             legal_requirements=legal_requirements,
+        ).draft_wortlaut_without_article_numbers
+
+        article_numbers = self.article_number_retriever(
+            draft_wortlaut_without_article_numbers
+        ).retrieved_article_numbers  # type: ignore
+
+        article_numbers = f"article_numbers={article_numbers}"
+
+        return self.generate_final_wortlaut_module(
+            draft_wortlaut_without_article_numbers=draft_wortlaut_without_article_numbers,
+            article_numbers=article_numbers,
         )
 
     def forward(

@@ -26,6 +26,8 @@ with open(train_path, "rb") as f:
 with open(valid_path, "rb") as f:
     data_valid = pickle.load(f)
 
+print(data_train[0])
+
 
 # Create df_train
 df_train = pd.DataFrame(data_train)

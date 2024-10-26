@@ -10,6 +10,11 @@ from model_definition import (
     get_train_and_valid_path,
 )
 
+from submodels.factual_consistency_model import (
+    FactualConsistencyNetwork,
+)
+
+
 import os
 from dspy import BootstrapFewShotWithRandomSearch
 
@@ -28,8 +33,12 @@ lm = LanguageModel(
 )
 _ = Logger()  # just needs to be init
 data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_path))
+
 metrics = Metrics()
-network = PenPrompterNetwork()
+fc_model = FactualConsistencyNetwork()
+fc_model.load(hyper_params.fc_weights_path)
+fc_model._compiled = True
+network = PenPrompterNetwork(fc_model)
 trainer = Trainer(
     params=hyper_params,
     network=network,
