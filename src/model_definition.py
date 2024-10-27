@@ -409,13 +409,9 @@ def get_train_and_valid_path() -> Tuple[Path, Path]:
             # Fallback to current working directory
             path = Path(os.getcwd()).parent.resolve()
 
-    train_path = path.joinpath(
-        "data", "processed", "volksiniativen_with_wortlaut_dspy_dataset_train.pkl"
-    )
+    train_path = path.joinpath("data", "processed", "final_truncated_train_dataset.pkl")
 
-    valid_path = path.joinpath(
-        "data", "processed", "volksiniativen_with_wortlaut_dspy_dataset_valid.pkl"
-    )
+    valid_path = path.joinpath("data", "processed", "final_truncated_valid_dataset.pkl")
 
     return (train_path, valid_path)
 
