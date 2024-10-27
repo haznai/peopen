@@ -97,5 +97,41 @@ with open("../../data/processed/merged_dataset_train.pkl", "rb") as f:
 with open("../../data/processed/merged_dataset_valid.pkl", "rb") as f:
     merged_valid = pickle.load(f)
 
-print(merged_train[0])
-print(merged_valid[0])
+from tabulate import tabulate
+
+# Combine train and valid data with a label
+all_data = []
+for item in merged_train:
+    all_data.append(
+        {
+            "Dataset": "Train",
+            "Wortlaut": item["Wortlaut"],
+            "Wortlaut Filled": item["wortlaut_filled"],
+        }
+    )
+for item in merged_valid:
+    all_data.append(
+        {
+            "Dataset": "Valid",
+            "Wortlaut": item["Wortlaut"],
+            "Wortlaut Filled": item["wortlaut_filled"],
+        }
+    )
+
+# Print table
+print(
+    tabulate(
+        all_data,
+        headers="keys",
+        tablefmt="grid",
+        maxcolwidths=[None, 20, 20],
+    )
+)
+
+# Also save as CSV for Excel
+import csv
+
+with open("merged_dataset_comparison.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=["Dataset", "Wortlaut", "Wortlaut Filled"])
+    writer.writeheader()
+    writer.writerows(all_data)
