@@ -4,6 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import RootModel
 from uvicorn import run
 
+import requests
+
 # %% model imports
 from model_definition import (
     PenPrompterNetwork,
@@ -102,7 +104,7 @@ async def handle_document_ready_event():
     argumenteBundesrat = random_example["argumenteBundesrat"]
     empfehlungBundesrat = random_example["empfehlungBundesrat"]
 
-    return trained_network.get_first_draft(
+    draft_text = trained_network.get_first_draft(
         titel=titel,
         im_detail=im_detail,
         argumenteKomitee=argumenteKomitee,
@@ -110,6 +112,19 @@ async def handle_document_ready_event():
         argumenteBundesrat=argumenteBundesrat,
         empfehlungBundesrat=empfehlungBundesrat,
     )
+
+    try:
+        # @todo: get padID, don't hardcode 'test'
+        # @todo: get api_key, don't hardcode 'ayy'
+        _ = requests.post(
+            "http://localhost:9001/api/1/setText",
+            params={"api_key": "ayy", "padID": "test"},
+            data={"text": draft_text},
+        )
+    except Exception as e:
+        print(f"Failed to set pad text: {e}")
+
+    return draft_text
 
 
 # %% run server
