@@ -1,3 +1,4 @@
+# %% Imports
 from article_number_retrieval_model import (
     get_path_to_truncated_wortlaut_pickles,
     ArticleNumberRM,
@@ -11,7 +12,6 @@ from sklearn.metrics import (
     recall_score,
     f1_score,
     hamming_loss,
-    roc_auc_score,
 )
 
 from typing import TypeAlias
@@ -45,24 +45,6 @@ valid_dataset = DataLoader().from_pandas(
     df_valid,
     input_keys=tuple([col for col in df_valid.columns if col != "wortlaut_original"]),
 )
-
-# %% Init the model
-article_number_rm = ArticleNumberRM()
-
-# %% get the article numbers
-retrieved_preds = []
-retrieved_targets = []
-
-for i, row in enumerate(train_dataset):
-    parsed_articles = article_number_rm.forward(
-        query_or_queries=row["wortlaut_truncated"]
-    )
-    retrieved_preds.append(parsed_articles.retrieved_article_numbers)
-
-    retrieved_targets.append(row["article_numbers"])
-
-    print(f"Processed {i + 1}/{len(train_dataset)}")
-
 
 # %% functions for evaluating the model
 ListOfArticleNumbers: TypeAlias = list[list[str | None]]
@@ -153,7 +135,23 @@ def eval(retrieved_preds, retrieved_targets):
     print("Macro-Averaged F1 Score: {:.4f}".format(f1_macro))
 
 
-# Call the eval function
+# %% Init and run the model
+article_number_rm = ArticleNumberRM()
+
+retrieved_preds = []
+retrieved_targets = []
+
+for i, row in enumerate(train_dataset):
+    parsed_articles = article_number_rm.forward(
+        query_or_queries=row["wortlaut_truncated"]
+    )
+    retrieved_preds.append(parsed_articles.retrieved_article_numbers)
+
+    retrieved_targets.append(row["article_numbers"])
+
+    print(f"Processed {i + 1}/{len(train_dataset)}")
+
+# %% Call the eval function
 retrieved_preds, retrieved_targets = fill_out_the_preds_vs_targets(
     retrieved_preds, retrieved_targets
 )

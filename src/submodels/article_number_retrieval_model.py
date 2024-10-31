@@ -33,9 +33,9 @@ def get_path_to_truncated_wortlaut_pickles() -> Tuple[Path, Path]:
             # Fallback to current working directory
             path = Path(os.getcwd()).parent.parent.resolve()
 
-    train_path = path.joinpath("data", "processed", "truncated_wortlaut_train.pkl")
+    train_path = path.joinpath("data", "interim", "truncated_wortlaut_train.pkl")
 
-    valid_path = path.joinpath("data", "processed", "truncated_wortlaut_valid.pkl")
+    valid_path = path.joinpath("data", "interim", "truncated_wortlaut_valid.pkl")
 
     return (train_path, valid_path)
 
