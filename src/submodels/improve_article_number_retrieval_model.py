@@ -112,29 +112,19 @@ def eval(
     y_pred = [binarize(labels) for labels in retrieved_preds]
 
     # Calculate metrics with explicit zero_division handling
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     metrics = {
-        "Exact Match Ratio": accuracy_score(y_true, y_pred),
-        "Hamming Loss": hamming_loss(y_true, y_pred),
-        "Hamming Score": 1 - hamming_loss(y_true, y_pred),
-        "Micro-Avg Precision": precision_score(
+        "Model": current_time,
+        "Hamming Score (Accuracy)": 1 - hamming_loss(y_true, y_pred),
+        "Exact Match Ratio (Subset Accuracy)": accuracy_score(y_true, y_pred),
+        "F1 Score": f1_score(y_true, y_pred, average="micro", zero_division=0),
+        "Precision Score": precision_score(
             y_true, y_pred, average="micro", zero_division=0
         ),
-        "Micro-Avg Recall": recall_score(
-            y_true, y_pred, average="micro", zero_division=0
-        ),
-        "Micro-Avg F1": f1_score(y_true, y_pred, average="micro", zero_division=0),
-        "Macro-Avg Precision": precision_score(
-            y_true, y_pred, average="macro", zero_division=0
-        ),
-        "Macro-Avg Recall": recall_score(
-            y_true, y_pred, average="macro", zero_division=0
-        ),
-        "Macro-Avg F1": f1_score(y_true, y_pred, average="macro", zero_division=0),
+        "Recall Score": recall_score(y_true, y_pred, average="micro", zero_division=0),
     }
 
     # Add timestamp
-    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    metrics["Timestamp"] = current_time
 
     # Create row and headers for display
     headers = list(metrics.keys())
@@ -144,10 +134,24 @@ def eval(
     ]
 
     # Display tables
+    table_settings = {
+        "headers": headers,
+        "floatfmt": ".4f",
+        "maxcolwidths": None,
+        "tablefmt": None,
+    }
+
     print("\nGitHub Format:")
-    print(tabulate([row], headers=headers, tablefmt="github", floatfmt=".4f"))
+    table_settings["tablefmt"] = "github"
+    print(tabulate([row], **table_settings))
+
+    table_settings["tablefmt"] = "latex"
     print("\nLaTeX Format:")
-    print(tabulate([row], headers=headers, tablefmt="latex", floatfmt=".4f"))
+    print(tabulate([row], **table_settings))
+
+    table_settings["tablefmt"] = "plain"
+    print("\nCompact Format (horizontal scroll):")
+    print(tabulate([row], **table_settings))
 
     return metrics
 
@@ -183,7 +187,3 @@ retrieved_preds, retrieved_targets = fill_out_the_preds_vs_targets(
     retrieved_preds, retrieved_targets
 )
 eval(retrieved_preds, retrieved_targets)
-
-# %% print out retrieved_preds and retrieved_targets
-print(f"retrieved_preds: {retrieved_preds}")
-print(f"retrieved_targets: {retrieved_targets}")
