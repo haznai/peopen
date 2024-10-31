@@ -141,15 +141,25 @@ article_number_rm = ArticleNumberRM()
 retrieved_preds = []
 retrieved_targets = []
 
+# Process training dataset
+print("Processing training dataset...")
 for i, row in enumerate(train_dataset):
     parsed_articles = article_number_rm.forward(
         query_or_queries=row["wortlaut_truncated"]
     )
     retrieved_preds.append(parsed_articles.retrieved_article_numbers)
-
     retrieved_targets.append(row["article_numbers"])
+    print(f"Processed training example {i + 1}/{len(train_dataset)}")
 
-    print(f"Processed {i + 1}/{len(train_dataset)}")
+# Process validation dataset
+print("\nProcessing validation dataset...")
+for i, row in enumerate(valid_dataset):
+    parsed_articles = article_number_rm.forward(
+        query_or_queries=row["wortlaut_truncated"]
+    )
+    retrieved_preds.append(parsed_articles.retrieved_article_numbers)
+    retrieved_targets.append(row["article_numbers"])
+    print(f"Processed validation example {i + 1}/{len(valid_dataset)}")
 
 # %% Call the eval function
 retrieved_preds, retrieved_targets = fill_out_the_preds_vs_targets(
