@@ -5,6 +5,9 @@ from article_number_retrieval_model import (
 )
 import pickle
 import pandas as pd
+from tabulate import tabulate  # Added this import
+from datetime import datetime
+
 from dspy.datasets import DataLoader
 from sklearn.metrics import (
     accuracy_score,
@@ -71,68 +74,82 @@ def fill_out_the_preds_vs_targets(
     return (filled_preds, filled_targets)
 
 
-def eval(retrieved_preds, retrieved_targets):
+def eval(
+    retrieved_preds: list[list[str | None]], retrieved_targets: list[list[str | None]]
+) -> dict[str, float | str]:
     """
-    Evaluate multilabel classification performance.
+    Evaluate multilabel classification performance for article number retrieval.
 
-    Parameters:
-    - retrieved_preds: List of lists, each sublist contains predicted labels for an instance.
-    - retrieved_targets: List of lists, each sublist contains true labels for an instance.
+    Args:
+        retrieved_preds: List of lists containing predicted article numbers (or None)
+        retrieved_targets: List of lists containing target article numbers (or None)
+
+    Returns:
+        Dictionary containing evaluation metrics and timestamp
     """
-    # Step 1: Collect all unique labels, excluding None
-    all_labels = set()
-    for labels in retrieved_preds + retrieved_targets:
-        for label in labels:
-            if label is not None:
-                all_labels.add(label)
+    # Collect all valid labels
+    all_labels = {
+        label
+        for labels in retrieved_preds + retrieved_targets
+        for label in labels
+        if label is not None
+    }
 
-    # Step 2: Map labels to indices
+    if not all_labels:
+        raise ValueError("No valid labels found in predictions or targets")
+
+    # Create label mapping and binary vectors
     label_to_index = {label: idx for idx, label in enumerate(sorted(all_labels))}
 
-    # Step 3: Function to binarize label lists, handling None values
-    def binarize(labels):
-        num_labels = len(label_to_index)
-        binary_vector = [0] * num_labels
+    def binarize(labels: list[str | None]) -> list[int]:
+        binary = [0] * len(label_to_index)
         for label in labels:
-            if label is not None:
-                idx = label_to_index[label]
-                binary_vector[idx] = 1
-            else:
-                # If label is None, we skip it or handle it as needed
-                continue
-        return binary_vector
+            if label is not None and label in label_to_index:
+                binary[label_to_index[label]] = 1
+        return binary
 
-    # Step 4: Binarize the labels
     y_true = [binarize(labels) for labels in retrieved_targets]
     y_pred = [binarize(labels) for labels in retrieved_preds]
 
-    # Step 5: Compute Exact Match Ratio (Subset Accuracy)
-    subset_accuracy = accuracy_score(y_true, y_pred)
-    print("Exact Match Ratio (Subset Accuracy): {:.4f}".format(subset_accuracy))
+    # Calculate metrics with explicit zero_division handling
+    metrics = {
+        "Exact Match Ratio": accuracy_score(y_true, y_pred),
+        "Hamming Loss": hamming_loss(y_true, y_pred),
+        "Hamming Score": 1 - hamming_loss(y_true, y_pred),
+        "Micro-Avg Precision": precision_score(
+            y_true, y_pred, average="micro", zero_division=0
+        ),
+        "Micro-Avg Recall": recall_score(
+            y_true, y_pred, average="micro", zero_division=0
+        ),
+        "Micro-Avg F1": f1_score(y_true, y_pred, average="micro", zero_division=0),
+        "Macro-Avg Precision": precision_score(
+            y_true, y_pred, average="macro", zero_division=0
+        ),
+        "Macro-Avg Recall": recall_score(
+            y_true, y_pred, average="macro", zero_division=0
+        ),
+        "Macro-Avg F1": f1_score(y_true, y_pred, average="macro", zero_division=0),
+    }
 
-    # Step 6: Compute Hamming Loss and Hamming Score
-    hamming_loss_value = hamming_loss(y_true, y_pred)
-    hamming_score = 1 - hamming_loss_value
-    print("Hamming Loss: {:.4f}".format(hamming_loss_value))
-    print("Hamming Score (Accuracy): {:.4f}".format(hamming_score))
+    # Add timestamp
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    metrics["Timestamp"] = current_time
 
-    # Step 7: Compute Precision, Recall, and F1 Score with micro averaging
-    precision_micro = precision_score(y_true, y_pred, average="micro", zero_division=0)
-    recall_micro = recall_score(y_true, y_pred, average="micro", zero_division=0)
-    f1_micro = f1_score(y_true, y_pred, average="micro", zero_division=0)
+    # Create row and headers for display
+    headers = list(metrics.keys())
+    row = [
+        f"{metrics[h]:.4f}" if isinstance(metrics[h], float) else metrics[h]
+        for h in headers
+    ]
 
-    print("Micro-Averaged Precision: {:.4f}".format(precision_micro))
-    print("Micro-Averaged Recall: {:.4f}".format(recall_micro))
-    print("Micro-Averaged F1 Score: {:.4f}".format(f1_micro))
+    # Display tables
+    print("\nGitHub Format:")
+    print(tabulate([row], headers=headers, tablefmt="github", floatfmt=".4f"))
+    print("\nLaTeX Format:")
+    print(tabulate([row], headers=headers, tablefmt="latex", floatfmt=".4f"))
 
-    # Step 8: Compute Precision, Recall, and F1 Score with macro averaging
-    precision_macro = precision_score(y_true, y_pred, average="macro", zero_division=0)
-    recall_macro = recall_score(y_true, y_pred, average="macro", zero_division=0)
-    f1_macro = f1_score(y_true, y_pred, average="macro", zero_division=0)
-
-    print("Macro-Averaged Precision: {:.4f}".format(precision_macro))
-    print("Macro-Averaged Recall: {:.4f}".format(recall_macro))
-    print("Macro-Averaged F1 Score: {:.4f}".format(f1_macro))
+    return metrics
 
 
 # %% Init and run the model
