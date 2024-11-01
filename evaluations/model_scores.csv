@@ -1,0 +1,7 @@
+model_name,score
+penprompter-boostrapfewshot-gpt-4o-mini,0.6519403457641602
+penprompter-boostrapfewshot-gpt-4o,0.629318642616272
+penprompter-bootsrapfewshotwithrandomsearch-gpt-4o-mini,0.651874554157257
+penprompter-bootsrapfewshotwithrandomsearch-gpt-4o,0.629080855846405
+penprompter-miprov2fewshot-gpt-4o-mini,0.6515320897102356
+penprompter-miprov2fewshot-gpt-4o,0.6289470434188843

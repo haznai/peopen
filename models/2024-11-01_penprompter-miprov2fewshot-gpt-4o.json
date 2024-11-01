@@ -1,0 +1,37 @@
+{
+  "highlight_legal_requirements_module.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Identify legal requirements, constitutional provisions, and mandatory elements for the final law text ('Wortlaut').",
+    "signature_prefix": "Legal Requirements:"
+  },
+  "write_human_understandable_draft_module.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Create a simple, human-understandable draft of the popular initiative.\n\nThis module takes the input information and produces a clear, straightforward\nversion of the initiative. The output should be easily understood by the general\npublic, avoiding legal jargon and complex language. Focus on presenting the main\nideas and objectives in simple terms.",
+    "signature_prefix": "Human Understandable Draft:"
+  },
+  "generate_draft_wortlaut_module.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Generate a draft Wortlaut (legal text) of the proposed constitutional amendment.\n\nImportantly, instead of Article numbers in the legal text, placeholders should be used. Articles with placeholders should always look like this: 'Art. [ARTICLE NUMBER HERE]'",
+    "signature_prefix": "Draft Wortlaut Without Article Numbers:"
+  },
+  "generate_final_wortlaut_module.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Insert the article numbers into the 'Art. [ARTICLE NUMBER HERE]' placeholders in the draft and output the final legal text.",
+    "signature_prefix": "Final Wortlaut:"
+  },
+  "article_number_retriever": {
+    "k": 3
+  }
+}
