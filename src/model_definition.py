@@ -385,7 +385,9 @@ class Trainer:
 
         # Saving the optimized model
         iso_date = datetime.today().strftime("%Y-%m-%d")
-        file_path = f"models/{iso_date}_{self.params.training_run_name}"
+        file_path = (
+            f"models/{iso_date}_{self.params.training_run_name.replace('/', '_')}"
+        )
         file_extension = ".json"
 
         # Check if file exists; if yes, append a character until filename doesn't exist
