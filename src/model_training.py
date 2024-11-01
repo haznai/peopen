@@ -36,7 +36,14 @@ fc_model._compiled = True
 network = PenPrompterNetwork(fc_model)
 
 # Define language models to use
-lm_list = ["gpt-4o-mini", "gpt-4o"]
+lm_list = [
+    "meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo",
+    "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
+    "Qwen/Qwen2.5-7B-Instruct-Turbo",
+    "Qwen/Qwen2.5-72B-Instruct-Turbo",
+    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "mistralai/Mixtral-8x22B-Instruct-v0.1",
+]
 
 # Define training configurations
 training_configs = {
@@ -87,7 +94,7 @@ def run_all_training_configurations():
                 )
 
                 # Initialize language model
-                _ = LanguageModel(lm=dspy.LM(f"openai/{lm_name}"))
+                _ = LanguageModel(lm=dspy.Together(lm_name))
 
                 # Create new Trainer instance
                 trainer = Trainer(
