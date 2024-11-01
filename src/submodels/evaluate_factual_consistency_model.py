@@ -1,7 +1,9 @@
 from typing import List
+from pathlib import Path
 import dspy
 import sys
 import numpy as np
+from tabulate import tabulate
 from factual_consistency_model import (
     FactualConsistencyNetwork,
     FactualConsistencyMetrics,
@@ -10,54 +12,38 @@ from factual_consistency_model import (
 import pickle
 
 sys.path.append("/Users/hazn/Desktop/code.nosync/peopen")
-
 from src.model_definition import get_train_and_valid_path, LanguageModel
+
+
+def get_model_weights() -> List[Path]:
+    """Get all json weight files from the factual consistency models directory."""
+    weights_dir = Path("../../models/factual_consistency")
+    return list(weights_dir.glob("*.json"))
 
 
 def load_validation_data() -> List[dspy.Example]:
     """Load the validation dataset."""
     _, valid_path = get_train_and_valid_path()
-
     with open(valid_path, "rb") as f:
         valid_dataset = pickle.load(f)
         if not valid_dataset:
             raise ValueError("Validation dataset is empty or wrongly loaded")
-
     return valid_dataset
 
 
-def evaluate_factual_consistency():
-    """
-    Evaluate factual consistency on the validation set.
-
-    Args:
-        sample_size: Optional number of examples to evaluate. If None, evaluates all examples.
-    """
-    # Initialize models
-    _ = LanguageModel()
-    fc_transformer = load_model()
-    metrics = FactualConsistencyMetrics(model=fc_transformer)
-
-    # Initialize and compile network
-    fc_network = FactualConsistencyNetwork()
-    fc_network.load(
-        "../../models/factual_consistency/2024-10-31_boostrapfewshot_second.json"
-    )
-    fc_network._compiled = True
-
-    # Load validation data
-    validation_data = load_validation_data()
-
+def evaluate_model(
+    network: FactualConsistencyNetwork,
+    metrics: FactualConsistencyMetrics,
+    data: List[dspy.Example],
+) -> float:
+    """Evaluate a single model and return its mean score."""
     scores = []
-    total = len(validation_data)
+    total = len(data)
 
-    # Evaluate each example
-    for idx, example in enumerate(validation_data):
+    for idx, example in enumerate(data):
         print(f"Processing {idx + 1}/{total}", end="\r")
-
         try:
-            # Get predictions
-            prediction = fc_network(
+            prediction = network(
                 titel=example.titel,
                 im_detail=example.im_detail,
                 argumenteKomitee=example.argumenteKomitee,
@@ -65,30 +51,40 @@ def evaluate_factual_consistency():
                 argumenteBundesrat=example.argumenteBundesrat,
                 empfehlungBundesrat=example.empfehlungBundesrat,
             )
-
-            # Calculate score
             score = metrics.get_score(example, prediction)
-            scores.append(score)
-
+            if score is not None:  # Only append valid scores
+                scores.append(score)
         except Exception as e:
             print(f"\nError processing example {idx}: {str(e)}")
 
-    # Calculate and print statistics
-    valid_scores = [s for s in scores if s is not None]
-
-    print("\nEvaluation Results:")
-    print("-" * 20)
-    print(f"Total examples evaluated: {total}")
-    print(f"Successfully processed: {len(valid_scores)}")
-    print(f"Failed processing: {total - len(valid_scores)}")
-
-    if valid_scores:
-        print("\nScore Statistics:")
-        print(f"Mean score: {np.mean(valid_scores):.4f}")
-        print(f"Median score: {np.median(valid_scores):.4f}")
-        print(f"Std dev: {np.std(valid_scores):.4f}")
-        print(f"Min score: {min(valid_scores):.4f}")
-        print(f"Max score: {max(valid_scores):.4f}")
+    return np.mean(scores) if scores else 0.0
 
 
-evaluate_factual_consistency()
+def evaluate_all_models():
+    """Evaluate factual consistency across all model weights."""
+    # Initialize
+    _ = LanguageModel()
+    metrics = FactualConsistencyMetrics(model=load_model())
+    validation_data = load_validation_data()
+
+    # Evaluate each model
+    results = []
+    for weight_file in get_model_weights():
+        print(f"\nEvaluating model: {weight_file.name}")
+
+        network = FactualConsistencyNetwork()
+        network.load(str(weight_file))
+        network._compiled = True
+
+        mean_score = evaluate_model(network, metrics, validation_data)
+        results.append(["gpt4o", weight_file.name, f"{mean_score:.4f}"])
+
+    # Print results in different formats
+    headers = ["Model", "Weights", "Mean Score"]
+    for format in ["github", "latex", "simple"]:
+        print(f"\n{format.capitalize()} Format:")
+        print(tabulate(results, headers=headers, tablefmt=format))
+
+
+if __name__ == "__main__":
+    evaluate_all_models()
