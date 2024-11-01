@@ -16,8 +16,8 @@ from dspy.teleprompt import BootstrapFewShot, BootstrapFewShotWithRandomSearch, 
 from sympy.printing.numpy import S
 
 # custom models
-from src.submodels.factual_consistency_model import FactualConsistencyNetwork
-from src.submodels.article_number_retrieval_model import ArticleNumberRM
+from submodels.factual_consistency_model import FactualConsistencyNetwork
+from submodels.article_number_retrieval_model import ArticleNumberRM
 
 # metrics
 from evaluate import EvaluationModule, load
@@ -62,17 +62,15 @@ class LanguageModel:
     Defines which language model to use and configures dspy to use the model.
     """
 
+    lm: dspy.LM = field()
     name: str = field(default="")
     url: str = field(default="http://localhost:8080/v1/")
     api_key: str = field(default="no_api_key_specified")
     type: ModelType = field(default=ModelType.CHAT)
     max_tokens: int = field(default=8180)
-    model: dspy.OpenAI = field(init=False)
 
     def __post_init__(self):
-        lm = dspy.LM("openai/gpt-4o-mini")
-        dspy.configure(lm=lm)
-        object.__setattr__(self, "model", lm)
+        dspy.configure(lm=self.lm)
 
 
 @dataclass(frozen=True)

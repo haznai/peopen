@@ -17,6 +17,7 @@ from submodels.factual_consistency_model import (
 
 import os
 from dspy import BootstrapFewShotWithRandomSearch
+import dspy
 
 
 # %%# %% Loading in the data
@@ -24,13 +25,9 @@ train_path, valid_path = get_train_and_valid_path()
 
 hyper_params = HyperParams(
     training_run_name="penprompter-first-full-training",
-    fc_weights_path="models/2024-10-25_factual_consistency.json",
+    fc_weights_path="models/factual_consistency/2024-11-01_bootsrapfewshotwithrandomsearch_second.json",
 )
-lm = LanguageModel(
-    name="gpt-4o-mini-2024-07-18",
-    url="https://api.openai.com/v1/",
-    api_key=os.environ.get("OPENAI_API_KEY"),  # type: ignore
-)
+lm = LanguageModel(lm=dspy.LM("openai/gpt-4o-mini"))
 _ = Logger()  # just needs to be init
 data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_path))
 
@@ -44,7 +41,7 @@ trainer = Trainer(
     network=network,
     data=data,
     optimizer=BootstrapFewShotWithRandomSearch(
-        metric=metrics.get_score, num_threads=1, num_candidate_programs=4, max_rounds=2
+        metric=metrics.get_score, num_threads=1, num_candidate_programs=4, max_rounds=4
     ),
 )
 
