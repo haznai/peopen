@@ -1,0 +1,26 @@
+{
+  "summarize_im_detail_module.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Summarize the detailed explanations ('im_detail') to provide a concise overview of the initiative.",
+    "signature_prefix": "Summarized Im Detail:"
+  },
+  "extract_arguments_committee_module.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Extract the main arguments presented by the supporting committee and their recommendation.",
+    "signature_prefix": "Arguments Committee:"
+  },
+  "extract_arguments_federal_council_module.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Extract the main arguments presented by the Federal Council opposing the initiative and their recommendation.",
+    "signature_prefix": "Arguments Bundesrat:"
+  }
+}

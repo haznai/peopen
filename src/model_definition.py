@@ -12,12 +12,12 @@ from typing import List, Literal, Mapping, Optional, Tuple
 
 # dspy imports
 import dspy
-from dspy.teleprompt import BootstrapFewShotWithRandomSearch
+from dspy.teleprompt import BootstrapFewShot, BootstrapFewShotWithRandomSearch, MIPROv2
 from sympy.printing.numpy import S
 
 # custom models
-from submodels.factual_consistency_model import FactualConsistencyNetwork
-from submodels.article_number_retrieval_model import ArticleNumberRM
+from src.submodels.factual_consistency_model import FactualConsistencyNetwork
+from src.submodels.article_number_retrieval_model import ArticleNumberRM
 
 # metrics
 from evaluate import EvaluationModule, load
@@ -353,7 +353,7 @@ class Trainer:
     params: HyperParams
     network: dspy.Module
     data: Dataset
-    optimizer: BootstrapFewShotWithRandomSearch
+    optimizer: BootstrapFewShot | BootstrapFewShotWithRandomSearch | MIPROv2
 
     def optimize(
         self,
@@ -367,11 +367,23 @@ class Trainer:
         if self.params.valid_set_limit is not None:
             valset = valset[: self.params.valid_set_limit]
 
-        optimized_network = self.optimizer.compile(
-            student=self.network,
-            trainset=trainset,
-            valset=valset,
-        )
+        if isinstance(self.optimizer, BootstrapFewShot):
+            optimized_network = self.optimizer.compile(
+                student=self.network,
+                trainset=trainset,
+            )
+        elif isinstance(self.optimizer, BootstrapFewShotWithRandomSearch):
+            optimized_network = self.optimizer.compile(
+                student=self.network, trainset=trainset, valset=valset
+            )
+        elif isinstance(self.optimizer, MIPROv2):
+            optimized_network = self.optimizer.compile(
+                student=self.network,
+                trainset=trainset,
+                valset=valset,
+                minibatch_size=2,
+                requires_permission_to_run=False,
+            )
 
         # Saving the optimized model
         iso_date = datetime.today().strftime("%Y-%m-%d")
