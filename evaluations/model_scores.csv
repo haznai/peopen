@@ -5,3 +5,17 @@ penprompter-bootsrapfewshotwithrandomsearch-gpt-4o-mini,0.651874554157257
 penprompter-bootsrapfewshotwithrandomsearch-gpt-4o,0.629080855846405
 penprompter-miprov2fewshot-gpt-4o-mini,0.6515320897102356
 penprompter-miprov2fewshot-gpt-4o,0.6289470434188843
+penprompter-boostrapfewshot-meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo,0.5656122207641602
+penprompter-boostrapfewshot-meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo,0.5796417593955994
+penprompter-boostrapfewshot-Qwen/Qwen2.5-7B-Instruct-Turbo,0.6269281029701232
+penprompter-boostrapfewshot-Qwen/Qwen2.5-72B-Instruct-Turbo,0.5876885294914246
+penprompter-boostrapfewshot-mistralai/Mixtral-8x7B-Instruct-v0.1,0.6030832290649414
+penprompter-boostrapfewshot-mistralai/Mixtral-8x22B-Instruct-v0.1,0.3836469292640686
+penprompter-bootsrapfewshotwithrandomsearch-meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo,0.5805903434753418
+penprompter-bootsrapfewshotwithrandomsearch-meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo,0.46020897626876833
+penprompter-bootsrapfewshotwithrandomsearch-Qwen/Qwen2.5-7B-Instruct-Turbo,0.594159471988678
+penprompter-bootsrapfewshotwithrandomsearch-Qwen/Qwen2.5-72B-Instruct-Turbo,0.6019626021385193
+penprompter-bootsrapfewshotwithrandomsearch-mistralai/Mixtral-8x7B-Instruct-v0.1,0.5971701979637146
+penprompter-bootsrapfewshotwithrandomsearch-mistralai/Mixtral-8x22B-Instruct-v0.1,0.3576987862586975
+penprompter-miprov2fewshot-meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo,0.5760281920433045
+penprompter-miprov2fewshot-meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo,0.4611749291419983
