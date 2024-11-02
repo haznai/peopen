@@ -19,14 +19,7 @@ import dspy
 
 # %% load and run
 # together.ai model names
-language_model_names = [
-    "meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo",
-    "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
-    "Qwen/Qwen2.5-7B-Instruct-Turbo",
-    "Qwen/Qwen2.5-72B-Instruct-Turbo",
-    "mistralai/Mixtral-8x7B-Instruct-v0.1",
-    "mistralai/Mixtral-8x22B-Instruct-v0.1",
-]
+language_model_names = ["gpt-4o-mini", "gpt-4o"]
 
 
 # load in the csv file
@@ -69,7 +62,7 @@ for index, row in df.iterrows():
     network = PenPrompterNetwork(fc_model)
     trained_network = PenPrompterNetwork(fc_model)
     trained_network.load(model_path_pp)
-    lm = LanguageModel(dspy.Together(lm_for_this_network))
+    lm = LanguageModel(dspy.LM(f"openai/{lm_for_this_network}"))
 
     train_path, valid_path = get_train_and_valid_path()
     data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_path))
@@ -108,4 +101,4 @@ for index, row in df.iterrows():
     df.at[index, "flesch_kincaid_grade"] = reading_grade_score
 
 # Save the updated DataFrame to a new CSV file
-df.to_csv("../evaluations/model_scores_with_readability.csv", index=False)
+df.to_csv("../evaluations/model_scores_with_readability_gpt.csv", index=False)

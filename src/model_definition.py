@@ -62,7 +62,7 @@ class LanguageModel:
     Defines which language model to use and configures dspy to use the model.
     """
 
-    lm: dspy.Together = field()
+    lm: dspy.LM = field()
     name: str = field(default="")
     url: str = field(default="http://localhost:8080/v1/")
     api_key: str = field(default="no_api_key_specified")
