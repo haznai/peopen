@@ -4,6 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import RootModel
 from uvicorn import run
 
+from dspy import LM
+
 import requests
 
 # %% model imports
@@ -34,11 +36,7 @@ fc_model._compiled = True
 network = PenPrompterNetwork(fc_model)
 trained_network = PenPrompterNetwork(fc_model)
 trained_network.load(model_path_pp)
-lm = LanguageModel(
-    name="gpt-4o-mini-2024-07-18",
-    url="https://api.openai.com/v1/",
-    api_key=os.environ.get("OPENAI_API_KEY"),  # type: ignore
-)
+lm = LanguageModel(LM("openai/gpt-4o-mini"))
 
 train_path, valid_path = get_train_and_valid_path()
 data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_path))
