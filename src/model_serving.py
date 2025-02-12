@@ -43,6 +43,8 @@ data = Dataset(train_pickle_path=str(train_path), valid_pickle_path=str(valid_pa
 trainset = data.data["train"]
 valset = data.data["validation"]
 
+# %% cache setup
+edit_cache = dict()
 
 # %% server setup
 app = FastAPI()
@@ -73,7 +75,16 @@ async def handle_ace_edit_event(event: AceEditEvent):
         print("No valid content received")
     if text_value == "":
         return {"message": "No valid content received"}
-    return trained_network.get_final_prediction(text_value)
+
+    # Check cache first
+    if text_value in edit_cache:
+        print("Returning cached result")
+        return edit_cache[text_value]
+
+    # If not in cache, process and store result
+    result = trained_network.get_final_prediction(text_value)
+    edit_cache[text_value] = result
+    return result
 
 
 @app.options("/aceEditEvent")
