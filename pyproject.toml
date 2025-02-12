@@ -1,35 +1,37 @@
-[tool.poetry]
+[project]
 name = "peopen"
 version = "0.1.0"
 description = ""
-authors = ["hazn <aitakprojects@gmail.com>"]
+authors = [{ name = "hazn", email = "aitakprojects@gmail.com" }]
+requires-python = ">=3.12,<3.13"
 readme = "README.md"
-package-mode = false
+dependencies = [
+    "torch>=2.3.0,<3",
+    "cookiecutter>=2.6.0,<3",
+    "marimo",
+    "numpy>=1.26.4,<2",
+    "dspy==2.5.*",
+    "nltk>=3.8.1,<4",
+    "rouge>=1.0.1,<2",
+    "evaluate>=0.4.1,<0.5",
+    "tiktoken>=0.6.0,<0.7",
+    "bert-score>=0.3.13,<0.4",
+    "arize-phoenix>=4.2.4,<5",
+    "openinference-instrumentation-dspy>=0.1.9,<0.2",
+    "opentelemetry-exporter-otlp>=1.24.0,<2",
+    "ipykernel>=6.29.5,<7",
+    "tqdm>=4.66.5,<5",
+    "scalene>=1.5.45,<2",
+    "openai>=1.51",
+    "textstat>=0.7.4,<0.8",
+]
 
-[tool.poetry.dependencies]
-python = "~3.12"
-torch = "^2.3.0"
-cookiecutter = "^2.6.0"
-marimo = "*"
-numpy = "^1.26.4"
-dspy = "2.5.*"
-nltk = "^3.8.1"
-rouge = "^1.0.1"
-evaluate = "^0.4.1"
-tiktoken = "^0.6.0"
-bert-score = "^0.3.13"
-arize-phoenix = "^4.2.4"
-openinference-instrumentation-dspy = "^0.1.9"
-opentelemetry-exporter-otlp = "^1.24.0"
-ipykernel = "^6.29.5"
-tqdm = "^4.66.5"
-scalene = "^1.5.45"
-openai = ">=1.51"
-textstat = "^0.7.4"
+[tool.uv]
+package = false
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [tool.pyright]
 venvPath = "."
